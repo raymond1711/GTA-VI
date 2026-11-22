@@ -2,7 +2,7 @@
  'use strict';
  const unique=items=>[...new Map(items.map(i=>[i.id,i])).values()];
  function progress(items,checked){const rows=unique(items),set=new Set(checked),done=rows.filter(i=>set.has(i.id)).length;return {done,total:rows.length,percent:rows.length?Math.round(done/rows.length*100):null};}
- function visible(items,chapter){return unique(items).filter(i=>i.chapter<=chapter);}
+ function visible(items,chapter){return unique(items).filter(i=>i.chapter<=chapter&&(i.availableUntilChapter===undefined||chapter<=i.availableUntilChapter));}
  function validateModel(input,areas,types,trusted=[]){
   if(!input||!Number.isInteger(input.chapter)||input.chapter<1||input.chapter>99||!Array.isArray(input.custom)||input.custom.length>5000||!Array.isArray(input.checked)||!input.notes||typeof input.notes!=='object'||Array.isArray(input.notes))throw Error('Ongeldige verkenningsback-up');
   const seen=new Set();for(const x of input.custom){if(!x||typeof x.id!=='string'||!/^custom-[a-zA-Z0-9-]+$/.test(x.id)||seen.has(x.id)||typeof x.title!=='string'||!x.title.trim()||x.title.length>150||typeof x.detail!=='string'||x.detail.length>2000||!areas.some(a=>a.id===x.area)||!types.some(c=>c.id===x.category)||!Number.isInteger(x.chapter)||x.chapter<1||x.chapter>99||typeof x.source!=='string'||x.source.length>1000||(x.source&&!/^https?:\/\//i.test(x.source)))throw Error('Ongeldig onderdeel');seen.add(x.id)}
