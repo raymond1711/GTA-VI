@@ -6,3 +6,16 @@
 
 /* v2.3: duidelijke scheiding van hoofdstukken en gele overvallen */
 .robbery-tag{display:block;color:#f7da77;font-size:.73rem;font-style:normal;letter-spacing:.03em;margin-bottom:.35rem}.list-chapter-heading{padding:.8rem 1rem;margin:0;color:var(--muted,#c7bfd3);font-size:.9rem;border-top:1px solid #ffffff20}.explore-item small{line-height:1.55}
+
+/* Cartographic detail is decorative so the region buttons receive all pointer input. */
+.map-wrap svg{height:auto;aspect-ratio:435/600;max-height:585px}
+.map-shallows{fill:#4a9b9f;stroke:#4a9b9f;stroke-width:15;opacity:.35;pointer-events:none}
+.map-decoration{pointer-events:none}
+.map-contour,.map-marsh{fill:none;stroke:#375e50;stroke-width:1.3;opacity:.44}
+.map-field{fill:#557850;opacity:.38}
+.map-block{fill:#d2cfca;opacity:.64}
+.map-stream,.map-piers{fill:none;stroke:#367c8d;stroke-width:5;stroke-linecap:round}
+.map-piers{stroke:#c9c5ac;stroke-width:2.4}
+.map-lake{fill:#367c8d;stroke:#65abae;stroke-width:3}
+.map-road{stroke-width:2.8;stroke:#f0dfb9}
+.map-label{font-size:15px;stroke:#254938;stroke-width:4;stroke-linejoin:round}
