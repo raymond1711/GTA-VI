@@ -3,3 +3,6 @@
 .unlock-condition{display:inline-block;margin-top:7px;color:#d8c3dc}.expiry-condition{display:inline-block;margin-top:6px;color:#ffbd84}
 
 .mission-hub{display:grid;gap:12px;margin:0 0 25px}.mission-hub summary{background:linear-gradient(110deg,#322039,#211b30)}.mission-visible-count{font-size:11px;color:var(--orange);white-space:nowrap}.mission-explanation{padding:0 21px;font-size:11px;color:var(--muted)}.mission-location{font-size:10px;color:var(--orange);margin:0 0 9px 34px}.mission-overview>.explore-items{max-height:65dvh;overflow:auto;overscroll-behavior:contain}.mission-hub .explore-item{--area-color:var(--pink)}@media(max-width:550px){.mission-hub summary strong{font-size:12px}.mission-visible-count{font-size:10px}.mission-explanation{padding:0 17px}}
+
+/* v2.3: duidelijke scheiding van hoofdstukken en gele overvallen */
+.robbery-tag{display:block;color:#f7da77;font-size:.73rem;font-style:normal;letter-spacing:.03em;margin-bottom:.35rem}.list-chapter-heading{padding:.8rem 1rem;margin:0;color:var(--muted,#c7bfd3);font-size:.9rem;border-top:1px solid #ffffff20}.explore-item small{line-height:1.55}
