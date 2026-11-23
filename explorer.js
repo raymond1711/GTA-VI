@@ -28,7 +28,7 @@
  const collectibles=document.createElement('section');
  collectibles.id='collectibles-view';
  collectibles.innerHTML=`<h1>Collectibles</h1><div class="collect-controls">
- <label>Serie <select id="collect-series"><option>Los Santos Corkers</option></select></label>
+ <label>Serie <select id="collect-series">${[...new Set(window.EXPLORER_DISCOVERIES.map(item=>item.series).filter(Boolean))].map(series=>`<option>${esc(series)}</option>`).join('')}</select></label>
  <label><input type="checkbox" id="collect-missing"> Alleen ontbrekende</label>
  <button type="button" class="quiet" data-collect-area="all">Alle vindplekken</button>
  <button type="button" class="quiet" data-collect-area="unknown">Overige vindplekken</button></div>
@@ -42,6 +42,13 @@
   node.id='collect-'+oldId;
  }
  collectibles.querySelector('#collect-map').append(collectMap);
+ const screenshotViewer=document.createElement('dialog');
+ screenshotViewer.className='screenshot-viewer';
+ screenshotViewer.setAttribute('aria-label','Vergrote screenshot');
+ screenshotViewer.innerHTML='<form method="dialog"><button type="submit">Sluiten ×</button></form><img alt="">';
+ document.body.append(screenshotViewer);
+ screenshotViewer.addEventListener('click',event=>{if(event.target===screenshotViewer)screenshotViewer.close();});
+ screenshotViewer.addEventListener('close',()=>screenshotViewer.querySelector('img').removeAttribute('src'));
  let collectibleArea='all';
  function renderCollectibles(){
   const selection=collectibles.querySelector('#collect-series').value;
@@ -72,8 +79,19 @@
     image.alt='Vindplek van '+item.title;
     image.loading='lazy';
     image.src=item.screenshot;
-    image.onerror=()=>image.remove();
-    details.append(image);
+    const zoomButton=document.createElement('button');
+    zoomButton.type='button';
+    zoomButton.className='screenshot-zoom';
+    zoomButton.setAttribute('aria-label','Vergroot de vindplek van '+item.title);
+    zoomButton.append(image);
+    zoomButton.addEventListener('click',()=>{
+     const enlarged=screenshotViewer.querySelector('img');
+     enlarged.alt=image.alt;
+     enlarged.src=image.src;
+     screenshotViewer.showModal();
+    });
+    image.onerror=()=>zoomButton.remove();
+    details.append(zoomButton);
    };
    details.addEventListener('toggle',showImage);
    details.open=opened.has(item.id);
