@@ -23,3 +23,12 @@
 .chapter-field{display:grid;gap:4px}.chapter-field input[type=range]{width:100%;min-width:0;height:32px;margin:0;padding:0;accent-color:#ff8eb6;background:transparent;border:0}.chapter-field output{font-weight:800;color:#ff8eb6}.chapter-ticks{display:flex;justify-content:space-between;padding-inline:7px;font-size:12px;color:var(--muted)}
 
 .explore-item .unlock-uncertain{display:block;color:#ff9ca6;margin-block:3px 5px}.unlock-uncertain span{display:inline-grid;place-items:center;width:1.15em;height:1.15em;border-radius:50%;background:#b9243a;color:white;font-weight:900}
+
+.collect-controls{display:flex;flex-wrap:wrap;align-items:center;gap:.75rem;margin:1rem 0}
+.collect-controls select{display:block;padding:.55rem;border-radius:8px;background:#21182c;color:#fff}
+.collect-controls [aria-pressed=true]{border-color:#ff8eb6}
+.corker-card{margin-block:.65rem;padding:1rem;border:1px solid #ffffff26;border-radius:12px;background:#ffffff08}
+.corker-card small,.corker-card img{display:block}
+.corker-card details{margin-top:.65rem}
+.corker-card summary{cursor:pointer}
+.corker-card img{max-width:100%;height:auto;border-radius:8px;margin-top:.75rem}
