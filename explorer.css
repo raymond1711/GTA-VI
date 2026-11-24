@@ -40,3 +40,82 @@
 .screenshot-viewer img{display:block;max-width:100%;max-height:78dvh;object-fit:contain}
 
 #collect-list article details p{white-space:pre-line}
+/* Kleuren uit de introductie, met een eigen accent per scherm. */
+:root{
+ --bg:#251831;
+ --panel:#352342;
+ --muted:#ebd6e9;
+ --line:#ffd5ed35;
+ --sunset-bar:linear-gradient(90deg,#ff84b4,#ffbc89,#ffda9a);
+}
+body{
+ background:
+  radial-gradient(ellipse at 10% 2%,#6c345d 0%,transparent 35rem),
+  radial-gradient(ellipse at 95% 23%,#3f396c 0%,transparent 48rem),
+  linear-gradient(155deg,#2d1c38,#261936 54%,#252849);
+}
+.top{background:linear-gradient(105deg,#512b50,#37244e 62%,#314463)}
+#app-menu{background:#352345f5;border-color:#ffc2e84d;border-radius:0 0 14px 14px;padding:8px 9px 12px}
+.app-nav button{--tab:#ffafd4}
+.app-nav button[data-page="intro"]{--tab:#ffd39f}
+.app-nav button[data-page="explore"]{--tab:#a5edde}
+.app-nav button[data-page="collectibles"]{--tab:#ffb7df}
+.app-nav button[data-page="progress"]{--tab:#ffe3ab}
+.app-nav button[data-page="journal"]{--tab:#d8ccff}
+.app-nav button[aria-current=page]{background:var(--tab);color:#291a32;font-weight:750}
+.app-nav button:hover:not([aria-current=page]){background:#fff1fa1c;color:var(--tab)}
+.welcome{background:linear-gradient(90deg,#54264be8,#62304d8c 53%,#51265336),url('assets/sunset.svg') center/cover}
+.mode-card:nth-child(3n+1){--mode-accent:#ffd19f;background:linear-gradient(145deg,#6e3654,#47284b)}
+.mode-card:nth-child(3n+2){--mode-accent:#a5edde;background:linear-gradient(145deg,#3b6070,#35405a)}
+.mode-card:nth-child(3n){--mode-accent:#ffc4e5;background:linear-gradient(145deg,#654678,#44315a)}
+.mode-card .mode-number,.mode-card em{color:var(--mode-accent)}
+.explorer-heading,.overview-heading,#collectibles-view>h1,#journal-view>h2{
+ padding:clamp(18px,4vw,36px);
+ border:1px solid var(--line);
+ border-radius:18px;
+ overflow-wrap:anywhere;
+}
+.explorer-heading{background:linear-gradient(110deg,#29454cef,#3d405d9e),url('assets/sunset.svg') center 54%/cover}
+.overview-heading{background:linear-gradient(110deg,#633751f7,#73465c95),url('assets/sunset.svg') center 47%/cover}
+#collectibles-view>h1{
+ font-size:clamp(32px,6vw,58px);
+ letter-spacing:-.04em;
+ background:linear-gradient(110deg,#643151f5,#75416f8a),url('assets/sunset.svg') center 45%/cover;
+}
+#journal-view>h2{background:linear-gradient(110deg,#674975e6,#5a3d6ba1),url('assets/sunset.svg') center 54%/cover}
+.chapter-panel{background:linear-gradient(120deg,#40535d,#483453)}
+.mission-hub summary{background:linear-gradient(110deg,#623953,#49335a)}
+.mission-hub .explore-category:nth-child(2) summary{background:linear-gradient(110deg,#4d516b,#49355c)}
+.mission-hub .explore-category:nth-child(3) summary{background:linear-gradient(110deg,#664450,#553457)}
+.explore-category,.no-items{background:linear-gradient(125deg,#47314f,#392a47)}
+.area-header{
+ background:linear-gradient(120deg,color-mix(in srgb,var(--area-color) 24%,#352442),#432d50);
+}
+.area-buttons button{background:#473450;color:#fff1fc}
+.area-buttons button[aria-pressed=true]{background:color-mix(in srgb,var(--area-color) 27%,#432d50)}
+.neutral-track{background:#150b265c}
+.neutral-track div{background:var(--sunset-bar)}
+.collect-controls{
+ background:linear-gradient(130deg,#623a62,#49365e);
+ border:1px solid var(--line);border-radius:14px;padding:14px
+}
+.collect-controls label{min-width:0;max-width:100%}
+.collect-controls select,.collect-controls input[type=search]{
+ max-width:100%;background:#4b3156;color:#fff6ff;border:1px solid #ffc6ec66;border-radius:8px;
+ padding:.55rem;min-height:44px;font-size:16px;
+}
+.collect-controls [aria-pressed=true]{background:#ffb7df;color:#321b35;padding-inline:10px;border-radius:8px}
+.corker-card{background:linear-gradient(120deg,#523657,#413052);border-color:#ffbce455}
+#collect-list .corker-card:nth-child(even){background:linear-gradient(120deg,#46446a,#413052);border-color:#c3b9ff55}
+.corker-card summary{color:#ffd4ed}
+.progress-hero{background:linear-gradient(120deg,#654052,#5e3e64)}
+.progress-group{background:linear-gradient(135deg,#573950,#473254)}
+.progress-group:nth-child(2){background:linear-gradient(135deg,#40596a,#39394f)}
+.progress-group:nth-child(3){background:linear-gradient(135deg,#5a4877,#483456)}
+#journal-view,.photo-card{background:linear-gradient(140deg,#513655,#3d2e53)}
+.journal input:not([type=file]),.journal select,textarea,.entry-form input,.entry-form select,.entry-form textarea{
+ background:#422e50;border-color:#ffd3ea52
+}
+dialog,.screenshot-viewer{background:linear-gradient(130deg,#553654,#3f3052)}
+footer span{color:#dfc4e0}
+

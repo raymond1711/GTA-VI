@@ -34,10 +34,55 @@
  collectibles.id='collectibles-view';
  const flamingoCollection='Cocaïneflamingo’s';
  const collectionOf=item=>item.collection||item.series;
- const collectionNames=[...new Set([...activeDiscoveries,...activeReferences].map(collectionOf).filter(Boolean))];
+ const cardSeries=[...new Set(activeDiscoveries.map(item=>item.series).filter(Boolean))];
+ const cardNames=new Set(cardSeries);
+ const otherCollections=[...new Set([...activeDiscoveries,...activeReferences].map(collectionOf).filter(name=>name&&!cardNames.has(name)))];
+ const themedCollections={
+  "WAiNK en streetart": [
+    "WAiNK-curiositeiten",
+    "WAiNK-sculpturen",
+    "NoFlusher-tags",
+    "PeeWee-billboards",
+    "1010 Murals",
+    "Ahol Street Art"
+  ],
+  "Schatten en zeldzame vondsten": [
+    "Duikplekken en schatten",
+    "Cocaïneflamingo’s",
+    "Meteorieten"
+  ],
+  "Boeken, post en muziek": [
+    "Tijdschriften, boeken en strips",
+    "Boekenruil",
+    "Flessenpost",
+    "Unieke afspeellijsten"
+  ],
+  "Stijl en horloges": [
+    "Tijdschriftstijlen Jason en Lucia",
+    "Tijdschrifttatoeages",
+    "Luxe horloges"
+  ],
+  "Voertuigen": ["Standout-voertuigen", "Wyman’s Cars"],
+  "Wapens en uitrusting": ["Unieke wapenvarianten", "Uitrusting"][
+    "Standout-voertuigen",
+    "Wyman’s Cars",
+    "Unieke wapenvarianten",
+    "Uitrusting"
+  ],
+  "Kaarten en extra vindplaatsen": [
+    "Aanvullende kaartpinnen",
+    "Ahol Street Art · gidsverwijzingen",
+    "Tijdschriften · alternatieve vindplekken"
+  ]
+};
+ const collectionOptions=names=>names.map(name=>`<option>${esc(name)}</option>`).join('');
+ const groupedNames=new Set(Object.values(themedCollections).flat());
+ const groups=Object.entries(themedCollections).map(([label,names])=>[label,names.filter(name=>otherCollections.includes(name))]);
+ groups.push(["Overige verzamelobjecten",otherCollections.filter(name=>!groupedNames.has(name))]);
+ const themedOptions=groups.filter(([,names])=>names.length).map(([label,names])=>`<optgroup label="${esc(label)}">${collectionOptions(names)}</optgroup>`).join("");
  collectibles.innerHTML=`<h1>Collectibles</h1><div class="collect-controls">
  <label>Zoeken <input type="search" id="collect-query" placeholder="Naam of plek"></label>
- <label>Collectie <select id="collect-series">${collectionNames.map(name=>`<option>${esc(name)}</option>`).join('')}</select></label>
+ <label>Collectie <select id="collect-series"><optgroup label="Verzamelkaartjes">${collectionOptions(cardSeries)}</optgroup>${themedOptions}</select></label>
  <label><input type="checkbox" id="collect-missing"> Alleen ontbrekende</label>
  <button type="button" class="quiet" data-collect-area="all">Alle vindplekken</button>
  <button type="button" class="quiet" data-collect-area="unknown">Overige vindplekken</button></div>
