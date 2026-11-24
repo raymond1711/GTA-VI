@@ -13205,6 +13205,189 @@ window.EXPLORER_DISCOVERIES = [
     "provisionalTip": true,
     "extraSource": "https://www.gtabase.com/gta-6/map/?feature=hidden-packages",
     "extraSourceLabel": "GTABase · melding 65"
+  },
+  {
+    "id": "guide-mission-ch5-bird-in-the-hand",
+    "title": "Bird in the Hand",
+    "chapter": 5,
+    "category": "missions",
+    "area": "city",
+    "sourceLocation": "Tequesta Retreat",
+    "detail": "Volg Giorgio’s opdracht zodra hoofdstuk 5 begint.",
+    "source": "https://www.powerpyx.com/gta-6-bird-in-the-hand-walkthrough/",
+    "storyOrder": 0,
+    "prerequisites": [
+      "guide-mission-ch4-starting-from-zero"
+    ],
+    "type": "verified",
+    "sourceName": "PowerPyx",
+    "availabilityBasis": "Voorwaarden uit de gekoppelde verhaalgids",
+    "checkedOn": "2026-11-24"
+  },
+  {
+    "id": "guide-mission-ch5-taking-liberties",
+    "title": "Taking Liberties",
+    "chapter": 5,
+    "category": "missions",
+    "area": "city",
+    "sourceLocation": "Tequesta Retreat",
+    "detail": "Ga terug naar het penthouse en spreek Giorgio in de spa bij de fitnessruimte.",
+    "source": "https://www.powerpyx.com/gta-6-taking-liberties-walkthrough/",
+    "storyOrder": 1,
+    "prerequisites": [
+      "guide-mission-ch5-bird-in-the-hand"
+    ],
+    "type": "verified",
+    "sourceName": "PowerPyx",
+    "availabilityBasis": "Voorwaarden uit de gekoppelde verhaalgids",
+    "checkedOn": "2026-11-24"
+  },
+  {
+    "id": "guide-mission-ch5-doggie-bag",
+    "title": "Doggie Bag (Meet Vinny)",
+    "chapter": 5,
+    "category": "missions",
+    "area": "city",
+    "sourceLocation": "Tequesta Retreat",
+    "detail": "Praat met Vinny op het balkon bij het zwembad.",
+    "source": "https://www.powerpyx.com/gta-6-doggie-bag-meet-vinny-walkthrough/",
+    "storyOrder": 2,
+    "prerequisites": [
+      "guide-mission-ch5-taking-liberties"
+    ],
+    "type": "verified",
+    "sourceName": "PowerPyx",
+    "availabilityBasis": "Voorwaarden uit de gekoppelde verhaalgids",
+    "checkedOn": "2026-11-24"
+  },
+  {
+    "id": "guide-mission-ch5-vc-baby",
+    "title": "VC Baby (Talk to Mattia)",
+    "chapter": 5,
+    "category": "missions",
+    "area": "city",
+    "sourceLocation": "Tequesta Retreat",
+    "detail": "Spreek Mattia en Kat in het penthouse.",
+    "source": "https://www.powerpyx.com/gta-6-vc-baby-talk-to-mattia-walkthrough/",
+    "storyOrder": 3,
+    "prerequisites": [
+      "guide-mission-ch5-taking-liberties"
+    ],
+    "type": "verified",
+    "sourceName": "PowerPyx",
+    "availabilityBasis": "Voorwaarden uit de gekoppelde verhaalgids",
+    "checkedOn": "2026-11-24"
+  },
+  {
+    "id": "guide-mission-ch5-operation-savage-glory",
+    "title": "Operation Savage Glory",
+    "chapter": 5,
+    "category": "missions",
+    "area": "city",
+    "sourceLocation": "Tequesta Retreat",
+    "detail": "Keer terug naar het penthouse nadat je beide opdrachten hebt afgerond.",
+    "source": "https://www.powerpyx.com/gta-6-operation-savage-glory-walkthrough/",
+    "storyOrder": 4,
+    "prerequisites": [
+      "guide-mission-ch5-doggie-bag",
+      "guide-mission-ch5-vc-baby"
+    ],
+    "type": "verified",
+    "sourceName": "PowerPyx",
+    "availabilityBasis": "Voorwaarden uit de gekoppelde verhaalgids",
+    "checkedOn": "2026-11-24"
+  },
+  {
+    "id": "guide-mission-ch5-honest-abe",
+    "title": "Honest Abe (Negotiate a Deal with Abe)",
+    "chapter": 5,
+    "category": "missions",
+    "area": "city",
+    "sourceLocation": "Tequesta Retreat · Downtown",
+    "detail": "Verlaat het penthouse en bezoek Abe op zijn kantoor in Downtown.",
+    "source": "https://www.powerpyx.com/gta-6-honest-abe-negotiate-a-deal-with-abe-walkthrough/",
+    "storyOrder": 5,
+    "prerequisites": [
+      "guide-mission-ch5-operation-savage-glory"
+    ],
+    "type": "verified",
+    "sourceName": "PowerPyx",
+    "availabilityBasis": "Voorwaarden uit de gekoppelde verhaalgids",
+    "checkedOn": "2026-11-24"
+  },
+  {
+    "id": "guide-mission-ch5-unfinished-business",
+    "title": "Unfinished Business",
+    "chapter": 5,
+    "category": "missions",
+    "area": "city",
+    "sourceLocation": "Lucretia Law Firm",
+    "detail": "Rond openstaande zaken af tijdens het laatste vrije moment vóór de finale.",
+    "source": "https://www.powerpyx.com/gta-6-unfinished-business-walkthrough/",
+    "storyOrder": 6,
+    "prerequisites": [
+      "guide-mission-ch5-honest-abe"
+    ],
+    "type": "verified",
+    "sourceName": "PowerPyx",
+    "availabilityBasis": "Voorwaarden uit de gekoppelde verhaalgids",
+    "checkedOn": "2026-11-24"
+  },
+  {
+    "id": "guide-mission-ch5-pay-abes-fee",
+    "title": "Pay Abe’s Fee",
+    "chapter": 5,
+    "category": "missions",
+    "area": "city",
+    "sourceLocation": "Lucretia Law Firm",
+    "detail": "Maak $150.000 over aan Abe’s advocatenkantoor via BuckMe.",
+    "source": "https://www.powerpyx.com/gta-6-pay-abes-fee-walkthrough-chapter-5/",
+    "storyOrder": 7,
+    "prerequisites": [
+      "guide-mission-ch5-honest-abe"
+    ],
+    "type": "verified",
+    "sourceName": "PowerPyx",
+    "availabilityBasis": "Voorwaarden uit de gekoppelde verhaalgids",
+    "checkedOn": "2026-11-24"
+  },
+  {
+    "id": "guide-mission-ch5-protective-custody",
+    "title": "Protective Custody (Meet with Abe)",
+    "chapter": 5,
+    "category": "missions",
+    "area": "city",
+    "sourceLocation": "Downtown",
+    "detail": "Ga terug naar Abe’s kantoor zodra de betaling is gedaan.",
+    "source": "https://www.powerpyx.com/gta-6-protective-custody-walkthrough/",
+    "storyOrder": 8,
+    "prerequisites": [
+      "guide-mission-ch5-pay-abes-fee"
+    ],
+    "condition": "Maak een handmatige save als je nog vrij wilt verkennen vóór de finale.",
+    "type": "verified",
+    "sourceName": "PowerPyx",
+    "availabilityBasis": "Voorwaarden uit de gekoppelde verhaalgids",
+    "checkedOn": "2026-11-24"
+  },
+  {
+    "id": "guide-mission-ch5-the-end-of-the-road",
+    "title": "The End of the Road",
+    "chapter": 5,
+    "category": "missions",
+    "area": "keys",
+    "sourceLocation": "Key Lento",
+    "detail": "Volg de laatste verhaalopdracht vanaf Key Lento.",
+    "source": "https://www.powerpyx.com/gta-6-the-end-of-the-road-walkthrough/",
+    "storyOrder": 9,
+    "prerequisites": [
+      "guide-mission-ch5-protective-custody"
+    ],
+    "condition": "De beschikbaarheid kan afhangen van je keuze in Protective Custody.",
+    "type": "verified",
+    "sourceName": "PowerPyx",
+    "availabilityBasis": "Voorwaarden uit de gekoppelde verhaalgids",
+    "checkedOn": "2026-11-24"
   }
 ];
 
@@ -22441,12 +22624,12 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "title": "Lights, Camera, Affirmative Action",
       "area": "city",
       "category": "collectibles",
-      "chapter": 1,
+      "chapter": 5,
       "collection": "Tijdschriften, boeken en strips",
       "sourceLocation": "Tequesta Retreat",
       "detail": "Op tafel in het penthouse van Pegassi Residences, hoofdstuk 5.",
-      "source": "https://game-checklists.com/gta6/magazines-books-comics-checklist/",
-      "sourceName": "game-checklists.com"
+      "source": "https://www.powerpyx.com/gta-6-all-magazines-books-comics-locations/",
+      "sourceName": "PowerPyx"
     },
     {
       "id": "excel-94f79f37efbc6355eabf",
