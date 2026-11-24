@@ -2,15 +2,17 @@
 (() => {
  const core=window.ExplorerCore,areas=window.EXPLORER_AREAS,types=window.EXPLORER_CATEGORIES,STORE='leonida-explorer-settings-v2';
  const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const {added,overrides,info,coverage}=window.EXPLORER_RELEASE_ADDITIONS;
+ const trusted=[...window.EXPLORER_DISCOVERIES.map(item=>overrides[item.id]||item),...added];
  const initial=()=>({chapter:1,area:null,custom:[],checked:[],notes:{}});
  let model=initial(),page='start';
- function validModel(input){return core.validateModel(input?.items?core.migrateLegacy(input):input,areas,types,window.EXPLORER_DISCOVERIES)}
+ function validModel(input){return core.validateModel(input?.items?core.migrateLegacy(input):input,areas,types,trusted)}
 
  try{const raw=localStorage.getItem(STORE)||localStorage.getItem('leonida-explorer-discoveries-v1');if(raw)model=validModel(JSON.parse(raw))}catch{notify('Verkenningsgegevens konden niet worden gelezen. Je introductie blijft bewaard.');}
  function persist(){try{localStorage.setItem(STORE,JSON.stringify(model));return true}catch{notify('Verkenning opslaan lukt niet. Download een back-up.');return false}}
  // Bestaande opdrachten delen exact dezelfde IDs/vinkjes; geen officiële vindplaatsen.
  const legacy=cats.flatMap(c=>c.tasks.map(t=>({...t,area:['city','keys','grass'].includes(c.id)?c.id:null,category:/screenshot|herinnering|uitzicht|favoriete|omgeving/.test((t.title+' '+t.detail).toLowerCase())?'sights':'activities',chapter:1,source:'',type:'personal'})));
- const records=()=>core.unique([...legacy,...window.EXPLORER_DISCOVERIES,...model.custom]);
+ const records=()=>core.unique([...legacy,...trusted,...model.custom]);
  const storySort=(a,b)=>a.chapter-b.chapter||(a.storyOrder??1000)-(b.storyOrder??1000);
  const checked=()=>[...new Set([...state.checked,...model.checked])];
  const label=p=>p.percent===null?'—':p.percent+'%';
@@ -27,12 +29,23 @@
  const overview=document.createElement('section');overview.id='progress-view';
  const collectibles=document.createElement('section');
  collectibles.id='collectibles-view';
+ const flamingoCollection='Cocaïneflamingo’s';
+ const collectionOf=item=>item.collection||item.series;
+ const collectionNames=[...new Set([...trusted,...info].map(collectionOf).filter(Boolean))];
  collectibles.innerHTML=`<h1>Collectibles</h1><div class="collect-controls">
- <label>Serie <select id="collect-series">${[...new Set(window.EXPLORER_DISCOVERIES.map(item=>item.series).filter(Boolean))].map(series=>`<option>${esc(series)}</option>`).join('')}</select></label>
+ <label>Zoeken <input type="search" id="collect-query" placeholder="Naam of plek"></label>
+ <label>Collectie <select id="collect-series">${collectionNames.map(name=>`<option>${esc(name)}</option>`).join('')}</select></label>
  <label><input type="checkbox" id="collect-missing"> Alleen ontbrekende</label>
  <button type="button" class="quiet" data-collect-area="all">Alle vindplekken</button>
  <button type="button" class="quiet" data-collect-area="unknown">Overige vindplekken</button></div>
- <div id="collect-map"></div><p id="collect-status" aria-live="polite"></p><div id="collect-list"></div>`;
+ <details id="flamingo-guide" class="corker-card" hidden>
+  <summary>Zo herken je de juiste flamingo</summary>
+  <p>In GTA VI tellen roze figuren met een zwart-witte snavel. Schiet op de figuur om die te laten meetellen. Het pakketje oprapen is optioneel.</p>
+  <p>In de game zie je je totaal onder <strong>Progress → Collections → Exploration → Cocaine Flamingos</strong>, zodra je de eerste hebt gevonden. Van de 125 tellen er 100 mee voor 100% spelvoltooiing.</p>
+  <p>Volgens CutsceneWire ontgrendel je bij 50 de <em>Inflatable Flamingo</em>-cheat. Een handige start is het zuidoosten van Belpoint, met zes figuren rond de steiger, witte huizen en strandcontainers.</p>
+  <p>Bij <strong>Zoekgebied</strong> geeft de gids een geschatte plek of herkenningspunt. Bij <strong>Voorlopige zoektip</strong> komt de aanwijzing uit één melding. Controleer in de game of de figuur meetelt voordat je hem afvinkt.</p>
+ </details>
+ <div id="collect-map"></div><p id="collect-status" aria-live="polite"></p><p id="collect-coverage" class="scope-note" hidden></p><div id="collect-list"></div>`;
  const collectMap=explore.querySelector('.map-wrap').cloneNode(true);
  for(const node of collectMap.querySelectorAll('[id]')){
   const oldId=node.id;
@@ -52,26 +65,39 @@
  let collectibleArea='all';
  function renderCollectibles(){
   const selection=collectibles.querySelector('#collect-series').value;
-  const list=records().filter(item=>item.series===selection);
+  const isFlamingo=selection===flamingoCollection;
+  const coverageLine=collectibles.querySelector('#collect-coverage');
+  coverageLine.textContent=selection==='Duikplekken en schatten'?'6 van de 33 onderwatervondsten zijn beschreven. De twee overige duikplekken zijn schatgebieden.':(coverage[selection]||'');
+  coverageLine.hidden=!coverageLine.textContent;
+  collectibles.querySelector('#flamingo-guide').hidden=!isFlamingo;
+  const list=[...records(),...info].filter(item=>collectionOf(item)===selection);
   const matches=list.filter(item=>collectibleArea==='all'||(collectibleArea==='unknown'?item.area===null:item.area===collectibleArea||item.extraArea===collectibleArea));
   const found=new Set(checked());
   const missing=collectibles.querySelector('#collect-missing').checked;
-  const visible=matches.filter(item=>!missing||!found.has(item.id));
+  const query=collectibles.querySelector("#collect-query").value.trim().toLowerCase();
+  const visible=matches.filter(item=>(!missing||(!item.referenceOnly&&!found.has(item.id)))&&(!query||[item.title,item.sourceLocation,item.detail].some(value=>value?.toLowerCase().includes(query))));
   const areaName=areas.find(area=>area.id===collectibleArea)?.name||(collectibleArea==='unknown'?'Overige vindplekken':'Alle vindplekken');
-  collectibles.querySelector('#collect-status').textContent=areaName+' · '+matches.filter(item=>found.has(item.id)).length+'/'+matches.length+' gevonden · Serie '+list.filter(item=>found.has(item.id)).length+'/'+list.length;
+  const actionable=list.filter(item=>!item.referenceOnly);
+  const done=core.progress(actionable,found).done;
+  const areaStatus=areaName+' · '+core.progress(matches,found).done+'/'+matches.length+(isFlamingo?' afgevinkt':' gevonden');
+  const provisionalCount=isFlamingo?list.filter(item=>item.provisionalTip).length:0;
+  collectibles.querySelector('#collect-status').textContent=isFlamingo
+   ? `${areaStatus} · ${done}/${list.length} in deze gids · ${list.length-provisionalCount}/125 vindplekken opgenomen · ${provisionalCount} voorlopige zoektips`
+   : actionable.length ? `${areaStatus} · Collectie ${done}/${actionable.length}` : matches.length+" aanwijzingen";
   for(const button of collectibles.querySelectorAll('[data-area],[data-collect-area]'))button.setAttribute('aria-pressed',String((button.dataset.area||button.dataset.collectArea)===collectibleArea));
   const target=collectibles.querySelector('#collect-list');
   const opened=new Set([...target.querySelectorAll('details[open]')].map(node=>node.dataset.card));
   target.replaceChildren();
-  if(!visible.length)target.textContent=missing&&matches.length?'Alles gevonden in dit gebied.':'Geen vindplekken voor deze serie in dit gebied.';
+  if(!visible.length)target.textContent=query?'Geen resultaten voor deze zoekterm.':missing&&matches.length?'Alle opgenomen vindplekken afgevinkt.':'Geen vindplekken voor deze collectie in dit gebied.';
   for(const item of visible){
    const row=document.createElement('article');
    row.className='corker-card';
-   row.innerHTML=`<label class="task"><input type="checkbox" data-collect-record="${esc(item.id)}" ${found.has(item.id)?'checked':''}><span><b>${esc(item.title)}</b><small>${esc(item.sourceLocation)}</small></span></label>
-   <details data-card="${esc(item.id)}"><summary>${item.screenshot?'Vindplek en screenshot':'Vindplek'}</summary><p>${esc(item.detail)}</p>
-   ${item.screenshot?`<a href="${esc(item.screenshot)}" target="_blank" rel="noopener noreferrer">Open screenshot</a> · `:'<p>Geen screenshot beschikbaar.</p>'}
+   row.innerHTML=`<label class="task"><input ${item.referenceOnly?'hidden disabled':''} type="checkbox" data-collect-record="${esc(item.id)}" ${found.has(item.id)?'checked':''}><span><b>${esc(item.title)}</b><small>${esc(item.sourceLocation)}${item.workbookStatus?' · '+esc(item.workbookStatus):''}${item.provisionalTip?' · Voorlopige zoektip':item.approximateLocation?' · Zoekgebied':''}</small></span></label>
+   ${isFlamingo?`<p>${esc(item.detail)}</p>`:''}
+   <details data-card="${esc(item.id)}"><summary>${isFlamingo?'Bronnen':item.screenshot?'Vindplek en screenshot':'Vindplek'}</summary>${isFlamingo?'':`<p>${esc(item.detail)}</p>`}
+   ${item.screenshot?`<a href="${esc(item.screenshot)}" target="_blank" rel="noopener noreferrer">Open screenshot</a> · `:isFlamingo?'':'<p>Geen screenshot beschikbaar.</p>'}
    <a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">Bron</a>
-   ${item.extraSource?` · <a href="${esc(item.extraSource)}" target="_blank" rel="noopener noreferrer">Tweede bron</a>`:''}</details>`;
+   ${item.extraSource?` · <a href="${esc(item.extraSource)}" target="_blank" rel="noopener noreferrer">${esc(item.extraSourceLabel||'Tweede bron')}</a>`:''}</details>`;
    const details=row.querySelector('details');
    const showImage=()=>{
     if(!item.screenshot||!details.open||details.querySelector('img'))return;
@@ -110,6 +136,8 @@
   const button=event.target.closest('.map-region[data-area]');
   if(button&&(event.key==='Enter'||event.key===' ')){event.preventDefault();chooseCollectibleArea(button);}
  });
+ collectibles.querySelector("#collect-query").addEventListener("input",renderCollectibles);
+ collectibles.querySelector("#collect-series").addEventListener("change",()=>{collectibles.querySelector("#collect-query").value="";collectibleArea="all";});
  collectibles.addEventListener('change',event=>{
   const input=event.target;
   if(input.matches('[data-collect-record]')){
@@ -161,7 +189,7 @@
   const target=explore.querySelector('#chosen-area'),area=areas.find(a=>a.id===model.area);if(!area){target.innerHTML='<p class="no-items">Tik op een gebied om je ontdekkingen te bekijken.</p>';return}target.style.setProperty('--area-color',area.color);
   const areaItems=all.filter(item=>item.area===area.id||item.extraArea===area.id),visible=core.visible(areaItems,model.chapter),p=core.progress(areaItems,checked());
   const opened=new Set([...target.querySelectorAll('details[open]')].map(d=>d.dataset.category));
-  target.innerHTML=`<header class="area-header"><div class="area-icon">${icon(area)}</div><div><p class="eyebrow">JOUW GEKOZEN GEBIED</p><h2>${esc(area.name)}</h2><p>${esc(area.description)}</p><div class="area-meter"><div class="meter-label"><span>Gebied · alle hoofdstukken</span><strong>${label(p)}</strong></div><div class="neutral-track"><div style="width:${p.percent??0}%"></div></div></div></div></header><p class="source-notice">Selectie voor hoofdstuk 1 t/m 4: ${window.EXPLORER_DISCOVERIES.length} brongebaseerde punten, naast je persoonlijke opdrachten. Dit is nog geen volledige gids. Binnen een hoofdstuk kunnen extra missievoorwaarden gelden; die staan bij het onderdeel.</p><div class="explore-list"></div><div class="explorer-tools"><button type="button" id="add-discovery" class="primary small">+ Eigen ontdekking</button><button type="button" class="quiet" data-page="progress">Alle voortgang bekijken ↗</button></div><p class="scope-note">Gebieds- en categorietotalen tellen alle vastgelegde hoofdstukken mee. Namen en details van latere onderdelen blijven verborgen.</p>`;
+  target.innerHTML=`<header class="area-header"><div class="area-icon">${icon(area)}</div><div><p class="eyebrow">JOUW GEKOZEN GEBIED</p><h2>${esc(area.name)}</h2><p>${esc(area.description)}</p><div class="area-meter"><div class="meter-label"><span>Gebied · alle hoofdstukken</span><strong>${label(p)}</strong></div><div class="neutral-track"><div style="width:${p.percent??0}%"></div></div></div></div></header><p class="source-notice">Selectie voor hoofdstuk 1 t/m 4: ${trusted.length} brongebaseerde punten, naast je persoonlijke opdrachten. Dit is nog geen volledige gids. Binnen een hoofdstuk kunnen extra missievoorwaarden gelden; die staan bij het onderdeel.</p><div class="explore-list"></div><div class="explorer-tools"><button type="button" id="add-discovery" class="primary small">+ Eigen ontdekking</button><button type="button" class="quiet" data-page="progress">Alle voortgang bekijken ↗</button></div><p class="scope-note">Gebieds- en categorietotalen tellen alle vastgelegde hoofdstukken mee. Namen en details van latere onderdelen blijven verborgen.</p>`;
   const list=target.querySelector('.explore-list');let groups=0;
   for(const type of types){const items=core.category(visible,type.id).sort(storySort);if(!items.length)continue;groups++;const details=document.createElement('details');details.className='explore-category';details.dataset.category=type.id;details.open=opened.has(type.id);details.innerHTML=`<summary><strong>${esc(type.name)} <span aria-hidden="true">⌄</span></strong>${meter(core.category(all,type.id),'Alle gebieden',true)}</summary><div class="explore-items"></div>`;
    for(const item of items)details.querySelector('.explore-items').append(itemRow(item));list.append(details)}

@@ -38,3 +38,5 @@
 .screenshot-viewer::backdrop{background:#090711dd}
 .screenshot-viewer form{display:flex;justify-content:flex-end;margin-bottom:.5rem}
 .screenshot-viewer img{display:block;max-width:100%;max-height:78dvh;object-fit:contain}
+
+#collect-list article details p{white-space:pre-line}
