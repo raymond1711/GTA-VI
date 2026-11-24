@@ -13,7 +13,9 @@
  function persist(){try{localStorage.setItem(STORE,JSON.stringify(model));return true}catch{notify('Verkenning opslaan lukt niet. Download een back-up.');return false}}
  // Bestaande opdrachten delen exact dezelfde IDs/vinkjes; geen officiële vindplaatsen.
  const legacy=cats.flatMap(c=>c.tasks.map(t=>({...t,area:['city','keys','grass'].includes(c.id)?c.id:null,category:/screenshot|herinnering|uitzicht|favoriete|omgeving/.test((t.title+' '+t.detail).toLowerCase())?'sights':'activities',chapter:1,source:'',type:'personal'})));
- const records=()=>core.unique([...legacy,...trusted,...model.custom]);
+ const activeDiscoveries=trusted.filter(item=>!item.pendingActivity);
+ const activeReferences=info.filter(item=>!item.pendingActivity);
+ const records=()=>core.unique([...legacy,...activeDiscoveries,...model.custom]);
  const storySort=(a,b)=>a.chapter-b.chapter||(a.storyOrder??1000)-(b.storyOrder??1000);
  const checked=()=>[...new Set([...state.checked,...model.checked])];
  const label=p=>p.percent===null?'—':p.percent+'%';
@@ -32,7 +34,7 @@
  collectibles.id='collectibles-view';
  const flamingoCollection='Cocaïneflamingo’s';
  const collectionOf=item=>item.collection||item.series;
- const collectionNames=[...new Set([...trusted,...info].map(collectionOf).filter(Boolean))];
+ const collectionNames=[...new Set([...activeDiscoveries,...activeReferences].map(collectionOf).filter(Boolean))];
  collectibles.innerHTML=`<h1>Collectibles</h1><div class="collect-controls">
  <label>Zoeken <input type="search" id="collect-query" placeholder="Naam of plek"></label>
  <label>Collectie <select id="collect-series">${collectionNames.map(name=>`<option>${esc(name)}</option>`).join('')}</select></label>
@@ -71,7 +73,7 @@
   coverageLine.textContent=selection==='Duikplekken en schatten'?'6 van de 33 onderwatervondsten zijn beschreven. De twee overige duikplekken zijn schatgebieden.':(coverage[selection]||'');
   coverageLine.hidden=!coverageLine.textContent;
   collectibles.querySelector('#flamingo-guide').hidden=!isFlamingo;
-  const list=[...records(),...info].filter(item=>collectionOf(item)===selection&&(item.chapter!==lastChapter||model.chapter===lastChapter));
+  const list=[...records(),...activeReferences].filter(item=>collectionOf(item)===selection&&(item.chapter!==lastChapter||model.chapter===lastChapter));
   const matches=list.filter(item=>collectibleArea==='all'||(collectibleArea==='unknown'?item.area===null:item.area===collectibleArea||item.extraArea===collectibleArea));
   const found=new Set(checked());
   const missing=collectibles.querySelector('#collect-missing').checked;

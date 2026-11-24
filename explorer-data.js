@@ -13404,7 +13404,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz4s1f-dd4ec2ff.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz4s1f-dd4ec2ff.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-ff7a17f4a376c75e4c6f",
@@ -13417,7 +13418,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz4w17-3bda8bfc.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz4w17-3bda8bfc.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-4d59c997f14ebe05f0a0",
@@ -13430,7 +13432,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz51jr-ab4490af.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz51jr-ab4490af.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-97ef9e16f4970e88b042",
@@ -13443,7 +13446,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz55me-f6bc43e4.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz55me-f6bc43e4.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-c6bd523a44c87d061ceb",
@@ -13456,7 +13460,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz5af2-ac827176.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz5af2-ac827176.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-5aa7fdfae9c6d69e9122",
@@ -13469,7 +13474,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz5esy-a438fd75.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz5esy-a438fd75.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-c3b7729db246ec4733c4",
@@ -13482,7 +13488,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz5jbn-6ac27623.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz5jbn-6ac27623.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-11150d8f100badbeede9",
@@ -13495,7 +13502,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz5ofc-324fa035.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz5ofc-324fa035.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-0e2a9f50edcc41dcf2d7",
@@ -13508,7 +13516,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz5s3r-7db86192.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz5s3r-7db86192.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-6556a9c87e9880fbf24f",
@@ -13521,7 +13530,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz5vyn-6f091d17.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz5vyn-6f091d17.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-ed3e5ad537c3198769a2",
@@ -13534,7 +13544,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz60p3-b1ecb236.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz60p3-b1ecb236.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-9e29632af6e824b33d6e",
@@ -13547,7 +13558,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz65b1-3c1fc655.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz65b1-3c1fc655.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-3502d4e045712e7cacf3",
@@ -13560,7 +13572,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1hpcb-210156ce.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1hpcb-210156ce.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-de908f16ac296ac007d9",
@@ -13573,7 +13586,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1hwj2-dd6a6963.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1hwj2-dd6a6963.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-d2579d724578bc6ea7b1",
@@ -13586,7 +13600,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1i0fv-dc35ac70.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1i0fv-dc35ac70.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-fc4b03b8e7bd6b7fa8ef",
@@ -13599,7 +13614,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1i5sa-80dd7f30.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1i5sa-80dd7f30.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-d257b6d4942f380b0c43",
@@ -13612,7 +13628,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1ia7m-d9358592.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1ia7m-d9358592.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-3eeadc58aa0b086163d3",
@@ -13625,7 +13642,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1if8n-46fc4a11.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1if8n-46fc4a11.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-bef979645002c10ea9e8",
@@ -13638,7 +13656,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1ikir-56ea982b.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1ikir-56ea982b.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-8c740f1444589d4f7e21",
@@ -13651,7 +13670,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1ip0r-96398228.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1ip0r-96398228.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-e1643438413a2256fc5f",
@@ -13664,7 +13684,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1issq-e9bb014a.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1issq-e9bb014a.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-90fe20dada3238f6fa9c",
@@ -13677,7 +13698,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1ixoj-7c078ab5.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1ixoj-7c078ab5.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-c67321a8f0b799e37fa9",
@@ -13690,7 +13712,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1j518-3a3de7dd.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1j518-3a3de7dd.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-8755a1fd5f554662680b",
@@ -13703,7 +13726,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1j9cg-f55a6c86.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1j9cg-f55a6c86.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-18c13d6cc82fd2b06bd4",
@@ -13716,7 +13740,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1kmwr-5e7b5978.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1kmwr-5e7b5978.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-723c1f93ca7988babde6",
@@ -13729,7 +13754,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1ksag-112b9204.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1ksag-112b9204.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-86db7b1db80f35a2fda3",
@@ -13742,7 +13768,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1kvz9-e941040c.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1kvz9-e941040c.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-2379b441e96efd9d369a",
@@ -13755,7 +13782,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1l0nt-61e6a8cb.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1l0nt-61e6a8cb.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-681b029b162fa5388ebf",
@@ -13768,7 +13796,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1l5d2-da7cd237.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1l5d2-da7cd237.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-7ab96809d8093859e7f1",
@@ -13781,7 +13810,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1layz-0dd61232.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1layz-0dd61232.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-c3d9ed7b026d551dcc60",
@@ -13794,7 +13824,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1lf2z-83e67c4a.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1lf2z-83e67c4a.avif",
+      "pendingActivity": true
     },
     {
       "id": "excel-86e8de4a90fbcc31043d",
@@ -14826,7 +14857,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.pushsquare.com/guides/gta-6-meditation-locations#:~:text=Jason's%20House%20Meditation%20Location",
       "extraSourceLabel": "Beeld in gids",
-      "workbookStatus": "Eén registratie"
+      "workbookStatus": "Eén registratie",
+      "pendingActivity": true
     },
     {
       "id": "excel-75a53b1820f23edee166",
@@ -14841,7 +14873,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.pushsquare.com/guides/gta-6-meditation-locations#:~:text=Smooth%20Sand%20Meditation%20Location",
       "extraSourceLabel": "Beeld in gids",
-      "workbookStatus": "Jason en Lucia"
+      "workbookStatus": "Jason en Lucia",
+      "pendingActivity": true
     },
     {
       "id": "excel-e7a0de942f5d7a021ae2",
@@ -14856,7 +14889,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.pushsquare.com/guides/gta-6-meditation-locations#:~:text=Swamp%20Meditation%20Location",
       "extraSourceLabel": "Beeld in gids",
-      "workbookStatus": "Jason en Lucia"
+      "workbookStatus": "Jason en Lucia",
+      "pendingActivity": true
     },
     {
       "id": "excel-55248ba6034b56485b99",
@@ -14869,7 +14903,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Aan de oever van de Emerald River.",
       "source": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
       "sourceName": "www.powerpyx.com",
-      "workbookStatus": "Jason en Lucia"
+      "workbookStatus": "Jason en Lucia",
+      "pendingActivity": true
     },
     {
       "id": "excel-004885f7ba4985d84bab",
@@ -14882,7 +14917,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bij de kruising van spoor en snelweg.",
       "source": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
       "sourceName": "www.powerpyx.com",
-      "workbookStatus": "Jason en Lucia"
+      "workbookStatus": "Jason en Lucia",
+      "pendingActivity": true
     },
     {
       "id": "excel-f855cb05259c9f25ecd7",
@@ -14897,7 +14933,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.pushsquare.com/guides/gta-6-meditation-locations#:~:text=Water%20Wheel%20Meditation%20Location",
       "extraSourceLabel": "Beeld in gids",
-      "workbookStatus": "Jason en Lucia"
+      "workbookStatus": "Jason en Lucia",
+      "pendingActivity": true
     },
     {
       "id": "excel-d4e12f31ec43f28d52b6",
@@ -14910,7 +14947,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bij de toren boven het mijngebied.",
       "source": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
       "sourceName": "www.powerpyx.com",
-      "workbookStatus": "Jason en Lucia"
+      "workbookStatus": "Jason en Lucia",
+      "pendingActivity": true
     },
     {
       "id": "excel-151d773bf5354bf7b328",
@@ -14925,7 +14963,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.pushsquare.com/guides/gta-6-meditation-locations#:~:text=Waterfall%20Meditation%20Location",
       "extraSourceLabel": "Beeld in gids",
-      "workbookStatus": "Jason en Lucia"
+      "workbookStatus": "Jason en Lucia",
+      "pendingActivity": true
     },
     {
       "id": "excel-409add2158a381ba02b4",
@@ -14940,7 +14979,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.pushsquare.com/guides/gta-6-meditation-locations#:~:text=Seaside%20Meditation%20Location",
       "extraSourceLabel": "Beeld in gids",
-      "workbookStatus": "Jason en Lucia"
+      "workbookStatus": "Jason en Lucia",
+      "pendingActivity": true
     },
     {
       "id": "excel-009a82005a6f1d784da5",
@@ -14953,7 +14993,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bij de steencirkel op de top. Verschijnt na de andere reguliere plekken.",
       "source": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
       "sourceName": "www.powerpyx.com",
-      "workbookStatus": "Eén registratie"
+      "workbookStatus": "Eén registratie",
+      "pendingActivity": true
     },
     {
       "id": "excel-d53a3166a24df328c788",
@@ -15097,7 +15138,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Mount Kalaga National Park",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-4284fa61da2efae26c05",
@@ -15109,7 +15151,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park Leonida Keys",
       "detail": "Mount Kalaga National Park Leonida Keys",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-5d2947c332208662e6b1",
@@ -15121,7 +15164,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Mount Kalaga National Park",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-5a24e2319ba4c765d30c",
@@ -15133,7 +15177,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Mount Kalaga National Park",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-e7d7bb24c7cbb1b8369c",
@@ -15145,7 +15190,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Mount Kalaga National Park",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-1bccbdafbea8ded96336",
@@ -15157,7 +15203,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Mount Kalaga National Park",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-95f0ba54eadda00000fc",
@@ -15169,7 +15216,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Grassrivers",
       "detail": "Grassrivers",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-57120e73c3a647315c40",
@@ -15181,7 +15229,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2911abcbc1b00cd753ae",
@@ -15193,7 +15242,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-a6af27329b4aefa09ca9",
@@ -15205,7 +15255,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-cf6ad8484cdf5ad364e7",
@@ -15217,7 +15268,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-a0db57010c78394d41b3",
@@ -15229,7 +15281,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-5b8c47dee6daf952ec2e",
@@ -15241,7 +15294,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-b3d42c4eb43567455aec",
@@ -15253,7 +15307,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-77b5c703745f909c5983",
@@ -15265,7 +15320,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-ec632503ba3087d17a60",
@@ -15277,7 +15333,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Mount Kalaga National Park",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-a9c57afe2da8ae32aa19",
@@ -15289,7 +15346,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-e878151c7505f05c1e9e",
@@ -15301,7 +15359,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-fac0a4285d1d1c316154",
@@ -15313,7 +15372,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Vice City",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-18a1b65543fd2a23514d",
@@ -15325,7 +15385,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-81104e7493032e1f2cae",
@@ -15337,7 +15398,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-b7b3871a045bfd2e8deb",
@@ -15349,7 +15411,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-cf5be232a510e53b95c3",
@@ -15361,7 +15424,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-c9b11ee881ce4364cef9",
@@ -15373,7 +15437,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-1e51d88495c366fd451b",
@@ -15385,7 +15450,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-b847f00a5cd6563163c1",
@@ -15397,7 +15463,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-1f4d8c9329b03bc6b28f",
@@ -15409,7 +15476,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-0f0ab7d59279e94bad03",
@@ -15421,7 +15489,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-7ca8eff2975fd4974fb8",
@@ -15433,7 +15502,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-34ae469cc17de3039f3c",
@@ -15445,7 +15515,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-7400f52fe8cbdfe96dc4",
@@ -15457,7 +15528,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park Port Gellhorn",
       "detail": "Mount Kalaga National Park Port Gellhorn",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-f08441a36eb2ff10d90c",
@@ -15469,7 +15541,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2ca3e9dedd6e0f68ba46",
@@ -15481,7 +15554,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2e6d2f8921676c5e0496",
@@ -15493,7 +15567,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Grassrivers",
       "detail": "Grassrivers",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-4ea1591ef43f99d3c5fa",
@@ -15505,7 +15580,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-f20d9f9613d6c3b161fe",
@@ -15517,7 +15593,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-f67ba665ea3573b38b89",
@@ -15529,7 +15606,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-d8d3059e7ac549ca96da",
@@ -15541,7 +15619,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-366bf0b12c6d14ca118c",
@@ -15553,7 +15632,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-e47ff024d4c59e9acf5d",
@@ -15565,7 +15645,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-307c784b5e320895b7d9",
@@ -15577,7 +15658,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-a668538128a838057975",
@@ -15589,7 +15671,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-8956ca576abe785ef05d",
@@ -15601,7 +15684,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-db08f19802890a16c22e",
@@ -15613,7 +15697,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-6cf060cd84d687786592",
@@ -15625,7 +15710,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-a9a1cf9f561d7a07e7cc",
@@ -15637,7 +15723,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-58d9bdc066086e483662",
@@ -15649,7 +15736,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2b107df344c27197cd90",
@@ -15661,7 +15749,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-4fe4e9e6f2f15d972afa",
@@ -15673,7 +15762,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-9cd34985a67db25e1b7b",
@@ -15685,7 +15775,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-5546c3f7ff14e3449b74",
@@ -15697,7 +15788,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-ac46ba05e1dba19f6137",
@@ -15709,7 +15801,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-7c933f35629fce9f2795",
@@ -15721,7 +15814,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-9524304e37ef0cf383a9",
@@ -15733,7 +15827,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-bc5c1b3f4bac2be4a47f",
@@ -15745,7 +15840,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-9e68bcdabcfe0b89b80f",
@@ -15757,7 +15853,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-54f4108806a044c15f03",
@@ -15769,7 +15866,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-6208e8c4389787536c49",
@@ -15781,7 +15879,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-fe5e61a20808722cdd00",
@@ -15793,7 +15892,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-910bdb836891ff114f88",
@@ -15805,7 +15905,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-025aecd1209f16da87ad",
@@ -15817,7 +15918,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-9d1c916fcecd51d0004a",
@@ -15829,7 +15931,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-482f040d8fe8f6a332d5",
@@ -15841,7 +15944,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-7b859eae9de660044e73",
@@ -15853,7 +15957,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-fa5e0f7a35266b7d3a8c",
@@ -15865,7 +15970,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3c60a6d09f0e1546bda0",
@@ -15877,7 +15983,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-1e2333ef81fa41c3cbcf",
@@ -15889,7 +15996,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-4e2dfaaa0b46fe07a746",
@@ -15901,7 +16009,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-0698fc9309419cdc7172",
@@ -15913,7 +16022,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2c278087aea14c96ac1f",
@@ -15925,7 +16035,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-ef7ead4e23a07639b4c9",
@@ -15937,7 +16048,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-d33773c7eadf2069e9d4",
@@ -15949,7 +16061,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-bc5ff337b2a04dba6c89",
@@ -15961,7 +16074,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-0b30248c16fb6757d0f0",
@@ -15973,7 +16087,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-0691249b3c71b2a5962e",
@@ -15985,7 +16100,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-99f04bdab5a03a86c9f9",
@@ -15997,7 +16113,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-e5f4fcd5d3e481a1ad16",
@@ -16009,7 +16126,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-22539f466a37be33bb52",
@@ -16021,7 +16139,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-99e3cc16e10c3edaee9b",
@@ -16033,7 +16152,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-49fc72bfc293fb4055af",
@@ -16045,7 +16165,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-1cadaeefed71f366ae44",
@@ -16057,7 +16178,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City Port Gellhorn",
       "detail": "Vice City Port Gellhorn",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-61e0032ed8c305e39f8d",
@@ -16069,7 +16191,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-6e28c762c4f5b99121e6",
@@ -16081,7 +16204,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-ffe79ab5878a4f46f6f6",
@@ -16093,7 +16217,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3c472b9d50b9fb32b09f",
@@ -16105,7 +16230,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-ad3c5f50afd136467a85",
@@ -16117,7 +16243,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-20b72f1641fed53cfb99",
@@ -16129,7 +16256,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-d7b9a04b3385ebc14f5a",
@@ -16141,7 +16269,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-862289fa544ae99db4d0",
@@ -16153,7 +16282,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-5dfd1fbab1eae048abef",
@@ -16165,7 +16295,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-b6c1bf7f06c35d93aa7d",
@@ -16177,7 +16308,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-8b7b74986dd162382083",
@@ -16189,7 +16321,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-96e78f6f037c4142e9b6",
@@ -16201,7 +16334,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-f7713d9e5d3c48672441",
@@ -16213,7 +16347,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-0e2f9cbc765d7249d1e7",
@@ -16225,7 +16360,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-dc2e5d77b7847498e104",
@@ -16237,7 +16373,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-89639d02882f64867761",
@@ -16249,7 +16386,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-a128420d6e2ad3727a72",
@@ -16261,7 +16399,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-e18deb39b1781227e45e",
@@ -16273,7 +16412,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-024545be3140c00b5796",
@@ -16285,7 +16425,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Mount Kalaga National Park",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-74c13c4ea92c9a5d907c",
@@ -16297,7 +16438,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-db5dff6d621f430a9a55",
@@ -16309,7 +16451,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Grassrivers Mount Kalaga National Park",
       "detail": "Grassrivers Mount Kalaga National Park",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-45567e9f4376e9797aec",
@@ -16321,7 +16464,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2ea0c751f3cfc2ee97af",
@@ -16333,7 +16477,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-e488f229538d58afece9",
@@ -16345,7 +16490,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-36318e836fe83e15881e",
@@ -16357,7 +16503,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-b617a4e4eb7de8816721",
@@ -16369,7 +16516,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-4f3d5406ac761be4428c",
@@ -16381,7 +16529,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-e0aad8dc23f4dbf1ae9e",
@@ -16393,7 +16542,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-93150f9adae012f4ca9e",
@@ -16405,7 +16555,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-f3985f224bbf9935b3b3",
@@ -16417,7 +16568,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-be1308c14a94f6aeb1f0",
@@ -16429,7 +16581,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-ee656036ba1a27421994",
@@ -16441,7 +16594,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-91a8a5708da09239e99f",
@@ -16453,7 +16607,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-af97d4326f0325b99474",
@@ -16465,7 +16620,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-7368a276f29ff1d753fb",
@@ -16477,7 +16633,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-9ff909e1f8245b380929",
@@ -16489,7 +16646,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-33a85a6a335e068eac69",
@@ -16501,7 +16659,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-e5349d31debc76c38851",
@@ -16513,7 +16672,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Grassrivers",
       "detail": "Grassrivers",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-5a12f0af859c91ebc17b",
@@ -16525,7 +16685,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-fe53a62a46d491e14a47",
@@ -16537,7 +16698,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-4188625e346598b05488",
@@ -16549,7 +16711,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-16b499e2f82deea98230",
@@ -16561,7 +16724,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-35d89bcd08c1289c05aa",
@@ -16573,7 +16737,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-4d4044c1eb498e33295b",
@@ -16585,7 +16750,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-4621d0573145368125de",
@@ -16597,7 +16763,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-beea6fdd235a0dbcd3eb",
@@ -16609,7 +16776,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-c22029228f4517bd8c3a",
@@ -16621,7 +16789,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-a8e799075589aecc1ff0",
@@ -16633,7 +16802,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-429dacec923883a5ed91",
@@ -16645,7 +16815,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-686187400c4df1140ebd",
@@ -16657,7 +16828,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-a5e3295dab6bee96853e",
@@ -16669,7 +16841,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-4ad660b66628c765cf6a",
@@ -16681,7 +16854,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Mount Kalaga National Park",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-d80d16ffa13eba6f0087",
@@ -16693,7 +16867,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-a60c6b14f97a4ef2ae46",
@@ -16705,7 +16880,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2a0216dffccf62d3a9b7",
@@ -16717,7 +16893,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-cf89948cb4f807dad115",
@@ -16729,7 +16906,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Grassrivers",
       "detail": "Grassrivers",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-caf0b6f1801f75370813",
@@ -16741,7 +16919,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-afbfc13b83190aeaf5e7",
@@ -16753,7 +16932,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-ee58c160f5cf50622ce3",
@@ -16765,7 +16945,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-f6c46592439a1cc82f64",
@@ -16777,7 +16958,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-d62db138ee7e5aab949b",
@@ -16789,7 +16971,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-4906950711b97ce17a90",
@@ -16801,7 +16984,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-503cdd10676ffa29811c",
@@ -16813,7 +16997,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-0c27569dd2dfece5634e",
@@ -16825,7 +17010,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-1c03df4907c2a3a8e983",
@@ -16837,7 +17023,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-406121a6a6d4de35ee94",
@@ -16849,7 +17036,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-385da87cb12e820cf9a1",
@@ -16861,7 +17049,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-ba29083ad47fa495646c",
@@ -16873,7 +17062,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-e42a4aa282355384bbbf",
@@ -16885,7 +17075,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-79b98b16585fb1af5fab",
@@ -16897,7 +17088,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-ffc47b7275bfb79a7606",
@@ -16909,7 +17101,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Vice City",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-8b70e8731e4386e3f5c7",
@@ -16921,7 +17114,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-6fa77eada55ed9274bfb",
@@ -16933,7 +17127,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-c48898819a291446b641",
@@ -16945,7 +17140,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-b7281ec74c1b021e0575",
@@ -16957,7 +17153,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3d2a2be44f7429cd8066",
@@ -16969,7 +17166,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-5bc25023b545f6b69212",
@@ -16981,7 +17179,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-400cdfb07781555b6450",
@@ -16993,7 +17192,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-86e6be8bb31ba3957878",
@@ -17005,7 +17205,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-0a486cf26bfa54f58dee",
@@ -17017,7 +17218,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-cf39cffaf73d168d5f68",
@@ -17029,7 +17231,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-8b2eb643423b1ff0b1f9",
@@ -17041,7 +17244,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-4f1e7e7b277dca9f68b4",
@@ -17053,7 +17257,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-de8ea4b92ceb612f7c64",
@@ -17065,7 +17270,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-ceda6812fb1c837e238d",
@@ -17077,7 +17283,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3e875cc52e1c47946b48",
@@ -17089,7 +17296,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-20fee73e74614f434cc7",
@@ -17101,7 +17309,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-887c8f088cf1f6829acc",
@@ -17113,7 +17322,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Grassrivers",
       "detail": "Grassrivers",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-6416827c8c367415423f",
@@ -17125,7 +17335,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-4f98c497ddcc56765102",
@@ -17137,7 +17348,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Grassrivers",
       "detail": "Grassrivers",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-eecf88b3ebecbabff835",
@@ -17149,7 +17361,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City Leonida Keys",
       "detail": "Vice City Leonida Keys",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-ccee82ee529f6453f714",
@@ -17161,7 +17374,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Vice City",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-cc56c27e24bf27a3806c",
@@ -17173,7 +17387,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2eb8cdf793643ed7cae1",
@@ -17185,7 +17400,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-0073da20f91ca95abafb",
@@ -17197,7 +17413,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3e9703057f14383d2ea3",
@@ -17209,7 +17426,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-e652b30435b87d43a603",
@@ -17221,7 +17439,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-97e1c4fa88ca3341dfea",
@@ -17233,7 +17452,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-6a1b5278fdcf9669e9a9",
@@ -17245,7 +17465,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-921f44a3b45ec58059ec",
@@ -17257,7 +17478,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-d58d904f72d25fdebb8d",
@@ -17269,7 +17491,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-632f1e56e9eb6b4cae43",
@@ -17281,7 +17504,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-9cff583ca77f70188375",
@@ -17293,7 +17517,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-102a4e4cacd2cfa3710a",
@@ -17305,7 +17530,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-66cb090de72f33cc1bcd",
@@ -17317,7 +17543,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-263c77a0541ca6c0ee96",
@@ -17329,7 +17556,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-b36c6914bede5703a9ce",
@@ -17341,7 +17569,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-e218086705b7b29ca399",
@@ -17353,7 +17582,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-13f5ae57e16653c1c9aa",
@@ -17365,7 +17595,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2ec4dd057a5e16b55a3e",
@@ -17377,7 +17608,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-ee60a303f6359b14cd2c",
@@ -17389,7 +17621,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Grassrivers",
       "detail": "Grassrivers",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-69ce98f03d929dfd497a",
@@ -17401,7 +17634,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-b4cf58af0e551abd0444",
@@ -17413,7 +17647,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-6df6af91340bf8fe24af",
@@ -17425,7 +17660,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-833b47701971f2eb123f",
@@ -17437,7 +17673,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-bf037f8379761ffed4ae",
@@ -17449,7 +17686,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Vice City",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-60c0d7f51dff49d010d9",
@@ -17461,7 +17699,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Vice City",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-21ab13c00a34727f025a",
@@ -17473,7 +17712,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Vice City",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-9b4440d18302dd56a2c9",
@@ -17485,7 +17725,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-65da1eb9327c5569c2c4",
@@ -17497,7 +17738,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-29324d33936e3b57dde8",
@@ -17509,7 +17751,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-d4812131736428236a53",
@@ -17521,7 +17764,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-caa161452b1492eb4546",
@@ -17533,7 +17777,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-07ac47a427826cff7056",
@@ -17545,7 +17790,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-1c77baa9f2058d95ef3f",
@@ -17557,7 +17803,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-b83f5732fb20159be61b",
@@ -17569,7 +17816,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3dc973c2e9f58db16aaa",
@@ -17581,7 +17829,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-8309b17eabf7c05fa6da",
@@ -17593,7 +17842,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-e964a10a0820568b2b18",
@@ -17605,7 +17855,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-628f31ecac8b41c9c125",
@@ -17617,7 +17868,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-959cf66e94e1a0756934",
@@ -17629,7 +17881,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-41147c62d10257f148bb",
@@ -17641,7 +17894,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3de9a09f5ae2249a8066",
@@ -17653,7 +17907,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-f5af3bbe8232667bb7eb",
@@ -17665,7 +17920,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-be49d8ec7a1a152ae885",
@@ -17677,7 +17933,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2cbf8d0f50ab45d626b3",
@@ -17689,7 +17946,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-c51b9759c9366d4df5d0",
@@ -17701,7 +17959,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-97cbfb2fc631f72b0421",
@@ -17713,7 +17972,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-ab5fa89b14d6a897e381",
@@ -17725,7 +17985,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-ffef580c5acf19f4e90b",
@@ -17737,7 +17998,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-95e88ee500a1f31d594c",
@@ -17750,7 +18012,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-e17de21f40763b46d794",
@@ -17763,7 +18026,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-8902de6d1c2c1fc12ecc",
@@ -17776,7 +18040,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-46a128f66d3a87fb0963",
@@ -17789,7 +18054,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-254dbd7e3e974c70352a",
@@ -17802,7 +18068,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-72d70decd90d1a0c2975",
@@ -17815,7 +18082,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-382af153c92a5b058053",
@@ -17828,7 +18096,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-92856d7006a6141ac4be",
@@ -17841,7 +18110,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-589fdb90f97d08cd6d28",
@@ -17854,7 +18124,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-22fe66ca6f3f6c8b936c",
@@ -17867,7 +18138,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-9e920dee1b811b507103",
@@ -17880,7 +18152,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-f569756cc81d9ba76922",
@@ -17893,7 +18166,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-013233058a9f9b34f7ea",
@@ -17906,7 +18180,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Mount Kalaga National Park",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-8ba8606a02ee272ae610",
@@ -17919,7 +18194,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Grassrivers",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-65bd9858480fe1fa0ba0",
@@ -17932,7 +18208,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Vice City",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-9b900b3c4281c8d09d38",
@@ -17945,7 +18222,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Vice City",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-cfc9819bcd01d0939c63",
@@ -17958,7 +18236,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-5400d22d8be0e4f03373",
@@ -17971,7 +18250,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-5a096b26647c3ad56bf0",
@@ -17984,7 +18264,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Vice City",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-c4697b79893808ec5942",
@@ -17997,7 +18278,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-4f3703035d2dce04f2b8",
@@ -18010,7 +18292,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-0bf72981a3cd51cce2bb",
@@ -18023,7 +18306,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-9d4b0d833b5b402954b9",
@@ -18036,7 +18320,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-93d0f1b1ad130aea934f",
@@ -18049,7 +18334,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-0518cb63190da762d27c",
@@ -18062,7 +18348,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-e5dab7f4e5885e4a460b",
@@ -18075,7 +18362,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-37853ddc8a267e6ef880",
@@ -18088,7 +18376,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-2eef021a620eff1fe811",
@@ -18101,7 +18390,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-d3c58da31c5bff5fe610",
@@ -18114,7 +18404,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-b9d34c55741db4235c1c",
@@ -18127,7 +18418,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-1bda06934c16cc6eebee",
@@ -18140,7 +18432,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Vice City",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-9f886278e20b8e385a4c",
@@ -18153,7 +18446,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-e785312b14e7daacd21f",
@@ -18166,7 +18460,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-39339b935e21dbe8304f",
@@ -18179,7 +18474,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-6e4009dd99c8b964dd38",
@@ -18192,7 +18488,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-b0c436740de975db1509",
@@ -18205,7 +18502,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-891e5e2566ee95af4505",
@@ -18218,7 +18516,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-03deca479a51d2166a70",
@@ -18231,7 +18530,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-22899b9845136e5e5284",
@@ -18244,7 +18544,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-d0bd2e144cdf5caf0840",
@@ -18257,7 +18558,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-ee71f4c768e9643966ab",
@@ -18270,7 +18572,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-b6e938ef6629c55a3031",
@@ -18283,7 +18586,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-0ffb2f2b5ec7dbcb3c89",
@@ -18296,7 +18600,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-d09c813fbaffd8a51425",
@@ -18309,7 +18614,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-3feee3028f7091338c6c",
@@ -18322,7 +18628,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-d7a3823f09e4bae1b641",
@@ -18335,7 +18642,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-99be83af035fe13ab5ce",
@@ -18348,7 +18656,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-be40287964ee32ffa091",
@@ -18361,7 +18670,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-e0f7396c4a564d20df4b",
@@ -18374,7 +18684,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-e69d1ca5ef4c3bde3d95",
@@ -18387,7 +18698,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-1b2e3d3aec2796d1ce6a",
@@ -18400,7 +18712,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-277db83872f0cb022d64",
@@ -18413,7 +18726,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-7a2bf726febc1d1f062d",
@@ -18426,7 +18740,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-2200921f9c754082542a",
@@ -18439,7 +18754,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-95270c39fff399d3d1f0",
@@ -18452,7 +18768,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-a82c63b9b02fe80dc079",
@@ -18465,7 +18782,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-28714a8d6865879867dd",
@@ -18478,7 +18796,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-98153e1084dcadbbedd5",
@@ -18491,7 +18810,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-47bf597ed40dbe631dd5",
@@ -18504,7 +18824,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-00f5dcfea2bc6299e023",
@@ -18517,7 +18838,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-0d3c5347fc219e963ce6",
@@ -18530,7 +18852,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-43ceef83361421e71c3c",
@@ -18543,7 +18866,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-7795c37614238289e35d",
@@ -18556,7 +18880,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-92cd72ff09bf94edae7c",
@@ -18569,7 +18894,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-6993985228fd10da8e76",
@@ -18582,7 +18908,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-a41c16f76eef24280a0c",
@@ -18595,7 +18922,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-a41d52831aa1fe27bd2f",
@@ -18608,7 +18936,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-33f401abcba2c6490c6e",
@@ -18621,7 +18950,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-a6fe5f4053984be2a407",
@@ -18634,7 +18964,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-7ef9a9bd8956fe15f4f2",
@@ -18647,7 +18978,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-73f329b2e8593c1d841d",
@@ -18660,7 +18992,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-e09fbbe0468643737143",
@@ -18673,7 +19006,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-a112aaf8033ec65b1eee",
@@ -18686,7 +19020,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-b23d00895598870f2178",
@@ -18699,7 +19034,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-c02e11c5e8bf56a68509",
@@ -18712,7 +19048,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-c3b8949874b93afe04d0",
@@ -18725,7 +19062,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-632aacab7f99d4b851bb",
@@ -18738,7 +19076,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-417363dee6b79fef3053",
@@ -18751,7 +19090,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-4467ea5fe2e1f5847ada",
@@ -18764,7 +19104,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-820b0b713124df7006ad",
@@ -18777,7 +19118,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-321db7ade011977f27fc",
@@ -18790,7 +19132,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-2f268952dcdce7d40612",
@@ -18803,7 +19146,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-d4a3d888c0fd41d06f42",
@@ -18816,7 +19160,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-69eb5a97898b34dc82f0",
@@ -18829,7 +19174,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-a5c62cc37ae068510c75",
@@ -18842,7 +19188,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-2766fe5caa89cdaedb2f",
@@ -18855,7 +19202,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-17797b0e2272038687cd",
@@ -18868,7 +19216,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-eedb8aad120c230c831e",
@@ -18881,7 +19230,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-e9bcf4d0569b7b9184cf",
@@ -18894,7 +19244,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-00e1804ff630f43cf472",
@@ -18907,7 +19258,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-d14fb7867066fb247546",
@@ -18920,7 +19272,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-6070b2f398933c29e199",
@@ -18933,7 +19286,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-33d29c980515f3a37d2e",
@@ -18946,7 +19300,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-a5921f2b4a6e72d560c6",
@@ -18959,7 +19314,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-4bb5404b42675c61445e",
@@ -18972,7 +19328,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-336308dd52f3369def75",
@@ -18985,7 +19342,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-80378607b69a68ac79fe",
@@ -18998,7 +19356,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-5922b2cea8c71782de3a",
@@ -19011,7 +19370,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-3d5d252860feaa0774ef",
@@ -19024,7 +19384,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-11f68dfc93a6fadf3f6c",
@@ -19037,7 +19398,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-007a2b95bae27cd5f6bb",
@@ -19050,7 +19412,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-3f965002e39768211780",
@@ -19063,7 +19426,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-9cad03aec98d192ee882",
@@ -19076,7 +19440,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-a7449095aafc28569cbd",
@@ -19089,7 +19454,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-8e80f2f8caa3b5d7110a",
@@ -19102,7 +19468,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-b5f649dbcd87dd03b179",
@@ -19115,7 +19482,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-3e416771b1f796e9acfb",
@@ -19128,7 +19496,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-2a68c58267ddb512ac01",
@@ -19141,7 +19510,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-e450525bd195312d7b53",
@@ -19154,7 +19524,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-b0919d37a660cd9ba880",
@@ -19167,7 +19538,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-87483889f62c38c9e065",
@@ -19180,7 +19552,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-c9cbbd862208ef20d5a9",
@@ -19193,7 +19566,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-8de558248d179ff40fcd",
@@ -19206,7 +19580,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-efaec7dd3f6649414ea9",
@@ -19219,7 +19594,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-c306b0a194bed038f876",
@@ -19232,7 +19608,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-cd4f43dea9d458109f11",
@@ -19245,7 +19622,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-4ac663b25e525a3b5ed2",
@@ -19258,7 +19636,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-a309c138a2eafde75373",
@@ -19271,7 +19650,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-d6d91bf499ea7885f04f",
@@ -19284,7 +19664,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-032efa447d8451a80941",
@@ -19297,7 +19678,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-848c6c81cb9364dffd1e",
@@ -19310,7 +19692,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-926d3d2946db70e03a9e",
@@ -19323,7 +19706,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-e4e938e36db4bf34818e",
@@ -19336,7 +19720,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-1b8750412a4b1726e1d9",
@@ -19349,7 +19734,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-43784a54911c0f22ef4d",
@@ -19362,7 +19748,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-dae16846b1e74f9a6e75",
@@ -19375,7 +19762,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-cd3f7c1f84085f860d87",
@@ -19388,7 +19776,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-468389acee0fa919ce05",
@@ -19401,7 +19790,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-80e7cd03f9a799af139e",
@@ -19414,7 +19804,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-0db1efc904364ee2165a",
@@ -19427,7 +19818,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-a752d95dd5cb9a665265",
@@ -19440,7 +19832,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-4c08f30ef9632fdae08b",
@@ -19453,7 +19846,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-a5f53375c48356620659",
@@ -19466,7 +19860,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-f8195b159afada56e630",
@@ -19479,7 +19874,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-8481bc5aafc9d9fda9e7",
@@ -19492,7 +19888,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-6a217c8e80404a613c4a",
@@ -19505,7 +19902,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-48d11f2d7d54e26fd561",
@@ -19518,7 +19916,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-c13ba945f7d6559e2ef1",
@@ -19531,7 +19930,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-c1a60aba54a872ba89ce",
@@ -19544,7 +19944,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-10c13d08e895a8c40ee7",
@@ -19557,7 +19958,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-183e1ac57a4bf47f3004",
@@ -19570,7 +19972,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-c30a4e7297726e8a2188",
@@ -19583,7 +19986,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-789ae9bf665cbecd150f",
@@ -19596,7 +20000,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-c900a0dd3ea1b096180a",
@@ -19609,7 +20014,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-1f13f77a88cd5fecaff7",
@@ -19622,7 +20028,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-56f2da25817220e06932",
@@ -19635,7 +20042,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-6ad7e16e8be0f3a111ed",
@@ -19648,7 +20056,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-474ed16c862c6301090f",
@@ -19661,7 +20070,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-b2ec28fc51700c0e870a",
@@ -19674,7 +20084,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-6e4c4652546a8e6641f0",
@@ -19687,7 +20098,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-e3af68b8e67de64f0fb8",
@@ -19700,7 +20112,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-2cf195e6dfd2ce25adca",
@@ -19713,7 +20126,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-91fc778589c72054dc4a",
@@ -19726,7 +20140,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-43ecab9528c62d38307b",
@@ -19739,7 +20154,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-5a30223b1b0dcb7c948a",
@@ -19752,7 +20168,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-e8509c1b913711a34222",
@@ -19765,7 +20182,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-7b0ed378f40046c445df",
@@ -19778,7 +20196,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-0e60e613e34a109e899d",
@@ -19791,7 +20210,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-4c106095697414a975ac",
@@ -19804,7 +20224,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-f8acbd56954c32d79d09",
@@ -19817,7 +20238,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-fd51e1260dc964901533",
@@ -19830,7 +20252,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Mount Kalaga National Park",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-4b7090c7bdc82d9e5f83",
@@ -19843,7 +20266,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-c3de723b5e12c648d595",
@@ -19856,7 +20280,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-581d9cc69d00f797c9d5",
@@ -19869,7 +20294,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-313242707150793fd6f6",
@@ -19882,7 +20308,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-f4dbc01590567ee92670",
@@ -19895,7 +20322,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-b04683a910f4b6a494a2",
@@ -19908,7 +20336,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-7d9edf010fa9d3ea1d70",
@@ -19921,7 +20350,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-0260e1b34d1cacdf52b5",
@@ -19934,7 +20364,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-3d0362ec6cd8f1f6cbac",
@@ -19947,7 +20378,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-6a075a81a4ea0c1448d6",
@@ -19960,7 +20392,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-ef232fb390dbfb901b23",
@@ -19973,7 +20406,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-be06382fc6850e73d685",
@@ -19986,7 +20420,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-d59f4dd575a1d7433f82",
@@ -19999,7 +20434,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-77a6967bf60677d18ab6",
@@ -20012,7 +20448,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-be20e81435162112c18e",
@@ -20025,7 +20462,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-7e4f326ee1da5a99fedf",
@@ -20038,7 +20476,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-5e8a4406a2ea66641289",
@@ -20051,7 +20490,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-4707ba42e8c6b99f36b2",
@@ -20064,7 +20504,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-89bab3aa3855bb8e9ec8",
@@ -20077,7 +20518,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-3c98b77795c67c348d32",
@@ -20090,7 +20532,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-7d8b78a912c83a852eaf",
@@ -20103,7 +20546,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-86e1bf9fbcf1c5b55f21",
@@ -20116,7 +20560,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-33bae90b39f2e11c9dd9",
@@ -20129,7 +20574,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-5637bc5951390971655b",
@@ -20142,7 +20588,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-f2e56eb9bc748a2aba14",
@@ -20155,7 +20602,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-d2f0119fb82873de52f3",
@@ -20168,7 +20616,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-3da18da8cdde04abf68a",
@@ -20181,7 +20630,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-52b430e613af65ff1dec",
@@ -20194,7 +20644,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-8f1388b1e32fccf7874f",
@@ -20207,7 +20658,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-8773c2dbe83d1775ad04",
@@ -20220,7 +20672,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-915bc89eb89a529fb696",
@@ -20233,7 +20686,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-7784a3ac33bb4e788959",
@@ -20246,7 +20700,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-08ba1c2fe9008c0f4b82",
@@ -20259,7 +20714,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-a6c2ecc3865dca44b7c0",
@@ -20272,7 +20728,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-5baf6c35aba313d13ed5",
@@ -20285,7 +20742,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-5bd20c835683e6fd20f3",
@@ -20298,7 +20756,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-476d0850f4ffce468fed",
@@ -20311,7 +20770,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-a9a50238d2f6ccaa596c",
@@ -20324,7 +20784,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-dc595a7b99b7b9bf70a5",
@@ -20337,7 +20798,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-3c64cfade1c24d3823d1",
@@ -20350,7 +20812,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-fadaa47940e41b5821cc",
@@ -20363,7 +20826,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-c3c8dc4835ba1945153b",
@@ -20376,7 +20840,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-f305ea0a6b47d382e804",
@@ -20389,7 +20854,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-af4c879fc95bcb03fedf",
@@ -20402,7 +20868,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-7a02dca0d73d640dc24a",
@@ -20415,7 +20882,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-5d0aad15bc2892f0ee78",
@@ -20428,7 +20896,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-eaa5c36a493b2f058725",
@@ -20441,7 +20910,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-45b891c034df8e4f6aa2",
@@ -20454,7 +20924,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-0e05680d60f49f6b5d5c",
@@ -20467,7 +20938,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-44530cb92e04039508d4",
@@ -20480,7 +20952,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-46312ede1b4e64983616",
@@ -20493,7 +20966,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-37a90f86c250798399e9",
@@ -20506,7 +20980,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-f00888ff519889ec83a8",
@@ -20519,7 +20994,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-ab96a35fbcbbd5a6d7e5",
@@ -20532,7 +21008,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-90f4fbe14a95c047b1a6",
@@ -20545,7 +21022,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-5eb56eabf094344e5820",
@@ -20558,7 +21036,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-dd8ee4b2bd1187d3fe30",
@@ -20571,7 +21050,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-5ba77362f92aa5821fd7",
@@ -20584,7 +21064,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-aa1081f2941597a0ad3c",
@@ -20597,7 +21078,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-3e8e4e8708cc9f95c2c7",
@@ -20610,7 +21092,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-2a02975a360916bf9b2d",
@@ -20623,7 +21106,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-d4ccfebda3a5fee47d85",
@@ -20636,7 +21120,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-ed7b6d3b001b95030136",
@@ -20649,7 +21134,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-338b82da2f0bf738324f",
@@ -20662,7 +21148,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-079ebae727f4aa865272",
@@ -20675,7 +21162,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-8307dfcd347b45f8c34c",
@@ -20688,7 +21176,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-d8e5ee8ce6d272a20b00",
@@ -20701,7 +21190,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-19f5800f53f40e04f272",
@@ -20714,7 +21204,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-ac930cb2dfc50c72e7e6",
@@ -20727,7 +21218,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-b595ff763c9e5521e9c4",
@@ -20740,7 +21232,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
-      "workbookStatus": "Modelvermelding"
+      "workbookStatus": "Modelvermelding",
+      "pendingActivity": true
     },
     {
       "id": "excel-2cf7f44acf27ba6baed6",
@@ -23019,7 +23512,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-11bb502a1d872d7e644d",
@@ -23031,7 +23525,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-9c829291e591ee6629fe",
@@ -23043,7 +23538,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-d247dc69950706bcc2ef",
@@ -23055,7 +23551,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-4e3ea59229374d129437",
@@ -23067,7 +23564,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3688f397a94fb03243b0",
@@ -23079,7 +23577,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-8cc6e23d3fe1d9b62fc0",
@@ -23091,7 +23590,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2fc91ef16703c01a9a7e",
@@ -23103,7 +23603,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-fa7bd04342f98c79f279",
@@ -23115,7 +23616,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-9a364cff1e368db85996",
@@ -23127,7 +23629,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-e55ef6cb468568678349",
@@ -23139,7 +23642,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-ab4096ac866fc8ec1be5",
@@ -23151,7 +23655,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-c20aac66a81ec1974ba4",
@@ -23163,7 +23668,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-c8e19482e881ae68f203",
@@ -23175,7 +23681,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2e151d606330da29565e",
@@ -23187,7 +23694,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-f7680c7953f878b23443",
@@ -23199,7 +23707,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2910961bff05ffb91e81",
@@ -23211,7 +23720,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-95a687894ffbcecf40e6",
@@ -23223,7 +23733,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-415ae466fd87136e7e5d",
@@ -23235,7 +23746,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-6ba1b5d96d75c380e2d3",
@@ -23247,7 +23759,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-6fa3cf3f48cb8fbc3b49",
@@ -23259,7 +23772,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-fbece4c34d69bfa92833",
@@ -23271,7 +23785,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-cada03e64439de29e876",
@@ -23283,7 +23798,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Ambrosia",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-64f0e5e0fd2161cdbf3f",
@@ -23295,7 +23811,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-73c2621b05b9d5de1f48",
@@ -23307,7 +23824,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Grassrivers",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-8fb7cd377436879c261e",
@@ -23319,7 +23837,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-5184764ab6e4f651db22",
@@ -23331,7 +23850,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2033eab21fd6aac701ee",
@@ -23343,7 +23863,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-efda1b53afdadd430ac2",
@@ -23355,7 +23876,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-66c255d4ae107c3c2096",
@@ -23367,7 +23889,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-1e33173e6c7c0a2c0dcb",
@@ -23379,7 +23902,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3e59a4a731325675234a",
@@ -23391,7 +23915,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2868215d0e0f924a2f6d",
@@ -23403,7 +23928,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-6cb64273e7d2d71a1027",
@@ -23415,7 +23941,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-818fc848ce542c88254f",
@@ -23427,7 +23954,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-0eb08ee36fd6740b604b",
@@ -23439,7 +23967,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-0b71a4730bbe271b62e2",
@@ -23451,7 +23980,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-0424de49e47d1d872d77",
@@ -23463,7 +23993,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-ccc079fa19c38f4d3cbe",
@@ -23475,7 +24006,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-8131366a13f8ae4f6a25",
@@ -23487,7 +24019,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-81345ce7efac0e0d0101",
@@ -23499,7 +24032,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-604033def192c4e43d0b",
@@ -23511,7 +24045,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-79850e8c962e979f73ac",
@@ -23523,7 +24058,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-8041d9aff7cc54b05350",
@@ -23535,7 +24071,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-0eb7a2330d6fee20afca",
@@ -23547,7 +24084,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-b731f90905165bde0bd6",
@@ -23559,7 +24097,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-995165d224cd8098cbb4",
@@ -23571,7 +24110,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-61e090160d378400cfa9",
@@ -23583,7 +24123,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-462a35f0b87047e2474c",
@@ -23595,7 +24136,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-75661714588e8fb905c6",
@@ -23607,7 +24149,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-c3e1f3dcf6cab3cbf5b6",
@@ -23619,7 +24162,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3a7f9cdb63e32bcc77cd",
@@ -23631,7 +24175,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-77639b0a86a3cc68cf2b",
@@ -23643,7 +24188,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-72b99c732c3b3708a8ae",
@@ -23655,7 +24201,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-60f9875b81356735bc3d",
@@ -23667,7 +24214,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-dcc94c5d80652c1c7c30",
@@ -23679,7 +24227,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-fa9abc7280e6c79cabbb",
@@ -23691,7 +24240,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-0a937c5bbdefa228de41",
@@ -23703,7 +24253,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3005262fe6cc15fec939",
@@ -23715,7 +24266,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-9c333ba6bbd8bf473f09",
@@ -23727,7 +24279,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-45cbbb6fba286c61cdaf",
@@ -23739,7 +24292,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-cb534c76031c07057bd6",
@@ -23751,7 +24305,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-0a6aa34d92dc537308e1",
@@ -23763,7 +24318,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-b920a7ff2a5d7eea0148",
@@ -23775,7 +24331,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3180e04fc147bed567af",
@@ -23787,7 +24344,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-1f8737cb690fc2c249c7",
@@ -23799,7 +24357,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-fb855af38812a83ac0f7",
@@ -23811,7 +24370,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-446a8629d981738d28de",
@@ -23823,7 +24383,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-9390d33d6967d7f0bc0e",
@@ -23835,7 +24396,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-8eef5d792146c20ce880",
@@ -23847,7 +24409,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2cfed806e2009ea9d752",
@@ -23859,7 +24422,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3c79302368b8d22fa79b",
@@ -23871,7 +24435,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-c175ec47de533dc80437",
@@ -23883,7 +24448,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-f26e49f8b2e0ad9a5252",
@@ -23895,7 +24461,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-8dffbf6d784b4dcd69a3",
@@ -23907,7 +24474,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-6c6da62cd91096b47022",
@@ -23919,7 +24487,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-36f0325a83eb979aed5a",
@@ -23931,7 +24500,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-4678e9aaecc968924c8d",
@@ -23943,7 +24513,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-f9c7754d37a36d5e70ea",
@@ -23955,7 +24526,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-5e20c69ea53ad414752d",
@@ -23967,7 +24539,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-c3130fc429f22df26541",
@@ -23979,7 +24552,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-1bcd09da21474d7fc9c6",
@@ -23991,7 +24565,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-4e12d2a101174b6198e6",
@@ -24003,7 +24578,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-bc9c9792ac2e8cbdcfa8",
@@ -24015,7 +24591,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-b104c8670550a0d8fe8f",
@@ -24027,7 +24604,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-67ef25fdb2c4a3ebd5d7",
@@ -24039,7 +24617,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-db27b3c2496298425c53",
@@ -24051,7 +24630,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-a2aaea0884c461110af7",
@@ -24063,7 +24643,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-163c28e19450de2c31ec",
@@ -24075,7 +24656,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-6870c241ed4577b62515",
@@ -24087,7 +24669,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-dcaac98b0c3f4af9665d",
@@ -24099,7 +24682,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3e0a9851454539d9280a",
@@ -24111,7 +24695,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-712e214d58b14ae41771",
@@ -24123,7 +24708,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-8ceae0104e4800809e13",
@@ -24135,7 +24721,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-4db7387ed2aded964b18",
@@ -24147,7 +24734,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-456f78cba9099674c6f0",
@@ -24159,7 +24747,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-195ad5671aeac2b8d835",
@@ -24171,7 +24760,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-08845326b218f8011b88",
@@ -24183,7 +24773,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-426588dc34f0a73877ba",
@@ -24195,7 +24786,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-be2e400f15f63e982055",
@@ -24207,7 +24799,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3332525e14b403f69d18",
@@ -24219,7 +24812,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-02eef7d3e12c8e15cf71",
@@ -24231,7 +24825,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2566d9040685c5c34e9a",
@@ -24243,7 +24838,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-da1815660da908e37595",
@@ -24255,7 +24851,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-1a4f44d821664a2d606d",
@@ -24267,7 +24864,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-cac87175aa729e10d81c",
@@ -24279,7 +24877,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-e30716cfc79cd897cf67",
@@ -24291,7 +24890,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-f00559ae29b01f335913",
@@ -24303,7 +24903,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2c5eb632622cb7de3464",
@@ -24315,7 +24916,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-23fecdf4be4c7e038257",
@@ -24327,7 +24929,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-16a78e394054cae5ebd3",
@@ -24339,7 +24942,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-17fb7343a1680cf78e63",
@@ -24351,7 +24955,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-27823ff578a6ad913147",
@@ -24363,7 +24968,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-a17391cc9247763502cf",
@@ -24375,7 +24981,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-9acc396e4e55b5474027",
@@ -24387,7 +24994,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-440a2a3f04b4f334e7c4",
@@ -24399,7 +25007,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-8820f09373623c34e49d",
@@ -24411,7 +25020,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-8a626eb4a6a4f6377f13",
@@ -24423,7 +25033,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-1afe24b098dd6d2f2560",
@@ -24435,7 +25046,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-f4534a593400bae8b1be",
@@ -24447,7 +25059,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-91c71981260f5a5a1081",
@@ -24459,7 +25072,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-74577878df6e6e4e44dd",
@@ -24471,7 +25085,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-71aa5c0c3dd633cce2f5",
@@ -24483,7 +25098,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-08e3d211e2f688edd183",
@@ -24495,7 +25111,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-f1cdc13e6c347f12fc1d",
@@ -24507,7 +25124,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-052424ea43a8ec387d4e",
@@ -24519,7 +25137,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-b80fc4c9b2d6a19e5dff",
@@ -24531,7 +25150,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-7b6536340f1e6cf9785f",
@@ -24543,7 +25163,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-b753832f132d6acb317b",
@@ -24555,7 +25176,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-f19726f05e14d7f2240b",
@@ -24567,7 +25189,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-aa8e415d3e955b1aa217",
@@ -24579,7 +25202,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-5244f0420f6747028221",
@@ -24591,7 +25215,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-45ea273a2a793e3f968b",
@@ -24603,7 +25228,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-c2726fd7bfa59f3b2804",
@@ -24615,7 +25241,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-bc0f7c45460f0a9a5ee9",
@@ -24627,7 +25254,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-e46d13686e07bd5d2a64",
@@ -24639,7 +25267,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-354a7a19aa0287978c1f",
@@ -24651,7 +25280,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3c6d4c272f967dc9385a",
@@ -24663,7 +25293,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-8ea6bc77a800aeceef59",
@@ -24675,7 +25306,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-6b8d868fb5b0d3e518c1",
@@ -24687,7 +25319,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3aaf98e827878cd4930f",
@@ -24699,7 +25332,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-4e3750072a0e01951b0a",
@@ -24711,7 +25345,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-7780a00167f99ddc75fd",
@@ -24723,7 +25358,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-529f6fd5a4cbb927ccd5",
@@ -24735,7 +25371,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-87d2536330afda81b0c8",
@@ -24747,7 +25384,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-6e8ee3ac400623b56b26",
@@ -24759,7 +25397,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-26e963322ad9b54c3312",
@@ -24771,7 +25410,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-32bacf7f5336e8a14112",
@@ -24783,7 +25423,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-15602e1b09bccb34e04f",
@@ -24795,7 +25436,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-e644d046566bb19773fe",
@@ -24807,7 +25449,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-93fafa89b7f610d02e6c",
@@ -24819,7 +25462,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2f172d5291bf8ed3f8ec",
@@ -24831,7 +25475,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-b500684e9ae3f91be46d",
@@ -24843,7 +25488,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-e79db250fb4bd4512552",
@@ -24855,7 +25501,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-7a710d4a693a7c0f38fe",
@@ -24867,7 +25514,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-27dd56393cc8b489383f",
@@ -24879,7 +25527,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-85d1b843e1a42a872997",
@@ -24891,7 +25540,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-cc89489ef3996de508d0",
@@ -24903,7 +25553,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-99b9bb2fd5980c86caa3",
@@ -24915,7 +25566,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-d8ff48003589efe0149f",
@@ -24927,7 +25579,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-7018c3db62250817fb23",
@@ -24939,7 +25592,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-596c8477199ef8e9c020",
@@ -24951,7 +25605,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2be91f02048cd4fbc64d",
@@ -24963,7 +25618,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2c5742d7547fa945b3eb",
@@ -24975,7 +25631,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-cad3de0cd9addc4e1eb7",
@@ -24987,7 +25644,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-363ad88013258afcceb7",
@@ -24999,7 +25657,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-0df8d8ecb0e717c16884",
@@ -25011,7 +25670,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-eac2531ab3f2fd0f5c65",
@@ -25023,7 +25683,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-f7ac69d1c120a92fba21",
@@ -25035,7 +25696,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-c919ae4556e6a7bd931a",
@@ -25047,7 +25709,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-b0fee8bafaac1598f169",
@@ -25059,7 +25722,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-682bfc4c245b1232251f",
@@ -25071,7 +25735,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-e561f644ec1d4475c6ae",
@@ -25083,7 +25748,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-621dabf4bc5dd8fea0ad",
@@ -25095,7 +25761,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3992ef52518144e9ddbc",
@@ -25107,7 +25774,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-874a88625b2306d54d2f",
@@ -25119,7 +25787,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-7fbc9b1cb069447d1fa0",
@@ -25131,7 +25800,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-4a81ab4576cf13046988",
@@ -25143,7 +25813,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-0e57188ad685559a846d",
@@ -25155,7 +25826,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-ec8e8a16a8b4a5d444ac",
@@ -25167,7 +25839,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-777828c993721783dc4d",
@@ -25179,7 +25852,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-1136367f7e164e330f36",
@@ -25191,7 +25865,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-e1f1e362f190504f82bc",
@@ -25203,7 +25878,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-e5c8c62c123c2ed5b3b6",
@@ -25215,7 +25891,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-cf27635219ca4e731e62",
@@ -25227,7 +25904,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-7a46a62b2b1476e10441",
@@ -25239,7 +25917,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3f9cf76bc34277298689",
@@ -25251,7 +25930,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-bcbe747d44088acf4b11",
@@ -25263,7 +25943,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-26d26238032194a8de72",
@@ -25275,7 +25956,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-d6522283628e3d07fe56",
@@ -25287,7 +25969,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-ad7f9d8c10111df005c7",
@@ -25299,7 +25982,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-636a9fff03224f3b2afb",
@@ -25311,7 +25995,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-67c4374e38a5f5c93b4b",
@@ -25323,7 +26008,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-4885023fdfaed912e746",
@@ -25335,7 +26021,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-079b42c17f171adedfea",
@@ -25347,7 +26034,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-5f1c1fa0dca76da6bc01",
@@ -25359,7 +26047,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-c308c5d011fdfdc83190",
@@ -25371,7 +26060,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-f0a93250ae6f3ae3ace3",
@@ -25383,7 +26073,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-42d81a87f8c8e6b0699e",
@@ -25395,7 +26086,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-167659607a884c7069a8",
@@ -25407,7 +26099,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-d00a3ac14352e0f88358",
@@ -25419,7 +26112,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-445fa85bd6fe2ca82422",
@@ -25431,7 +26125,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-af045a8c312f6e4cc7fe",
@@ -25443,7 +26138,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-f509f4355b85116515a9",
@@ -25455,7 +26151,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-7a5561ccd237c3678fb2",
@@ -25467,7 +26164,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-e9b20305e9018973045d",
@@ -25479,7 +26177,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-6ac78b1acc57b2aa867e",
@@ -25491,7 +26190,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-d151b76be6ece4b037ac",
@@ -25503,7 +26203,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-70d12fdc7ce5db9a8380",
@@ -25515,7 +26216,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-d9fa4fb700f1b502759a",
@@ -25527,7 +26229,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-6bed7dd081427a81dc82",
@@ -25539,7 +26242,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-aa3091d9855fd01a2b10",
@@ -25551,7 +26255,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-8179aad8ee5bee6df549",
@@ -25563,7 +26268,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-a97611a6a21ca8571d2d",
@@ -25575,7 +26281,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-60d3c645e1546d08e367",
@@ -25587,7 +26294,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-be738a26ed8eabfe99f5",
@@ -25599,7 +26307,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-26f853b968551171336b",
@@ -25611,7 +26320,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-8c21569822876059ed77",
@@ -25623,7 +26333,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-26051a8b49dfa9338d02",
@@ -25635,7 +26346,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-24a075d9045694e2e1e1",
@@ -25647,7 +26359,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-b961493325cf1eb8aaae",
@@ -25659,7 +26372,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-a04ac30eee94d616976f",
@@ -25671,7 +26385,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-bca29629f47d062c46b0",
@@ -25683,7 +26398,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-c537e5e51eb635a210b4",
@@ -25695,7 +26411,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-1384f70a38d673a0e1e0",
@@ -25707,7 +26424,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-70cfba7491ff92f054e0",
@@ -25719,7 +26437,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-9540816fcfee5cd0e91d",
@@ -25731,7 +26450,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3728a8697fe7c79da604",
@@ -25743,7 +26463,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2b95029e831d6a951496",
@@ -25755,7 +26476,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-033d96f04cc6dc167e88",
@@ -25767,7 +26489,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-f61fe4b6ceee76f4aabb",
@@ -25779,7 +26502,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-65f466185c3981c7eebf",
@@ -25791,7 +26515,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-b9a74848e8355092fdc3",
@@ -25803,7 +26528,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-de49062dd4c6ab30e625",
@@ -25815,7 +26541,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-66926f1884a46e7ae5a5",
@@ -25827,7 +26554,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-5903ec495a9932a36cde",
@@ -25839,7 +26567,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-ccd133df4f6d3a291f8c",
@@ -25851,7 +26580,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-318b9884cdaa00f4b918",
@@ -25863,7 +26593,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-0541140bbf923d962dde",
@@ -25875,7 +26606,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-fd0076b44234e6a25bf6",
@@ -25887,7 +26619,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-ddbca34faab1c8015b39",
@@ -25899,7 +26632,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-39bbd3ca93e02107e0ee",
@@ -25911,7 +26645,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-10c549996163aac5a12e",
@@ -25923,7 +26658,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2bacddd4a07668709d88",
@@ -25935,7 +26671,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-1fabce97f3718dc3edff",
@@ -25947,7 +26684,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-fb5f9df4d5ae7b2577dd",
@@ -25959,7 +26697,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-a758e691276e2e448d44",
@@ -25971,7 +26710,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-6e3e7a777300f694f79a",
@@ -25983,7 +26723,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3ca119b0524e402b3b17",
@@ -25995,7 +26736,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-a9bf2b3d966df16582c9",
@@ -26007,7 +26749,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-0962c91b62779a2a071e",
@@ -26019,7 +26762,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-45d6068ff27fcebd6f2e",
@@ -26031,7 +26775,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-eaf2ae062e7175cb0e15",
@@ -26043,7 +26788,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-fbf4e61738f8d1c67900",
@@ -26055,7 +26801,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-6a6c5d30184125d8e924",
@@ -26067,7 +26814,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-a406bc182fa587af1d82",
@@ -26079,7 +26827,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-f2983a42ae4863881692",
@@ -26091,7 +26840,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-703e696c13b617444951",
@@ -26103,7 +26853,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-f5268eeef307fe0ad3ec",
@@ -26115,7 +26866,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-011b8981504438936a24",
@@ -26127,7 +26879,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-fa05d2481de5105cc869",
@@ -26139,7 +26892,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-31084579341cc6829fbb",
@@ -26151,7 +26905,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3a8986b8593981f35aca",
@@ -26163,7 +26918,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-5142cb05a31916518711",
@@ -26175,7 +26931,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-48bd6ecd578b2acb4ca8",
@@ -26187,7 +26944,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-aab6d40953db9a57718e",
@@ -26199,7 +26957,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-abfa797c0c6f4fdf6010",
@@ -26211,7 +26970,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-0a054fd7bf8e70e6cea3",
@@ -26223,7 +26983,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-085e2367799d6311b631",
@@ -26235,7 +26996,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-b8aed67db7a4bbe24596",
@@ -26247,7 +27009,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-efc5d965bc2bbbc96092",
@@ -26259,7 +27022,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-40b65476d8ed1a64335c",
@@ -26271,7 +27035,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-d7b3d082bc9baba92af7",
@@ -26283,7 +27048,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-1c31b69bf62620208d69",
@@ -26295,7 +27061,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-8b6257c8403deb6aac2f",
@@ -26307,7 +27074,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-c8a1179e9c2ac07ca7cf",
@@ -26319,7 +27087,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-9f653972ff7e4e4aef45",
@@ -26331,7 +27100,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3315f6fc559be367900d",
@@ -26343,7 +27113,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-39cf6678391e3794d0b7",
@@ -26355,7 +27126,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-66839c35cc4c10d822d6",
@@ -26367,7 +27139,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-a6172ab9638abaa78a82",
@@ -26379,7 +27152,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-bd325df5b842e2be8e38",
@@ -26391,7 +27165,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-173552ae4691b0ebe90c",
@@ -26403,7 +27178,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-e94280cbd3a9f3e157d4",
@@ -26415,7 +27191,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-24d34d96c05ddd809bde",
@@ -26427,7 +27204,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-80f3feeb0b2b807dffe9",
@@ -26439,7 +27217,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-a269f54c2e945e9d0714",
@@ -26451,7 +27230,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-99fbd89ba813fd2e5b97",
@@ -26463,7 +27243,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-9d5c67e528b5fde1451f",
@@ -26475,7 +27256,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-9c958706b35c0bc779f4",
@@ -26487,7 +27269,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-8917784f9438d35ef2c6",
@@ -26499,7 +27282,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-e91ebc55c8374e4593d1",
@@ -26511,7 +27295,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-4d72976f54b00cb34375",
@@ -26523,7 +27308,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-03f3e787215c8ff51ca9",
@@ -26535,7 +27321,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-67040d5c82259823d0ac",
@@ -26547,7 +27334,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-d68c53a6a955ff6269d1",
@@ -26559,7 +27347,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-b9751417e3cac123dfd5",
@@ -26571,7 +27360,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-732fc47196acac9d480f",
@@ -26583,7 +27373,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-64284a2ac9af2e2890a6",
@@ -26595,7 +27386,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-34ca4c83461dc686d9e5",
@@ -26607,7 +27399,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-8160317e1db81a694c67",
@@ -26619,7 +27412,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-fda3295d27a27cf1ca73",
@@ -26631,7 +27425,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-25d82013f786022e4777",
@@ -26643,7 +27438,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-c8b4dbe7fdcae21636c8",
@@ -26655,7 +27451,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-63e3a4f6e09dc275b8ec",
@@ -26667,7 +27464,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-08923962a3432114c5d4",
@@ -26679,7 +27477,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-0471ceb657dbf225b9ed",
@@ -26691,7 +27490,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-ee084a12cabdedbad0de",
@@ -26703,7 +27503,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-ede90c353822d4c5443f",
@@ -26715,7 +27516,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2cb3cd4ba10480747b71",
@@ -26727,7 +27529,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-aab211506abcd0d1072b",
@@ -26739,7 +27542,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-9a247ba2d3ca260b5857",
@@ -26751,7 +27555,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-c47105dbbdfd60631e7c",
@@ -26763,7 +27568,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-f8a6baf8aa4260bf5a1f",
@@ -26775,7 +27581,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-d03b559ffe9d338e5c5e",
@@ -26787,7 +27594,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-c0cd092fd1beb0c9a99d",
@@ -26799,7 +27607,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-03d6d5889bbce9516344",
@@ -26811,7 +27620,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-f7644f5725b732d3453d",
@@ -26823,7 +27633,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-cc82ef4030c1416cbe72",
@@ -26835,7 +27646,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Locatie volgens bron",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2a696a884e5578c03bc0",
@@ -26847,7 +27659,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-bb247b01968939c93902",
@@ -26859,7 +27672,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-1b12f2f205b9415a8c51",
@@ -26871,7 +27685,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-6c17e27eae2842576537",
@@ -26883,7 +27698,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2579ecfbf699a5869b38",
@@ -26895,7 +27711,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-b2e06507d05e306abedf",
@@ -26907,7 +27724,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-7f82de43a2a2a47af2d6",
@@ -26919,7 +27737,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-52542dead01631a012ed",
@@ -26931,7 +27750,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-44fd43db25c659e53942",
@@ -26943,7 +27763,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Grassrivers",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-8c2d7df066acfa76eaeb",
@@ -26955,7 +27776,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-bad677b7a667bf05d3bf",
@@ -26967,7 +27789,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-1b71269a7dc9f3b85be0",
@@ -26979,7 +27802,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-4901f2e72f554a6b178a",
@@ -26991,7 +27815,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonida Keys",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-0c09010bcab7fa038aeb",
@@ -27003,7 +27828,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3c1dc0b5ef5d2fd966ad",
@@ -27015,7 +27841,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-bc9196251105f771c344",
@@ -27027,7 +27854,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-503fed1cf107bcb7af55",
@@ -27039,7 +27867,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-c54621cc52397e23e8bc",
@@ -27051,7 +27880,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-c94cf220f6f55b9d568e",
@@ -27063,7 +27893,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-7ae0d1d25604951d3a63",
@@ -27075,7 +27906,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-a31711dcd13e005e3481",
@@ -27087,7 +27919,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-880bf887a92fcc526113",
@@ -27099,7 +27932,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-d956b6ee501a5a49fe65",
@@ -27111,7 +27945,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-cf4f27f3184385b51efa",
@@ -27123,7 +27958,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-1c807fa53394903a2b16",
@@ -27135,7 +27971,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-00b300dc5bf15b9a9ff3",
@@ -27147,7 +27984,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-b858a03d518119995b7c",
@@ -27159,7 +27997,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3a911317f1442c470772",
@@ -27171,7 +28010,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-ab3dd7935f411883e4cf",
@@ -27183,7 +28023,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-bf14c47b8e98f969e910",
@@ -27195,7 +28036,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-03d90729ab1d7b448ece",
@@ -27207,7 +28049,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-b4bc5aff6da90faaa806",
@@ -27219,7 +28062,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-9717d0cf06f355112607",
@@ -27231,7 +28075,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-ecbd44ade247539d9d3b",
@@ -27243,7 +28088,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-b4c8dfe3245afc7087f9",
@@ -27255,7 +28101,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-dbe7c4b89b1ab93c4ed7",
@@ -27267,7 +28114,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-bc876cd2214c4517fc21",
@@ -27279,7 +28127,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3ffeb380acb26b9d8beb",
@@ -27291,7 +28140,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-df4d9a32d7a97b6996e2",
@@ -27303,7 +28153,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-03bf6cab141f6fe0601c",
@@ -27315,7 +28166,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-c85b6d2eb3154ca92b4e",
@@ -27327,7 +28179,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-23094630799e60cf314a",
@@ -27339,7 +28192,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-69a55c94ab85d866c124",
@@ -27351,7 +28205,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-414b0b3e38455a94dcf8",
@@ -27363,7 +28218,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3ef73288bd3115a45695",
@@ -27375,7 +28231,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-c71f48c777109c0fca60",
@@ -27387,7 +28244,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-59b8fc831cca0aa84fc2",
@@ -27399,7 +28257,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-123abb4368ef013f4929",
@@ -27411,7 +28270,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-7deb50efbd990f04a7be",
@@ -27423,7 +28283,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-ef615e241440cb2d0553",
@@ -27435,7 +28296,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-73859088cb78369edfb3",
@@ -27447,7 +28309,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-6764f1d741a09061572b",
@@ -27459,7 +28322,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-37cc8c392fb4b9d56f08",
@@ -27471,7 +28335,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-56ebc84329e5c3ebfab1",
@@ -27483,7 +28348,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-6c0967d9a15b0bb3aa71",
@@ -27495,7 +28361,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-a02c5fb829075d7fb106",
@@ -27507,7 +28374,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga National Park",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-172977b0e2a89ae1b8b1",
@@ -27519,7 +28387,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-c31e7b10a718c21ed241",
@@ -27531,7 +28400,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-f2813894d433f7c48cf0",
@@ -27543,7 +28413,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2b076fac5b511e50aa01",
@@ -27555,7 +28426,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-3f0f40be17e790e3b099",
@@ -27567,7 +28439,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-e3803e6763f1af06b5f0",
@@ -27579,7 +28452,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-0b412da68340072398cc",
@@ -27591,7 +28465,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-75aceccb75abfea24dfa",
@@ -27603,7 +28478,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-dc755d3009d9151b0ace",
@@ -27615,7 +28491,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-d2add7d107a358f83088",
@@ -27627,7 +28504,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-97687586244d681f8448",
@@ -27639,7 +28517,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-13f7bff4a97260759bb5",
@@ -27651,7 +28530,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-7875c2f0decd33394b7f",
@@ -27663,7 +28543,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-2f32ed33ca797ea660c7",
@@ -27675,7 +28556,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-1a01250539326fa899cc",
@@ -27687,7 +28569,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-cbea61755a04416d8006",
@@ -27699,7 +28582,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-be374048e6077879c784",
@@ -27711,7 +28595,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-6d02b4607bd52e9ef27a",
@@ -27723,7 +28608,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-507773cba117a96665ed",
@@ -27735,7 +28621,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-9d86fca35632557fc491",
@@ -27747,7 +28634,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-c6781e96a362388d1b14",
@@ -27759,7 +28647,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-98cf947e2f893ac8c141",
@@ -27771,7 +28660,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vice City",
       "detail": "Zoek deze naam of dit nummer op de bronkaart.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "pendingActivity": true
     },
     {
       "id": "excel-bcc32b50c5cefcc0ec97",
@@ -29682,7 +30572,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%231",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-8d1dc69382211ca01d51",
@@ -29697,7 +30588,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%232",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-dd44050f97ed5df5569f",
@@ -29712,7 +30604,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%233",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-13ad30c0f9bcbb41a839",
@@ -29727,7 +30620,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%234",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-c53317e95a64e3666598",
@@ -29742,7 +30636,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%235",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-5018f3288f1172ddf555",
@@ -29757,7 +30652,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%236",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-fe38bc0ce4c94ce25ff5",
@@ -29772,7 +30668,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%237",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-54cfd389800df9078417",
@@ -29787,7 +30684,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%238",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-c1e774a6c1905f0a87fe",
@@ -29802,7 +30700,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%239",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-4c26a745a67ddec04437",
@@ -29817,7 +30716,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2310",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-be25b3ea90037972ecd6",
@@ -29832,7 +30732,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2311",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-e5e02c65a120f4b93a07",
@@ -29847,7 +30748,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2312",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-59d2db9f5bbfc5b5894a",
@@ -29862,7 +30764,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2313",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-364523ff87d1abad0b78",
@@ -29877,7 +30780,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2314",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-f4d4bd9589e31fe92e1c",
@@ -29892,7 +30796,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2315",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-750f97aaf2e2b64f4282",
@@ -29907,7 +30812,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2316",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-1b1981ca1faa63a90cf1",
@@ -29922,7 +30828,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2317",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-30fbaf6b5d3fda5e23df",
@@ -29937,7 +30844,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2318",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-a667b879330df2ccfe52",
@@ -29952,7 +30860,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2319",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-4a0366b8cf12b186cccd",
@@ -29967,7 +30876,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2320",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-77ef87fa1394104d011e",
@@ -29982,7 +30892,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2321",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-8af110e0cdb739d48e37",
@@ -29997,7 +30908,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2322",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-ea59820025ca9c45685e",
@@ -30012,7 +30924,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2323",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-ca1196e1b632f4986a3d",
@@ -30027,7 +30940,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2324",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-07386cb517ab84bb02c8",
@@ -30042,7 +30956,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2325",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-26bf14ecc8150e8971d4",
@@ -30057,7 +30972,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2326",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-b341077b5b8de5fafb08",
@@ -30072,7 +30988,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2327",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-ce7bdb98a8e77ef84d50",
@@ -30087,7 +31004,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2328",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-d3c2fa088fc409d803ed",
@@ -30102,7 +31020,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2329",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-26c123c6efe1fa3912e3",
@@ -30117,7 +31036,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2330",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-6e12d571c0ee788bcdc5",
@@ -30132,7 +31052,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2331",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-7e9ad3bdb76bc1a9c8c8",
@@ -30147,7 +31068,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2332",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-d4f2453396a7eee4d6d9",
@@ -30162,7 +31084,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2333",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-b0a3cf3628aa3e61299b",
@@ -30177,7 +31100,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2334",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-7de3a59d2ea57f9538d6",
@@ -30192,7 +31116,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2335%2C%20%2336%2C%20%2337%2C%20%2338",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-7b29dfe339bb753f04a8",
@@ -30207,7 +31132,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2335%2C%20%2336%2C%20%2337%2C%20%2338",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-bfda7e21ec1924cb6017",
@@ -30222,7 +31148,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2335%2C%20%2336%2C%20%2337%2C%20%2338",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-800e6117e3d32ede53e1",
@@ -30237,7 +31164,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2335%2C%20%2336%2C%20%2337%2C%20%2338",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-9b5058f7e43f9287f34e",
@@ -30252,7 +31180,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2339",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-c378081c4e0430ccff94",
@@ -30267,7 +31196,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2340",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-1ab56753fb7be9f0c382",
@@ -30282,7 +31212,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2341",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-600083d311ff7184a860",
@@ -30297,7 +31228,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2342",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-60076b3c47ff0499639c",
@@ -30312,7 +31244,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2343",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-580eb845d81e14f67671",
@@ -30327,7 +31260,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2344%2C%20%2345%2C%20%2346%2C%20%2347",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-aafcfbe912995d57ce36",
@@ -30342,7 +31276,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2344%2C%20%2345%2C%20%2346%2C%20%2347",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-4b386e84ff3317150b6a",
@@ -30357,7 +31292,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2344%2C%20%2345%2C%20%2346%2C%20%2347",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-bc499921a660a7ace4f9",
@@ -30372,7 +31308,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2344%2C%20%2345%2C%20%2346%2C%20%2347",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-aca91dfe47de559038c3",
@@ -30387,7 +31324,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2348",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-f7b1edbb93f200a4280b",
@@ -30402,7 +31340,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2349",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-8f76f036c8f165f57160",
@@ -30417,7 +31356,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2350",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-fbb3f2e0873ff8168541",
@@ -30432,7 +31372,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2351",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-464962e82204a1667617",
@@ -30447,7 +31388,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2352",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-5a095326271198d2fb94",
@@ -30462,7 +31404,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2353",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-0f413528541e90012989",
@@ -30477,7 +31420,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2354",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-5766b6a2aabb4b284003",
@@ -30492,7 +31436,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2355%2C%20%2356%2C%20%2357",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-4bd7bf70300e3781d3e6",
@@ -30507,7 +31452,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2355%2C%20%2356%2C%20%2357",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-87838cc8cab63c3325a8",
@@ -30522,7 +31468,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2355%2C%20%2356%2C%20%2357",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-0c2a9d75298815c4585a",
@@ -30537,7 +31484,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2358",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-f4b6f944ff6764d12065",
@@ -30552,7 +31500,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2359",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-6d2a24ec0bd999082d94",
@@ -30567,7 +31516,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2360%2C%20%2361",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-32f889e757841db28094",
@@ -30582,7 +31532,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2360%2C%20%2361",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-d335d5d57e0f6dd517fa",
@@ -30597,7 +31548,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2362",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-6b8980d88dea534f3034",
@@ -30612,7 +31564,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2363",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-e034885451d6717e1e35",
@@ -30627,7 +31580,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2364",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-4659fada5bcfd333e23c",
@@ -30642,7 +31596,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2365%2C%20%2366",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-d6380ef34c877b659bd2",
@@ -30657,7 +31612,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2365%2C%20%2366",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-618f7b239bf9241651cc",
@@ -30672,7 +31628,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2367",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-61bc4de3ce223da421a3",
@@ -30687,7 +31644,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2368",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-f862fbc21aed82198a84",
@@ -30702,7 +31660,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2369",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-d3d7e5703db92ab141ff",
@@ -30717,7 +31676,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2370%2C%20%2371%2C%20%2372%2C%20%2373",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-b892d4f36f2f2190d7d8",
@@ -30732,7 +31692,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2370%2C%20%2371%2C%20%2372%2C%20%2373",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-e619d04c4bd585b9f67a",
@@ -30747,7 +31708,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2370%2C%20%2371%2C%20%2372%2C%20%2373",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-fb34cfcfec1633399d69",
@@ -30762,7 +31724,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2370%2C%20%2371%2C%20%2372%2C%20%2373",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-550758a64be37468da21",
@@ -30777,7 +31740,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2374",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-e058c1c5a222b313b595",
@@ -30792,7 +31756,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2375",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-e2fa2396ca4c19dc5b06",
@@ -30807,7 +31772,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2376",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-358f18d4dd8f292ab059",
@@ -30822,7 +31788,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2377",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-cc25ca219956b805c823",
@@ -30837,7 +31804,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2378",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-4bdc989fbb031d255383",
@@ -30852,7 +31820,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2379",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-84d0b04fd856f113f999",
@@ -30867,7 +31836,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2380",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-cf5bc3f3d3f674f394f4",
@@ -30882,7 +31852,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2381",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-9205e77d78fb4600d5a3",
@@ -30897,7 +31868,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2382",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-89e03befd7ceb4664ae8",
@@ -30912,7 +31884,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2383",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-18bbd7e53cafebfe7ad3",
@@ -30927,7 +31900,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2384%2C%20%2385",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-caf723fece8616300f0c",
@@ -30942,7 +31916,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2384%2C%20%2385",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-1b93542a568ec3c6326b",
@@ -30957,7 +31932,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2386",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-627228fa5b69e958673e",
@@ -30972,7 +31948,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2387",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-c83e0c7d0bf4a7407650",
@@ -30987,7 +31964,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2388",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-23b9479e55b23cc9e732",
@@ -31002,7 +31980,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2389%2C%20%2390%2C%20%2391%2C%20%2392",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-4271ba17320522c1ac8f",
@@ -31017,7 +31996,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2389%2C%20%2390%2C%20%2391%2C%20%2392",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-c29ae0e95f11ac7855f4",
@@ -31032,7 +32012,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2389%2C%20%2390%2C%20%2391%2C%20%2392",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-349875347977ee669a9e",
@@ -31047,7 +32028,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2389%2C%20%2390%2C%20%2391%2C%20%2392",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-b1cb2330497377d30567",
@@ -31062,7 +32044,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2393",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-fa0ff95b2f9a3508f621",
@@ -31077,7 +32060,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2394",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-533b17d12b09449a5f3a",
@@ -31092,7 +32076,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2395",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-5951ecd0af32f3ba6130",
@@ -31107,7 +32092,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2396",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-10db25598c1ba3ad7af7",
@@ -31122,7 +32108,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2397",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-16ebc1eb9d640e4cea77",
@@ -31137,7 +32124,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2398",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-ce197d9609098f2f4845",
@@ -31152,7 +32140,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%2399",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-d6d7aacf32c56a1b3a85",
@@ -31167,7 +32156,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "www.powerpyx.com",
       "extraSource": "https://www.powerpyx.com/gta-6-all-basketball-hoop-locations/#:~:text=Basketball%20Hoop%20%23100",
       "extraSourceLabel": "Kaart of route",
-      "workbookStatus": "Locatie beschreven"
+      "workbookStatus": "Locatie beschreven",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-43b83627ac5011df698b",
@@ -31178,7 +32168,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vogels",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-a1f989fb03d4f1c7cc03",
@@ -31189,7 +32180,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vogels",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-d9c5d15554dcc3949d4f",
@@ -31200,7 +32192,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vogels",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-2fb68ac2348c0bcbbe72",
@@ -31211,7 +32204,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-1c25747709dfab9c3e51",
@@ -31222,7 +32216,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-0bd88dfcd8ef8c8cc457",
@@ -31233,7 +32228,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-9e15d52efabfa7690f97",
@@ -31244,7 +32240,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-3ee6d4c8c00eb588acd1",
@@ -31255,7 +32252,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-e6a80a58d3ddfe04bda8",
@@ -31266,7 +32264,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-e2f4fb820f0eb40311f1",
@@ -31277,7 +32276,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-7387789a1c51e0410e66",
@@ -31288,7 +32288,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-faefe07cc11f3966494e",
@@ -31299,7 +32300,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-b6651ffbc6d5e198b2b8",
@@ -31310,7 +32312,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-f264bd0d749f1b53aa18",
@@ -31321,7 +32324,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-f708ee848449bee46631",
@@ -31332,7 +32336,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-a344adaa39ac8d50ee30",
@@ -31343,7 +32348,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-06c964ee66667a33eeb9",
@@ -31354,7 +32360,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-cae455ed9a3b3d722875",
@@ -31365,7 +32372,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-0ff6d7e3477c3bc98255",
@@ -31376,7 +32384,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-5fb22a6c82eb6a97496a",
@@ -31387,7 +32396,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-bd443da35a7f14350cec",
@@ -31398,7 +32408,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-ee38230502ec8963ddc7",
@@ -31409,7 +32420,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-84cb59cbdc09a5ee06fb",
@@ -31420,7 +32432,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-77bc226c62c5b2df454b",
@@ -31431,7 +32444,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-6c8db84ee566557dd1cc",
@@ -31442,7 +32456,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-93361d22e8c5e8d467ec",
@@ -31453,7 +32468,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-db1da349bb63856ac479",
@@ -31464,7 +32480,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-d48f4dd496c9c5f4926f",
@@ -31475,7 +32492,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-2f93f93935bfed5956c2",
@@ -31486,7 +32504,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-08181ff7ef5ac58dc62e",
@@ -31497,7 +32516,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-135296df4d0717355bef",
@@ -31508,7 +32528,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-59d6eb4188b0dcbde390",
@@ -31519,7 +32540,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-746188a7f344ef4e33ac",
@@ -31530,7 +32552,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-7324e958fd019b1b2793",
@@ -31541,7 +32564,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-33c6fbe93f946aa29800",
@@ -31552,7 +32576,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-d827f56b733022b6aeb3",
@@ -31563,7 +32588,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-24ce9d7c47e70c2096cd",
@@ -31574,7 +32600,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-812d4d08cf372e62a3b9",
@@ -31585,7 +32612,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-b3de91fc5acf7ff95e29",
@@ -31596,7 +32624,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Wilde zoogdieren",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-f7d4b4aa110435988be5",
@@ -31607,7 +32636,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Honden",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-56b9139a8051fb920677",
@@ -31618,7 +32648,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Honden",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-c4b84b916670f0ff5285",
@@ -31629,7 +32660,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Honden",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-aa8c761e58ff54f218d3",
@@ -31640,7 +32672,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Honden",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-78801390bd201e0aefb3",
@@ -31651,7 +32684,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Honden",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-3bd6b96169f87f30aa30",
@@ -31662,7 +32696,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Honden",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-5c3c817d47bfe18e1daa",
@@ -31673,7 +32708,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Honden",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-d2021fd9915a4d835d91",
@@ -31684,7 +32720,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Honden",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-e1562989b94f78dc770e",
@@ -31695,7 +32732,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Katten",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-b8b11aef2bb17cd325ee",
@@ -31706,7 +32744,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Katten",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-5175542bc8e0e6d893d9",
@@ -31717,7 +32756,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Katten",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-3f77ac1811ffe183c4b6",
@@ -31728,7 +32768,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Katten",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-ae70a895f7a82987595a",
@@ -31739,7 +32780,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Katten",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-4ceb6820f13b37297502",
@@ -31750,7 +32792,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Katten",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-bb54a8d5190bc2d3912c",
@@ -31761,7 +32804,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Katten",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-e176cf8671720e8bc2cf",
@@ -31772,7 +32816,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Reptielen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-024f341c0feaadaf7190",
@@ -31783,7 +32828,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Reptielen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-6081c5fa1e242ba19d72",
@@ -31794,7 +32840,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Reptielen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-d3b4d2ebca9a6e2574e6",
@@ -31805,7 +32852,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Haaien en roggen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-f896921f14baac528ea9",
@@ -31816,7 +32864,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Zeezoogdieren",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-70b28a6b4ead9f3ab56b",
@@ -31827,7 +32876,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Overige vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-animal-daa7fad33da933664373",
@@ -31838,7 +32888,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": null,
       "sourceLocation": "Overige vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
-      "source": "https://gta6gang.com/guides/gta6-animals-list.html"
+      "source": "https://gta6gang.com/guides/gta6-animals-list.html",
+      "pendingActivity": true
     },
     {
       "id": "excel-dive-aba030dae3ef6b14492a",
@@ -32163,7 +33214,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/basketball-hoops-checklist/",
       "sourceName": "game-checklists.com",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "pendingActivity": true
     },
     {
       "id": "excel-10cb0db263db6771104a",
@@ -32176,7 +33228,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/basketball-hoops-checklist/",
       "sourceName": "game-checklists.com",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "pendingActivity": true
     },
     {
       "id": "excel-1cb6eee233d231bab6d0",
@@ -32189,7 +33242,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/basketball-hoops-checklist/",
       "sourceName": "game-checklists.com",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "pendingActivity": true
     },
     {
       "id": "excel-6e61fe640c4f9d747c2d",
@@ -32202,7 +33256,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/basketball-hoops-checklist/",
       "sourceName": "game-checklists.com",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "pendingActivity": true
     },
     {
       "id": "excel-911efb6895d13b84c040",
@@ -32215,7 +33270,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/basketball-hoops-checklist/",
       "sourceName": "game-checklists.com",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "pendingActivity": true
     },
     {
       "id": "excel-a2c19bd8a1784797727c",
@@ -32228,7 +33284,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/basketball-hoops-checklist/",
       "sourceName": "game-checklists.com",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "pendingActivity": true
     },
     {
       "id": "excel-59746269231d9218cff2",
@@ -32241,7 +33298,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/basketball-hoops-checklist/",
       "sourceName": "game-checklists.com",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "pendingActivity": true
     },
     {
       "id": "excel-00d1a6d8d84d403ece69",
@@ -32254,7 +33312,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/basketball-hoops-checklist/",
       "sourceName": "game-checklists.com",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "pendingActivity": true
     },
     {
       "id": "excel-584b3531fd678e0d2f10",
@@ -32267,7 +33326,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Vice City",
       "source": "https://game-checklists.com/gta6/basketball-hoops-checklist/",
       "sourceName": "game-checklists.com",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "pendingActivity": true
     },
     {
       "id": "excel-4c66cea8ff19067378ac",
@@ -32280,7 +33340,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Vice City",
       "source": "https://game-checklists.com/gta6/basketball-hoops-checklist/",
       "sourceName": "game-checklists.com",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "pendingActivity": true
     },
     {
       "id": "excel-8036fc1fa901110db153",
@@ -32293,7 +33354,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Vice City",
       "source": "https://game-checklists.com/gta6/basketball-hoops-checklist/",
       "sourceName": "game-checklists.com",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "pendingActivity": true
     },
     {
       "id": "excel-f8d3618defb76622a536",
@@ -32306,7 +33368,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Vice City",
       "source": "https://game-checklists.com/gta6/basketball-hoops-checklist/",
       "sourceName": "game-checklists.com",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "pendingActivity": true
     },
     {
       "id": "excel-c506cfb874f30e1a3c80",
@@ -32319,7 +33382,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Vice City",
       "source": "https://game-checklists.com/gta6/basketball-hoops-checklist/",
       "sourceName": "game-checklists.com",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "pendingActivity": true
     },
     {
       "id": "excel-f803c86f9e56f7aea9a0",
@@ -32332,7 +33396,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Mount Kalaga National Park",
       "source": "https://game-checklists.com/gta6/basketball-hoops-checklist/",
       "sourceName": "game-checklists.com",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "pendingActivity": true
     },
     {
       "id": "excel-093d6d62b938179f6f70",
@@ -32345,7 +33410,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Leonard County",
       "source": "https://game-checklists.com/gta6/basketball-hoops-checklist/",
       "sourceName": "game-checklists.com",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "pendingActivity": true
     },
     {
       "id": "excel-7a2c703e392d9c6c8e98",
@@ -32358,7 +33424,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Port Gellhorn",
       "source": "https://game-checklists.com/gta6/basketball-hoops-checklist/",
       "sourceName": "game-checklists.com",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "pendingActivity": true
     },
     {
       "id": "excel-bc123a9a1c122e496337",
@@ -32371,7 +33438,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Port Gellhorn",
       "source": "https://game-checklists.com/gta6/basketball-hoops-checklist/",
       "sourceName": "game-checklists.com",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "pendingActivity": true
     },
     {
       "id": "excel-ef6efe7e9d19f58b66c2",
