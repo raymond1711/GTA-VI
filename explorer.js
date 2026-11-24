@@ -186,11 +186,14 @@
    const id=input.dataset.collectRecord;
    model.checked=input.checked?[...new Set([...model.checked,id])]:model.checked.filter(value=>value!==id);
    persist();
-   if(!collectibles.querySelector('#collect-missing').checked){
-    renderCollectibles();
-    collectibles.querySelector('[data-collect-record="'+id+'"]')?.focus();
-    return;
+   const top=window.scrollY,wasFocused=document.activeElement===input;
+   renderCollectibles();
+   if(wasFocused){
+    const replacement=[...collectibles.querySelectorAll('[data-collect-record]')].find(node=>node.dataset.collectRecord===id);
+    replacement?.focus({preventScroll:true});
    }
+   if(window.scrollY!==top)window.scrollTo({top,behavior:'instant'});
+   return;
   }
   renderCollectibles();
  });
@@ -239,7 +242,38 @@
   if(!groups)list.innerHTML='<p class="no-items">Nog geen ontdekkingen vastgelegd voor dit gebied en hoofdstuk. Je kunt alvast een eigen vondst toevoegen.</p>';
   target.querySelector('#add-discovery').onclick=()=>openEditor(area.id);
  }
- explore.addEventListener('change',e=>{if(!e.target.matches('[data-record]'))return;const id=e.target.dataset.record,on=e.target.checked;if(ids.has(id)){state.checked=on?[...new Set([...state.checked,id])]:state.checked.filter(x=>x!==id);save();render()}else{model.checked=on?[...new Set([...model.checked,id])]:model.checked.filter(x=>x!==id);persist()}renderExplore()});
+ function refreshExploreChecks(id,on){
+  for(const checkbox of explore.querySelectorAll('[data-record]')){
+   if(checkbox.dataset.record===id)checkbox.checked=on;
+  }
+  const all=records(), selected=checked();
+  explore.querySelector('#chapter-stats').innerHTML=meter(core.chapter(all,model.chapter),'Hoofdstuk '+model.chapter)+
+   '<small>Eenmalig aan dit hoofdstuk toegewezen, inclusief vastgelegde hoofdmissies.</small>';
+  const areaMeter=explore.querySelector('.area-meter');
+  if(areaMeter){
+   const areaItems=all.filter(item=>item.area===model.area||item.extraArea===model.area);
+   const p=core.progress(areaItems,selected);
+   areaMeter.querySelector('strong').textContent=label(p);
+   areaMeter.querySelector('.neutral-track div').style.width=(p.percent??0)+'%';
+  }
+  for(const details of explore.querySelectorAll('details[data-category]')){
+   const p=core.progress(core.category(all,details.dataset.category),selected);
+   details.querySelector('.mini-progress strong').textContent=label(p);
+   details.querySelector('.mini-progress .neutral-track div').style.width=(p.percent??0)+'%';
+  }
+ }
+ explore.addEventListener('change',e=>{
+  if(!e.target.matches('[data-record]'))return;
+  const id=e.target.dataset.record,on=e.target.checked;
+  if(ids.has(id)){
+   state.checked=on?[...new Set([...state.checked,id])]:state.checked.filter(x=>x!==id);
+   save();baseUpdate();
+  }else{
+   model.checked=on?[...new Set([...model.checked,id])]:model.checked.filter(x=>x!==id);
+   persist();
+  }
+  refreshExploreChecks(id,on);
+ });
  function renderOverview(){const all=records(),p=core.progress(all,checked());const chapters=[...new Set([model.chapter,...all.filter(x=>x.chapter<=model.chapter).map(x=>x.chapter)])].sort((a,b)=>a-b);overview.innerHTML=`<div class="overview-heading"><p class="eyebrow">JOUW REIS IN CIJFERS</p><h1>Voortgang</h1></div><div class="progress-hero"><p class="eyebrow">APP-VOLTOOIING</p><strong class="big-percent">${label(p)}</strong><p>${p.done} van ${p.total} unieke onderdelen afgevinkt</p><div class="neutral-track"><div style="width:${p.percent??0}%"></div></div></div><p class="app-scope">Dit is de voortgang van alle onderdelen in jouw app, geen officieel spelpercentage. De gids bevat een selectie voor hoofdstuk 1 t/m 4. Algemene punten en locaties waarvan het kaartgebied nog niet bevestigd is, staan ook in de overzichten boven de kaart. Nieuwe onderdelen vergroten het totaal. Latere hoofdstukken tellen wel mee in gebieds-, categorie- en app-totalen, maar hun namen en details blijven verborgen.</p><div class="progress-columns"><section class="progress-group"><h2>Hoofdstukken</h2>${chapters.map(n=>meter(core.chapter(all,n),'Hoofdstuk '+n)).join('')}<p class="scope-note">Alleen hoofdstukken tot en met jouw keuze worden getoond.</p></section><section class="progress-group"><h2>Gebieden</h2>${areas.map(a=>meter(core.area(all,a.id),a.name)).join('')}${meter(all.filter(x=>!x.area),'Algemeen / regio nog onbevestigd')}</section><section class="progress-group"><h2>Categorieën</h2>${types.map(t=>meter(core.category(all,t.id),t.name)).join('')}</section></div><p class="overview-footer">Eén vinkje werkt door in alle bijbehorende overzichten. Introductie en Verkennen delen hun vinkjes. Een streepje betekent dat er nog geen onderdelen zijn vastgelegd.</p>`;}
  function openEditor(area){const form=editor.querySelector('form');form.reset();form.elements.area.value=area||areas[0].id;form.elements.chapter.value=model.chapter;editor.querySelector('#entry-error').textContent='';editor.showModal();}
  editor.querySelector('#close-editor').onclick=()=>editor.close();editor.querySelector('form').onsubmit=e=>{e.preventDefault();const form=e.target,values=new FormData(form);const item={id:'custom-'+crypto.randomUUID(),title:String(values.get('title')).trim(),detail:String(values.get('detail')).trim(),area:String(values.get('area')),category:String(values.get('category')),chapter:Number(values.get('chapter')),source:String(values.get('source')).trim(),type:'personal'};try{const next=validModel({...model,custom:[...model.custom,item]});const previous=model;model=next;if(!persist()){model=previous;throw Error('Opslag is niet beschikbaar.')}editor.close();renderExplore();notify('Eigen ontdekking toegevoegd.')}catch(err){editor.querySelector('#entry-error').textContent=err.message}};
