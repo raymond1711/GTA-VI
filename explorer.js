@@ -68,13 +68,13 @@
    const row=document.createElement('article');
    row.className='corker-card';
    row.innerHTML=`<label class="task"><input type="checkbox" data-collect-record="${esc(item.id)}" ${found.has(item.id)?'checked':''}><span><b>${esc(item.title)}</b><small>${esc(item.sourceLocation)}</small></span></label>
-   <details data-card="${esc(item.id)}"><summary>Vindplek en screenshot</summary><p>${esc(item.detail)}</p>
-   <a href="${esc(item.screenshot)}" target="_blank" rel="noopener noreferrer">Open screenshot</a> ·
+   <details data-card="${esc(item.id)}"><summary>${item.screenshot?'Vindplek en screenshot':'Vindplek'}</summary><p>${esc(item.detail)}</p>
+   ${item.screenshot?`<a href="${esc(item.screenshot)}" target="_blank" rel="noopener noreferrer">Open screenshot</a> · `:'<p>Geen screenshot beschikbaar.</p>'}
    <a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">Bron</a>
    ${item.extraSource?` · <a href="${esc(item.extraSource)}" target="_blank" rel="noopener noreferrer">Tweede bron</a>`:''}</details>`;
    const details=row.querySelector('details');
    const showImage=()=>{
-    if(!details.open||details.querySelector('img'))return;
+    if(!item.screenshot||!details.open||details.querySelector('img'))return;
     const image=document.createElement('img');
     image.alt='Vindplek van '+item.title;
     image.loading='lazy';
