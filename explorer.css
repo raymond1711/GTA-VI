@@ -121,3 +121,18 @@ footer span{color:#dfc4e0}
 
 
 .brand-emblem{display:block;width:54px;height:54px;border-radius:13px;flex:none}.brand-name,.welcome .welcome-title{font-family:"Segoe Script","Brush Script MT","Snell Roundhand",cursive;font-style:italic;font-weight:700;letter-spacing:-.025em}.brand-name{font-size:clamp(16px,3.2vw,30px);line-height:1.08}.welcome .welcome-title{font-size:clamp(38px,9vw,88px);overflow-wrap:break-word;line-height:1.15;color:#ffe4bd;text-shadow:0 3px 14px #291331}.mode-card strong{margin:0 0 8px}.mode-card span{font-size:14px;color:var(--muted)}@media(max-width:550px){.brand-emblem{width:43px;height:43px}.brand{gap:8px}.mode-card strong{margin:0 0 8px}}
+/* Skyline uit het appicoon, met ruimte voor de titel. */
+.welcome{
+ background:
+  linear-gradient(90deg,#40203cf2 0%,#40203cd9 35%,#40203c40 68%,transparent 100%),
+  url('assets/icon.svg') right center / 70% auto no-repeat,
+  linear-gradient(150deg,#633859,#57365c 50%,#372844);
+}
+@media(max-width:550px){
+ .welcome{
+  padding-bottom:clamp(105px,34vw,170px);
+  background:
+   linear-gradient(180deg,#532a50f0 0%,#532a50c7 43%,transparent 80%),
+   url('assets/icon.svg') center 44% / cover no-repeat #532a50;
+ }
+}
