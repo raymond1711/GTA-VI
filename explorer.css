@@ -98,13 +98,13 @@ body{
  border:1px solid var(--line);border-radius:14px;padding:14px
 }
 .collect-controls label{min-width:0;max-width:100%}
-.collect-controls select,.collect-controls input[type=search]{
+.collect-controls select{
  max-width:100%;background:#4b3156;color:#fff6ff;border:1px solid #ffc6ec66;border-radius:8px;
  padding:.55rem;min-height:44px;font-size:16px;
 }
 .collect-controls [aria-pressed=true]{background:#ffb7df;color:#321b35;padding-inline:10px;border-radius:8px}
 .corker-card{background:linear-gradient(120deg,#523657,#413052);border-color:#ffbce455}
-#collect-list .corker-card:nth-child(even){background:linear-gradient(120deg,#46446a,#413052);border-color:#c3b9ff55}
+#collect-list .corker-card:nth-child(even),#activity-list .corker-card:nth-child(even){background:linear-gradient(120deg,#46446a,#413052);border-color:#c3b9ff55}
 .corker-card summary{color:#ffd4ed}
 .progress-hero{background:linear-gradient(120deg,#654052,#5e3e64)}
 .progress-group{background:linear-gradient(135deg,#573950,#473254)}
@@ -157,3 +157,6 @@ footer span{color:#dfc4e0}
 @media(hover:hover){
  .leonida-map .map-region:hover .region-name rect{stroke:#fff;stroke-width:2.5}
 }
+
+.activity-progress{display:grid;gap:.75rem;margin-block:1rem}
+#activity-references li+li{margin-top:.4rem}

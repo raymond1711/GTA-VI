@@ -15,6 +15,8 @@
  const legacy=cats.flatMap(c=>c.tasks.map(t=>({...t,area:['city','keys','grass'].includes(c.id)?c.id:null,category:/screenshot|herinnering|uitzicht|favoriete|omgeving/.test((t.title+' '+t.detail).toLowerCase())?'sights':'activities',chapter:1,source:'',type:'personal'})));
  const activeDiscoveries=trusted.filter(item=>!item.pendingActivity);
  const activeReferences=info.filter(item=>!item.pendingActivity);
+ const activityRecords=core.unique(trusted.filter(item=>item.pendingActivity&&!item.referenceOnly)).map(item=>({...item,category:'activities'}));
+ const activityReferences=info.filter(item=>item.pendingActivity&&item.referenceOnly);
  const records=()=>core.unique([...legacy,...activeDiscoveries,...model.custom]);
  const storySort=(a,b)=>a.chapter-b.chapter||(a.storyOrder??1000)-(b.storyOrder??1000);
  const checked=()=>[...new Set([...state.checked,...model.checked])];
@@ -24,8 +26,8 @@
  const icon=a=>`<svg aria-hidden="true" viewBox="0 0 48 48">${svgIcons[a.icon]}</svg>`;
  const main=document.querySelector('main'),footer=document.querySelector('footer'),journal=document.querySelector('.journal');
  const intro=document.createElement('section');intro.id='introduction-view';
- const nav=document.createElement('nav');nav.id='app-menu';nav.className='app-nav';nav.setAttribute('aria-label','Hoofdnavigatie');nav.innerHTML=[['start','Start'],['intro','Introductie'],['explore','Verkennen'],['collectibles','Collectibles'],['progress','Voortgang'],['journal','Fotodagboek']].map(([id,name])=>`<button type="button" data-page="${id}">${name}</button>`).join('');
- const home=document.createElement('section');home.id='start-view';home.innerHTML="<div class=\"welcome\"><h1 class=\"welcome-title\">Leonida Explorer</h1><p>Kies waar je vandaag zin in hebt.</p></div><div class=\"mode-grid\"><button type=\"button\" class=\"mode-card\" data-page=\"intro\"><strong>Introductie</strong><span>Volg de route voor je eerste middag.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"explore\"><strong>Verkennen</strong><span>Kies je hoofdstuk en gebied.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"collectibles\"><strong>Collectibles</strong><span>Bekijk de verzamelobjecten en hun vindplekken.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"progress\"><strong>Voortgang</strong><span>Bekijk je vinkjes per hoofdstuk, gebied en categorie.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"journal\"><strong>Fotodagboek</strong><span>Bewaar foto’s en notities van je ontdekkingen.</span><em aria-hidden=\"true\">↗</em></button></div>";
+ const nav=document.createElement('nav');nav.id='app-menu';nav.className='app-nav';nav.setAttribute('aria-label','Hoofdnavigatie');nav.innerHTML=[['start','Start'],['intro','Introductie'],['explore','Verkennen'],['collectibles','Collectibles'],['activities','Activiteiten'],['progress','Voortgang'],['journal','Fotodagboek']].map(([id,name])=>`<button type="button" data-page="${id}">${name}</button>`).join('');
+ const home=document.createElement('section');home.id='start-view';home.innerHTML="<div class=\"welcome\"><h1 class=\"welcome-title\">Leonida Explorer</h1><p>Kies waar je vandaag zin in hebt.</p></div><div class=\"mode-grid\"><button type=\"button\" class=\"mode-card\" data-page=\"intro\"><strong>Introductie</strong><span>Volg de route voor je eerste middag.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"explore\"><strong>Verkennen</strong><span>Kies je hoofdstuk en gebied.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"collectibles\"><strong>Collectibles</strong><span>Bekijk de verzamelobjecten en hun vindplekken.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"activities\"><strong>Activiteiten</strong><span>Vink stunts, meditaties en andere activiteiten af.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"progress\"><strong>Voortgang</strong><span>Bekijk je vinkjes per hoofdstuk, gebied en categorie.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"journal\"><strong>Fotodagboek</strong><span>Bewaar foto’s en notities van je ontdekkingen.</span><em aria-hidden=\"true\">↗</em></button></div>";
  const leonidaMap=`<svg class="leonida-map" role="group" aria-label="Aanklikbare gebiedskaart van Leonida" viewBox="0 0 440 550">
   <defs>
     <linearGradient id="map-ocean" x2="0.85" y2="1">
@@ -157,7 +159,6 @@
  groups.push(["Overige verzamelobjecten",otherCollections.filter(name=>!groupedNames.has(name))]);
  const themedOptions=groups.filter(([,names])=>names.length).map(([label,names])=>`<optgroup label="${esc(label)}">${collectionOptions(names)}</optgroup>`).join("");
  collectibles.innerHTML=`<h1>Collectibles</h1><div class="collect-controls">
- <label>Zoeken <input type="search" id="collect-query" placeholder="Naam of plek"></label>
  <label>Collectie <select id="collect-series"><optgroup label="Verzamelkaartjes">${collectionOptions(cardSeries)}</optgroup>${themedOptions}</select></label>
  <label><input type="checkbox" id="collect-missing"> Alleen ontbrekende</label>
  <button type="button" class="quiet" data-collect-area="all">Alle vindplekken</button>
@@ -186,6 +187,30 @@
  document.body.append(screenshotViewer);
  screenshotViewer.addEventListener('click',event=>{if(event.target===screenshotViewer)screenshotViewer.close();});
  screenshotViewer.addEventListener('close',()=>screenshotViewer.querySelector('img').removeAttribute('src'));
+ function attachScreenshot(details,item){
+  if(!item.screenshot)return;
+  const showImage=()=>{
+   if(!details.open||details.querySelector('img'))return;
+   const image=document.createElement('img');
+   image.alt='Vindplek van '+item.title;
+   image.loading='lazy';
+   image.src=item.screenshot;
+   const zoomButton=document.createElement('button');
+   zoomButton.type='button';
+   zoomButton.className='screenshot-zoom';
+   zoomButton.setAttribute('aria-label','Vergroot de vindplek van '+item.title);
+   zoomButton.append(image);
+   zoomButton.addEventListener('click',()=>{
+    const enlarged=screenshotViewer.querySelector('img');
+    enlarged.alt=image.alt;
+    enlarged.src=image.src;
+    screenshotViewer.showModal();
+   });
+   image.onerror=()=>zoomButton.remove();
+   details.append(zoomButton);
+  };
+  details.addEventListener('toggle',showImage);
+ }
  let collectibleArea='all';
  function renderCollectibles(){
   const selection=collectibles.querySelector('#collect-series').value;
@@ -198,8 +223,7 @@
   const matches=list.filter(item=>collectibleArea==='all'||(collectibleArea==='unknown'?item.area===null:item.area===collectibleArea||item.extraArea===collectibleArea));
   const found=new Set(checked());
   const missing=collectibles.querySelector('#collect-missing').checked;
-  const query=collectibles.querySelector("#collect-query").value.trim().toLowerCase();
-  const visible=matches.filter(item=>(!missing||(!item.referenceOnly&&!found.has(item.id)))&&(!query||[item.title,item.sourceLocation,item.detail].some(value=>value?.toLowerCase().includes(query))));
+  const visible=matches.filter(item=>!missing||(!item.referenceOnly&&!found.has(item.id)));
   const areaName=areas.find(area=>area.id===collectibleArea)?.name||(collectibleArea==='unknown'?'Overige vindplekken':'Alle vindplekken');
   const actionable=list.filter(item=>!item.referenceOnly);
   const done=core.progress(actionable,found).done;
@@ -212,7 +236,7 @@
   const target=collectibles.querySelector('#collect-list');
   const opened=new Set([...target.querySelectorAll('details[open]')].map(node=>node.dataset.card));
   target.replaceChildren();
-  if(!visible.length)target.textContent=query?'Geen resultaten voor deze zoekterm.':missing&&matches.length?'Alle opgenomen vindplekken afgevinkt.':'Geen vindplekken voor deze collectie in dit gebied.';
+  if(!visible.length)target.textContent=missing&&matches.length?'Alle opgenomen vindplekken afgevinkt.':'Geen vindplekken voor deze collectie in dit gebied.';
   for(const item of visible){
    const row=document.createElement('article');
    row.className='corker-card';
@@ -223,27 +247,7 @@
    <a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">${isFlamingo&&item.source.includes('#hidden-package-')?'Open kaartpin':'Bron'}</a>
    ${item.extraSource?` · <a href="${esc(item.extraSource)}" target="_blank" rel="noopener noreferrer">${esc(item.extraSourceLabel||'Tweede bron')}</a>`:''}</details>`;
    const details=row.querySelector('details');
-   const showImage=()=>{
-    if(!item.screenshot||!details.open||details.querySelector('img'))return;
-    const image=document.createElement('img');
-    image.alt='Vindplek van '+item.title;
-    image.loading='lazy';
-    image.src=item.screenshot;
-    const zoomButton=document.createElement('button');
-    zoomButton.type='button';
-    zoomButton.className='screenshot-zoom';
-    zoomButton.setAttribute('aria-label','Vergroot de vindplek van '+item.title);
-    zoomButton.append(image);
-    zoomButton.addEventListener('click',()=>{
-     const enlarged=screenshotViewer.querySelector('img');
-     enlarged.alt=image.alt;
-     enlarged.src=image.src;
-     screenshotViewer.showModal();
-    });
-    image.onerror=()=>zoomButton.remove();
-    details.append(zoomButton);
-   };
-   details.addEventListener('toggle',showImage);
+   attachScreenshot(details,item);
    details.open=opened.has(item.id);
    target.append(row);
   }
@@ -260,10 +264,9 @@
   const button=event.target.closest('.map-region[data-area]');
   if(button&&(event.key==='Enter'||event.key===' ')){event.preventDefault();chooseCollectibleArea(button);}
  });
- collectibles.querySelector("#collect-query").addEventListener("input",renderCollectibles);
- collectibles.querySelector("#collect-series").addEventListener("change",()=>{collectibles.querySelector("#collect-query").value="";collectibleArea="all";});
  collectibles.addEventListener('change',event=>{
   const input=event.target;
+  if(input.id==='collect-series')collectibleArea='all';
   if(input.matches('[data-collect-record]')){
    const id=input.dataset.collectRecord;
    model.checked=input.checked?[...new Set([...model.checked,id])]:model.checked.filter(value=>value!==id);
@@ -279,10 +282,100 @@
   }
   renderCollectibles();
  });
+ const activities=document.createElement('section');
+ activities.id='activities-view';
+ const activityNames=[
+  'Stuntsprongen','Onder bruggen door','Mesvluchten','BASE-sprongen','Basketbalringen',
+  'Meditaties','WAiNK-bezienswaardigheden','Dieren bestuderen','Voertuigmodellen scannen'
+ ];
+ const activityNotes={
+  'Meditaties':'Tien vindplekken. Op acht daarvan kun je Jason en Lucia apart laten mediteren.',
+  'Dieren bestuderen':'De lijst bevat bronvermeldingen van dieren. Namen en varianten kunnen afwijken van de spelteller.',
+  'Voertuigmodellen scannen':'Deze lijst bevat de voertuigmodellen die al in de gids zijn opgenomen.',
+  'Basketbalringen':'Open bij het nummer de kaart of route uit de gids. Sommige locaties hebben meerdere ringen.'
+ };
+ activities.innerHTML=`<h1>Activiteiten</h1><div class="collect-controls">
+ <label>Activiteit <select id="activity-kind">${collectionOptions(activityNames)}</select></label>
+ <label>Gebied <select id="activity-area"><option value="all">Alle gebieden</option>${areas.map(area=>`<option value="${esc(area.id)}">${esc(area.name)}</option>`).join('')}<option value="unknown">Zonder regio</option></select></label>
+ <label><input type="checkbox" id="activity-missing"> Alleen ontbrekende</label>
+ </div><div id="activity-progress" class="activity-progress" aria-live="polite"></div>
+ <p id="activity-note" class="scope-note" hidden></p>
+ <p id="activity-empty" class="scope-note" hidden></p>
+ <div id="activity-list"></div>
+ <details id="activity-references" class="corker-card" hidden><summary>Extra basketbalverwijzingen</summary><ul></ul></details>`;
+ const activityKind=activities.querySelector('#activity-kind');
+ const activityArea=activities.querySelector('#activity-area');
+ const activityMissing=activities.querySelector('#activity-missing');
+ const activityList=activities.querySelector('#activity-list');
+ const activityEmpty=activities.querySelector('#activity-empty');
+ function matchesActivityArea(item){
+  return activityArea.value==='all'||(activityArea.value==='unknown'?!item.area:item.area===activityArea.value||item.extraArea===activityArea.value);
+ }
+ const selectedActivities=()=>activityRecords.filter(item=>item.collection===activityKind.value);
+ function updateActivityProgress(items){
+  const progress=activities.querySelector('#activity-progress');
+  const areaName=activityArea.selectedOptions[0].textContent;
+  progress.innerHTML=meter(items,activityKind.value)+
+   (activityArea.value==='all'?'':meter(items.filter(matchesActivityArea),areaName));
+ }
+ function setActivityEmpty(matches){
+  activityEmpty.hidden=Boolean(activityList.querySelector('article:not([hidden])'));
+  activityEmpty.textContent=matches.length?'Alle onderdelen in deze selectie zijn afgevinkt.':'Geen onderdelen opgenomen voor dit gebied.';
+ }
+ function renderActivities(){
+  const items=selectedActivities();
+  const matches=items.filter(matchesActivityArea);
+  const found=new Set(checked());
+  const note=activities.querySelector('#activity-note');
+  note.textContent=activityNotes[activityKind.value]||'';
+  note.hidden=!note.textContent;
+  updateActivityProgress(items);
+  activityList.replaceChildren();
+  for(const item of matches){
+   if(activityMissing.checked&&found.has(item.id))continue;
+   const card=document.createElement('article');
+   card.className='corker-card';
+   const location=item.sourceLocation||areas.find(area=>area.id===item.area)?.name||'';
+   card.innerHTML=`<label class="task"><input type="checkbox" data-activity-record="${esc(item.id)}" ${found.has(item.id)?'checked':''}>
+    <span><b>${esc(item.title)}</b>${location?`<small>${esc(location)}</small>`:''}</span></label>
+    <details><summary>${item.screenshot?'Uitleg, bron en screenshot':'Uitleg en bron'}</summary>
+    ${item.detail&&item.detail!==location?`<p>${esc(item.detail)}</p>`:''}
+    ${item.workbookStatus?`<p class="scope-note">${esc(item.workbookStatus)}</p>`:''}
+    <a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">Open gids</a>
+    ${item.extraSource?` &middot; <a href="${esc(item.extraSource)}" target="_blank" rel="noopener noreferrer">${esc(item.extraSourceLabel||'Tweede bron')}</a>`:''}
+    ${item.screenshot?` &middot; <a href="${esc(item.screenshot)}" target="_blank" rel="noopener noreferrer">Open screenshot</a>`:''}</details>`;
+   attachScreenshot(card.querySelector('details'),item);
+   activityList.append(card);
+  }
+  setActivityEmpty(matches);
+  const references=activities.querySelector('#activity-references');
+  const links=activityKind.value==='Basketbalringen'?activityReferences.filter(matchesActivityArea):[];
+  references.hidden=!links.length;
+  references.querySelector('ul').innerHTML=links.map(item=>`<li><a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">${esc(item.title)}</a></li>`).join('');
+ }
+ activities.addEventListener('change',event=>{
+  const input=event.target;
+  if(input===activityKind)activityArea.value='all';
+  if(!input.matches('[data-activity-record]')){renderActivities();return;}
+  const id=input.dataset.activityRecord;
+  model.checked=input.checked?[...new Set([...model.checked,id])]:model.checked.filter(value=>value!==id);
+  persist();
+  const items=selectedActivities();
+  updateActivityProgress(items);
+  if(activityMissing.checked){
+   const scrollTop=window.scrollY;
+   const card=input.closest('article');
+   const next=card.nextElementSibling||card.previousElementSibling;
+   card.remove();
+   (next?.querySelector('input')||activityMissing).focus({preventScroll:true});
+   setActivityEmpty(items.filter(matchesActivityArea));
+   if(window.scrollY!==scrollTop)window.scrollTo({top:scrollTop,behavior:'instant'});
+  }
+ });
  for(const child of [...main.children])if(child!==footer&&child!==journal)intro.append(child);
- main.prepend(nav,home,intro,explore,collectibles,overview);journal.id='journal-view';
+ main.prepend(nav,home,intro,explore,collectibles,activities,overview);journal.id='journal-view';
  const editor=document.createElement('dialog');editor.id='discovery-editor';editor.innerHTML=`<button type="button" class="close" id="close-editor" aria-label="Sluiten">×</button><p class="eyebrow">VOEG JOUW VONDST TOE</p><h2>Eigen ontdekking</h2><p>Leg zelf vast wat je tegenkomt. Jouw hoofdstuk is de eerste beschikbaarheid voor deze persoonlijke checklist.</p><form class="entry-form" id="discovery-form"><label>Naam<input name="title" maxlength="150" required></label><label>Omschrijving<textarea name="detail" maxlength="2000"></textarea></label><div class="entry-columns"><label>Gebied<select name="area">${areas.map(a=>`<option value="${a.id}">${esc(a.name)}</option>`).join('')}</select></label><label>Categorie<select name="category">${types.map(c=>`<option value="${c.id}">${esc(c.name)}</option>`).join('')}</select></label></div><label>Vanaf hoofdstuk<input name="chapter" type="number" min="1" max="99" step="1" required></label><label>Bronlink (optioneel)<input name="source" type="url" maxlength="1000" placeholder="https://…"></label><p id="entry-error" role="status"></p><button type="submit" class="primary">Ontdekking opslaan</button></form>`;document.body.append(editor);
- function go(next){if(!['start','intro','explore','collectibles','progress','journal'].includes(next))next='start';page=next;nav.hidden=page==="start";for(const [id,node] of Object.entries({start:home,intro,explore,collectibles,progress:overview,journal}))node.hidden=id!==page;nav.querySelectorAll('button').forEach(b=>{if(b.dataset.page===page)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current')});if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='progress')renderOverview();window.scrollTo({top:0,behavior:'instant'});}
+ function go(next){if(!['start','intro','explore','collectibles','activities','progress','journal'].includes(next))next='start';page=next;nav.hidden=page==="start";for(const [id,node] of Object.entries({start:home,intro,explore,collectibles,activities,progress:overview,journal}))node.hidden=id!==page;nav.querySelectorAll('button').forEach(b=>{if(b.dataset.page===page)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current')});if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='progress')renderOverview();window.scrollTo({top:0,behavior:'instant'});}
  document.addEventListener('click',e=>{const target=e.target.closest('[data-page]');if(target){e.preventDefault();go(target.dataset.page)}});
  document.querySelector('.brand').onclick=e=>{e.preventDefault();go('start')};
  const chapterInput=explore.querySelector('#current-chapter');
@@ -356,14 +449,14 @@
   }
   refreshExploreChecks(id,on);
  });
- function renderOverview(){const all=records(),p=core.progress(all,checked());const chapters=[...new Set([model.chapter,...all.filter(x=>x.chapter<=model.chapter).map(x=>x.chapter)])].sort((a,b)=>a-b);overview.innerHTML=`<div class="overview-heading"><p class="eyebrow">JOUW REIS IN CIJFERS</p><h1>Voortgang</h1></div><div class="progress-hero"><p class="eyebrow">APP-VOLTOOIING</p><strong class="big-percent">${label(p)}</strong><p>${p.done} van ${p.total} unieke onderdelen afgevinkt</p><div class="neutral-track"><div style="width:${p.percent??0}%"></div></div></div><p class="app-scope">Dit is de voortgang van alle onderdelen in jouw app, geen officieel spelpercentage. De gids bevat een selectie voor hoofdstuk 1 t/m 4. Algemene punten en locaties waarvan het kaartgebied nog niet bevestigd is, staan ook in de overzichten boven de kaart. Nieuwe onderdelen vergroten het totaal. Latere hoofdstukken tellen wel mee in gebieds-, categorie- en app-totalen, maar hun namen en details blijven verborgen.</p><div class="progress-columns"><section class="progress-group"><h2>Hoofdstukken</h2>${chapters.map(n=>meter(core.chapter(all,n),'Hoofdstuk '+n)).join('')}<p class="scope-note">Alleen hoofdstukken tot en met jouw keuze worden getoond.</p></section><section class="progress-group"><h2>Gebieden</h2>${areas.map(a=>meter(core.area(all,a.id),a.name)).join('')}${meter(all.filter(x=>!x.area),'Algemeen / regio nog onbevestigd')}</section><section class="progress-group"><h2>Categorieën</h2>${types.map(t=>meter(core.category(all,t.id),t.name)).join('')}</section></div><p class="overview-footer">Eén vinkje werkt door in alle bijbehorende overzichten. Introductie en Verkennen delen hun vinkjes. Een streepje betekent dat er nog geen onderdelen zijn vastgelegd.</p>`;}
+ function renderOverview(){const chapterRecords=records(),all=[...chapterRecords,...activityRecords],p=core.progress(all,checked());const chapters=[...new Set([model.chapter,...chapterRecords.filter(x=>x.chapter<=model.chapter).map(x=>x.chapter)])].sort((a,b)=>a-b);overview.innerHTML=`<div class="overview-heading"><p class="eyebrow">JOUW REIS IN CIJFERS</p><h1>Voortgang</h1></div><div class="progress-hero"><p class="eyebrow">APP-VOLTOOIING</p><strong class="big-percent">${label(p)}</strong><p>${p.done} van ${p.total} unieke onderdelen afgevinkt</p><div class="neutral-track"><div style="width:${p.percent??0}%"></div></div></div><p class="app-scope">Dit is de voortgang van alle onderdelen in jouw app, geen officieel spelpercentage. De gids bevat hoofdstuk 1 t/m 5. Activiteiten uit de aparte tab tellen mee bij het app-totaal, de gebieden en de categorieën. Algemene punten en locaties waarvan het kaartgebied nog niet bevestigd is, staan ook in de overzichten boven de kaart. Nieuwe onderdelen vergroten het totaal. Latere hoofdstukken tellen wel mee in gebieds-, categorie- en app-totalen, maar hun namen en details blijven verborgen.</p><div class="progress-columns"><section class="progress-group"><h2>Hoofdstukken</h2>${chapters.map(n=>meter(core.chapter(chapterRecords,n),'Hoofdstuk '+n)).join('')}<p class="scope-note">Alleen hoofdstukken tot en met jouw keuze worden getoond.</p></section><section class="progress-group"><h2>Gebieden</h2>${areas.map(a=>meter(core.area(all,a.id),a.name)).join('')}${meter(all.filter(x=>!x.area),'Algemeen / regio nog onbevestigd')}</section><section class="progress-group"><h2>Categorieën</h2>${types.map(t=>meter(core.category(all,t.id),t.name)).join('')}</section></div><p class="overview-footer">Eén vinkje werkt door in alle bijbehorende overzichten. Introductie en Verkennen delen hun vinkjes. Een streepje betekent dat er nog geen onderdelen zijn vastgelegd.</p>`;}
  function openEditor(area){const form=editor.querySelector('form');form.reset();form.elements.area.value=area||areas[0].id;form.elements.chapter.value=model.chapter;editor.querySelector('#entry-error').textContent='';editor.showModal();}
  editor.querySelector('#close-editor').onclick=()=>editor.close();editor.querySelector('form').onsubmit=e=>{e.preventDefault();const form=e.target,values=new FormData(form);const item={id:'custom-'+crypto.randomUUID(),title:String(values.get('title')).trim(),detail:String(values.get('detail')).trim(),area:String(values.get('area')),category:String(values.get('category')),chapter:Number(values.get('chapter')),source:String(values.get('source')).trim(),type:'personal'};try{const next=validModel({...model,custom:[...model.custom,item]});const previous=model;model=next;if(!persist()){model=previous;throw Error('Opslag is niet beschikbaar.')}editor.close();renderExplore();notify('Eigen ontdekking toegevoegd.')}catch(err){editor.querySelector('#entry-error').textContent=err.message}};
- const baseUpdate=update;update=function(){baseUpdate();if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='progress')renderOverview()};
- function merge(incoming){const clean=validModel(incoming),items=new Map(model.custom.map(x=>[x.id,x]));for(const x of clean.custom)if(!items.has(x.id))items.set(x.id,x);model=validModel({...model,chapter:Math.min(lastChapter,Math.max(model.chapter,clean.chapter)),custom:[...items.values()],checked:[...new Set([...model.checked,...clean.checked])],notes:{...clean.notes,...model.notes}});persist();syncChapterSlider();if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='progress')renderOverview()}
- window.ExplorerApp={exportData:()=>structuredClone(model),validate:validModel,merge,refresh:()=>{if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='progress')renderOverview()},reset:()=>{model=initial();persist();syncChapterSlider();window.leonidaPhotoContext=null;go('start')}};
+ const baseUpdate=update;update=function(){baseUpdate();if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='progress')renderOverview()};
+ function merge(incoming){const clean=validModel(incoming),items=new Map(model.custom.map(x=>[x.id,x]));for(const x of clean.custom)if(!items.has(x.id))items.set(x.id,x);model=validModel({...model,chapter:Math.min(lastChapter,Math.max(model.chapter,clean.chapter)),custom:[...items.values()],checked:[...new Set([...model.checked,...clean.checked])],notes:{...clean.notes,...model.notes}});persist();syncChapterSlider();if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='progress')renderOverview()}
+ window.ExplorerApp={exportData:()=>structuredClone(model),validate:validModel,merge,refresh:()=>{if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='progress')renderOverview()},reset:()=>{model=initial();persist();syncChapterSlider();window.leonidaPhotoContext=null;go('start')}};
  document.querySelectorAll('footer p').forEach(p=>{if(p.textContent.includes('VERSIE 1.1'))p.innerHTML='LEONIDA EXPLORER <span>· VERSIE 2.4 · BOUWVERSIE</span>'});
  // Stil omschakelen bij een volgende opening; niet tijdens het laatste afvinken.
- window.addEventListener('hashchange',()=>{const hash=location.hash.slice(1),next={map:'explore',stats:'progress',explore:'intro'}[hash]||hash;if(['start','intro','explore','collectibles','progress','journal'].includes(next))go(next)});
+ window.addEventListener('hashchange',()=>{const hash=location.hash.slice(1),next={map:'explore',stats:'progress',explore:'intro'}[hash]||hash;if(['start','intro','explore','collectibles','activities','progress','journal'].includes(next))go(next)});
  const entryHash=location.hash.slice(1);go(entryHash?({map:'explore',stats:'progress',explore:'intro'}[entryHash]||entryHash):(core.shouldAutoExplore([...ids],state.checked)?'explore':'start'));
 })();
