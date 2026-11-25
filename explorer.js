@@ -167,7 +167,7 @@
   <p>In GTA VI tellen roze figuren met een zwart-witte snavel. Schiet op de figuur om die te laten meetellen. Het pakketje oprapen is optioneel.</p>
   <p>In de game zie je je totaal onder <strong>Progress → Collections → Exploration → Cocaine Flamingos</strong>, zodra je de eerste hebt gevonden. Van de 125 tellen er 100 mee voor 100% spelvoltooiing.</p>
   <p>Volgens CutsceneWire ontgrendel je bij 50 de <em>Inflatable Flamingo</em>-cheat. Een handige start is het zuidoosten van Belpoint, met zes figuren rond de steiger, witte huizen en strandcontainers.</p>
-  <p>Bij <strong>Zoekgebied</strong> geeft de gids een geschatte plek of herkenningspunt. Bij <strong>Voorlopige zoektip</strong> komt de aanwijzing uit één melding. Controleer in de game of de figuur meetelt voordat je hem afvinkt.</p>
+  <p>Bij <strong>Zoekgebied</strong> geeft de gids een geschatte plek of herkenningspunt. Bij <strong>Voorlopige zoektip</strong> is de plek nog onzeker of kan de figuur al onder een andere naam in de lijst staan. Controleer in de game of de figuur meetelt voordat je hem afvinkt.</p>
  </details>
  <div id="collect-map"></div><p id="collect-status" aria-live="polite"></p><p id="collect-coverage" class="scope-note" hidden></p><div id="collect-list"></div>`;
  const collectMap=explore.querySelector('.map-wrap').cloneNode(true);
@@ -206,7 +206,7 @@
   const areaStatus=areaName+' · '+core.progress(matches,found).done+'/'+matches.length+(isFlamingo?' afgevinkt':' gevonden');
   const provisionalCount=isFlamingo?list.filter(item=>item.provisionalTip).length:0;
   collectibles.querySelector('#collect-status').textContent=isFlamingo
-   ? `${areaStatus} · ${done}/${list.length} in deze gids · ${list.length-provisionalCount}/125 vindplekken opgenomen · ${provisionalCount} voorlopige zoektips`
+   ? `${areaStatus} · ${done}/${list.length} in deze gids · ${list.length-provisionalCount}/125 figuren beschreven · ${provisionalCount} voorlopige zoektips`
    : actionable.length ? `${areaStatus} · Collectie ${done}/${actionable.length}` : matches.length+" aanwijzingen";
   for(const button of collectibles.querySelectorAll('[data-area],[data-collect-area]'))button.setAttribute('aria-pressed',String((button.dataset.area||button.dataset.collectArea)===collectibleArea));
   const target=collectibles.querySelector('#collect-list');
@@ -218,9 +218,9 @@
    row.className='corker-card';
    row.innerHTML=`<label class="task"><input ${item.referenceOnly?'hidden disabled':''} type="checkbox" data-collect-record="${esc(item.id)}" ${found.has(item.id)?'checked':''}><span><b>${esc(item.title)}</b><small>${esc(item.sourceLocation)}${item.workbookStatus?' · '+esc(item.workbookStatus):''}${item.provisionalTip?' · Voorlopige zoektip':item.approximateLocation?' · Zoekgebied':''}</small></span></label>
    ${isFlamingo?`<p>${esc(item.detail)}</p>`:''}
-   <details data-card="${esc(item.id)}"><summary>${isFlamingo?'Bronnen':item.screenshot?'Vindplek en screenshot':'Vindplek'}</summary>${isFlamingo?'':`<p>${esc(item.detail)}</p>`}
-   ${item.screenshot?`<a href="${esc(item.screenshot)}" target="_blank" rel="noopener noreferrer">Open screenshot</a> · `:isFlamingo?'':'<p>Geen screenshot beschikbaar.</p>'}
-   <a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">Bron</a>
+   <details data-card="${esc(item.id)}"><summary>${item.screenshot?(isFlamingo?'Screenshot en bronnen':'Vindplek en screenshot'):isFlamingo?'Bronnen':'Vindplek'}</summary>${isFlamingo?'':`<p>${esc(item.detail)}</p>`}
+   ${item.screenshot?`<a href="${esc(item.screenshot)}" target="_blank" rel="noopener noreferrer">Open screenshot</a>${item.screenshotCredit?` (${esc(item.screenshotCredit)})`: ''} · `:isFlamingo?'':'<p>Geen screenshot beschikbaar.</p>'}
+   <a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">${isFlamingo&&item.source.includes('#hidden-package-')?'Open kaartpin':'Bron'}</a>
    ${item.extraSource?` · <a href="${esc(item.extraSource)}" target="_blank" rel="noopener noreferrer">${esc(item.extraSourceLabel||'Tweede bron')}</a>`:''}</details>`;
    const details=row.querySelector('details');
    const showImage=()=>{
