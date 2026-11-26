@@ -42,7 +42,7 @@
  const intro=document.createElement('section');intro.id='introduction-view';
  const nav=document.createElement('nav');nav.id='app-menu';nav.className='app-nav';nav.setAttribute('aria-label','Hoofdnavigatie');nav.innerHTML=[['start','Start'],['intro','Introductie'],['explore','Verkennen'],['collectibles','Collectibles'],['activities','Activiteiten'],['progress','Voortgang'],['journal','Fotodagboek']].map(([id,name])=>`<button type="button" data-page="${id}">${name}</button>`).join('');
  const home=document.createElement('section');home.id='start-view';home.innerHTML="<div class=\"welcome\"><h1 class=\"welcome-title\">Leonida Explorer</h1><p>Kies waar je vandaag zin in hebt.</p></div><div class=\"mode-grid\"><button type=\"button\" class=\"mode-card\" data-page=\"intro\"><strong>Introductie</strong><span>Volg de route voor je eerste middag.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"explore\"><strong>Verkennen</strong><span>Kies je hoofdstuk en gebied.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"collectibles\"><strong>Collectibles</strong><span>Bekijk de verzamelobjecten en hun vindplekken.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"activities\"><strong>Activiteiten</strong><span>Vink stunts, meditaties en andere activiteiten af.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"progress\"><strong>Voortgang</strong><span>Bekijk je vinkjes per hoofdstuk, gebied en categorie.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"journal\"><strong>Fotodagboek</strong><span>Bewaar foto’s en notities van je ontdekkingen.</span><em aria-hidden=\"true\">↗</em></button></div>";
- const leonidaMap=`<svg class="leonida-map" role="group" aria-label="Aanklikbare gebiedskaart van Leonida" viewBox="0 0 440 550">
+ const leonidaMap=`<svg class="leonida-map" role="group" aria-label="Aanklikbare gebiedskaart van Leonida" viewBox="0 0 440 660">
   <defs>
     <linearGradient id="map-ocean" x2="0.85" y2="1">
       <stop stop-color="#235970"/>
@@ -55,8 +55,8 @@
       <rect width="8" height="8" rx="1" fill="#f4e5de" fill-opacity=".55"/>
     </pattern>
   </defs>
-  <rect width="440" height="550" fill="url(#map-ocean)"/>
-  <rect width="440" height="550" fill="url(#map-grid)"/>
+  <rect width="440" height="660" fill="url(#map-ocean)"/>
+  <rect width="440" height="660" fill="url(#map-grid)"/>
   <g class="map-art" fill="none" stroke="#73c2c1" stroke-opacity=".23">
     <path d="M43 185q-31 35-2 74t65 52m-70-112q-32 47 7 83t58 38M429 310q14 80-44 132m43-24q-19 30-53 49M129 475q-27 16-13 39t48 32m180-80q-5 56-116 78"/>
   </g>
@@ -124,8 +124,18 @@
     </g>
   </g>
   <g class="map-region" data-area="keys" style="--area-color:${areas.find(area=>area.id==='keys').color}" aria-hidden="true" aria-pressed="false">
-    <path class="region-land" fill="#c4b781" d="M307 462l16-8 13 9-6 12-19 5-12-6Z M291 480l12-2 8 6-7 9-18 5-8-6Z M266 498l10-4 9 8-9 9-18 4-9-5Z M233 510l13-4 8 10-12 8-20 1-7-6Z M199 518l13-4 7 9-16 8-16-1-7-6Z M168 519l11 2 3 9-16 5-15-4 2-9Z"/>
-    <path class="map-art" d="M321 449q6 27-34 40t-45 27q-40 15-81 12" fill="none" stroke="#ffe6b7" stroke-width="2.6" stroke-linecap="round"/>
+    <path class="map-art" d="M339 460Q381 508 314 566T115 636Q53 630 52 597" fill="none" stroke="#58a9ab" stroke-width="35" stroke-linecap="round" opacity=".27"/>
+    <path class="region-land" fill="#c4b781" d="M304 477l13-13 18 1 15 10 10 20-8 12-16 6-9-9-16-3-10-12Z M317 519l13-5 12 8-7 12-5 11-17 6-12-6 1-10Z M277 550l15-7 11 7-5 10-12 13-19 4-11-8 8-12Z M227 576l15-9 14 5-1 13-13 10-19 3-8-7Z M178 597l17-9 13 4 3 11-14 12-24 3-7-8Z M127 609l19-8 15 4 1 12-12 11-26 4-10-9Z M79 612l17-10 14 4 3 14-17 9-21-2-7-9Z"/>
+    <path class="map-art" d="M321 449q9 16 14 39t-11 43q-20 25-49 31t-42 23q-36 22-95 33l-49-2" fill="none" stroke="#ffe6b7" stroke-width="2.6" stroke-linecap="round"/>
+    <g class="map-art map-detail">
+      <path d="m84 620 21-9m-20 13 15-7" fill="none" stroke="#61586a" stroke-width="2"/>
+      <g class="map-labels">
+        <text x="358" y="469">Key Lento</text>
+        <text x="357" y="558">Maroon Key</text>
+        <text x="187" y="637">Southwind</text>
+        <text x="78" y="648">Mile Zero</text>
+      </g>
+    </g>
   </g>
 
   <g class="map-art" aria-hidden="true">
@@ -151,11 +161,11 @@
       <g class="region-name" transform="translate(292 351)"><rect width="112" height="36" rx="11"/><svg x="7" y="7" width="22" height="22" viewBox="0 0 48 48">${svgIcons.skyline}</svg><text x="34" y="23">Vice City</text></g>
     </g>
     <g class="map-region" data-area="keys" style="--area-color:${areas.find(area=>area.id==='keys').color}" role="button" tabindex="0" aria-label="Leonida Keys" aria-pressed="false">
-      <g class="region-name" transform="translate(62 466)"><rect width="153" height="36" rx="11"/><svg x="7" y="7" width="22" height="22" viewBox="0 0 48 48">${svgIcons.island}</svg><text x="34" y="23">Leonida Keys</text><path d="M91 36l9 14" fill="none" stroke-width="1.5"/></g>
+      <g class="region-name" transform="translate(49 521)"><rect width="153" height="36" rx="11"/><svg x="7" y="7" width="22" height="22" viewBox="0 0 48 48">${svgIcons.island}</svg><text x="34" y="23">Leonida Keys</text><path d="M121 36l30 32" fill="none" stroke-width="1.5"/></g>
     </g>
   </g>
 </svg>`;
- const explore=document.createElement('section');explore.id='explorer-view';explore.innerHTML=`<header class="page-heading page-heading--explore"><p class="eyebrow">VOLG JE NIEUWSGIERIGHEID</p><h1>Verkennen</h1></header><div class="chapter-panel"><div><div class="chapter-field"><label for="current-chapter">Ik speel hoofdstuk <output id="chapter-value" for="current-chapter">1</output></label><input id="current-chapter" type="range" min="1" max="${lastChapter}" step="1"><div class="chapter-ticks" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span></div></div><small class="chapter-note">Je keuze blijft bewaard. Latere onderdelen blijven verborgen.</small></div><div id="chapter-stats" class="chapter-stats"></div></div><div class="map-wrap"><div class="map-caption"><span>KIES EEN GEBIED</span><span>LEONIDA · KAART V4</span></div>${leonidaMap}</div><div class="map-legend"><span><i style="background:#3c8998"></i>Water</span><span><i style="background:#b9a5ab"></i>Stad</span><span><i style="background:#79a684"></i>Natuur</span></div><p class="map-note">Kies een gebied op de kaart. Gebiedsgrenzen en wegen zijn indicatief.</p><div id="chosen-area"></div>`;
+ const explore=document.createElement('section');explore.id='explorer-view';explore.innerHTML=`<header class="page-heading page-heading--explore"><p class="eyebrow">VOLG JE NIEUWSGIERIGHEID</p><h1>Verkennen</h1></header><div class="chapter-panel"><div><div class="chapter-field"><label for="current-chapter">Ik speel hoofdstuk <output id="chapter-value" for="current-chapter">1</output></label><input id="current-chapter" type="range" min="1" max="${lastChapter}" step="1"><div class="chapter-ticks" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span></div></div><small class="chapter-note">Je keuze blijft bewaard. Latere onderdelen blijven verborgen.</small></div><div id="chapter-stats" class="chapter-stats"></div></div><div class="map-wrap"><div class="map-caption"><span>KIES EEN GEBIED</span><span>LEONIDA · KAART V5</span></div>${leonidaMap}</div><div class="map-legend"><span><i style="background:#3c8998"></i>Water</span><span><i style="background:#b9a5ab"></i>Stad</span><span><i style="background:#79a684"></i>Natuur</span></div><p class="map-note">Kies een gebied op de kaart. Gebiedsgrenzen en wegen zijn indicatief.</p><div id="chosen-area"></div>`;
  const missionHub=document.createElement('section');missionHub.id='mission-hub';missionHub.className='mission-hub';missionHub.setAttribute('aria-label','Missies en overvallocaties in alle gebieden');explore.querySelector('.map-wrap').before(missionHub);
  const overview=document.createElement('section');overview.id='progress-view';
  const collectibles=document.createElement('section');

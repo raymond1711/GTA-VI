@@ -136,7 +136,7 @@ footer span{color:#dfc4e0}
 }
 
 /* The same map is used in Verkennen and Collectibles. */
-.leonida-map{display:block;width:100%;height:auto;max-height:590px;touch-action:pan-y}
+.leonida-map{display:block;width:100%;height:auto;max-height:695px;touch-action:pan-y}
 .leonida-map .map-region{cursor:pointer;outline:none}
 .leonida-map .map-art,.leonida-map .landmark-name{pointer-events:none}
 .leonida-map .region-land{stroke:#d4e2bf;stroke-width:1.25;stroke-linejoin:round}
