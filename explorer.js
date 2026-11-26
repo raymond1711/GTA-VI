@@ -57,6 +57,9 @@
   </defs>
   <rect width="440" height="550" fill="url(#map-ocean)"/>
   <rect width="440" height="550" fill="url(#map-grid)"/>
+  <g class="map-art" fill="none" stroke="#73c2c1" stroke-opacity=".23">
+    <path d="M43 185q-31 35-2 74t65 52m-70-112q-32 47 7 83t58 38M429 310q14 80-44 132m43-24q-19 30-53 49M129 475q-27 16-13 39t48 32m180-80q-5 56-116 78"/>
+  </g>
 
   <!-- Adjacent regions reuse their shared edges. Detailed contours and road lines are illustrative. -->
   <g class="map-region" data-area="kalaga" style="--area-color:${areas.find(area=>area.id==='kalaga').color}" role="button" tabindex="0" aria-label="Mount Kalaga" aria-pressed="false">
@@ -69,7 +72,7 @@
   </g>
 
   <g class="map-region" data-area="port" style="--area-color:${areas.find(area=>area.id==='port').color}" role="button" tabindex="0" aria-label="Port Gellhorn" aria-pressed="false">
-    <path class="region-land" fill="#bda47f" d="M91 137L132 158 170 149 223 162 198 212 175 267 127 300 108 288 101 269 80 254 88 236 69 226 76 213 62 200 73 181 89 170 83 153Z M49 164l10-14 15-4 3 13-10 12-17 3Z"/>
+    <path class="region-land" fill="#bda47f" d="M91 137L132 158 170 149 223 162 198 212 175 267 127 300 108 288 101 269 80 254 88 236 69 226 76 213 62 200 73 181 89 170 83 153Z M45 163l6-11 8-3 2-7 13-4 5 8-5 8 3 6-10 10-17 5Z"/>
     <g class="map-art" fill="url(#map-city-blocks)"><path d="M80 190l34-14 61 3 13 24-22 38-41 27-21-21 6-21-29-13Z"/></g>
     <g class="map-art" fill="none" stroke="#f9deb7" stroke-width="2.4" stroke-linecap="round">
       <path d="M71 166l16 12m19 67-23 6m19 5-13 4m22 2-12 8M100 187q22 23 59 25l22 22"/>
@@ -111,6 +114,20 @@
     <g class="region-name" transform="translate(292 351)"><rect width="112" height="36" rx="11"/><svg x="7" y="7" width="22" height="22" viewBox="0 0 48 48">${svgIcons.skyline}</svg><text x="34" y="23">Vice City</text></g>
   </g>
 
+  <g class="map-art map-detail" aria-hidden="true">
+    <path class="map-link" d="M106 136Q126 154 117 187T147 247L178 281Q173 309 213 331L263 355Q289 373 310 413L323 449M184 145Q216 143 233 170T321 185Q351 187 348 214L365 276"/>
+    <path class="map-waterway" d="M248 244q-10 22-1 39t-7 39M302 246q29 12 31 38"/>
+    <path class="map-shallows" d="M161 474q36 21 97 2m-68 5q34 18 76 3M395 317q23 23 24 47"/>
+    <g class="map-labels">
+      <circle cx="124" cy="116" r="2"/><text x="123" y="107">Grayson</text>
+      <circle cx="331" cy="118" r="2"/><text x="333" y="108">Millport</text>
+      <circle cx="59" cy="154" r="2"/><text x="49" y="131">Draper Island</text>
+      <circle cx="222" cy="435" r="2"/><text x="212" y="448">Watson Bay</text>
+      <circle cx="266" cy="413" r="2"/><text x="270" y="402">Hamlet</text>
+      <circle cx="306" cy="334" r="2"/><text x="309" y="319">VCIA</text>
+      <circle cx="404" cy="340" r="2"/><text x="395" y="325">Vice Beach</text>
+    </g>
+  </g>
   <g class="map-region" data-area="keys" style="--area-color:${areas.find(area=>area.id==='keys').color}" role="button" tabindex="0" aria-label="Leonida Keys" aria-pressed="false">
     <path class="region-land" fill="#c4b781" d="M307 462l16-8 13 9-6 12-19 5-12-6Z M291 480l12-2 8 6-7 9-18 5-8-6Z M266 498l10-4 9 8-9 9-18 4-9-5Z M233 510l13-4 8 10-12 8-20 1-7-6Z M199 518l13-4 7 9-16 8-16-1-7-6Z M168 519l11 2 3 9-16 5-15-4 2-9Z"/>
     <path class="map-art" d="M321 449q6 27-34 40t-45 27q-40 15-81 12" fill="none" stroke="#ffe6b7" stroke-width="2.6" stroke-linecap="round"/>
@@ -124,7 +141,7 @@
     <text class="sea-name" x="403" y="35">N</text>
   </g>
 </svg>`;
- const explore=document.createElement('section');explore.id='explorer-view';explore.innerHTML=`<header class="page-heading page-heading--explore"><p class="eyebrow">VOLG JE NIEUWSGIERIGHEID</p><h1>Verkennen</h1></header><div class="chapter-panel"><div><div class="chapter-field"><label for="current-chapter">Ik speel hoofdstuk <output id="chapter-value" for="current-chapter">1</output></label><input id="current-chapter" type="range" min="1" max="${lastChapter}" step="1"><div class="chapter-ticks" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span></div></div><small class="chapter-note">Je keuze blijft bewaard. Latere onderdelen blijven verborgen.</small></div><div id="chapter-stats" class="chapter-stats"></div></div><div class="map-wrap"><div class="map-caption"><span>KIES EEN GEBIED</span><span>LEONIDA · KAART V3</span></div>${leonidaMap}</div><div class="map-legend"><span><i style="background:#3c8998"></i>Water</span><span><i style="background:#b9a5ab"></i>Stad</span><span><i style="background:#79a684"></i>Natuur</span></div><p class="map-note">Kies een gebied op de kaart. Gebiedsgrenzen en wegen zijn indicatief.</p><div id="chosen-area"></div>`;
+ const explore=document.createElement('section');explore.id='explorer-view';explore.innerHTML=`<header class="page-heading page-heading--explore"><p class="eyebrow">VOLG JE NIEUWSGIERIGHEID</p><h1>Verkennen</h1></header><div class="chapter-panel"><div><div class="chapter-field"><label for="current-chapter">Ik speel hoofdstuk <output id="chapter-value" for="current-chapter">1</output></label><input id="current-chapter" type="range" min="1" max="${lastChapter}" step="1"><div class="chapter-ticks" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span></div></div><small class="chapter-note">Je keuze blijft bewaard. Latere onderdelen blijven verborgen.</small></div><div id="chapter-stats" class="chapter-stats"></div></div><div class="map-wrap"><div class="map-caption"><span>KIES EEN GEBIED</span><span>LEONIDA · KAART V4</span></div>${leonidaMap}</div><div class="map-legend"><span><i style="background:#3c8998"></i>Water</span><span><i style="background:#b9a5ab"></i>Stad</span><span><i style="background:#79a684"></i>Natuur</span></div><p class="map-note">Kies een gebied op de kaart. Gebiedsgrenzen en wegen zijn indicatief.</p><div id="chosen-area"></div>`;
  const missionHub=document.createElement('section');missionHub.id='mission-hub';missionHub.className='mission-hub';missionHub.setAttribute('aria-label','Missies en overvallocaties in alle gebieden');explore.querySelector('.map-wrap').before(missionHub);
  const overview=document.createElement('section');overview.id='progress-view';
  const collectibles=document.createElement('section');
@@ -177,8 +194,7 @@
  collectibles.innerHTML=`<header class="page-heading page-heading--collect"><p class="eyebrow">VIND EN VERZAMEL</p><h1>Collectibles</h1></header><div class="collect-controls">
  <label>Collectie <select id="collect-series"><optgroup label="Verzamelkaartjes">${collectionOptions(cardSeries)}</optgroup>${themedOptions}</select></label>
  <label><input type="checkbox" id="collect-missing"> Alleen ontbrekende</label>
- <button type="button" class="quiet" data-collect-area="all">Alle vindplekken</button>
- <button type="button" class="quiet" data-collect-area="unknown">Overige vindplekken</button></div>
+ </div>
  <details id="flamingo-guide" class="corker-card" hidden>
   <summary>Zo herken je de juiste flamingo</summary>
   <p>In GTA VI tellen roze figuren met een zwart-witte snavel. Schiet op de figuur om die te laten meetellen. Het pakketje oprapen is optioneel.</p>
@@ -196,6 +212,10 @@
    }
    node.id=prefix+'-'+oldId;
   }
+  const button=document.createElement('button');
+  button.type='button';button.className='map-unassigned quiet';button.dataset.area='unknown';
+  button.textContent='Zonder regio';button.hidden=true;
+  map.append(button);
   return map;
  }
  collectibles.querySelector('#collect-map').append(cloneAreaMap('collect'));
@@ -230,7 +250,8 @@
   };
   details.addEventListener('toggle',showImage);
  }
- let collectibleArea='all';
+ const hasNoRegion=item=>!item.area&&!item.extraArea;
+ let collectibleArea=null;
  function renderCollectibles(){
   const selection=collectibles.querySelector('#collect-series').value;
   const isFlamingo=selection===flamingoCollection;
@@ -239,7 +260,8 @@
   coverageLine.hidden=!coverageLine.textContent;
   collectibles.querySelector('#flamingo-guide').hidden=!isFlamingo;
   const list=[...records(),...activeReferences].filter(item=>collectionOf(item)===selection&&(item.chapter!==lastChapter||model.chapter===lastChapter));
-  const matches=list.filter(item=>collectibleArea==='all'||(collectibleArea==='unknown'?item.area===null:item.area===collectibleArea||item.extraArea===collectibleArea));
+  collectibles.querySelector('.map-unassigned').hidden=!list.some(hasNoRegion);
+  const matches=list.filter(item=>collectibleArea==='unknown'?hasNoRegion(item):collectibleArea&&(item.area===collectibleArea||item.extraArea===collectibleArea));
   const found=new Set(checked());
   const missing=collectibles.querySelector('#collect-missing').checked;
   const visible=matches.filter(item=>!missing||(!item.referenceOnly&&!found.has(item.id)));
@@ -255,6 +277,9 @@
   const target=collectibles.querySelector('#collect-list');
   const opened=new Set([...target.querySelectorAll('details[open]')].map(node=>node.dataset.card));
   target.replaceChildren();
+  collectibles.querySelector('#collect-status').hidden=!collectibleArea;
+  coverageLine.hidden=!collectibleArea||!coverageLine.textContent;
+  if(!collectibleArea){target.textContent='Tik op een gebied op de kaart.';return;}
   if(!visible.length)target.textContent=missing&&matches.length?'Alle opgenomen vindplekken afgevinkt.':'Geen vindplekken voor deze collectie in dit gebied.';
   for(const item of visible){
    const row=document.createElement('article');
@@ -285,7 +310,7 @@
  });
  collectibles.addEventListener('change',event=>{
   const input=event.target;
-  if(input.id==='collect-series')collectibleArea='all';
+  if(input.id==='collect-series')collectibleArea=null;
   if(input.matches('[data-collect-record]')){
    const id=input.dataset.collectRecord;
    model.checked=input.checked?[...new Set([...model.checked,id])]:model.checked.filter(value=>value!==id);
@@ -328,7 +353,7 @@
  activities.innerHTML=`<header class="page-heading page-heading--activities"><p class="eyebrow">KIES JE VOLGENDE UITDAGING</p><h1>Activiteiten</h1></header><div class="collect-controls">
  <label>Activiteit <select id="activity-kind">${collectionOptions(activityNames)}</select></label>
   <label><input type="checkbox" id="activity-missing"> <span id="activity-missing-label">Alleen ontbrekende</span></label>
- </div><div id="activity-map"></div><div class="collect-controls activity-region-controls"><button type="button" class="quiet" data-activity-area="all">Alle gebieden</button><button type="button" class="quiet" data-activity-area="unknown">Zonder regio</button></div><div id="activity-progress" class="activity-progress" aria-live="polite"></div>
+ </div><div id="activity-map"></div><div id="activity-progress" class="activity-progress" aria-live="polite"></div>
  <p id="activity-note" class="scope-note" hidden></p>
  <p id="activity-empty" class="scope-note" hidden></p>
  <div id="activity-list"></div>
@@ -336,12 +361,12 @@
  const activityMap=cloneAreaMap('activity');
  activities.querySelector('#activity-map').append(activityMap);
  const activityKind=activities.querySelector('#activity-kind');
- let activityArea='all';
+ let activityArea=null;
  const activityMissing=activities.querySelector('#activity-missing');
  const activityList=activities.querySelector('#activity-list');
  const activityEmpty=activities.querySelector('#activity-empty');
  function matchesActivityArea(item){
-  return activityArea==='all'||(activityArea==='unknown'?!item.area:item.area===activityArea||item.extraArea===activityArea);
+  return activityArea==='unknown'?hasNoRegion(item):activityArea&&(item.area===activityArea||item.extraArea===activityArea);
  }
  const selectedActivities=()=>activityKind.value==='Overige activiteiten'
   ? [...activeDiscoveries,...model.custom].filter(item=>item.category==='activities')
@@ -393,11 +418,13 @@
  }
  function setActivityEmpty(matches){
   activityEmpty.hidden=Boolean(activityList.querySelector('article:not([hidden])'));
-  activityEmpty.textContent=matches.length?(matches[0].medal?'Alle onderdelen in deze selectie hebben goud.':'Alle onderdelen in deze selectie zijn afgevinkt.'):'Geen onderdelen opgenomen voor dit gebied.';
+  activityEmpty.textContent=!activityArea?'Tik op een gebied op de kaart.':matches.length?(matches[0].medal?'Alle onderdelen in deze selectie hebben goud.':'Alle onderdelen in deze selectie zijn afgevinkt.'):'Geen onderdelen opgenomen voor dit gebied.';
  }
  function renderActivities(){
   for(const control of activities.querySelectorAll('[data-area],[data-activity-area]'))control.setAttribute('aria-pressed',String((control.dataset.area||control.dataset.activityArea)===activityArea));
   const items=selectedActivities();
+  activityMap.querySelector('.map-unassigned').hidden=!items.some(hasNoRegion)&&!(activityKind.value==='Basketbalringen'&&activityReferences.some(hasNoRegion));
+  activities.querySelector('#activity-progress').hidden=!activityArea;
   const matches=items.filter(matchesActivityArea);
   const found=new Set(checked());
   const note=activities.querySelector('#activity-note');
@@ -454,7 +481,7 @@
  activityMap.addEventListener('keydown',chooseActivityArea);
  activities.addEventListener('change',event=>{
   const input=event.target;
-  if(input===activityKind)activityArea='all';
+  if(input===activityKind)activityArea=null;
   const {activityRecord,activityMedal}=input.dataset;
   if(!activityRecord&&!activityMedal){renderActivities();return;}
   if(activityMedal){

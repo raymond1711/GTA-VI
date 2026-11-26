@@ -191,3 +191,12 @@ footer span{color:#dfc4e0}
 .page-heading--journal{--heading-tint:#674975f7}
 .page-heading--progress{--heading-tint:#573854f7}
 #journal-view{background:none}
+
+.map-wrap{position:relative}
+.map-unassigned{position:absolute;z-index:1;left:12px;top:58px;min-height:44px;padding:6px 10px;border-radius:9px;background:#223647;color:#fff6ec}
+.map-unassigned[aria-pressed=true]{background:#ffe0b0;color:#26223a}
+.map-detail{pointer-events:none}
+.map-detail .map-link{fill:none;stroke:#fff0ce;stroke-width:2;stroke-dasharray:5 3;opacity:.72}
+.map-detail .map-waterway{fill:none;stroke:#438797;stroke-width:3;stroke-linecap:round}
+.map-detail .map-shallows{fill:none;stroke:#87c1b9;stroke-width:2;opacity:.65}
+.map-detail .map-labels{font:700 10px system-ui;fill:#fff9e7;stroke:#243849;stroke-width:2.3;paint-order:stroke;text-anchor:middle}
