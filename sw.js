@@ -1,4 +1,4 @@
-const CACHE='leonida-v2.42.0';const ASSETS=['./','./index.html','./styles.css','./data.js','./app.js','./journal.js','./journal.css','./explorer-core.js','./explorer-data.js','./explorer.js','./explorer.css','./manifest.webmanifest','./assets/sunset.svg','./assets/favicon-skyline.png','./assets/icon.svg','./assets/icon-192.png','./assets/icon-512.png','./assets/apple-touch-icon.png'];
+const CACHE='leonida-v2.43.0';const ASSETS=['./','./index.html','./styles.css','./data.js','./app.js','./journal.js','./journal.css','./explorer-core.js','./explorer-data.js','./explorer.js','./explorer.css','./manifest.webmanifest','./assets/sunset.svg','./assets/favicon-skyline.png','./assets/icon.svg','./assets/icon-192.png','./assets/icon-512.png','./assets/apple-touch-icon.png'];
 const scope=new URL(self.registration.scope);
 const entryUrl=new URL('./index.html',scope).href;
 self.addEventListener('install',event=>{
