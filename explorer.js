@@ -19,7 +19,7 @@
  const activityReferences=info.filter(item=>item.pendingActivity&&item.referenceOnly);
  const records=()=>core.unique([...legacy,...activeDiscoveries,...model.custom]);
  const storySort=(a,b)=>a.chapter-b.chapter||(a.storyOrder??1000)-(b.storyOrder??1000);
- const checked=()=>[...new Set([...state.checked,...model.checked])];
+ const checked=()=>[...new Set([...state.checked,...model.checked,...Object.keys(model.medals||{})])];
  const label=p=>p.percent===null?'—':p.percent+'%';
  function meter(rows,title,small=false){const p=core.progress(rows,checked());return `<div class="${small?'mini-progress':'progress-row'}"><div class="meter-label"><span>${esc(title)}</span><strong>${label(p)}</strong></div><div class="neutral-track"><div style="width:${p.percent??0}%"></div></div>${small?'':`<small>${p.done} van ${p.total} bijgehouden onderdelen</small>`}</div>`}
  const svgIcons={skyline:'<path d="M5 38V16h9v22m4 0V6h10v32m4 0V20h11v18M3 40h43M21 11h4m-4 6h4m-4 6h4m-15-1h4m-4 6h4m28-2h4"/>',island:'<path d="M3 37q20-10 42 0M7 42q7-3 14 0t14 0t10 0M24 33q5-14 1-22m0 0q-10-9-16 0 9-3 16 0 5-11 14-5-9 0-14 5 9-2 15 8-10-7-15-8-8 0-12 10"/>',reeds:'<path d="M4 40q10-4 20 0t20 0M18 38V12m10 26V8m-2 12h4V7h-4zm-10 3h4V11h-4zM9 35 7 22m4 13 3-7m23 10 2-17m-4 17-3-10"/>',crane:'<path d="M8 41h35M14 39V7h6v32M6 10h36l-25-8zm31 0v16m-3 0v6h6M22 39V23h9v16"/>',factory:'<path d="M5 41V22l11-7v10l12-8v8h15v16zM33 23V5h6v18M10 31h5m6 0h5m7 0h5M10 36h5m6 0h5m7 0h5"/>',mountain:'<path d="m3 40 16-28 8 13 6-19 13 34zm11-20 5 5 4-6m7-5 3 5 4-6M8 40l12-12 9 12"/>'};
@@ -122,6 +122,7 @@
  const otherCollections=[...new Set([...activeDiscoveries,...activeReferences].map(collectionOf).filter(name=>name&&!cardNames.has(name)))];
  const themedCollections={
   "WAiNK en streetart": [
+    "WAiNK-bezienswaardigheden",
     "WAiNK-curiositeiten",
     "WAiNK-sculpturen",
     "NoFlusher-tags",
@@ -286,9 +287,12 @@
  activities.id='activities-view';
  const activityNames=[
   'Stuntsprongen','Onder bruggen door','Mesvluchten','BASE-sprongen','Basketbalringen',
-  'Meditaties','WAiNK-bezienswaardigheden','Dieren bestuderen','Voertuigmodellen scannen'
+  'Meditaties','Dieren bestuderen','Voertuigmodellen scannen','Race-uitdagingen','Schietuitdagingen'
  ];
+ const medalOptions=[['','Geen medaille'],['bronze','Brons'],['silver','Zilver'],['gold','Goud']];
  const activityNotes={
+  'Race-uitdagingen':'Voor 100% in het spel heb je 10 van de 13 gouden medailles nodig.',
+  'Schietuitdagingen':'Voor 100% in het spel heb je alle 42 gouden medailles nodig.',
   'Meditaties':'Tien vindplekken. Op acht daarvan kun je Jason en Lucia apart laten mediteren.',
   'Dieren bestuderen':'De lijst bevat bronvermeldingen van dieren. Namen en varianten kunnen afwijken van de spelteller.',
   'Voertuigmodellen scannen':'Deze lijst bevat de voertuigmodellen die al in de gids zijn opgenomen.',
@@ -297,7 +301,7 @@
  activities.innerHTML=`<h1>Activiteiten</h1><div class="collect-controls">
  <label>Activiteit <select id="activity-kind">${collectionOptions(activityNames)}</select></label>
  <label>Gebied <select id="activity-area"><option value="all">Alle gebieden</option>${areas.map(area=>`<option value="${esc(area.id)}">${esc(area.name)}</option>`).join('')}<option value="unknown">Zonder regio</option></select></label>
- <label><input type="checkbox" id="activity-missing"> Alleen ontbrekende</label>
+ <label><input type="checkbox" id="activity-missing"> <span id="activity-missing-label">Alleen ontbrekende</span></label>
  </div><div id="activity-progress" class="activity-progress" aria-live="polite"></div>
  <p id="activity-note" class="scope-note" hidden></p>
  <p id="activity-empty" class="scope-note" hidden></p>
@@ -315,12 +319,17 @@
  function updateActivityProgress(items){
   const progress=activities.querySelector('#activity-progress');
   const areaName=activityArea.selectedOptions[0].textContent;
+  const filtered=items.filter(matchesActivityArea);
+  const goldCount=rows=>rows.filter(item=>model.medals?.[item.id]==='gold').length;
+  const goldLine=items.some(item=>item.medal)
+   ? `<p>Goud ${goldCount(items)} van ${items.length}${activityArea.value==='all'?'':` · ${esc(areaName)}: ${goldCount(filtered)} van ${filtered.length}`}</p>`
+   : '';
   progress.innerHTML=meter(items,activityKind.value)+
-   (activityArea.value==='all'?'':meter(items.filter(matchesActivityArea),areaName));
+   (activityArea.value==='all'?'':meter(filtered,areaName))+goldLine;
  }
  function setActivityEmpty(matches){
   activityEmpty.hidden=Boolean(activityList.querySelector('article:not([hidden])'));
-  activityEmpty.textContent=matches.length?'Alle onderdelen in deze selectie zijn afgevinkt.':'Geen onderdelen opgenomen voor dit gebied.';
+  activityEmpty.textContent=matches.length?(matches[0].medal?'Alle onderdelen in deze selectie hebben goud.':'Alle onderdelen in deze selectie zijn afgevinkt.'):'Geen onderdelen opgenomen voor dit gebied.';
  }
  function renderActivities(){
   const items=selectedActivities();
@@ -330,14 +339,18 @@
   note.textContent=activityNotes[activityKind.value]||'';
   note.hidden=!note.textContent;
   updateActivityProgress(items);
+  activities.querySelector('#activity-missing-label').textContent=items.some(item=>item.medal)?'Zonder goud':'Alleen ontbrekende';
   activityList.replaceChildren();
   for(const item of matches){
-   if(activityMissing.checked&&found.has(item.id))continue;
+   if(activityMissing.checked&&(item.medal?model.medals?.[item.id]==='gold':found.has(item.id)))continue;
    const card=document.createElement('article');
    card.className='corker-card';
    const location=item.sourceLocation||areas.find(area=>area.id===item.area)?.name||'';
-   card.innerHTML=`<label class="task"><input type="checkbox" data-activity-record="${esc(item.id)}" ${found.has(item.id)?'checked':''}>
-    <span><b>${esc(item.title)}</b>${location?`<small>${esc(location)}</small>`:''}</span></label>
+   const title=`<b>${esc(item.title)}</b>${location?`<small>${esc(location)}</small>`:''}`;
+   const result=item.medal
+    ? `<div class="collect-controls"><label>${title}<select aria-label="Beste medaille voor ${esc(item.title)}" data-activity-medal="${esc(item.id)}">${medalOptions.map(([value,name])=>`<option value="${value}" ${(model.medals?.[item.id]||'')===value?'selected':''}>${name}</option>`).join('')}</select></label></div>`
+    : `<label class="task"><input type="checkbox" data-activity-record="${esc(item.id)}" ${found.has(item.id)?'checked':''}><span>${title}</span></label>`;
+   card.innerHTML=`${result}
     <details><summary>${item.screenshot?'Uitleg, bron en screenshot':'Uitleg en bron'}</summary>
     ${item.detail&&item.detail!==location?`<p>${esc(item.detail)}</p>`:''}
     ${item.workbookStatus?`<p class="scope-note">${esc(item.workbookStatus)}</p>`:''}
@@ -356,18 +369,24 @@
  activities.addEventListener('change',event=>{
   const input=event.target;
   if(input===activityKind)activityArea.value='all';
-  if(!input.matches('[data-activity-record]')){renderActivities();return;}
-  const id=input.dataset.activityRecord;
-  model.checked=input.checked?[...new Set([...model.checked,id])]:model.checked.filter(value=>value!==id);
+  const {activityRecord,activityMedal}=input.dataset;
+  if(!activityRecord&&!activityMedal){renderActivities();return;}
+  if(activityMedal){
+   model.medals??={};
+   if(input.value)model.medals[activityMedal]=input.value;
+   else delete model.medals[activityMedal];
+  }else{
+   model.checked=input.checked?[...new Set([...model.checked,activityRecord])]:model.checked.filter(value=>value!==activityRecord);
+  }
   persist();
   const items=selectedActivities();
   updateActivityProgress(items);
-  if(activityMissing.checked){
+  if(activityMissing.checked&&(activityMedal?input.value==='gold':input.checked)){
    const scrollTop=window.scrollY;
    const card=input.closest('article');
    const next=card.nextElementSibling||card.previousElementSibling;
    card.remove();
-   (next?.querySelector('input')||activityMissing).focus({preventScroll:true});
+   (next?.querySelector('input,select')||activityMissing).focus({preventScroll:true});
    setActivityEmpty(items.filter(matchesActivityArea));
    if(window.scrollY!==scrollTop)window.scrollTo({top:scrollTop,behavior:'instant'});
   }
@@ -453,7 +472,7 @@
  function openEditor(area){const form=editor.querySelector('form');form.reset();form.elements.area.value=area||areas[0].id;form.elements.chapter.value=model.chapter;editor.querySelector('#entry-error').textContent='';editor.showModal();}
  editor.querySelector('#close-editor').onclick=()=>editor.close();editor.querySelector('form').onsubmit=e=>{e.preventDefault();const form=e.target,values=new FormData(form);const item={id:'custom-'+crypto.randomUUID(),title:String(values.get('title')).trim(),detail:String(values.get('detail')).trim(),area:String(values.get('area')),category:String(values.get('category')),chapter:Number(values.get('chapter')),source:String(values.get('source')).trim(),type:'personal'};try{const next=validModel({...model,custom:[...model.custom,item]});const previous=model;model=next;if(!persist()){model=previous;throw Error('Opslag is niet beschikbaar.')}editor.close();renderExplore();notify('Eigen ontdekking toegevoegd.')}catch(err){editor.querySelector('#entry-error').textContent=err.message}};
  const baseUpdate=update;update=function(){baseUpdate();if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='progress')renderOverview()};
- function merge(incoming){const clean=validModel(incoming),items=new Map(model.custom.map(x=>[x.id,x]));for(const x of clean.custom)if(!items.has(x.id))items.set(x.id,x);model=validModel({...model,chapter:Math.min(lastChapter,Math.max(model.chapter,clean.chapter)),custom:[...items.values()],checked:[...new Set([...model.checked,...clean.checked])],notes:{...clean.notes,...model.notes}});persist();syncChapterSlider();if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='progress')renderOverview()}
+ function merge(incoming){const clean=validModel(incoming),items=new Map(model.custom.map(x=>[x.id,x]));for(const x of clean.custom)if(!items.has(x.id))items.set(x.id,x);model=validModel({...model,chapter:Math.min(lastChapter,Math.max(model.chapter,clean.chapter)),custom:[...items.values()],checked:[...new Set([...model.checked,...clean.checked])],notes:{...clean.notes,...model.notes},medals:core.mergeMedals(model.medals||{},clean.medals||{})});persist();syncChapterSlider();if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='progress')renderOverview()}
  window.ExplorerApp={exportData:()=>structuredClone(model),validate:validModel,merge,refresh:()=>{if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='progress')renderOverview()},reset:()=>{model=initial();persist();syncChapterSlider();window.leonidaPhotoContext=null;go('start')}};
  document.querySelectorAll('footer p').forEach(p=>{if(p.textContent.includes('VERSIE 1.1'))p.innerHTML='LEONIDA EXPLORER <span>· VERSIE 2.4 · BOUWVERSIE</span>'});
  // Stil omschakelen bij een volgende opening; niet tijdens het laatste afvinken.

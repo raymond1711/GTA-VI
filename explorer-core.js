@@ -1,5 +1,13 @@
 (function(root){
  'use strict';
+ const medalRanks=Object.freeze({bronze:1,silver:2,gold:3});
+ function mergeMedals(current,incoming){
+  const merged={...current};
+  for(const [id,medal] of Object.entries(incoming)){
+   if(medalRanks[medal]>(medalRanks[merged[id]]??0))merged[id]=medal;
+  }
+  return merged;
+ }
  const unique=items=>[...new Map(items.map(i=>[i.id,i])).values()];
  function progress(items,checked){const rows=unique(items),set=new Set(checked),done=rows.filter(i=>set.has(i.id)).length;return {done,total:rows.length,percent:rows.length?Math.round(done/rows.length*100):null};}
  function visible(items,chapter){return unique(items).filter(i=>i.chapter<=chapter&&(i.availableUntilChapter===undefined||chapter<=i.availableUntilChapter));}
@@ -10,7 +18,13 @@
   const notes={};for(const [k,v] of Object.entries(input.notes)){if(typeof v!=='string'||v.length>3000||k==='__proto__'||k==='constructor'||k==='prototype')throw Error('Ongeldige notitie');notes[k]=v}
   const allowed=new Set([...seen,...trusted.map(x=>x.id)]);
   if(input.checked.some(id=>!allowed.has(id)))throw Error('Onbekende ontdekking');
-  return {chapter:input.chapter,area:areas.some(a=>a.id===input.area)?input.area:null,custom:input.custom.map(x=>({id:x.id,title:x.title,detail:x.detail,area:x.area,category:x.category,chapter:x.chapter,source:x.source,...(x.sourceNote?{sourceNote:x.sourceNote}:{}),type:'personal'})),checked:[...new Set(input.checked)],notes};
+  const medals=input.medals===undefined?{}:input.medals;
+  if(!medals||typeof medals!=='object'||Array.isArray(medals))throw Error('Ongeldige medailles');
+  const medalIds=new Set(trusted.filter(item=>item.medal).map(item=>item.id));
+  for(const [id,medal] of Object.entries(medals)){
+   if(!medalIds.has(id)||!Object.hasOwn(medalRanks,medal))throw Error('Ongeldige medaille');
+  }
+  return {chapter:input.chapter,area:areas.some(a=>a.id===input.area)?input.area:null,custom:input.custom.map(x=>({id:x.id,title:x.title,detail:x.detail,area:x.area,category:x.category,chapter:x.chapter,source:x.source,...(x.sourceNote?{sourceNote:x.sourceNote}:{}),type:'personal'})),checked:[...new Set(input.checked)],notes,...(Object.keys(medals).length?{medals:{...medals}}:{})};
  }
  function migrateLegacy(input){
   if(!input||!Array.isArray(input.items)||!Array.isArray(input.checked))throw Error('Ongeldige oudere back-up');
@@ -18,6 +32,6 @@
   return {chapter:input.chapter??1,area:input.region==='gellhorn'?'port':input.region,custom:input.items.map(x=>({...x,id:id(x.id),area:x.region==='gellhorn'?'port':x.region,category:x.category==='secrets'?'sights':x.category,source:/^https?:\/\//i.test(x.source)?x.source:'',...(!/^https?:\/\//i.test(x.source)&&x.source?{sourceNote:x.source}:{}),type:'personal'})),checked:input.checked.map(id),notes:{}};
  }
  const shouldAutoExplore=(introIds,checked)=>introIds.length>0&&introIds.every(id=>new Set(checked).has(id));
- const api={unique,progress,visible,validateModel,migrateLegacy,shouldAutoExplore,chapter:(items,n)=>unique(items).filter(i=>i.chapter===n),area:(items,id)=>unique(items).filter(i=>i.area===id),category:(items,id)=>unique(items).filter(i=>i.category===id)};
+ const api={unique,progress,mergeMedals,visible,validateModel,migrateLegacy,shouldAutoExplore,chapter:(items,n)=>unique(items).filter(i=>i.chapter===n),area:(items,id)=>unique(items).filter(i=>i.area===id),category:(items,id)=>unique(items).filter(i=>i.category===id)};
  if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.ExplorerCore=api;
 })(typeof window!=='undefined'?window:this);

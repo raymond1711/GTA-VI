@@ -13603,6 +13603,776 @@ window.EXPLORER_DISCOVERIES = [
 window.EXPLORER_RELEASE_ADDITIONS = {
   "added": [
     {
+      "id": "race-medal-ambrosia",
+      "title": "Ambrosia Raceway Trial",
+      "area": "ambrosia",
+      "sourceLocation": "Ambrosia Raceway",
+      "collection": "Race-uitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-race-challenge-locations-gold-medals/",
+      "detail": "Open Racing op de kaart. Je tijd of score bepaalt de medaille.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "race-medal-hamlet",
+      "title": "Hamlet BMX Stunt Run",
+      "area": null,
+      "sourceLocation": "Hamlet",
+      "collection": "Race-uitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-race-challenge-locations-gold-medals/",
+      "detail": "Open Racing op de kaart. Je tijd of score bepaalt de medaille.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "race-medal-boone",
+      "title": "Boone Speedway Trial",
+      "area": null,
+      "sourceLocation": "Boone Speedway",
+      "collection": "Race-uitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-race-challenge-locations-gold-medals/",
+      "detail": "Open Racing op de kaart. Je tijd of score bepaalt de medaille.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "race-medal-gellhorn-raceway",
+      "title": "Gellhorn Raceway Trial",
+      "area": "port",
+      "sourceLocation": "Gellhorn Raceway",
+      "collection": "Race-uitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-race-challenge-locations-gold-medals/",
+      "detail": "Open Racing op de kaart. Je tijd of score bepaalt de medaille.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "race-medal-gellhorn-dragway",
+      "title": "Gellhorn Dragway Trial",
+      "area": "port",
+      "sourceLocation": "Gellhorn Dragway",
+      "collection": "Race-uitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-race-challenge-locations-gold-medals/",
+      "detail": "Open Racing op de kaart. Je tijd of score bepaalt de medaille.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "race-medal-kalaga",
+      "title": "Kalaga Cycling Trial",
+      "area": "kalaga",
+      "sourceLocation": "Mount Kalaga",
+      "collection": "Race-uitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-race-challenge-locations-gold-medals/",
+      "detail": "Open Racing op de kaart. Je tijd of score bepaalt de medaille.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "race-medal-mud-air",
+      "title": "Mud Club Air Time Stunt Run",
+      "area": null,
+      "sourceLocation": "Mud Club",
+      "collection": "Race-uitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-race-challenge-locations-gold-medals/",
+      "detail": "Open Racing op de kaart. Je tijd of score bepaalt de medaille.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "race-medal-mud-drag",
+      "title": "Mud Club Drag Trial",
+      "area": null,
+      "sourceLocation": "Mud Club",
+      "collection": "Race-uitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-race-challenge-locations-gold-medals/",
+      "detail": "Open Racing op de kaart. Je tijd of score bepaalt de medaille.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "race-medal-mud-hill",
+      "title": "Mud Club Hill Climb Trial",
+      "area": null,
+      "sourceLocation": "Mud Club",
+      "collection": "Race-uitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-race-challenge-locations-gold-medals/",
+      "detail": "Open Racing op de kaart. Je tijd of score bepaalt de medaille.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "race-medal-mud-dirt",
+      "title": "Mud Club Dirt Track Trial",
+      "area": null,
+      "sourceLocation": "Mud Club",
+      "collection": "Race-uitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-race-challenge-locations-gold-medals/",
+      "detail": "Open Racing op de kaart. Je tijd of score bepaalt de medaille.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "race-medal-mud-oval",
+      "title": "Mud Club Oval Trial",
+      "area": null,
+      "sourceLocation": "Mud Club",
+      "collection": "Race-uitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-race-challenge-locations-gold-medals/",
+      "detail": "Open Racing op de kaart. Je tijd of score bepaalt de medaille.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "race-medal-mud-swamp",
+      "title": "Mud Club Swamp Run Trial",
+      "area": null,
+      "sourceLocation": "Mud Club",
+      "collection": "Race-uitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-race-challenge-locations-gold-medals/",
+      "detail": "Open Racing op de kaart. Je tijd of score bepaalt de medaille.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "race-medal-waning-sands",
+      "title": "Waning Sands Motocross Stunt Run",
+      "area": null,
+      "sourceLocation": "Waning Sands",
+      "collection": "Race-uitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-race-challenge-locations-gold-medals/",
+      "detail": "Open Racing op de kaart. Je tijd of score bepaalt de medaille.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-griffin-3-point-beginner",
+      "title": "3-Point Range · Beginner",
+      "area": "city",
+      "sourceLocation": "Griffin Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-griffin-3-point-intermediate",
+      "title": "3-Point Range · Intermediate",
+      "area": "city",
+      "sourceLocation": "Griffin Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-griffin-3-point-advanced",
+      "title": "3-Point Range · Advanced",
+      "area": "city",
+      "sourceLocation": "Griffin Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-griffin-hook-beginner",
+      "title": "Hook Range · Beginner",
+      "area": "city",
+      "sourceLocation": "Griffin Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-griffin-hook-intermediate",
+      "title": "Hook Range · Intermediate",
+      "area": "city",
+      "sourceLocation": "Griffin Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-griffin-hook-advanced",
+      "title": "Hook Range · Advanced",
+      "area": "city",
+      "sourceLocation": "Griffin Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-griffin-loop-beginner",
+      "title": "Loop Range · Beginner",
+      "area": "city",
+      "sourceLocation": "Griffin Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-griffin-loop-intermediate",
+      "title": "Loop Range · Intermediate",
+      "area": "city",
+      "sourceLocation": "Griffin Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-griffin-loop-advanced",
+      "title": "Loop Range · Advanced",
+      "area": "city",
+      "sourceLocation": "Griffin Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-griffin-maze-beginner",
+      "title": "Maze Range · Beginner",
+      "area": "city",
+      "sourceLocation": "Griffin Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-griffin-maze-intermediate",
+      "title": "Maze Range · Intermediate",
+      "area": "city",
+      "sourceLocation": "Griffin Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-griffin-maze-master",
+      "title": "Maze Range · Master",
+      "area": "city",
+      "sourceLocation": "Griffin Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-griffin-compound-beginner",
+      "title": "Compound Range · Beginner",
+      "area": "city",
+      "sourceLocation": "Griffin Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-griffin-compound-intermediate",
+      "title": "Compound Range · Intermediate",
+      "area": "city",
+      "sourceLocation": "Griffin Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-griffin-compound-master",
+      "title": "Compound Range · Master",
+      "area": "city",
+      "sourceLocation": "Griffin Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-griffin-villa-beginner",
+      "title": "Villa Range · Beginner",
+      "area": "city",
+      "sourceLocation": "Griffin Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-griffin-villa-intermediate",
+      "title": "Villa Range · Intermediate",
+      "area": "city",
+      "sourceLocation": "Griffin Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-griffin-villa-master",
+      "title": "Villa Range · Master",
+      "area": "city",
+      "sourceLocation": "Griffin Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-rodgers-market-beginner",
+      "title": "Market Range · Beginner",
+      "area": "port",
+      "sourceLocation": "Rodgers Ranch & Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-rodgers-market-intermediate",
+      "title": "Market Range · Intermediate",
+      "area": "port",
+      "sourceLocation": "Rodgers Ranch & Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-rodgers-market-advanced",
+      "title": "Market Range · Advanced",
+      "area": "port",
+      "sourceLocation": "Rodgers Ranch & Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-rodgers-market-master",
+      "title": "Market Range · Master",
+      "area": "port",
+      "sourceLocation": "Rodgers Ranch & Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-rodgers-zombie-beginner",
+      "title": "Zombie Range · Beginner",
+      "area": "port",
+      "sourceLocation": "Rodgers Ranch & Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-rodgers-zombie-intermediate",
+      "title": "Zombie Range · Intermediate",
+      "area": "port",
+      "sourceLocation": "Rodgers Ranch & Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-rodgers-zombie-advanced",
+      "title": "Zombie Range · Advanced",
+      "area": "port",
+      "sourceLocation": "Rodgers Ranch & Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-rodgers-zombie-master",
+      "title": "Zombie Range · Master",
+      "area": "port",
+      "sourceLocation": "Rodgers Ranch & Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-rodgers-hunting-beginner",
+      "title": "Hunting Range · Beginner",
+      "area": "port",
+      "sourceLocation": "Rodgers Ranch & Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-rodgers-hunting-intermediate",
+      "title": "Hunting Range · Intermediate",
+      "area": "port",
+      "sourceLocation": "Rodgers Ranch & Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-rodgers-hunting-advanced",
+      "title": "Hunting Range · Advanced",
+      "area": "port",
+      "sourceLocation": "Rodgers Ranch & Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-rodgers-hunting-master",
+      "title": "Hunting Range · Master",
+      "area": "port",
+      "sourceLocation": "Rodgers Ranch & Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-rodgers-saloon-beginner",
+      "title": "Saloon Range · Beginner",
+      "area": "port",
+      "sourceLocation": "Rodgers Ranch & Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-rodgers-saloon-intermediate",
+      "title": "Saloon Range · Intermediate",
+      "area": "port",
+      "sourceLocation": "Rodgers Ranch & Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-rodgers-saloon-advanced",
+      "title": "Saloon Range · Advanced",
+      "area": "port",
+      "sourceLocation": "Rodgers Ranch & Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-rodgers-saloon-master",
+      "title": "Saloon Range · Master",
+      "area": "port",
+      "sourceLocation": "Rodgers Ranch & Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-rodgers-cops-robbers-beginner",
+      "title": "Cops & Robbers Range · Beginner",
+      "area": "port",
+      "sourceLocation": "Rodgers Ranch & Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-rodgers-cops-robbers-intermediate",
+      "title": "Cops & Robbers Range · Intermediate",
+      "area": "port",
+      "sourceLocation": "Rodgers Ranch & Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-rodgers-cops-robbers-advanced",
+      "title": "Cops & Robbers Range · Advanced",
+      "area": "port",
+      "sourceLocation": "Rodgers Ranch & Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-rodgers-cops-robbers-master",
+      "title": "Cops & Robbers Range · Master",
+      "area": "port",
+      "sourceLocation": "Rodgers Ranch & Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-rodgers-alien-beginner",
+      "title": "Alien Range · Beginner",
+      "area": "port",
+      "sourceLocation": "Rodgers Ranch & Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-rodgers-alien-intermediate",
+      "title": "Alien Range · Intermediate",
+      "area": "port",
+      "sourceLocation": "Rodgers Ranch & Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-rodgers-alien-advanced",
+      "title": "Alien Range · Advanced",
+      "area": "port",
+      "sourceLocation": "Rodgers Ranch & Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
+      "id": "range-medal-rodgers-alien-master",
+      "title": "Alien Range · Master",
+      "area": "port",
+      "sourceLocation": "Rodgers Ranch & Shooting Range",
+      "collection": "Schietuitdagingen",
+      "source": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "detail": "Koop bij de balie de Waiver Pass in het spel. Kies daarna deze baan en moeilijkheid.",
+      "sourceName": "PowerPyx",
+      "chapter": 1,
+      "category": "activities",
+      "pendingActivity": true,
+      "medal": true
+    },
+    {
       "id": "excel-4888466c8bd251e186ab",
       "title": "Old Goliath",
       "area": "ambrosia",
@@ -13613,8 +14383,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz4s1f-dd4ec2ff.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz4s1f-dd4ec2ff.avif"
     },
     {
       "id": "excel-ff7a17f4a376c75e4c6f",
@@ -13627,8 +14396,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz4w17-3bda8bfc.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz4w17-3bda8bfc.avif"
     },
     {
       "id": "excel-4d59c997f14ebe05f0a0",
@@ -13641,8 +14409,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz51jr-ab4490af.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz51jr-ab4490af.avif"
     },
     {
       "id": "excel-97ef9e16f4970e88b042",
@@ -13655,8 +14422,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz55me-f6bc43e4.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz55me-f6bc43e4.avif"
     },
     {
       "id": "excel-c6bd523a44c87d061ceb",
@@ -13669,8 +14435,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz5af2-ac827176.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz5af2-ac827176.avif"
     },
     {
       "id": "excel-5aa7fdfae9c6d69e9122",
@@ -13683,8 +14448,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz5esy-a438fd75.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz5esy-a438fd75.avif"
     },
     {
       "id": "excel-c3b7729db246ec4733c4",
@@ -13697,8 +14461,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz5jbn-6ac27623.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz5jbn-6ac27623.avif"
     },
     {
       "id": "excel-11150d8f100badbeede9",
@@ -13711,8 +14474,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz5ofc-324fa035.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz5ofc-324fa035.avif"
     },
     {
       "id": "excel-0e2a9f50edcc41dcf2d7",
@@ -13725,8 +14487,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz5s3r-7db86192.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz5s3r-7db86192.avif"
     },
     {
       "id": "excel-6556a9c87e9880fbf24f",
@@ -13739,8 +14500,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz5vyn-6f091d17.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz5vyn-6f091d17.avif"
     },
     {
       "id": "excel-ed3e5ad537c3198769a2",
@@ -13753,8 +14513,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz60p3-b1ecb236.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz60p3-b1ecb236.avif"
     },
     {
       "id": "excel-9e29632af6e824b33d6e",
@@ -13767,8 +14526,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz65b1-3c1fc655.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqz65b1-3c1fc655.avif"
     },
     {
       "id": "excel-3502d4e045712e7cacf3",
@@ -13781,8 +14539,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1hpcb-210156ce.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1hpcb-210156ce.avif"
     },
     {
       "id": "excel-de908f16ac296ac007d9",
@@ -13795,8 +14552,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1hwj2-dd6a6963.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1hwj2-dd6a6963.avif"
     },
     {
       "id": "excel-d2579d724578bc6ea7b1",
@@ -13809,8 +14565,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1i0fv-dc35ac70.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1i0fv-dc35ac70.avif"
     },
     {
       "id": "excel-fc4b03b8e7bd6b7fa8ef",
@@ -13823,8 +14578,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1i5sa-80dd7f30.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1i5sa-80dd7f30.avif"
     },
     {
       "id": "excel-d257b6d4942f380b0c43",
@@ -13837,8 +14591,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1ia7m-d9358592.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1ia7m-d9358592.avif"
     },
     {
       "id": "excel-3eeadc58aa0b086163d3",
@@ -13851,8 +14604,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1if8n-46fc4a11.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1if8n-46fc4a11.avif"
     },
     {
       "id": "excel-bef979645002c10ea9e8",
@@ -13865,8 +14617,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1ikir-56ea982b.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1ikir-56ea982b.avif"
     },
     {
       "id": "excel-8c740f1444589d4f7e21",
@@ -13879,8 +14630,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1ip0r-96398228.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1ip0r-96398228.avif"
     },
     {
       "id": "excel-e1643438413a2256fc5f",
@@ -13893,8 +14643,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1issq-e9bb014a.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1issq-e9bb014a.avif"
     },
     {
       "id": "excel-90fe20dada3238f6fa9c",
@@ -13907,8 +14656,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1ixoj-7c078ab5.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1ixoj-7c078ab5.avif"
     },
     {
       "id": "excel-c67321a8f0b799e37fa9",
@@ -13921,8 +14669,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1j518-3a3de7dd.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1j518-3a3de7dd.avif"
     },
     {
       "id": "excel-8755a1fd5f554662680b",
@@ -13935,8 +14682,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1j9cg-f55a6c86.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1j9cg-f55a6c86.avif"
     },
     {
       "id": "excel-18c13d6cc82fd2b06bd4",
@@ -13949,8 +14695,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1kmwr-5e7b5978.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1kmwr-5e7b5978.avif"
     },
     {
       "id": "excel-723c1f93ca7988babde6",
@@ -13963,8 +14708,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1ksag-112b9204.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1ksag-112b9204.avif"
     },
     {
       "id": "excel-86db7b1db80f35a2fda3",
@@ -13977,8 +14721,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1kvz9-e941040c.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1kvz9-e941040c.avif"
     },
     {
       "id": "excel-2379b441e96efd9d369a",
@@ -13991,8 +14734,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1l0nt-61e6a8cb.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1l0nt-61e6a8cb.avif"
     },
     {
       "id": "excel-681b029b162fa5388ebf",
@@ -14005,8 +14747,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1l5d2-da7cd237.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1l5d2-da7cd237.avif"
     },
     {
       "id": "excel-7ab96809d8093859e7f1",
@@ -14019,8 +14760,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1layz-0dd61232.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1layz-0dd61232.avif"
     },
     {
       "id": "excel-c3d9ed7b026d551dcc60",
@@ -14033,8 +14773,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kaartpin en beeld in de gids.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/waink-landmarks",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1lf2z-83e67c4a.avif",
-      "pendingActivity": true
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwr1lf2z-83e67c4a.avif"
     },
     {
       "id": "excel-86e8de4a90fbcc31043d",
