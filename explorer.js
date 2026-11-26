@@ -287,10 +287,13 @@
  activities.id='activities-view';
  const activityNames=[
   'Stuntsprongen','Onder bruggen door','Mesvluchten','BASE-sprongen','Basketbalringen',
-  'Meditaties','Dieren bestuderen','Voertuigmodellen scannen','Race-uitdagingen','Schietuitdagingen'
+  'Meditaties','Dieren bestuderen','Voertuigmodellen scannen','Gewone races','Race-uitdagingen','Top Fun-droneproeven','Jachtopdrachten van Bret','Schietuitdagingen'
  ];
- const medalOptions=[['','Geen medaille'],['bronze','Brons'],['silver','Zilver'],['gold','Goud']];
+ const medalOptions=[['bronze','Brons'],['silver','Zilver'],['gold','Goud']];
  const activityNotes={
+  'Top Fun-droneproeven':'Per station moet je de eerste twee richttijden verslaan. De derde proef telt voor 100% zodra je finisht.',
+  'Jachtopdrachten van Bret':'Speel als Jason. De doelwitten en exacte zoekgebieden van opdracht 5 t/m 15 staan op de kaart zodra Bret je sms’t.',
+  'Gewone races':'Vink iedere unieke race af zodra je die hebt gewonnen. Voor 100% in het spel heb je 30 overwinningen nodig.',
   'Race-uitdagingen':'Voor 100% in het spel heb je 10 van de 13 gouden medailles nodig.',
   'Schietuitdagingen':'Voor 100% in het spel heb je alle 42 gouden medailles nodig.',
   'Meditaties':'Tien vindplekken. Op acht daarvan kun je Jason en Lucia apart laten mediteren.',
@@ -348,7 +351,9 @@
    const location=item.sourceLocation||areas.find(area=>area.id===item.area)?.name||'';
    const title=`<b>${esc(item.title)}</b>${location?`<small>${esc(location)}</small>`:''}`;
    const result=item.medal
-    ? `<div class="collect-controls"><label>${title}<select aria-label="Beste medaille voor ${esc(item.title)}" data-activity-medal="${esc(item.id)}">${medalOptions.map(([value,name])=>`<option value="${value}" ${(model.medals?.[item.id]||'')===value?'selected':''}>${name}</option>`).join('')}</select></label></div>`
+    ? `<fieldset class="medal-choice"><legend>${title}</legend><div class="medal-options">
+     ${medalOptions.map(([value,name])=>`<label class="medal-option" data-rank="${value}"><input type="checkbox" data-activity-medal="${esc(item.id)}" value="${value}" ${model.medals?.[item.id]===value?'checked':''}><span aria-hidden="true" class="medal-icon"></span>${name}</label>`).join('')}
+     </div></fieldset>`
     : `<label class="task"><input type="checkbox" data-activity-record="${esc(item.id)}" ${found.has(item.id)?'checked':''}><span>${title}</span></label>`;
    card.innerHTML=`${result}
     <details><summary>${item.screenshot?'Uitleg, bron en screenshot':'Uitleg en bron'}</summary>
@@ -373,15 +378,16 @@
   if(!activityRecord&&!activityMedal){renderActivities();return;}
   if(activityMedal){
    model.medals??={};
-   if(input.value)model.medals[activityMedal]=input.value;
+   if(input.checked)model.medals[activityMedal]=input.value;
    else delete model.medals[activityMedal];
+   for(const option of input.closest('fieldset').querySelectorAll('input'))option.checked=option===input&&input.checked;
   }else{
    model.checked=input.checked?[...new Set([...model.checked,activityRecord])]:model.checked.filter(value=>value!==activityRecord);
   }
   persist();
   const items=selectedActivities();
   updateActivityProgress(items);
-  if(activityMissing.checked&&(activityMedal?input.value==='gold':input.checked)){
+  if(activityMissing.checked&&(input.checked&&(!activityMedal||input.value==='gold'))){
    const scrollTop=window.scrollY;
    const card=input.closest('article');
    const next=card.nextElementSibling||card.previousElementSibling;
