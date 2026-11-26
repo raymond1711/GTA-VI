@@ -9,7 +9,7 @@
   return merged;
  }
  const unique=items=>[...new Map(items.map(i=>[i.id,i])).values()];
- function progress(items,checked){const rows=unique(items),set=new Set(checked),done=rows.filter(i=>set.has(i.id)).length;return {done,total:rows.length,percent:rows.length?Math.round(done/rows.length*100):null};}
+ function progress(items,checked){const rows=unique(items),set=new Set(checked),done=rows.filter(i=>set.has(i.id)).length;return {done,total:rows.length,percent:rows.length ? Math.min(done===rows.length ? 100 : 99,Math.round(done/rows.length*100)) : null};}
  function visible(items,chapter){return unique(items).filter(i=>i.chapter<=chapter&&(i.availableUntilChapter===undefined||chapter<=i.availableUntilChapter));}
  function validateModel(input,areas,types,trusted=[]){
   if(!input||!Number.isInteger(input.chapter)||input.chapter<1||input.chapter>99||!Array.isArray(input.custom)||input.custom.length>5000||!Array.isArray(input.checked)||!input.notes||typeof input.notes!=='object'||Array.isArray(input.notes))throw Error('Ongeldige verkenningsback-up');

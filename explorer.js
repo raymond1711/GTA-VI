@@ -16,10 +16,22 @@
  const activeDiscoveries=trusted.filter(item=>!item.pendingActivity);
  const activeReferences=info.filter(item=>!item.pendingActivity);
  const activityRecords=core.unique(trusted.filter(item=>item.pendingActivity&&!item.referenceOnly)).map(item=>({...item,category:'activities'}));
+ const meditationCharacters=new Map();
+ for(const item of trusted.filter(item=>item.meditationParent)){
+  const group=meditationCharacters.get(item.meditationParent)||[];
+  group.push(item);
+  meditationCharacters.set(item.meditationParent,group);
+ }
  const activityReferences=info.filter(item=>item.pendingActivity&&item.referenceOnly);
  const records=()=>core.unique([...legacy,...activeDiscoveries,...model.custom]);
  const storySort=(a,b)=>a.chapter-b.chapter||(a.storyOrder??1000)-(b.storyOrder??1000);
- const checked=()=>[...new Set([...state.checked,...model.checked,...Object.keys(model.medals||{})])];
+ const checked=()=>{
+  const ids=new Set([...state.checked,...model.checked,...Object.keys(model.medals||{})]);
+  for(const [spot,characters] of meditationCharacters){
+   if(characters.every(item=>ids.has(item.id)))ids.add(spot);
+  }
+  return [...ids];
+ };
  const label=p=>p.percent===null?'—':p.percent+'%';
  function meter(rows,title,small=false){const p=core.progress(rows,checked());return `<div class="${small?'mini-progress':'progress-row'}"><div class="meter-label"><span>${esc(title)}</span><strong>${label(p)}</strong></div><div class="neutral-track"><div style="width:${p.percent??0}%"></div></div>${small?'':`<small>${p.done} van ${p.total} bijgehouden onderdelen</small>`}</div>`}
  const svgIcons={skyline:'<path d="M5 38V16h9v22m4 0V6h10v32m4 0V20h11v18M3 40h43M21 11h4m-4 6h4m-4 6h4m-15-1h4m-4 6h4m28-2h4"/>',island:'<path d="M3 37q20-10 42 0M7 42q7-3 14 0t14 0t10 0M24 33q5-14 1-22m0 0q-10-9-16 0 9-3 16 0 5-11 14-5-9 0-14 5 9-2 15 8-10-7-15-8-8 0-12 10"/>',reeds:'<path d="M4 40q10-4 20 0t20 0M18 38V12m10 26V8m-2 12h4V7h-4zm-10 3h4V11h-4zM9 35 7 22m4 13 3-7m23 10 2-17m-4 17-3-10"/>',crane:'<path d="M8 41h35M14 39V7h6v32M6 10h36l-25-8zm31 0v16m-3 0v6h6M22 39V23h9v16"/>',factory:'<path d="M5 41V22l11-7v10l12-8v8h15v16zM33 23V5h6v18M10 31h5m6 0h5m7 0h5M10 36h5m6 0h5m7 0h5"/>',mountain:'<path d="m3 40 16-28 8 13 6-19 13 34zm11-20 5 5 4-6m7-5 3 5 4-6M8 40l12-12 9 12"/>'};
@@ -287,7 +299,8 @@
  activities.id='activities-view';
  const activityNames=[
   'Stuntsprongen','Onder bruggen door','Mesvluchten','BASE-sprongen','Basketbalringen',
-  'Meditaties','Dieren bestuderen','Voertuigmodellen scannen','Gewone races','Race-uitdagingen','Top Fun-droneproeven','Jachtopdrachten van Bret','Schietuitdagingen'
+  'Meditaties','Dieren bestuderen','Voertuigmodellen scannen','Gewone races','Race-uitdagingen','Top Fun-droneproeven','Jachtopdrachten van Bret','Schietuitdagingen',
+  'Arcadegames','Pooltegenstanders','Minigolf','Dino Golf-medailles','Minigolfuitdagingen'
  ];
  const medalOptions=[['bronze','Brons'],['silver','Zilver'],['gold','Goud']];
  const activityNotes={
@@ -296,7 +309,12 @@
   'Gewone races':'Vink iedere unieke race af zodra je die hebt gewonnen. Voor 100% in het spel heb je 30 overwinningen nodig.',
   'Race-uitdagingen':'Voor 100% in het spel heb je 10 van de 13 gouden medailles nodig.',
   'Schietuitdagingen':'Voor 100% in het spel heb je alle 42 gouden medailles nodig.',
-  'Meditaties':'Tien vindplekken. Op acht daarvan kun je Jason en Lucia apart laten mediteren.',
+  'Meditaties':'Vink Jason en Lucia afzonderlijk aan. Na Coffee Break kun je je partner bellen en samen gaan. Een oud locatievinkje vermeldt nog geen personage.',
+  'Arcadegames':'Start elk van de vier spellen één keer voor de spelchecklist. Speel alle levels van één spel uit voor Stick Fiddler.',
+  'Pooltegenstanders':'Vink per locatie de eerste winst af.',
+  'Minigolf':'Vink een locatie aan zodra je er een ronde hebt gespeeld.',
+  'Dino Golf-medailles':'Vink per hole je beste medaille aan.',
+
   'Dieren bestuderen':'De lijst bevat bronvermeldingen van dieren. Namen en varianten kunnen afwijken van de spelteller.',
   'Voertuigmodellen scannen':'Deze lijst bevat de voertuigmodellen die al in de gids zijn opgenomen.',
   'Basketbalringen':'Open bij het nummer de kaart of route uit de gids. Sommige locaties hebben meerdere ringen.'
@@ -319,16 +337,50 @@
   return activityArea.value==='all'||(activityArea.value==='unknown'?!item.area:item.area===activityArea.value||item.extraArea===activityArea.value);
  }
  const selectedActivities=()=>activityRecords.filter(item=>item.collection===activityKind.value);
+ const stuntCollections=new Set(['Stuntsprongen','Onder bruggen door','Mesvluchten','BASE-sprongen']);
+ const gameTargets=new Map([
+  ['Meditaties',15],['Basketbalringen',90],['Gewone races',30],['Race-uitdagingen',10],
+  ['Schietuitdagingen',42],['Top Fun-droneproeven',42],['Jachtopdrachten van Bret',15],
+  ['Arcadegames',4],['Pooltegenstanders',5],['Minigolf',2]
+ ]);
+ function gameGoalMeter(rows,title,goal,completed){
+  const progress=core.progress(rows,completed);
+  const position=Math.min(100,goal/progress.total*100);
+  return `<div class="progress-row">
+   <div class="meter-label"><span>${esc(title)}</span><strong>${label(progress)}</strong></div>
+   <div class="game-goal-track">
+    <div class="neutral-track" role="progressbar" aria-label="${esc(title)}" aria-valuemin="0" aria-valuemax="${progress.total}" aria-valuenow="${progress.done}"><div style="width:${progress.percent??0}%"></div></div>
+    <span class="game-goal-marker" style="left:${position}%" aria-hidden="true"></span>
+   </div>
+   <small>${progress.done} van ${progress.total} · Spelminimum ${goal} van ${progress.total}${progress.done>=goal?' · Behaald':''}</small>
+  </div>`;
+ }
  function updateActivityProgress(items){
   const progress=activities.querySelector('#activity-progress');
+  const kind=activityKind.value;
   const areaName=activityArea.selectedOptions[0].textContent;
   const filtered=items.filter(matchesActivityArea);
-  const goldCount=rows=>rows.filter(item=>model.medals?.[item.id]==='gold').length;
-  const goldLine=items.some(item=>item.medal)
-   ? `<p>Goud ${goldCount(items)} van ${items.length}${activityArea.value==='all'?'':` · ${esc(areaName)}: ${goldCount(filtered)} van ${filtered.length}`}</p>`
+  const gold=Object.keys(model.medals||{}).filter(id=>model.medals[id]==='gold');
+  const goal=gameTargets.get(kind);
+  const medalActivity=items.some(item=>item.medal);
+  const totalMeter=kind==='Meditaties'
+   ? gameGoalMeter(items.flatMap(item=>meditationCharacters.get(item.id)||[item]),'Meditaties per personage',goal,model.checked)
+   : goal
+    ? gameGoalMeter(items,medalActivity?'Gouden medailles':kind,goal,medalActivity?gold:checked())
+    : meter(items,kind);
+  const stunts=stuntCollections.has(kind)
+   ? gameGoalMeter(activityRecords.filter(item=>stuntCollections.has(item.collection)),'Alle stunts samen',300,checked())
    : '';
-  progress.innerHTML=meter(items,activityKind.value)+
-   (activityArea.value==='all'?'':meter(filtered,areaName))+goldLine;
+  const totals=medalActivity&&Boolean(goal);
+  const marked=totals?meter(items,'Onderdeel met een medaille'):'';
+  const areaMeter=activityArea.value==='all'?'':meter(filtered,areaName);
+  const goldTotal=medalActivity&&!goal?`<p>Goud ${items.filter(item=>gold.includes(item.id)).length} van ${items.length}</p>`:'';
+  progress.innerHTML=totalMeter+marked+areaMeter+stunts+goldTotal;
+ }
+ function activityDone(item,found){
+  if(item.medal)return model.medals?.[item.id]==='gold';
+  const characters=meditationCharacters.get(item.id);
+  return characters?characters.every(character=>found.has(character.id)):found.has(item.id);
  }
  function setActivityEmpty(matches){
   activityEmpty.hidden=Boolean(activityList.querySelector('article:not([hidden])'));
@@ -345,12 +397,19 @@
   activities.querySelector('#activity-missing-label').textContent=items.some(item=>item.medal)?'Zonder goud':'Alleen ontbrekende';
   activityList.replaceChildren();
   for(const item of matches){
-   if(activityMissing.checked&&(item.medal?model.medals?.[item.id]==='gold':found.has(item.id)))continue;
+   if(activityMissing.checked&&activityDone(item,found))continue;
    const card=document.createElement('article');
    card.className='corker-card';
+   card.dataset.activityCard=item.id;
    const location=item.sourceLocation||areas.find(area=>area.id===item.area)?.name||'';
    const title=`<b>${esc(item.title)}</b>${location?`<small>${esc(location)}</small>`:''}`;
-   const result=item.medal
+   const characters=meditationCharacters.get(item.id);
+   const oldCheck=characters&&model.checked.includes(item.id)
+    ? `<label class="task"><input type="checkbox" data-activity-record="${esc(item.id)}" checked> Eerder afgevinkt · personage onbekend</label>`:'';
+   const characterChecks=characters?`<fieldset class="medal-choice"><legend>${title}</legend><div class="medal-options">
+    ${characters.map(character=>`<label class="medal-option"><input type="checkbox" data-activity-record="${esc(character.id)}" ${found.has(character.id)?'checked':''}> ${esc(character.character)}</label>`).join('')}
+    </div>${oldCheck}</fieldset>`:'';
+   const result=characters?characterChecks:item.medal
     ? `<fieldset class="medal-choice"><legend>${title}</legend><div class="medal-options">
      ${medalOptions.map(([value,name])=>`<label class="medal-option" data-rank="${value}"><input type="checkbox" data-activity-medal="${esc(item.id)}" value="${value}" ${model.medals?.[item.id]===value?'checked':''}><span aria-hidden="true" class="medal-icon"></span>${name}</label>`).join('')}
      </div></fieldset>`
@@ -387,9 +446,10 @@
   persist();
   const items=selectedActivities();
   updateActivityProgress(items);
-  if(activityMissing.checked&&(input.checked&&(!activityMedal||input.value==='gold'))){
+  const card=input.closest('article');
+  const item=items.find(record=>record.id===card.dataset.activityCard);
+  if(activityMissing.checked&&activityDone(item,new Set(checked()))){
    const scrollTop=window.scrollY;
-   const card=input.closest('article');
    const next=card.nextElementSibling||card.previousElementSibling;
    card.remove();
    (next?.querySelector('input,select')||activityMissing).focus({preventScroll:true});
