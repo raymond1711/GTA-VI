@@ -62,25 +62,23 @@
   </g>
 
   <!-- Adjacent regions reuse their shared edges. Detailed contours and road lines are illustrative. -->
-  <g class="map-region" data-area="kalaga" style="--area-color:${areas.find(area=>area.id==='kalaga').color}" role="button" tabindex="0" aria-label="Mount Kalaga" aria-pressed="false">
+  <g class="map-region" data-area="kalaga" style="--area-color:${areas.find(area=>area.id==='kalaga').color}" aria-hidden="true" aria-pressed="false">
     <path class="region-land" fill="#779b75" d="M91 137Q73 123 81 105L101 92 94 74 117 56 142 54 151 34 181 45 203 34 221 49 253 40 274 57 301 53 325 70 352 76 359 99 374 111 364 137 372 161L323 175 268 156 223 162 170 149 132 158Z"/>
     <g class="map-art" fill="none" stroke="#435f51" stroke-width="1.5">
       <path d="M110 96q28 8 48-12t52-9q21 9 47-5t65 12M104 109q39 10 62-14t47-6q26 13 55-6t75 17M108 121q24 10 49-4t42-17q22 2 41 11t45-14q22-13 45 2t22 14M150 130q32-4 46-18t42 5q25 14 55-10t54 17M260 132q24 0 45-13t43 13"/>
       <path d="m132 100 16-30 15 24 8-13 17 23m66-7 15-29 15 23 9-16 18 23" stroke="#dce3b0" stroke-width="2.4"/>
     </g>
-    <g class="region-name" transform="translate(143 112)"><rect width="153" height="36" rx="11"/><svg x="7" y="7" width="22" height="22" viewBox="0 0 48 48">${svgIcons.mountain}</svg><text x="34" y="23">Mount Kalaga</text></g>
   </g>
 
-  <g class="map-region" data-area="port" style="--area-color:${areas.find(area=>area.id==='port').color}" role="button" tabindex="0" aria-label="Port Gellhorn" aria-pressed="false">
+  <g class="map-region" data-area="port" style="--area-color:${areas.find(area=>area.id==='port').color}" aria-hidden="true" aria-pressed="false">
     <path class="region-land" fill="#bda47f" d="M91 137L132 158 170 149 223 162 198 212 175 267 127 300 108 288 101 269 80 254 88 236 69 226 76 213 62 200 73 181 89 170 83 153Z M45 163l6-11 8-3 2-7 13-4 5 8-5 8 3 6-10 10-17 5Z"/>
     <g class="map-art" fill="url(#map-city-blocks)"><path d="M80 190l34-14 61 3 13 24-22 38-41 27-21-21 6-21-29-13Z"/></g>
     <g class="map-art" fill="none" stroke="#f9deb7" stroke-width="2.4" stroke-linecap="round">
       <path d="M71 166l16 12m19 67-23 6m19 5-13 4m22 2-12 8M100 187q22 23 59 25l22 22"/>
     </g>
-    <g class="region-name" transform="translate(36 207)"><rect width="149" height="36" rx="11"/><svg x="7" y="7" width="22" height="22" viewBox="0 0 48 48">${svgIcons.crane}</svg><text x="34" y="23">Port Gellhorn</text></g>
   </g>
 
-  <g class="map-region" data-area="ambrosia" style="--area-color:${areas.find(area=>area.id==='ambrosia').color}" role="button" tabindex="0" aria-label="Ambrosia" aria-pressed="false">
+  <g class="map-region" data-area="ambrosia" style="--area-color:${areas.find(area=>area.id==='ambrosia').color}" aria-hidden="true" aria-pressed="false">
     <path class="region-land" fill="#a0aa78" d="M223 162L268 156 323 175 372 161 367 183 382 204 373 229 384 260 351 286 311 293 280 308 266 338 216 346 171 327 138 329 129 314 127 300 175 267 198 212Z"/>
     <g class="map-art" fill="#d4cb8e" stroke="#859560" stroke-width="2">
       <path d="m186 247 32 9-6 15-32-9zM179 265l31 9-8 15-29-9zM221 257l24 8-8 16-23-8zM215 275l21 9-8 17-22-10zM321 184l39-5 2 16-35 5zM328 204l35-5 1 12-32 9z"/>
@@ -90,19 +88,17 @@
       <path d="M204 212q20 14 20 37t36 33q30 4 75-18M322 192q13 22 12 45t12 32"/>
     </g>
     <text class="landmark-name" x="280" y="223">Lake Leonida</text>
-    <g class="region-name" transform="translate(156 289)"><rect width="123" height="36" rx="11"/><svg x="7" y="7" width="22" height="22" viewBox="0 0 48 48">${svgIcons.factory}</svg><text x="34" y="23">Ambrosia</text></g>
   </g>
 
-  <g class="map-region" data-area="grass" style="--area-color:${areas.find(area=>area.id==='grass').color}" role="button" tabindex="0" aria-label="Grassrivers" aria-pressed="false">
+  <g class="map-region" data-area="grass" style="--area-color:${areas.find(area=>area.id==='grass').color}" aria-hidden="true" aria-pressed="false">
     <path class="region-land" fill="#79a684" d="M138 329L171 327 216 346 266 338 280 379 269 419 271 450 252 467 230 460 216 469 199 456 181 459 170 446 152 444 153 427 137 422 144 405 129 394 134 375 119 366 125 351Z M118 404l8 3 5 10-9 6-8-9Z M156 459l11 1 5 8-11 5-7-7Z"/>
     <g class="map-art" fill="none" stroke-linecap="round">
       <path d="M132 357q31-2 34 17t24 17q28-5 35 20t31 28M142 400q21-15 35 3t9 37M249 350q-21 12-15 23t27 9M222 446q-1-18-17-24" stroke="#387c80" stroke-width="5"/>
       <path d="M142 345l14 3m26 5 14 3m5 13 19 5m-63 43 12 4m59 20 15 4m-44 4 10 3m38-51 12 5m-107-35 10 3" stroke="#d4dfaa" stroke-width="2.6"/>
     </g>
-    <g class="region-name" transform="translate(123 379)"><rect width="137" height="36" rx="11"/><svg x="7" y="7" width="22" height="22" viewBox="0 0 48 48">${svgIcons.reeds}</svg><text x="34" y="23">Grassrivers</text></g>
   </g>
 
-  <g class="map-region" data-area="city" style="--area-color:${areas.find(area=>area.id==='city').color}" role="button" tabindex="0" aria-label="Vice City" aria-pressed="false">
+  <g class="map-region" data-area="city" style="--area-color:${areas.find(area=>area.id==='city').color}" aria-hidden="true" aria-pressed="false">
     <path class="region-land" fill="#b9a5ab" d="M384 260L387 278 379 298 391 318 388 340 397 359 388 375 387 391 374 409 358 418 349 437 328 448 309 445 291 457 271 450 269 419 280 379 266 338 280 308 311 293 351 286Z M402 319l8 14 4 24-7 27-14 18 1-15 9-23-6-22Z M384 411l10-8 4 7-7 12-13 3Z"/>
     <g class="map-art" fill="url(#map-city-blocks)">
       <path d="M349 296l24-15-7 25 15 18-3 23 8 18-13 24-1 14-24 15-27 17-20-9 12-29-9-23 17-22 9-37Z"/>
@@ -111,7 +107,6 @@
       <path d="M326 313q14 18 10 43t19 37m5-53 42 5m-41 43 43-18m-69 28-18 24-24 13" stroke-width="2.6"/>
       <path d="M288 343l19-21m-13 23 22-24m-13 14-14-6" stroke="#605663" stroke-width="2.6"/>
     </g>
-    <g class="region-name" transform="translate(292 351)"><rect width="112" height="36" rx="11"/><svg x="7" y="7" width="22" height="22" viewBox="0 0 48 48">${svgIcons.skyline}</svg><text x="34" y="23">Vice City</text></g>
   </g>
 
   <g class="map-art map-detail" aria-hidden="true">
@@ -128,10 +123,9 @@
       <circle cx="404" cy="340" r="2"/><text x="395" y="325">Vice Beach</text>
     </g>
   </g>
-  <g class="map-region" data-area="keys" style="--area-color:${areas.find(area=>area.id==='keys').color}" role="button" tabindex="0" aria-label="Leonida Keys" aria-pressed="false">
+  <g class="map-region" data-area="keys" style="--area-color:${areas.find(area=>area.id==='keys').color}" aria-hidden="true" aria-pressed="false">
     <path class="region-land" fill="#c4b781" d="M307 462l16-8 13 9-6 12-19 5-12-6Z M291 480l12-2 8 6-7 9-18 5-8-6Z M266 498l10-4 9 8-9 9-18 4-9-5Z M233 510l13-4 8 10-12 8-20 1-7-6Z M199 518l13-4 7 9-16 8-16-1-7-6Z M168 519l11 2 3 9-16 5-15-4 2-9Z"/>
     <path class="map-art" d="M321 449q6 27-34 40t-45 27q-40 15-81 12" fill="none" stroke="#ffe6b7" stroke-width="2.6" stroke-linecap="round"/>
-    <g class="region-name" transform="translate(62 466)"><rect width="153" height="36" rx="11"/><svg x="7" y="7" width="22" height="22" viewBox="0 0 48 48">${svgIcons.island}</svg><text x="34" y="23">Leonida Keys</text><path d="M91 36l9 14" fill="none" stroke-width="1.5"/></g>
   </g>
 
   <g class="map-art" aria-hidden="true">
@@ -139,6 +133,26 @@
     <text class="sea-name" x="418" y="244" transform="rotate(-90 418 244)">ATLANTISCHE OCEAAN</text>
     <path d="m395 61 8-20 8 20-8-4Z" fill="#e8f5ed"/>
     <text class="sea-name" x="403" y="35">N</text>
+  </g>
+  <g class="map-region-labels">
+    <g class="map-region" data-area="kalaga" style="--area-color:${areas.find(area=>area.id==='kalaga').color}" role="button" tabindex="0" aria-label="Mount Kalaga" aria-pressed="false">
+      <g class="region-name" transform="translate(143 112)"><rect width="153" height="36" rx="11"/><svg x="7" y="7" width="22" height="22" viewBox="0 0 48 48">${svgIcons.mountain}</svg><text x="34" y="23">Mount Kalaga</text></g>
+    </g>
+    <g class="map-region" data-area="port" style="--area-color:${areas.find(area=>area.id==='port').color}" role="button" tabindex="0" aria-label="Port Gellhorn" aria-pressed="false">
+      <g class="region-name" transform="translate(36 207)"><rect width="149" height="36" rx="11"/><svg x="7" y="7" width="22" height="22" viewBox="0 0 48 48">${svgIcons.crane}</svg><text x="34" y="23">Port Gellhorn</text></g>
+    </g>
+    <g class="map-region" data-area="ambrosia" style="--area-color:${areas.find(area=>area.id==='ambrosia').color}" role="button" tabindex="0" aria-label="Ambrosia" aria-pressed="false">
+      <g class="region-name" transform="translate(156 289)"><rect width="123" height="36" rx="11"/><svg x="7" y="7" width="22" height="22" viewBox="0 0 48 48">${svgIcons.factory}</svg><text x="34" y="23">Ambrosia</text></g>
+    </g>
+    <g class="map-region" data-area="grass" style="--area-color:${areas.find(area=>area.id==='grass').color}" role="button" tabindex="0" aria-label="Grassrivers" aria-pressed="false">
+      <g class="region-name" transform="translate(123 379)"><rect width="137" height="36" rx="11"/><svg x="7" y="7" width="22" height="22" viewBox="0 0 48 48">${svgIcons.reeds}</svg><text x="34" y="23">Grassrivers</text></g>
+    </g>
+    <g class="map-region" data-area="city" style="--area-color:${areas.find(area=>area.id==='city').color}" role="button" tabindex="0" aria-label="Vice City" aria-pressed="false">
+      <g class="region-name" transform="translate(292 351)"><rect width="112" height="36" rx="11"/><svg x="7" y="7" width="22" height="22" viewBox="0 0 48 48">${svgIcons.skyline}</svg><text x="34" y="23">Vice City</text></g>
+    </g>
+    <g class="map-region" data-area="keys" style="--area-color:${areas.find(area=>area.id==='keys').color}" role="button" tabindex="0" aria-label="Leonida Keys" aria-pressed="false">
+      <g class="region-name" transform="translate(62 466)"><rect width="153" height="36" rx="11"/><svg x="7" y="7" width="22" height="22" viewBox="0 0 48 48">${svgIcons.island}</svg><text x="34" y="23">Leonida Keys</text><path d="M91 36l9 14" fill="none" stroke-width="1.5"/></g>
+    </g>
   </g>
 </svg>`;
  const explore=document.createElement('section');explore.id='explorer-view';explore.innerHTML=`<header class="page-heading page-heading--explore"><p class="eyebrow">VOLG JE NIEUWSGIERIGHEID</p><h1>Verkennen</h1></header><div class="chapter-panel"><div><div class="chapter-field"><label for="current-chapter">Ik speel hoofdstuk <output id="chapter-value" for="current-chapter">1</output></label><input id="current-chapter" type="range" min="1" max="${lastChapter}" step="1"><div class="chapter-ticks" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span></div></div><small class="chapter-note">Je keuze blijft bewaard. Latere onderdelen blijven verborgen.</small></div><div id="chapter-stats" class="chapter-stats"></div></div><div class="map-wrap"><div class="map-caption"><span>KIES EEN GEBIED</span><span>LEONIDA · KAART V4</span></div>${leonidaMap}</div><div class="map-legend"><span><i style="background:#3c8998"></i>Water</span><span><i style="background:#b9a5ab"></i>Stad</span><span><i style="background:#79a684"></i>Natuur</span></div><p class="map-note">Kies een gebied op de kaart. Gebiedsgrenzen en wegen zijn indicatief.</p><div id="chosen-area"></div>`;
@@ -250,6 +264,7 @@
   };
   details.addEventListener('toggle',showImage);
  }
+ const chooseAreaPrompt='<p class="no-items">Tik op een gebied op de kaart.</p>';
  const hasNoRegion=item=>!item.area&&!item.extraArea;
  let collectibleArea=null;
  function renderCollectibles(){
@@ -279,7 +294,7 @@
   target.replaceChildren();
   collectibles.querySelector('#collect-status').hidden=!collectibleArea;
   coverageLine.hidden=!collectibleArea||!coverageLine.textContent;
-  if(!collectibleArea){target.textContent='Tik op een gebied op de kaart.';return;}
+  if(!collectibleArea){target.innerHTML=chooseAreaPrompt;return;}
   if(!visible.length)target.textContent=missing&&matches.length?'Alle opgenomen vindplekken afgevinkt.':'Geen vindplekken voor deze collectie in dit gebied.';
   for(const item of visible){
    const row=document.createElement('article');
@@ -355,7 +370,7 @@
   <label><input type="checkbox" id="activity-missing"> <span id="activity-missing-label">Alleen ontbrekende</span></label>
  </div><div id="activity-map"></div><div id="activity-progress" class="activity-progress" aria-live="polite"></div>
  <p id="activity-note" class="scope-note" hidden></p>
- <p id="activity-empty" class="scope-note" hidden></p>
+ <div id="activity-area-prompt" hidden>${chooseAreaPrompt}</div><p id="activity-empty" class="scope-note" hidden></p>
  <div id="activity-list"></div>
  <details id="activity-references" class="corker-card" hidden><summary>Extra basketbalverwijzingen</summary><ul></ul></details>`;
  const activityMap=cloneAreaMap('activity');
@@ -417,8 +432,9 @@
   return characters?characters.every(character=>found.has(character.id)):found.has(item.id);
  }
  function setActivityEmpty(matches){
-  activityEmpty.hidden=Boolean(activityList.querySelector('article:not([hidden])'));
-  activityEmpty.textContent=!activityArea?'Tik op een gebied op de kaart.':matches.length?(matches[0].medal?'Alle onderdelen in deze selectie hebben goud.':'Alle onderdelen in deze selectie zijn afgevinkt.'):'Geen onderdelen opgenomen voor dit gebied.';
+  activities.querySelector('#activity-area-prompt').hidden=Boolean(activityArea);
+  activityEmpty.hidden=!activityArea||Boolean(activityList.querySelector('article:not([hidden])'));
+  activityEmpty.textContent=matches.length?(matches[0].medal?'Alle onderdelen in deze selectie hebben goud.':'Alle onderdelen in deze selectie zijn afgevinkt.'):'Geen onderdelen opgenomen voor dit gebied.';
  }
  function renderActivities(){
   for(const control of activities.querySelectorAll('[data-area],[data-activity-area]'))control.setAttribute('aria-pressed',String((control.dataset.area||control.dataset.activityArea)===activityArea));
@@ -541,7 +557,7 @@
  function renderExplore(){
   const all=exploreRecords();renderMissionHub(all);explore.querySelector('#chapter-stats').innerHTML=meter(core.chapter(all,model.chapter),'Hoofdstuk '+model.chapter)+`<small>Eenmalig aan dit hoofdstuk toegewezen, inclusief vastgelegde hoofdmissies.</small>`;
   explore.querySelectorAll('[data-area]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.area===model.area)));
-  const target=explore.querySelector('#chosen-area'),area=areas.find(a=>a.id===model.area);if(!area){target.innerHTML='<p class="no-items">Tik op een gebied om je ontdekkingen te bekijken.</p>';return}target.style.setProperty('--area-color',area.color);
+  const target=explore.querySelector('#chosen-area'),area=areas.find(a=>a.id===model.area);if(!area){target.innerHTML=chooseAreaPrompt;return}target.style.setProperty('--area-color',area.color);
   const areaItems=all.filter(item=>item.area===area.id||item.extraArea===area.id),visible=core.visible(areaItems,model.chapter),p=core.progress(areaItems,checked());
   const opened=new Set([...target.querySelectorAll('details[open]')].map(d=>d.dataset.category));
   target.innerHTML=`<header class="area-header"><div class="area-icon">${icon(area)}</div><div><p class="eyebrow">JOUW GEKOZEN GEBIED</p><h2>${esc(area.name)}</h2><p>${esc(area.description)}</p><div class="area-meter"><div class="meter-label"><span>Gebied · alle hoofdstukken</span><strong>${label(p)}</strong></div><div class="neutral-track"><div style="width:${p.percent??0}%"></div></div></div></div></header><p class="source-notice">Hoofdstuk 1 t/m 5. Verzamelobjecten en activiteiten staan in hun eigen tabs. Binnen een hoofdstuk kunnen extra missievoorwaarden gelden; die staan bij het onderdeel.</p><div class="explore-list"></div><div class="explorer-tools"><button type="button" id="add-discovery" class="primary small">+ Eigen ontdekking</button><button type="button" class="quiet" data-page="progress">Alle voortgang bekijken ↗</button></div><p class="scope-note">Gebieds- en categorietotalen tellen alle vastgelegde hoofdstukken mee. Namen en details van latere onderdelen blijven verborgen.</p>`;
