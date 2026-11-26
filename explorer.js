@@ -184,15 +184,18 @@
   <p>Bij <strong>Zoekgebied</strong> geeft de gids een geschatte plek of herkenningspunt. Bij <strong>Voorlopige zoektip</strong> is de plek nog onzeker of kan de figuur al onder een andere naam in de lijst staan. Controleer in de game of de figuur meetelt voordat je hem afvinkt.</p>
  </details>
  <div id="collect-map"></div><p id="collect-status" aria-live="polite"></p><p id="collect-coverage" class="scope-note" hidden></p><div id="collect-list"></div>`;
- const collectMap=explore.querySelector('.map-wrap').cloneNode(true);
- for(const node of collectMap.querySelectorAll('[id]')){
-  const oldId=node.id;
-  for(const user of collectMap.querySelectorAll('[fill],[clip-path]')){
-   for(const attr of ['fill','clip-path'])if(user.getAttribute(attr)==='url(#'+oldId+')')user.setAttribute(attr,'url(#collect-'+oldId+')');
+ function cloneAreaMap(prefix){
+  const map=explore.querySelector('.map-wrap').cloneNode(true);
+  for(const node of map.querySelectorAll('[id]')){
+   const oldId=node.id;
+   for(const user of map.querySelectorAll('[fill],[clip-path]')){
+    for(const attr of ['fill','clip-path'])if(user.getAttribute(attr)==='url(#'+oldId+')')user.setAttribute(attr,'url(#'+prefix+'-'+oldId+')');
+   }
+   node.id=prefix+'-'+oldId;
   }
-  node.id='collect-'+oldId;
+  return map;
  }
- collectibles.querySelector('#collect-map').append(collectMap);
+ collectibles.querySelector('#collect-map').append(cloneAreaMap('collect'));
  const screenshotViewer=document.createElement('dialog');
  screenshotViewer.className='screenshot-viewer';
  screenshotViewer.setAttribute('aria-label','Vergrote screenshot');
@@ -229,7 +232,7 @@
   const selection=collectibles.querySelector('#collect-series').value;
   const isFlamingo=selection===flamingoCollection;
   const coverageLine=collectibles.querySelector('#collect-coverage');
-  coverageLine.textContent=selection==='Duikplekken en schatten'?'6 van de 33 onderwatervondsten zijn beschreven. De twee overige duikplekken zijn schatgebieden.':(coverage[selection]||'');
+  coverageLine.textContent=coverage[selection]||'';
   coverageLine.hidden=!coverageLine.textContent;
   collectibles.querySelector('#flamingo-guide').hidden=!isFlamingo;
   const list=[...records(),...activeReferences].filter(item=>collectionOf(item)===selection&&(item.chapter!==lastChapter||model.chapter===lastChapter));
@@ -257,7 +260,7 @@
    ${isFlamingo?`<p>${esc(item.detail)}</p>`:''}
    <details data-card="${esc(item.id)}"><summary>${item.screenshot?(isFlamingo?'Screenshot en bronnen':'Vindplek en screenshot'):isFlamingo?'Bronnen':'Vindplek'}</summary>${isFlamingo?'':`<p>${esc(item.detail)}</p>`}
    ${item.screenshot?`<a href="${esc(item.screenshot)}" target="_blank" rel="noopener noreferrer">Open screenshot</a>${item.screenshotCredit?` (${esc(item.screenshotCredit)})`: ''} · `:isFlamingo?'':'<p>Geen screenshot beschikbaar.</p>'}
-   <a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">${isFlamingo&&item.source.includes('#hidden-package-')?'Open kaartpin':'Bron'}</a>
+   <a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">${isFlamingo&&/#(?:hidden-package|cocaine-flamingo)-/.test(item.source)?'Open kaartpin':'Bron'}</a>
    ${item.extraSource?` · <a href="${esc(item.extraSource)}" target="_blank" rel="noopener noreferrer">${esc(item.extraSourceLabel||'Tweede bron')}</a>`:''}</details>`;
    const details=row.querySelector('details');
    attachScreenshot(details,item);
@@ -323,11 +326,13 @@
  <label>Activiteit <select id="activity-kind">${collectionOptions(activityNames)}</select></label>
  <label>Gebied <select id="activity-area"><option value="all">Alle gebieden</option>${areas.map(area=>`<option value="${esc(area.id)}">${esc(area.name)}</option>`).join('')}<option value="unknown">Zonder regio</option></select></label>
  <label><input type="checkbox" id="activity-missing"> <span id="activity-missing-label">Alleen ontbrekende</span></label>
- </div><div id="activity-progress" class="activity-progress" aria-live="polite"></div>
+ </div><div id="activity-map"></div><div id="activity-progress" class="activity-progress" aria-live="polite"></div>
  <p id="activity-note" class="scope-note" hidden></p>
  <p id="activity-empty" class="scope-note" hidden></p>
  <div id="activity-list"></div>
  <details id="activity-references" class="corker-card" hidden><summary>Extra basketbalverwijzingen</summary><ul></ul></details>`;
+ const activityMap=cloneAreaMap('activity');
+ activities.querySelector('#activity-map').append(activityMap);
  const activityKind=activities.querySelector('#activity-kind');
  const activityArea=activities.querySelector('#activity-area');
  const activityMissing=activities.querySelector('#activity-missing');
@@ -387,6 +392,7 @@
   activityEmpty.textContent=matches.length?(matches[0].medal?'Alle onderdelen in deze selectie hebben goud.':'Alle onderdelen in deze selectie zijn afgevinkt.'):'Geen onderdelen opgenomen voor dit gebied.';
  }
  function renderActivities(){
+  for(const control of activityMap.querySelectorAll('[data-area]'))control.setAttribute('aria-pressed',String(control.dataset.area===activityArea.value));
   const items=selectedActivities();
   const matches=items.filter(matchesActivityArea);
   const found=new Set(checked());
@@ -430,6 +436,18 @@
   references.hidden=!links.length;
   references.querySelector('ul').innerHTML=links.map(item=>`<li><a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">${esc(item.title)}</a></li>`).join('');
  }
+ function chooseActivityArea(event){
+  const control=event.target.closest('[data-area]');
+  if(!control)return;
+  if(event.type==='keydown'){
+   if(!control.matches('.map-region')||!['Enter',' '].includes(event.key))return;
+   event.preventDefault();
+  }
+  activityArea.value=control.dataset.area;
+  renderActivities();
+ }
+ activityMap.addEventListener('click',chooseActivityArea);
+ activityMap.addEventListener('keydown',chooseActivityArea);
  activities.addEventListener('change',event=>{
   const input=event.target;
   if(input===activityKind)activityArea.value='all';
