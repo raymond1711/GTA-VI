@@ -24,6 +24,8 @@
  }
  const activityReferences=info.filter(item=>item.pendingActivity&&item.referenceOnly);
  const records=()=>core.unique([...legacy,...activeDiscoveries,...model.custom]);
+ const exploreTypes=types.filter(type=>!['collectibles','activities'].includes(type.id));
+ const exploreRecords=()=>records().filter(item=>!['collectibles','activities'].includes(item.category)&&!item.collection&&!item.series);
  const storySort=(a,b)=>a.chapter-b.chapter||(a.storyOrder??1000)-(b.storyOrder??1000);
  const checked=()=>{
   const ids=new Set([...state.checked,...model.checked,...Object.keys(model.medals||{})]);
@@ -122,16 +124,16 @@
     <text class="sea-name" x="403" y="35">N</text>
   </g>
 </svg>`;
- const explore=document.createElement('section');explore.id='explorer-view';explore.innerHTML=`<div class="explorer-heading"><div><p class="eyebrow">VOLG JE NIEUWSGIERIGHEID</p><h1>Verkennen</h1></div><button type="button" class="quiet" data-page="journal">Mijn fotodagboek ↗</button></div><div class="chapter-panel"><div><div class="chapter-field"><label for="current-chapter">Ik speel hoofdstuk <output id="chapter-value" for="current-chapter">1</output></label><input id="current-chapter" type="range" min="1" max="${lastChapter}" step="1"><div class="chapter-ticks" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span></div></div><small class="chapter-note">Je keuze blijft bewaard. Latere onderdelen blijven verborgen.</small></div><div id="chapter-stats" class="chapter-stats"></div></div><div class="map-wrap"><div class="map-caption"><span>KIES EEN GEBIED</span><span>LEONIDA · KAART V3</span></div>${leonidaMap}</div><div class="map-legend"><span><i style="background:#3c8998"></i>Water</span><span><i style="background:#b9a5ab"></i>Stad</span><span><i style="background:#79a684"></i>Natuur</span></div><div class="area-buttons">${areas.map(a=>`<button data-area="${a.id}" style="--area-color:${a.color}" aria-pressed="false">${esc(a.name)}</button>`).join('')}</div><p class="map-note">Kies een gebied op de kaart of gebruik de knoppen. Gebiedsgrenzen en wegen zijn indicatief.</p><div id="chosen-area"></div>`;
+ const explore=document.createElement('section');explore.id='explorer-view';explore.innerHTML=`<header class="page-heading page-heading--explore"><p class="eyebrow">VOLG JE NIEUWSGIERIGHEID</p><h1>Verkennen</h1></header><div class="chapter-panel"><div><div class="chapter-field"><label for="current-chapter">Ik speel hoofdstuk <output id="chapter-value" for="current-chapter">1</output></label><input id="current-chapter" type="range" min="1" max="${lastChapter}" step="1"><div class="chapter-ticks" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span></div></div><small class="chapter-note">Je keuze blijft bewaard. Latere onderdelen blijven verborgen.</small></div><div id="chapter-stats" class="chapter-stats"></div></div><div class="map-wrap"><div class="map-caption"><span>KIES EEN GEBIED</span><span>LEONIDA · KAART V3</span></div>${leonidaMap}</div><div class="map-legend"><span><i style="background:#3c8998"></i>Water</span><span><i style="background:#b9a5ab"></i>Stad</span><span><i style="background:#79a684"></i>Natuur</span></div><p class="map-note">Kies een gebied op de kaart. Gebiedsgrenzen en wegen zijn indicatief.</p><div id="chosen-area"></div>`;
  const missionHub=document.createElement('section');missionHub.id='mission-hub';missionHub.className='mission-hub';missionHub.setAttribute('aria-label','Missies en overvallocaties in alle gebieden');explore.querySelector('.map-wrap').before(missionHub);
  const overview=document.createElement('section');overview.id='progress-view';
  const collectibles=document.createElement('section');
  collectibles.id='collectibles-view';
  const flamingoCollection='Cocaïneflamingo’s';
- const collectionOf=item=>item.collection||item.series;
+ const collectionOf=item=>item.collection||item.series||(item.category==='collectibles'?'Eigen verzamelobjecten':null);
  const cardSeries=[...new Set(activeDiscoveries.map(item=>item.series).filter(Boolean))];
  const cardNames=new Set(cardSeries);
- const otherCollections=[...new Set([...activeDiscoveries,...activeReferences].map(collectionOf).filter(name=>name&&!cardNames.has(name)))];
+ const otherCollections=[...new Set([...activeDiscoveries,...activeReferences].map(collectionOf).filter(name=>name&&!cardNames.has(name)).concat("Eigen verzamelobjecten"))];
  const themedCollections={
   "WAiNK en streetart": [
     "WAiNK-bezienswaardigheden",
@@ -160,6 +162,7 @@
   ],
   "Voertuigen": ["Standout-voertuigen", "Wyman’s Cars"],
   "Wapens en uitrusting": ["Unieke wapenvarianten", "Uitrusting"],
+  "Persoonlijk": ["Eigen verzamelobjecten"],
   "Kaarten en extra vindplaatsen": [
     "Aanvullende kaartpinnen",
     "Ahol Street Art · gidsverwijzingen",
@@ -171,7 +174,7 @@
  const groups=Object.entries(themedCollections).map(([label,names])=>[label,names.filter(name=>otherCollections.includes(name))]);
  groups.push(["Overige verzamelobjecten",otherCollections.filter(name=>!groupedNames.has(name))]);
  const themedOptions=groups.filter(([,names])=>names.length).map(([label,names])=>`<optgroup label="${esc(label)}">${collectionOptions(names)}</optgroup>`).join("");
- collectibles.innerHTML=`<h1>Collectibles</h1><div class="collect-controls">
+ collectibles.innerHTML=`<header class="page-heading page-heading--collect"><p class="eyebrow">VIND EN VERZAMEL</p><h1>Collectibles</h1></header><div class="collect-controls">
  <label>Collectie <select id="collect-series"><optgroup label="Verzamelkaartjes">${collectionOptions(cardSeries)}</optgroup>${themedOptions}</select></label>
  <label><input type="checkbox" id="collect-missing"> Alleen ontbrekende</label>
  <button type="button" class="quiet" data-collect-area="all">Alle vindplekken</button>
@@ -260,7 +263,7 @@
    ${isFlamingo?`<p>${esc(item.detail)}</p>`:''}
    <details data-card="${esc(item.id)}"><summary>${item.screenshot?(isFlamingo?'Screenshot en bronnen':'Vindplek en screenshot'):isFlamingo?'Bronnen':'Vindplek'}</summary>${isFlamingo?'':`<p>${esc(item.detail)}</p>`}
    ${item.screenshot?`<a href="${esc(item.screenshot)}" target="_blank" rel="noopener noreferrer">Open screenshot</a>${item.screenshotCredit?` (${esc(item.screenshotCredit)})`: ''} · `:isFlamingo?'':'<p>Geen screenshot beschikbaar.</p>'}
-   <a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">${isFlamingo&&/#(?:hidden-package|cocaine-flamingo)-/.test(item.source)?'Open kaartpin':'Bron'}</a>
+   ${item.source?`<a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">${isFlamingo&&/#(?:hidden-package|cocaine-flamingo)-/.test(item.source)?'Open kaartpin':'Bron'}</a>`:''}
    ${item.extraSource?` · <a href="${esc(item.extraSource)}" target="_blank" rel="noopener noreferrer">${esc(item.extraSourceLabel||'Tweede bron')}</a>`:''}</details>`;
    const details=row.querySelector('details');
    attachScreenshot(details,item);
@@ -303,7 +306,7 @@
  const activityNames=[
   'Stuntsprongen','Onder bruggen door','Mesvluchten','BASE-sprongen','Basketbalringen',
   'Meditaties','Dieren bestuderen','Voertuigmodellen scannen','Gewone races','Race-uitdagingen','Top Fun-droneproeven','Jachtopdrachten van Bret','Schietuitdagingen',
-  'Arcadegames','Pooltegenstanders','Minigolf','Dino Golf-medailles','Minigolfuitdagingen'
+  'Overige activiteiten','Arcadegames','Pooltegenstanders','Minigolf','Dino Golf-medailles','Minigolfuitdagingen'
  ];
  const medalOptions=[['bronze','Brons'],['silver','Zilver'],['gold','Goud']];
  const activityNotes={
@@ -322,11 +325,10 @@
   'Voertuigmodellen scannen':'Deze lijst bevat de voertuigmodellen die al in de gids zijn opgenomen.',
   'Basketbalringen':'Open bij het nummer de kaart of route uit de gids. Sommige locaties hebben meerdere ringen.'
  };
- activities.innerHTML=`<h1>Activiteiten</h1><div class="collect-controls">
+ activities.innerHTML=`<header class="page-heading page-heading--activities"><p class="eyebrow">KIES JE VOLGENDE UITDAGING</p><h1>Activiteiten</h1></header><div class="collect-controls">
  <label>Activiteit <select id="activity-kind">${collectionOptions(activityNames)}</select></label>
- <label>Gebied <select id="activity-area"><option value="all">Alle gebieden</option>${areas.map(area=>`<option value="${esc(area.id)}">${esc(area.name)}</option>`).join('')}<option value="unknown">Zonder regio</option></select></label>
- <label><input type="checkbox" id="activity-missing"> <span id="activity-missing-label">Alleen ontbrekende</span></label>
- </div><div id="activity-map"></div><div id="activity-progress" class="activity-progress" aria-live="polite"></div>
+  <label><input type="checkbox" id="activity-missing"> <span id="activity-missing-label">Alleen ontbrekende</span></label>
+ </div><div id="activity-map"></div><div class="collect-controls activity-region-controls"><button type="button" class="quiet" data-activity-area="all">Alle gebieden</button><button type="button" class="quiet" data-activity-area="unknown">Zonder regio</button></div><div id="activity-progress" class="activity-progress" aria-live="polite"></div>
  <p id="activity-note" class="scope-note" hidden></p>
  <p id="activity-empty" class="scope-note" hidden></p>
  <div id="activity-list"></div>
@@ -334,14 +336,16 @@
  const activityMap=cloneAreaMap('activity');
  activities.querySelector('#activity-map').append(activityMap);
  const activityKind=activities.querySelector('#activity-kind');
- const activityArea=activities.querySelector('#activity-area');
+ let activityArea='all';
  const activityMissing=activities.querySelector('#activity-missing');
  const activityList=activities.querySelector('#activity-list');
  const activityEmpty=activities.querySelector('#activity-empty');
  function matchesActivityArea(item){
-  return activityArea.value==='all'||(activityArea.value==='unknown'?!item.area:item.area===activityArea.value||item.extraArea===activityArea.value);
+  return activityArea==='all'||(activityArea==='unknown'?!item.area:item.area===activityArea||item.extraArea===activityArea);
  }
- const selectedActivities=()=>activityRecords.filter(item=>item.collection===activityKind.value);
+ const selectedActivities=()=>activityKind.value==='Overige activiteiten'
+  ? [...activeDiscoveries,...model.custom].filter(item=>item.category==='activities')
+  : activityRecords.filter(item=>item.collection===activityKind.value);
  const stuntCollections=new Set(['Stuntsprongen','Onder bruggen door','Mesvluchten','BASE-sprongen']);
  const gameTargets=new Map([
   ['Meditaties',15],['Basketbalringen',90],['Gewone races',30],['Race-uitdagingen',10],
@@ -363,7 +367,7 @@
  function updateActivityProgress(items){
   const progress=activities.querySelector('#activity-progress');
   const kind=activityKind.value;
-  const areaName=activityArea.selectedOptions[0].textContent;
+  const areaName=areas.find(area=>area.id===activityArea)?.name||'Zonder regio';
   const filtered=items.filter(matchesActivityArea);
   const gold=Object.keys(model.medals||{}).filter(id=>model.medals[id]==='gold');
   const goal=gameTargets.get(kind);
@@ -378,7 +382,7 @@
    : '';
   const totals=medalActivity&&Boolean(goal);
   const marked=totals?meter(items,'Onderdeel met een medaille'):'';
-  const areaMeter=activityArea.value==='all'?'':meter(filtered,areaName);
+  const areaMeter=activityArea==='all'?'':meter(filtered,areaName);
   const goldTotal=medalActivity&&!goal?`<p>Goud ${items.filter(item=>gold.includes(item.id)).length} van ${items.length}</p>`:'';
   progress.innerHTML=totalMeter+marked+areaMeter+stunts+goldTotal;
  }
@@ -392,7 +396,7 @@
   activityEmpty.textContent=matches.length?(matches[0].medal?'Alle onderdelen in deze selectie hebben goud.':'Alle onderdelen in deze selectie zijn afgevinkt.'):'Geen onderdelen opgenomen voor dit gebied.';
  }
  function renderActivities(){
-  for(const control of activityMap.querySelectorAll('[data-area]'))control.setAttribute('aria-pressed',String(control.dataset.area===activityArea.value));
+  for(const control of activities.querySelectorAll('[data-area],[data-activity-area]'))control.setAttribute('aria-pressed',String((control.dataset.area||control.dataset.activityArea)===activityArea));
   const items=selectedActivities();
   const matches=items.filter(matchesActivityArea);
   const found=new Set(checked());
@@ -424,7 +428,7 @@
     <details><summary>${item.screenshot?'Uitleg, bron en screenshot':'Uitleg en bron'}</summary>
     ${item.detail&&item.detail!==location?`<p>${esc(item.detail)}</p>`:''}
     ${item.workbookStatus?`<p class="scope-note">${esc(item.workbookStatus)}</p>`:''}
-    <a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">Open gids</a>
+    ${item.source?`<a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">Open gids</a>`: ''}
     ${item.extraSource?` &middot; <a href="${esc(item.extraSource)}" target="_blank" rel="noopener noreferrer">${esc(item.extraSourceLabel||'Tweede bron')}</a>`:''}
     ${item.screenshot?` &middot; <a href="${esc(item.screenshot)}" target="_blank" rel="noopener noreferrer">Open screenshot</a>`:''}</details>`;
    attachScreenshot(card.querySelector('details'),item);
@@ -437,20 +441,20 @@
   references.querySelector('ul').innerHTML=links.map(item=>`<li><a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">${esc(item.title)}</a></li>`).join('');
  }
  function chooseActivityArea(event){
-  const control=event.target.closest('[data-area]');
+  const control=event.target.closest('[data-area],[data-activity-area]');
   if(!control)return;
   if(event.type==='keydown'){
    if(!control.matches('.map-region')||!['Enter',' '].includes(event.key))return;
    event.preventDefault();
   }
-  activityArea.value=control.dataset.area;
+  activityArea=control.dataset.area||control.dataset.activityArea;
   renderActivities();
  }
- activityMap.addEventListener('click',chooseActivityArea);
+ activities.addEventListener('click',chooseActivityArea);
  activityMap.addEventListener('keydown',chooseActivityArea);
  activities.addEventListener('change',event=>{
   const input=event.target;
-  if(input===activityKind)activityArea.value='all';
+  if(input===activityKind)activityArea='all';
   const {activityRecord,activityMedal}=input.dataset;
   if(!activityRecord&&!activityMedal){renderActivities();return;}
   if(activityMedal){
@@ -477,7 +481,7 @@
  });
  for(const child of [...main.children])if(child!==footer&&child!==journal)intro.append(child);
  main.prepend(nav,home,intro,explore,collectibles,activities,overview);journal.id='journal-view';
- const editor=document.createElement('dialog');editor.id='discovery-editor';editor.innerHTML=`<button type="button" class="close" id="close-editor" aria-label="Sluiten">×</button><p class="eyebrow">VOEG JOUW VONDST TOE</p><h2>Eigen ontdekking</h2><p>Leg zelf vast wat je tegenkomt. Jouw hoofdstuk is de eerste beschikbaarheid voor deze persoonlijke checklist.</p><form class="entry-form" id="discovery-form"><label>Naam<input name="title" maxlength="150" required></label><label>Omschrijving<textarea name="detail" maxlength="2000"></textarea></label><div class="entry-columns"><label>Gebied<select name="area">${areas.map(a=>`<option value="${a.id}">${esc(a.name)}</option>`).join('')}</select></label><label>Categorie<select name="category">${types.map(c=>`<option value="${c.id}">${esc(c.name)}</option>`).join('')}</select></label></div><label>Vanaf hoofdstuk<input name="chapter" type="number" min="1" max="99" step="1" required></label><label>Bronlink (optioneel)<input name="source" type="url" maxlength="1000" placeholder="https://…"></label><p id="entry-error" role="status"></p><button type="submit" class="primary">Ontdekking opslaan</button></form>`;document.body.append(editor);
+ const editor=document.createElement('dialog');editor.id='discovery-editor';editor.innerHTML=`<button type="button" class="close" id="close-editor" aria-label="Sluiten">×</button><p class="eyebrow">VOEG JOUW VONDST TOE</p><h2>Eigen ontdekking</h2><p>Leg zelf vast wat je tegenkomt. Jouw hoofdstuk is de eerste beschikbaarheid voor deze persoonlijke checklist.</p><form class="entry-form" id="discovery-form"><label>Naam<input name="title" maxlength="150" required></label><label>Omschrijving<textarea name="detail" maxlength="2000"></textarea></label><div class="entry-columns"><label>Gebied<select name="area">${areas.map(a=>`<option value="${a.id}">${esc(a.name)}</option>`).join('')}</select></label><label>Categorie<select name="category">${exploreTypes.map(c=>`<option value="${c.id}">${esc(c.name)}</option>`).join('')}</select></label></div><label>Vanaf hoofdstuk<input name="chapter" type="number" min="1" max="99" step="1" required></label><label>Bronlink (optioneel)<input name="source" type="url" maxlength="1000" placeholder="https://…"></label><p id="entry-error" role="status"></p><button type="submit" class="primary">Ontdekking opslaan</button></form>`;document.body.append(editor);
  function go(next){if(!['start','intro','explore','collectibles','activities','progress','journal'].includes(next))next='start';page=next;nav.hidden=page==="start";for(const [id,node] of Object.entries({start:home,intro,explore,collectibles,activities,progress:overview,journal}))node.hidden=id!==page;nav.querySelectorAll('button').forEach(b=>{if(b.dataset.page===page)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current')});if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='progress')renderOverview();window.scrollTo({top:0,behavior:'instant'});}
  document.addEventListener('click',e=>{const target=e.target.closest('[data-page]');if(target){e.preventDefault();go(target.dataset.page)}});
  document.querySelector('.brand').onclick=e=>{e.preventDefault();go('start')};
@@ -499,7 +503,7 @@
  function selectArea(id){if(!areas.some(a=>a.id===id))return;model.area=id;persist();renderExplore();}
  explore.addEventListener('click',e=>{const area=e.target.closest('[data-area]');if(area)selectArea(area.dataset.area)});
  explore.querySelectorAll('.map-region').forEach(p=>p.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();selectArea(p.dataset.area)}}));
- function itemRow(item,showLocation=false){const row=document.createElement('div');row.className='explore-item';row.innerHTML=`<label class="task"><input type="checkbox" data-record="${esc(item.id)}" ${checked().includes(item.id)?'checked':''}><span>${item.locationType==='illegal-operation'?'<em class="robbery-tag">● Gele overvallocatie</em>':''}<b>${esc(item.title)}</b>${item.unlockUncertain?'<small class="unlock-uncertain"><span aria-hidden="true">!</span> Beschikbaarheid per hoofdstuk onzeker</small>':''}<small>${esc(item.detail)}${item.mapLabel?'<br><span class="unlock-condition">Op de kaart: '+esc(item.mapLabel)+'</span>':''}${item.condition?'<br><span class="unlock-condition">Voorwaarde: '+esc(item.condition)+'</span>':''}${item.availableUntilChapter?'<br><span class="expiry-condition">Alleen t/m hoofdstuk '+item.availableUntilChapter+'</span>':''}${!item.unlockUncertain&&item.availabilityBasis?.startsWith('afgeleid')?'<br><span class="unlock-condition">Indeling: '+esc(item.availabilityBasis)+'.</span>':''}</small></span></label><div class="item-meta">${item.locationType==='mission-loot'?'Missiegebonden buit · ':item.locationType==='safe'?'Losse kluis · ':item.locationType==='bank-job'||item.locationType==='bank-vault'?'Bankoverval · ':''}${item.type==='verified'?'Gidsbron: '+esc(item.sourceName||'bronlink'):'Persoonlijke opdracht'}${item.sourceNote?' · Bronnotitie: '+esc(item.sourceNote):''}${item.source?` · <a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">Bron ↗</a>`:''}</div><button type="button" class="quiet" data-note="${esc(item.id)}">Opmerking</button><button type="button" class="quiet" data-photo="${esc(item.id)}">Foto toevoegen</button><textarea class="item-note" aria-label="Opmerking bij ${esc(item.title)}" maxlength="3000" hidden></textarea>`;const textarea=row.querySelector('textarea');textarea.value=model.notes[item.id]||'';textarea.oninput=()=>{model.notes[item.id]=textarea.value;persist()};row.querySelector('[data-note]').onclick=()=>{textarea.hidden=!textarea.hidden;if(!textarea.hidden)textarea.focus()};row.querySelector('[data-photo]').onclick=()=>{go('journal');const title=document.querySelector('#photo-title'),category=document.querySelector('#photo-category');title.value=item.title.slice(0,100);category.value=item.area||'free';document.querySelector('#photo-note').value=(model.notes[item.id]||'').slice(0,2000);window.leonidaPhotoContext=item.id;title.focus()};if(showLocation||item.locationType==='illegal-operation'){const location=document.createElement('p');location.className='mission-location';location.textContent=(item.unlockUncertain?'Hoofdstuk onbekend':item.id==='guide-mission-prologue'?'Proloog':(item.availabilityBasis?.startsWith('afgeleid')?'In app bij hoofdstuk ':'Vanaf hoofdstuk ')+item.chapter)+' · '+(item.sourceLocation||areas.find(a=>a.id===item.area)?.name||'Algemene opdracht')+(item.area?'':' · kaartgebied nog niet bevestigd');row.prepend(location)}return row;}
+ function itemRow(item,showLocation=false){const row=document.createElement('div');row.className='explore-item';row.innerHTML=`<label class="task"><input type="checkbox" data-record="${esc(item.id)}" ${checked().includes(item.id)?'checked':''}><span>${item.locationType==='illegal-operation'?'<em class="robbery-tag">● Gele overvallocatie</em>':''}<b>${esc(item.title)}</b>${item.unlockUncertain?'<small class="unlock-uncertain"><span aria-hidden="true">!</span> Beschikbaarheid per hoofdstuk onzeker</small>':''}<small>${esc(item.detail)}${item.mapLabel?'<br><span class="unlock-condition">Op de kaart: '+esc(item.mapLabel)+'</span>':''}${item.condition?'<br><span class="unlock-condition">Voorwaarde: '+esc(item.condition)+'</span>':''}${item.availableUntilChapter?'<br><span class="expiry-condition">Alleen t/m hoofdstuk '+item.availableUntilChapter+'</span>':''}${!item.unlockUncertain&&item.availabilityBasis?.startsWith('afgeleid')?'<br><span class="unlock-condition">Indeling: '+esc(item.availabilityBasis)+'.</span>':''}</small></span></label><div class="item-meta">${item.locationType==='mission-loot'?'Missiegebonden buit · ':item.locationType==='safe'?'Losse kluis · ':item.locationType==='bank-job'||item.locationType==='bank-vault'?'Bankoverval · ':''}${item.type==='verified'?'Gidsbron: '+esc(item.sourceName||'bronlink'):'Persoonlijke opdracht'}${item.sourceNote?' · Bronnotitie: '+esc(item.sourceNote):''}${item.source?` · <a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">Bron ↗</a>`:''}</div><button type="button" class="quiet" data-note="${esc(item.id)}">Opmerking</button><button type="button" class="quiet" data-photo="${esc(item.id)}">Foto toevoegen</button><textarea class="item-note" aria-label="Opmerking bij ${esc(item.title)}" maxlength="3000" hidden></textarea>`;const textarea=row.querySelector('textarea');textarea.value=model.notes[item.id]||'';textarea.oninput=()=>{model.notes[item.id]=textarea.value;persist()};row.querySelector('[data-note]').onclick=()=>{textarea.hidden=!textarea.hidden;if(!textarea.hidden)textarea.focus()};row.querySelector('[data-photo]').onclick=()=>{go('journal');const title=document.querySelector('#photo-title'),category=document.querySelector('#photo-category');title.value=item.title.slice(0,100);category.value=item.area||item.extraArea||model.area||'';document.querySelector('#photo-note').value=(model.notes[item.id]||'').slice(0,2000);window.leonidaPhotoContext=item.id;title.focus()};if(showLocation||item.locationType==='illegal-operation'){const location=document.createElement('p');location.className='mission-location';location.textContent=(item.unlockUncertain?'Hoofdstuk onbekend':item.id==='guide-mission-prologue'?'Proloog':(item.availabilityBasis?.startsWith('afgeleid')?'In app bij hoofdstuk ':'Vanaf hoofdstuk ')+item.chapter)+' · '+(item.sourceLocation||areas.find(a=>a.id===item.area)?.name||'Algemene opdracht')+(item.area?'':' · kaartgebied nog niet bevestigd');row.prepend(location)}return row;}
  function renderMissionHub(all){
   const opened=new Set([...missionHub.querySelectorAll('details[open]')].map(d=>d.dataset.missionKind));missionHub.replaceChildren();
   for(const [kind,title] of [['missions','Hoofdmissies in alle gebieden'],['sidequests','Zijmissies in alle gebieden'],['loot','Overvallen & lootlocaties in alle gebieden']]){
@@ -508,14 +512,14 @@
   }
  }
  function renderExplore(){
-  const all=records();renderMissionHub(all);explore.querySelector('#chapter-stats').innerHTML=meter(core.chapter(all,model.chapter),'Hoofdstuk '+model.chapter)+`<small>Eenmalig aan dit hoofdstuk toegewezen, inclusief vastgelegde hoofdmissies.</small>`;
+  const all=exploreRecords();renderMissionHub(all);explore.querySelector('#chapter-stats').innerHTML=meter(core.chapter(all,model.chapter),'Hoofdstuk '+model.chapter)+`<small>Eenmalig aan dit hoofdstuk toegewezen, inclusief vastgelegde hoofdmissies.</small>`;
   explore.querySelectorAll('[data-area]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.area===model.area)));
   const target=explore.querySelector('#chosen-area'),area=areas.find(a=>a.id===model.area);if(!area){target.innerHTML='<p class="no-items">Tik op een gebied om je ontdekkingen te bekijken.</p>';return}target.style.setProperty('--area-color',area.color);
   const areaItems=all.filter(item=>item.area===area.id||item.extraArea===area.id),visible=core.visible(areaItems,model.chapter),p=core.progress(areaItems,checked());
   const opened=new Set([...target.querySelectorAll('details[open]')].map(d=>d.dataset.category));
-  target.innerHTML=`<header class="area-header"><div class="area-icon">${icon(area)}</div><div><p class="eyebrow">JOUW GEKOZEN GEBIED</p><h2>${esc(area.name)}</h2><p>${esc(area.description)}</p><div class="area-meter"><div class="meter-label"><span>Gebied · alle hoofdstukken</span><strong>${label(p)}</strong></div><div class="neutral-track"><div style="width:${p.percent??0}%"></div></div></div></div></header><p class="source-notice">Selectie voor hoofdstuk 1 t/m 4: ${trusted.length} brongebaseerde punten, naast je persoonlijke opdrachten. Dit is nog geen volledige gids. Binnen een hoofdstuk kunnen extra missievoorwaarden gelden; die staan bij het onderdeel.</p><div class="explore-list"></div><div class="explorer-tools"><button type="button" id="add-discovery" class="primary small">+ Eigen ontdekking</button><button type="button" class="quiet" data-page="progress">Alle voortgang bekijken ↗</button></div><p class="scope-note">Gebieds- en categorietotalen tellen alle vastgelegde hoofdstukken mee. Namen en details van latere onderdelen blijven verborgen.</p>`;
+  target.innerHTML=`<header class="area-header"><div class="area-icon">${icon(area)}</div><div><p class="eyebrow">JOUW GEKOZEN GEBIED</p><h2>${esc(area.name)}</h2><p>${esc(area.description)}</p><div class="area-meter"><div class="meter-label"><span>Gebied · alle hoofdstukken</span><strong>${label(p)}</strong></div><div class="neutral-track"><div style="width:${p.percent??0}%"></div></div></div></div></header><p class="source-notice">Hoofdstuk 1 t/m 5. Verzamelobjecten en activiteiten staan in hun eigen tabs. Binnen een hoofdstuk kunnen extra missievoorwaarden gelden; die staan bij het onderdeel.</p><div class="explore-list"></div><div class="explorer-tools"><button type="button" id="add-discovery" class="primary small">+ Eigen ontdekking</button><button type="button" class="quiet" data-page="progress">Alle voortgang bekijken ↗</button></div><p class="scope-note">Gebieds- en categorietotalen tellen alle vastgelegde hoofdstukken mee. Namen en details van latere onderdelen blijven verborgen.</p>`;
   const list=target.querySelector('.explore-list');let groups=0;
-  for(const type of types){const items=core.category(visible,type.id).sort(storySort);if(!items.length)continue;groups++;const details=document.createElement('details');details.className='explore-category';details.dataset.category=type.id;details.open=opened.has(type.id);details.innerHTML=`<summary><strong>${esc(type.name)} <span aria-hidden="true">⌄</span></strong>${meter(core.category(all,type.id),'Alle gebieden',true)}</summary><div class="explore-items"></div>`;
+  for(const type of exploreTypes){const items=core.category(visible,type.id).sort(storySort);if(!items.length)continue;groups++;const details=document.createElement('details');details.className='explore-category';details.dataset.category=type.id;details.open=opened.has(type.id);details.innerHTML=`<summary><strong>${esc(type.name)} <span aria-hidden="true">⌄</span></strong>${meter(core.category(all,type.id),'Alle gebieden',true)}</summary><div class="explore-items"></div>`;
    for(const item of items)details.querySelector('.explore-items').append(itemRow(item));list.append(details)}
   if(!groups)list.innerHTML='<p class="no-items">Nog geen ontdekkingen vastgelegd voor dit gebied en hoofdstuk. Je kunt alvast een eigen vondst toevoegen.</p>';
   target.querySelector('#add-discovery').onclick=()=>openEditor(area.id);
@@ -524,7 +528,7 @@
   for(const checkbox of explore.querySelectorAll('[data-record]')){
    if(checkbox.dataset.record===id)checkbox.checked=on;
   }
-  const all=records(), selected=checked();
+  const all=exploreRecords(), selected=checked();
   explore.querySelector('#chapter-stats').innerHTML=meter(core.chapter(all,model.chapter),'Hoofdstuk '+model.chapter)+
    '<small>Eenmalig aan dit hoofdstuk toegewezen, inclusief vastgelegde hoofdmissies.</small>';
   const areaMeter=explore.querySelector('.area-meter');
@@ -552,7 +556,7 @@
   }
   refreshExploreChecks(id,on);
  });
- function renderOverview(){const chapterRecords=records(),all=[...chapterRecords,...activityRecords],p=core.progress(all,checked());const chapters=[...new Set([model.chapter,...chapterRecords.filter(x=>x.chapter<=model.chapter).map(x=>x.chapter)])].sort((a,b)=>a-b);overview.innerHTML=`<div class="overview-heading"><p class="eyebrow">JOUW REIS IN CIJFERS</p><h1>Voortgang</h1></div><div class="progress-hero"><p class="eyebrow">APP-VOLTOOIING</p><strong class="big-percent">${label(p)}</strong><p>${p.done} van ${p.total} unieke onderdelen afgevinkt</p><div class="neutral-track"><div style="width:${p.percent??0}%"></div></div></div><p class="app-scope">Dit is de voortgang van alle onderdelen in jouw app, geen officieel spelpercentage. De gids bevat hoofdstuk 1 t/m 5. Activiteiten uit de aparte tab tellen mee bij het app-totaal, de gebieden en de categorieën. Algemene punten en locaties waarvan het kaartgebied nog niet bevestigd is, staan ook in de overzichten boven de kaart. Nieuwe onderdelen vergroten het totaal. Latere hoofdstukken tellen wel mee in gebieds-, categorie- en app-totalen, maar hun namen en details blijven verborgen.</p><div class="progress-columns"><section class="progress-group"><h2>Hoofdstukken</h2>${chapters.map(n=>meter(core.chapter(chapterRecords,n),'Hoofdstuk '+n)).join('')}<p class="scope-note">Alleen hoofdstukken tot en met jouw keuze worden getoond.</p></section><section class="progress-group"><h2>Gebieden</h2>${areas.map(a=>meter(core.area(all,a.id),a.name)).join('')}${meter(all.filter(x=>!x.area),'Algemeen / regio nog onbevestigd')}</section><section class="progress-group"><h2>Categorieën</h2>${types.map(t=>meter(core.category(all,t.id),t.name)).join('')}</section></div><p class="overview-footer">Eén vinkje werkt door in alle bijbehorende overzichten. Introductie en Verkennen delen hun vinkjes. Een streepje betekent dat er nog geen onderdelen zijn vastgelegd.</p>`;}
+ function renderOverview(){const chapterRecords=exploreRecords(),all=[...records(),...activityRecords],p=core.progress(all,checked());const chapters=[...new Set([model.chapter,...chapterRecords.filter(x=>x.chapter<=model.chapter).map(x=>x.chapter)])].sort((a,b)=>a-b);overview.innerHTML=`<header class="page-heading page-heading--progress"><p class="eyebrow">JOUW REIS IN CIJFERS</p><h1>Voortgang</h1></header><div class="progress-hero"><p class="eyebrow">APP-VOLTOOIING</p><strong class="big-percent">${label(p)}</strong><p>${p.done} van ${p.total} unieke onderdelen afgevinkt</p><div class="neutral-track"><div style="width:${p.percent??0}%"></div></div></div><p class="app-scope">Dit is de voortgang van alle onderdelen in jouw app, geen officieel spelpercentage. De gids bevat hoofdstuk 1 t/m 5. Activiteiten uit de aparte tab tellen mee bij het app-totaal, de gebieden en de categorieën. Algemene punten en locaties waarvan het kaartgebied nog niet bevestigd is, staan ook in de overzichten boven de kaart. Nieuwe onderdelen vergroten het totaal. Latere hoofdstukken tellen wel mee in gebieds-, categorie- en app-totalen, maar hun namen en details blijven verborgen.</p><div class="progress-columns"><section class="progress-group"><h2>Hoofdstukken</h2>${chapters.map(n=>meter(core.chapter(chapterRecords,n),'Hoofdstuk '+n)).join('')}<p class="scope-note">Alleen hoofdstukken tot en met jouw keuze worden getoond.</p></section><section class="progress-group"><h2>Gebieden</h2>${areas.map(a=>meter(core.area(all,a.id),a.name)).join('')}${meter(all.filter(x=>!x.area),'Algemeen / regio nog onbevestigd')}</section><section class="progress-group"><h2>Categorieën</h2>${types.map(t=>meter(core.category(all,t.id),t.name)).join('')}</section></div><p class="overview-footer">Eén vinkje werkt door in alle bijbehorende overzichten. Introductie en Verkennen delen hun vinkjes. Een streepje betekent dat er nog geen onderdelen zijn vastgelegd.</p>`;}
  function openEditor(area){const form=editor.querySelector('form');form.reset();form.elements.area.value=area||areas[0].id;form.elements.chapter.value=model.chapter;editor.querySelector('#entry-error').textContent='';editor.showModal();}
  editor.querySelector('#close-editor').onclick=()=>editor.close();editor.querySelector('form').onsubmit=e=>{e.preventDefault();const form=e.target,values=new FormData(form);const item={id:'custom-'+crypto.randomUUID(),title:String(values.get('title')).trim(),detail:String(values.get('detail')).trim(),area:String(values.get('area')),category:String(values.get('category')),chapter:Number(values.get('chapter')),source:String(values.get('source')).trim(),type:'personal'};try{const next=validModel({...model,custom:[...model.custom,item]});const previous=model;model=next;if(!persist()){model=previous;throw Error('Opslag is niet beschikbaar.')}editor.close();renderExplore();notify('Eigen ontdekking toegevoegd.')}catch(err){editor.querySelector('#entry-error').textContent=err.message}};
  const baseUpdate=update;update=function(){baseUpdate();if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='progress')renderOverview()};

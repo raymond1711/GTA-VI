@@ -172,3 +172,22 @@ footer span{color:#dfc4e0}
 
 .game-goal-track{position:relative}
 .game-goal-marker{position:absolute;top:-3px;bottom:-3px;width:3px;transform:translateX(-50%);border-radius:2px;background:#ffe399;box-shadow:0 0 0 1px #3f3049;pointer-events:none}
+
+.app-nav{justify-content:center}
+.app-nav button{text-align:center}
+.page-heading{
+ margin:0 0 1.25rem;
+ padding:clamp(18px,4vw,36px);
+ border:1px solid var(--line);
+ border-radius:18px;
+ background:linear-gradient(110deg,var(--heading-tint,#643151f5),#4133539e),url('assets/sunset.svg') center 52%/cover;
+ overflow-wrap:anywhere;
+}
+.page-heading h1{margin:0;font-size:clamp(32px,6vw,58px);line-height:1.08;letter-spacing:-.04em}
+.page-heading .eyebrow{margin:0 0 .5rem}
+.page-heading--intro{--heading-tint:#633751f7}
+.page-heading--explore{--heading-tint:#29454cef}
+.page-heading--activities{--heading-tint:#3e526bf7}
+.page-heading--journal{--heading-tint:#674975f7}
+.page-heading--progress{--heading-tint:#573854f7}
+#journal-view{background:none}
