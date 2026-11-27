@@ -774,7 +774,7 @@
  function districtMap(count,name,shapes,area,pins){
   const isKeys=area==='keys',isGrass=area==='grass';
   const group=(name,content)=>`<g role="button" tabindex="0" data-guide-district="${esc(name)}" aria-pressed="${guideDistrict===name}" aria-label="${esc(name)}, ${count(name)} openstaand">${content}</g>`;
-  return `<svg class="guide-district-map" viewBox="${pins.length?'-160 0 820 474':'0 0 500 430'}" role="group" aria-label="Ingezoomde kaart van ${esc(name)}">
+  return `<svg class="guide-district-map${isGrass?' guide-district-map--grass':''}" viewBox="0 0 500 430" role="group" aria-label="Ingezoomde kaart van ${esc(name)}">
    <defs>
     <pattern id="guide-city-blocks" width="17" height="21" patternUnits="userSpaceOnUse" patternTransform="rotate(-10)">
      <rect x="2" y="2" width="12" height="16" rx="1.5" fill="#51465c" opacity=".19"/>
@@ -804,20 +804,18 @@
     <rect x="-58" y="-19" width="116" height="39" rx="8"/>
     <text y="-3">${esc(name)}</text><text class="guide-map-count" y="12">${count(name)} open</text>
    </g>`).join('')}
-   ${[true,false].map(left=>pins.filter(([,x])=>(x<250)===left).sort((a,b)=>a[2]-b[2])
-    .map(([place,x,y],index,side)=>{
-     const labelX=left?-154:506;
-     const labelY=25+index*410/Math.max(1,side.length-1);
-     const words=place.split(' ');
-     const lines=place.length<=14?[place]:[words.slice(0,Math.ceil(words.length/2)).join(' '),words.slice(Math.ceil(words.length/2)).join(' ')];
-     return group(place,`<g class="guide-map-pin">
-      <path d="M${x} ${y} L${left?0:500} ${labelY} H${left?labelX+148:labelX}"/>
-      <circle class="guide-map-pin-hit" cx="${x}" cy="${y}" r="15"/>
-      <circle class="guide-map-pin-dot" cx="${x}" cy="${y}" r="5"/>
-      <rect x="${labelX}" y="${labelY-22}" width="148" height="44" rx="7"/>
-      <text x="${labelX+74}" y="${labelY+(lines.length===1?6:-3)}">${lines.map((line,i)=>`<tspan x="${labelX+74}" dy="${i?18:0}">${esc(line)}</tspan>`).join('')}</text>
-     </g>`);
-    }).join('')).join('')}
+   ${pins.map(([place,x,y,labelX,labelY])=>{
+    const lines=place.split('|');
+    const labelWidth=Math.max(...lines.map(line=>line.length))*7.1+12;
+    const labelHeight=lines.length===1?25:33;
+    return group(lines.join(' '),`<g class="guide-map-pin">
+     <path d="M${x} ${y} L${labelX} ${labelY}"/>
+     <circle class="guide-map-pin-hit" cx="${x}" cy="${y}" r="8"/>
+     <circle class="guide-map-pin-dot" cx="${x}" cy="${y}" r="3"/>
+     <rect x="${labelX-labelWidth/2}" y="${labelY-labelHeight/2}" width="${labelWidth}" height="${labelHeight}" rx="5"/>
+     <text x="${labelX}" y="${labelY+(lines.length===1?4:-2)}">${lines.map((line,i)=>`<tspan x="${labelX}" dy="${i?13:0}">${esc(line)}</tspan>`).join('')}</text>
+    </g>`);
+   }).join('')}
   </svg>`;
  }
  let guideArea=null,guideDistrict=null,guideOpenOnly=true;
@@ -833,12 +831,15 @@
  };
  // Map anchors for the additional named Grassrivers locations.
  const grassMapPins=[
-  ['Breakwater Quarry',238,46],['Cottonmouth Lake',215,326],['Emerald Springs',70,161],
-  ['Hamlet',466,292],['King Gator Adventure Golf',448,198],['LTF Airfield',291,320],
-  ['Manatee Motel',148,256],['Marshland Animal Park',302,171],['North Mariana County',183,43],
-  ['Old Fort Road Bridge',347,269],['Paradise RV Park',259,220],['SND Station',430,99],
-  ['South Kelly County',357,30],['Zuidelijk Grassrivers',266,372],['Oostelijk Grassrivers',459,239],
-  ['Tola Bay',48,318],['Grassrivers Visitor Center',212,272],['Lost Mines Souvenirs',117,115]
+  ['Breakwater|Quarry',238,46,233,71],['Cottonmouth|Lake',215,326,199,313],
+  ['Emerald Springs',70,161,72,175],['Hamlet',466,292,463,304],
+  ['King Gator|Adventure Golf',448,198,438,170],['LTF Airfield',291,320,294,306],
+  ['Manatee Motel',148,256,115,257],['Marshland|Animal Park',302,171,319,160],
+  ['North Mariana|County',183,43,166,28],['Old Fort Road|Bridge',347,269,367,266],
+  ['Paradise|RV Park',259,220,233,212],['SND Station',430,99,451,111],
+  ['South Kelly|County',357,30,368,26],['Zuidelijk|Grassrivers',266,372,273,393],
+  ['Oostelijk|Grassrivers',459,239,449,230],['Tola Bay',48,318,48,315],
+  ['Grassrivers|Visitor Center',212,272,228,270],['Lost Mines|Souvenirs',117,115,116,124]
  ];
  const moreSpecificGuidePlaces={
   'Vice Beach':['Ocean Beach','Washington Beach','Washington Island','Oldby Island','Starfish Island','Waxman Island'],
@@ -880,7 +881,10 @@
   if(shapes){
    const patterns=[...shapes.map(([name,,,,,aliases=[]])=>[name,aliases]),
     ...extraGuidePlaces[guideArea].map(name=>[name,[]]),
-    ...pins.map(([name])=>[name,grassGuideAliases[name]||[]])].map(([name,aliases])=>
+    ...pins.map(([label])=>{
+     const name=label.replace('|',' ');
+     return [name,grassGuideAliases[name]||[]];
+    })].map(([name,aliases])=>
     [name,new RegExp('\\b(?:'+[name,...aliases].join('|')+')\\b','i')]);
    for(const item of all){
     const places=new Set([item,...readingLocations(item)].filter(place=>inArea(place,guideArea))
