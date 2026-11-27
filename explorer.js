@@ -958,12 +958,16 @@
   const done=trophyRows.filter(item=>found.has(item.id)||auto.has(item.id)).length;
   trophies.innerHTML=`
    <header class="page-heading page-heading--activities"><p class="eyebrow">PLAYSTATION &amp; XBOX</p><h1>Trofeeën en achievements</h1></header>
-   <div class="explore-category">
+   <div class="collect-controls">
     <label>Platform <select data-trophy-platform><option value="playstation">PlayStation 5</option><option value="xbox">Xbox Series X|S</option></select></label>
-    <p aria-live="polite">${done} van ${trophyRows.length} behaald</p>
-    <div class="neutral-track" role="progressbar" aria-label="Trofeeën en achievements" aria-valuemin="0" aria-valuenow="${done}" aria-valuemax="${trophyRows.length}"><div style="width:${100*done/trophyRows.length}%"></div></div>
    </div>
-   <div class="explore-items">${trophyRows.map(item=>{
+   <div class="activity-progress">
+    <div class="progress-row">
+     <div class="meter-label" aria-live="polite">${done} van ${trophyRows.length} behaald</div>
+    <div class="neutral-track" role="progressbar" aria-label="Trofeeën en achievements" aria-valuemin="0" aria-valuenow="${done}" aria-valuemax="${trophyRows.length}"><div style="width:${100*done/trophyRows.length}%"></div></div>
+    </div>
+   </div>
+   <div id="trophy-list">${trophyRows.map(item=>{
     const tracked=auto.has(item.id),goal=trophyLinks[item.id];
     const grade=trophyPlatform==='xbox'?(item.grade==='Platinum'?'Mythic':'Achievement'):trophyGrades[item.grade];
     return `<article class="corker-card"><label class="task"><input type="checkbox" data-trophy-id="${item.id}" ${tracked||found.has(item.id)?'checked':''} ${tracked?'disabled':''}>

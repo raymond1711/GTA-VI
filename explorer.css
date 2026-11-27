@@ -104,7 +104,7 @@ body{
 }
 .collect-controls [aria-pressed=true]{background:#ffb7df;color:#321b35;padding-inline:10px;border-radius:8px}
 .corker-card{background:linear-gradient(120deg,#523657,#413052);border-color:#ffbce455}
-#collect-list .corker-card:nth-child(even),#activity-list .corker-card:nth-child(even){background:linear-gradient(120deg,#46446a,#413052);border-color:#c3b9ff55}
+#collect-list .corker-card:nth-child(even),#activity-list .corker-card:nth-child(even),#trophy-list .corker-card:nth-child(even){background:linear-gradient(120deg,#46446a,#413052);border-color:#c3b9ff55}
 .corker-card summary{color:#ffd4ed}
 .progress-hero{background:linear-gradient(120deg,#654052,#5e3e64)}
 .progress-group{background:linear-gradient(135deg,#573950,#473254)}
