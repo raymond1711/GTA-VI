@@ -200,3 +200,22 @@ footer span{color:#dfc4e0}
 .map-detail .map-waterway{fill:none;stroke:#438797;stroke-width:3;stroke-linecap:round}
 .map-detail .map-shallows{fill:none;stroke:#87c1b9;stroke-width:2;opacity:.65}
 .map-detail .map-labels{font:700 10px system-ui;fill:#fff9e7;stroke:#243849;stroke-width:2.3;paint-order:stroke;text-anchor:middle}
+
+.evidence-icon {
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ height: 1.3rem;
+ padding: 0 .23rem;
+ margin-inline-start: .35rem;
+ border: 1px solid currentColor;
+ border-radius: .38rem;
+ vertical-align: middle;
+ color: #b7dfff;
+ background: #202942;
+}
+.evidence-icon--2 { color: #9ff4cb; background: #18382f; }
+.evidence-icon svg { display: block; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.evidence-legend { display: flex; flex-wrap: wrap; gap: .4rem 1rem; align-items: center; margin: .6rem 0; font-size: .8rem; }
+.evidence-legend span { display: inline-flex; align-items: center; gap: .3rem; }
+.evidence-legend .evidence-icon { margin-inline-start: 0; }

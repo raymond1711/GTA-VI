@@ -2,6 +2,17 @@
 (() => {
  const core=window.ExplorerCore,areas=window.EXPLORER_AREAS,types=window.EXPLORER_CATEGORIES,STORE='leonida-explorer-settings-v2';
  const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ function evidenceIcon(level){
+  const label=level===2?'Bevestigd in het spel':'Vermeld in bronnen';
+  const check='<path d="M2 7l3 3 6-6"/>';
+  return `<span class="evidence-icon evidence-icon--${level}" role="img" aria-label="${label}" title="${label}"><svg width="${level===2?23:13}" height="14" viewBox="0 0 ${level===2?23:13} 14" aria-hidden="true">${check}${level===2?'<g transform="translate(9)">'+check+'</g>':''}</svg></span>`;
+ }
+ function sourceEvidence(item){
+  if(item.provisionalTip)return '';
+  if(item.locationType==='stick-up')return evidenceIcon(2);
+  return item.source||item.extraSource?evidenceIcon(1):'';
+ }
+ const evidenceLegend=`<div class="evidence-legend" aria-label="Bronstatus"><span>${evidenceIcon(1)} Vermeld in bronnen</span><span>${evidenceIcon(2)} Bevestigd in het spel</span></div>`;
  const lastChapter=5;
  const {added,overrides,info,coverage}=window.EXPLORER_RELEASE_ADDITIONS;
  const trusted=[...window.EXPLORER_DISCOVERIES.map(item=>overrides[item.id]||item),...added];
@@ -165,7 +176,7 @@
     </g>
   </g>
 </svg>`;
- const explore=document.createElement('section');explore.id='explorer-view';explore.innerHTML=`<header class="page-heading page-heading--explore"><p class="eyebrow">VOLG JE NIEUWSGIERIGHEID</p><h1>Verkennen</h1></header><div class="chapter-panel"><div><div class="chapter-field"><label for="current-chapter">Ik speel hoofdstuk <output id="chapter-value" for="current-chapter">1</output></label><input id="current-chapter" type="range" min="1" max="${lastChapter}" step="1"><div class="chapter-ticks" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span></div></div><small class="chapter-note">Je keuze blijft bewaard. Latere onderdelen blijven verborgen.</small></div><div id="chapter-stats" class="chapter-stats"></div></div><div class="map-wrap"><div class="map-caption"><span>KIES EEN GEBIED</span><span>LEONIDA · KAART V5</span></div>${leonidaMap}</div><div class="map-legend"><span><i style="background:#3c8998"></i>Water</span><span><i style="background:#b9a5ab"></i>Stad</span><span><i style="background:#79a684"></i>Natuur</span></div><p class="map-note">Kies een gebied op de kaart. Gebiedsgrenzen en wegen zijn indicatief.</p><div id="chosen-area"></div>`;
+ const explore=document.createElement('section');explore.id='explorer-view';explore.innerHTML=`<header class="page-heading page-heading--explore"><p class="eyebrow">VOLG JE NIEUWSGIERIGHEID</p><h1>Verkennen</h1></header>${evidenceLegend}<div class="chapter-panel"><div><div class="chapter-field"><label for="current-chapter">Ik speel hoofdstuk <output id="chapter-value" for="current-chapter">1</output></label><input id="current-chapter" type="range" min="1" max="${lastChapter}" step="1"><div class="chapter-ticks" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span></div></div><small class="chapter-note">Je keuze blijft bewaard. Latere onderdelen blijven verborgen.</small></div><div id="chapter-stats" class="chapter-stats"></div></div><div class="map-wrap"><div class="map-caption"><span>KIES EEN GEBIED</span><span>LEONIDA · KAART V5</span></div>${leonidaMap}</div><div class="map-legend"><span><i style="background:#3c8998"></i>Water</span><span><i style="background:#b9a5ab"></i>Stad</span><span><i style="background:#79a684"></i>Natuur</span></div><p class="map-note">Kies een gebied op de kaart. Gebiedsgrenzen en wegen zijn indicatief.</p><div id="chosen-area"></div>`;
  const missionHub=document.createElement('section');missionHub.id='mission-hub';missionHub.className='mission-hub';missionHub.setAttribute('aria-label','Missies en overvallocaties in alle gebieden');explore.querySelector('.map-wrap').before(missionHub);
  const overview=document.createElement('section');overview.id='progress-view';
  const collectibles=document.createElement('section');
@@ -215,17 +226,10 @@
  const groups=Object.entries(themedCollections).map(([label,names])=>[label,names.filter(name=>otherCollections.includes(name))]);
  groups.push(["Overige verzamelobjecten",otherCollections.filter(name=>!groupedNames.has(name))]);
  const themedOptions=groups.filter(([,names])=>names.length).map(([label,names])=>`<optgroup label="${esc(label)}">${collectionOptions(names)}</optgroup>`).join("");
- collectibles.innerHTML=`<header class="page-heading page-heading--collect"><p class="eyebrow">VIND EN VERZAMEL</p><h1>Collectibles</h1></header><div class="collect-controls">
+ collectibles.innerHTML=`<header class="page-heading page-heading--collect"><p class="eyebrow">VIND EN VERZAMEL</p><h1>Collectibles</h1></header>${evidenceLegend}<div class="collect-controls">
  <label>Collectie <select id="collect-series"><optgroup label="Verzamelkaartjes">${collectionOptions(cardSeries)}</optgroup>${themedOptions}</select></label>
  <label><input type="checkbox" id="collect-missing"> Alleen ontbrekende</label>
  </div>
- <details id="flamingo-guide" class="corker-card" hidden>
-  <summary>Zo herken je de juiste flamingo</summary>
-  <p>In GTA VI tellen roze figuren met een zwart-witte snavel. Schiet op de figuur om die te laten meetellen. Het pakketje oprapen is optioneel.</p>
-  <p>In de game zie je je totaal onder <strong>Progress → Collections → Exploration → Cocaine Flamingos</strong>, zodra je de eerste hebt gevonden. Van de 125 tellen er 100 mee voor 100% spelvoltooiing.</p>
-  <p>Volgens CutsceneWire ontgrendel je bij 50 de <em>Inflatable Flamingo</em>-cheat. Een handige start is het zuidoosten van Belpoint, met zes figuren rond de steiger, witte huizen en strandcontainers.</p>
-  <p>Bij <strong>Zoekgebied</strong> geeft de gids een geschatte plek of herkenningspunt. Bij <strong>Voorlopige zoektip</strong> is de plek nog onzeker of kan de figuur al onder een andere naam in de lijst staan. Controleer in de game of de figuur meetelt voordat je hem afvinkt.</p>
- </details>
  <div id="collect-map"></div><p id="collect-status" aria-live="polite"></p><p id="collect-coverage" class="scope-note" hidden></p><div id="collect-list"></div>`;
  function cloneAreaMap(prefix){
   const map=explore.querySelector('.map-wrap').cloneNode(true);
@@ -283,7 +287,6 @@
   const coverageLine=collectibles.querySelector('#collect-coverage');
   coverageLine.textContent=coverage[selection]||'';
   coverageLine.hidden=!coverageLine.textContent;
-  collectibles.querySelector('#flamingo-guide').hidden=!isFlamingo;
   const list=[...records(),...activeReferences].filter(item=>collectionOf(item)===selection&&(item.chapter!==lastChapter||model.chapter===lastChapter));
   collectibles.querySelector('.map-unassigned').hidden=!list.some(hasNoRegion);
   const matches=list.filter(item=>collectibleArea==='unknown'?hasNoRegion(item):collectibleArea&&(item.area===collectibleArea||item.extraArea===collectibleArea));
@@ -309,9 +312,8 @@
   for(const item of visible){
    const row=document.createElement('article');
    row.className='corker-card';
-   row.innerHTML=`<label class="task"><input ${item.referenceOnly?'hidden disabled':''} type="checkbox" data-collect-record="${esc(item.id)}" ${found.has(item.id)?'checked':''}><span><b>${esc(item.title)}</b><small>${esc(item.sourceLocation)}${item.workbookStatus?' · '+esc(item.workbookStatus):''}${item.provisionalTip?' · Voorlopige zoektip':item.approximateLocation?' · Zoekgebied':''}</small></span></label>
-   ${isFlamingo?`<p>${esc(item.detail)}</p>`:''}
-   <details data-card="${esc(item.id)}"><summary>${item.screenshot?(isFlamingo?'Screenshot en bronnen':'Vindplek en screenshot'):isFlamingo?'Bronnen':'Vindplek'}</summary>${isFlamingo?'':`<p>${esc(item.detail)}</p>`}
+   row.innerHTML=`<label class="task"><input ${item.referenceOnly?'hidden disabled':''} type="checkbox" data-collect-record="${esc(item.id)}" ${found.has(item.id)?'checked':''}><span><b>${esc(item.title)}</b>${sourceEvidence(item)}<small>${esc(item.sourceLocation)}${item.workbookStatus?' · '+esc(item.workbookStatus):''}${item.provisionalTip?' · Voorlopige zoektip':item.approximateLocation?' · Zoekgebied':''}</small></span></label>
+   <details data-card="${esc(item.id)}"><summary>${item.screenshot?'Vindplek en screenshot':'Vindplek'}</summary><p>${esc(item.detail)}</p>
    ${item.screenshot?`<a href="${esc(item.screenshot)}" target="_blank" rel="noopener noreferrer">Open screenshot</a>${item.screenshotCredit?` (${esc(item.screenshotCredit)})`: ''} · `:isFlamingo?'':'<p>Geen screenshot beschikbaar.</p>'}
    ${item.source?`<a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">${isFlamingo&&/#(?:hidden-package|cocaine-flamingo)-/.test(item.source)?'Open kaartpin':'Bron'}</a>`:''}
    ${item.extraSource?` · <a href="${esc(item.extraSource)}" target="_blank" rel="noopener noreferrer">${esc(item.extraSourceLabel||'Tweede bron')}</a>`:''}</details>`;
@@ -356,10 +358,11 @@
  const activityNames=[
   'Stuntsprongen','Onder bruggen door','Mesvluchten','BASE-sprongen','Basketbalringen',
   'Meditaties','Dieren bestuderen','Voertuigmodellen scannen','Gewone races','Race-uitdagingen','Top Fun-droneproeven','Jachtopdrachten van Bret','Schietuitdagingen',
-  'Overige activiteiten','Arcadegames','Pooltegenstanders','Minigolf','Dino Golf-medailles','Minigolfuitdagingen'
+  'Stick Ups','Overige activiteiten','Arcadegames','Pooltegenstanders','Minigolf','Dino Golf-medailles','Minigolfuitdagingen'
  ];
  const medalOptions=[['bronze','Brons'],['silver','Zilver'],['gold','Goud']];
  const activityNotes={
+  'Stick Ups':'Kies een gebied op de kaart. De bronstatus staat bij elk filiaal. Vergelijk je vinkjes met Overvallen → Stick Ups in de game.',
   'Top Fun-droneproeven':'Per station moet je de eerste twee richttijden verslaan. De derde proef telt voor 100% zodra je finisht.',
   'Jachtopdrachten van Bret':'Speel als Jason. De doelwitten en exacte zoekgebieden van opdracht 5 t/m 15 staan op de kaart zodra Bret je sms’t.',
   'Gewone races':'Vink iedere unieke race af zodra je die hebt gewonnen. Voor 100% in het spel heb je 30 overwinningen nodig.',
@@ -375,7 +378,7 @@
   'Voertuigmodellen scannen':'Deze lijst bevat de voertuigmodellen die al in de gids zijn opgenomen.',
   'Basketbalringen':'Open bij het nummer de kaart of route uit de gids. Sommige locaties hebben meerdere ringen.'
  };
- activities.innerHTML=`<header class="page-heading page-heading--activities"><p class="eyebrow">KIES JE VOLGENDE UITDAGING</p><h1>Activiteiten</h1></header><div class="collect-controls">
+ activities.innerHTML=`<header class="page-heading page-heading--activities"><p class="eyebrow">KIES JE VOLGENDE UITDAGING</p><h1>Activiteiten</h1></header>${evidenceLegend}<div class="collect-controls">
  <label>Activiteit <select id="activity-kind">${collectionOptions(activityNames)}</select></label>
   <label><input type="checkbox" id="activity-missing"> <span id="activity-missing-label">Alleen ontbrekende</span></label>
  </div><div id="activity-map"></div><div id="activity-progress" class="activity-progress" aria-live="polite"></div>
@@ -414,6 +417,20 @@
    <small>${progress.done} van ${progress.total} · Spelminimum ${goal} van ${progress.total}${progress.done>=goal?' · Behaald':''}</small>
   </div>`;
  }
+ function stickUpProgress(items){
+  const found=new Set(checked());
+  const done=items.filter(item=>found.has(item.id)).length;
+  const community=items.filter(item=>item.locationType==='stick-up-community'&&found.has(item.id)).length;
+  const total=91, goal=50;
+  return `<div class="progress-row">
+   <div class="meter-label"><span>Stick Ups · alle gebieden</span><strong>${done} / ${total}</strong></div>
+   <div class="game-goal-track">
+    <div class="neutral-track" role="progressbar" aria-label="Afgevinkte Stick Ups in de app" aria-valuemin="0" aria-valuemax="${total}" aria-valuenow="${done}"><div style="width:${done/total*100}%"></div></div>
+    <span class="game-goal-marker" style="left:${goal/total*100}%" aria-hidden="true"></span>
+   </div>
+   <small>Voor 100% in het spel: ${goal} van ${total} · ${items.length} locaties afvinkbaar in de app · ${community} vinkjes op communitylocaties.</small>
+  </div>`;
+ }
  function updateActivityProgress(items){
   const progress=activities.querySelector('#activity-progress');
   const kind=activityKind.value;
@@ -422,7 +439,7 @@
   const gold=Object.keys(model.medals||{}).filter(id=>model.medals[id]==='gold');
   const goal=gameTargets.get(kind);
   const medalActivity=items.some(item=>item.medal);
-  const totalMeter=kind==='Meditaties'
+  const totalMeter=kind==='Stick Ups' ? stickUpProgress(items) : kind==='Meditaties'
    ? gameGoalMeter(items.flatMap(item=>meditationCharacters.get(item.id)||[item]),'Meditaties per personage',goal,model.checked)
    : goal
     ? gameGoalMeter(items,medalActivity?'Gouden medailles':kind,goal,medalActivity?gold:checked())
@@ -465,7 +482,8 @@
    card.className='corker-card';
    card.dataset.activityCard=item.id;
    const location=item.sourceLocation||areas.find(area=>area.id===item.area)?.name||'';
-   const title=`<b>${esc(item.title)}</b>${location?`<small>${esc(location)}</small>`:''}`;
+   const title=`<b>${esc(item.title)}</b>${sourceEvidence(item)}${location?`<small>${esc(location)}</small>`:''}`;
+   const stickUp=item.collection==='Stick Ups';
    const characters=meditationCharacters.get(item.id);
    const oldCheck=characters&&model.checked.includes(item.id)
     ? `<label class="task"><input type="checkbox" data-activity-record="${esc(item.id)}" checked> Eerder afgevinkt · personage onbekend</label>`:'';
@@ -480,11 +498,13 @@
    card.innerHTML=`${result}
     <details><summary>${item.screenshot?'Uitleg, bron en screenshot':'Uitleg en bron'}</summary>
     ${item.detail&&item.detail!==location?`<p>${esc(item.detail)}</p>`:''}
-    ${item.workbookStatus?`<p class="scope-note">${esc(item.workbookStatus)}</p>`:''}
-    ${item.source?`<a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">Open gids</a>`: ''}
+    ${stickUp?`<label>Opmerking<textarea class="item-note" maxlength="3000" data-stick-note>${esc(model.notes[item.id]||"")}</textarea></label>`:""}${item.workbookStatus?`<p class="scope-note">${esc(item.workbookStatus)}</p>`:''}
+    ${item.source?`<a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">${item.locationType==='stick-up-community'?'Open kaartpin':'Open gids'}</a>`: ''}
     ${item.extraSource?` &middot; <a href="${esc(item.extraSource)}" target="_blank" rel="noopener noreferrer">${esc(item.extraSourceLabel||'Tweede bron')}</a>`:''}
     ${item.screenshot?` &middot; <a href="${esc(item.screenshot)}" target="_blank" rel="noopener noreferrer">Open screenshot</a>`:''}</details>`;
    attachScreenshot(card.querySelector('details'),item);
+   const stickNote=card.querySelector('[data-stick-note]');
+   if(stickNote)stickNote.oninput=()=>{model.notes[item.id]=stickNote.value;persist()};
    activityList.append(card);
   }
   setActivityEmpty(matches);
@@ -556,11 +576,11 @@
  function selectArea(id){if(!areas.some(a=>a.id===id))return;model.area=id;persist();renderExplore();}
  explore.addEventListener('click',e=>{const area=e.target.closest('[data-area]');if(area)selectArea(area.dataset.area)});
  explore.querySelectorAll('.map-region').forEach(p=>p.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();selectArea(p.dataset.area)}}));
- function itemRow(item,showLocation=false){const row=document.createElement('div');row.className='explore-item';row.innerHTML=`<label class="task"><input type="checkbox" data-record="${esc(item.id)}" ${checked().includes(item.id)?'checked':''}><span>${item.locationType==='illegal-operation'?'<em class="robbery-tag">● Gele overvallocatie</em>':''}<b>${esc(item.title)}</b>${item.unlockUncertain?'<small class="unlock-uncertain"><span aria-hidden="true">!</span> Beschikbaarheid per hoofdstuk onzeker</small>':''}<small>${esc(item.detail)}${item.mapLabel?'<br><span class="unlock-condition">Op de kaart: '+esc(item.mapLabel)+'</span>':''}${item.condition?'<br><span class="unlock-condition">Voorwaarde: '+esc(item.condition)+'</span>':''}${item.availableUntilChapter?'<br><span class="expiry-condition">Alleen t/m hoofdstuk '+item.availableUntilChapter+'</span>':''}${!item.unlockUncertain&&item.availabilityBasis?.startsWith('afgeleid')?'<br><span class="unlock-condition">Indeling: '+esc(item.availabilityBasis)+'.</span>':''}</small></span></label><div class="item-meta">${item.locationType==='mission-loot'?'Missiegebonden buit · ':item.locationType==='safe'?'Losse kluis · ':item.locationType==='bank-job'||item.locationType==='bank-vault'?'Bankoverval · ':''}${item.type==='verified'?'Gidsbron: '+esc(item.sourceName||'bronlink'):'Persoonlijke opdracht'}${item.sourceNote?' · Bronnotitie: '+esc(item.sourceNote):''}${item.source?` · <a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">Bron ↗</a>`:''}</div><button type="button" class="quiet" data-note="${esc(item.id)}">Opmerking</button><button type="button" class="quiet" data-photo="${esc(item.id)}">Foto toevoegen</button><textarea class="item-note" aria-label="Opmerking bij ${esc(item.title)}" maxlength="3000" hidden></textarea>`;const textarea=row.querySelector('textarea');textarea.value=model.notes[item.id]||'';textarea.oninput=()=>{model.notes[item.id]=textarea.value;persist()};row.querySelector('[data-note]').onclick=()=>{textarea.hidden=!textarea.hidden;if(!textarea.hidden)textarea.focus()};row.querySelector('[data-photo]').onclick=()=>{go('journal');const title=document.querySelector('#photo-title'),category=document.querySelector('#photo-category');title.value=item.title.slice(0,100);category.value=item.area||item.extraArea||model.area||'';document.querySelector('#photo-note').value=(model.notes[item.id]||'').slice(0,2000);window.leonidaPhotoContext=item.id;title.focus()};if(showLocation||item.locationType==='illegal-operation'){const location=document.createElement('p');location.className='mission-location';location.textContent=(item.unlockUncertain?'Hoofdstuk onbekend':item.id==='guide-mission-prologue'?'Proloog':(item.availabilityBasis?.startsWith('afgeleid')?'In app bij hoofdstuk ':'Vanaf hoofdstuk ')+item.chapter)+' · '+(item.sourceLocation||areas.find(a=>a.id===item.area)?.name||'Algemene opdracht')+(item.area?'':' · kaartgebied nog niet bevestigd');row.prepend(location)}return row;}
+ function itemRow(item,showLocation=false){const row=document.createElement('div');row.className='explore-item';row.innerHTML=`<label class="task"><input type="checkbox" data-record="${esc(item.id)}" ${checked().includes(item.id)?'checked':''}><span>${item.locationType==='illegal-operation'?'<em class="robbery-tag">● Gele overvallocatie</em>':''}<b>${esc(item.title)}</b>${sourceEvidence(item)}${item.unlockUncertain?'<small class="unlock-uncertain"><span aria-hidden="true">!</span> Beschikbaarheid per hoofdstuk onzeker</small>':''}<small>${esc(item.detail)}${item.mapLabel?'<br><span class="unlock-condition">Op de kaart: '+esc(item.mapLabel)+'</span>':''}${item.condition?'<br><span class="unlock-condition">Voorwaarde: '+esc(item.condition)+'</span>':''}${item.availableUntilChapter?'<br><span class="expiry-condition">Alleen t/m hoofdstuk '+item.availableUntilChapter+'</span>':''}${!item.unlockUncertain&&item.availabilityBasis?.startsWith('afgeleid')?'<br><span class="unlock-condition">Indeling: '+esc(item.availabilityBasis)+'.</span>':''}</small></span></label><div class="item-meta">${item.locationType==='mission-loot'?'Missiegebonden buit · ':item.locationType==='safe'?'Losse kluis · ':item.locationType==='bank-job'||item.locationType==='bank-vault'?'Bankoverval · ':''}${item.type==='verified'?'Gidsbron: '+esc(item.sourceName||'bronlink'):'Persoonlijke opdracht'}${item.sourceNote?' · Bronnotitie: '+esc(item.sourceNote):''}${item.source?` · <a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">Bron ↗</a>`:''}</div><button type="button" class="quiet" data-note="${esc(item.id)}">Opmerking</button><button type="button" class="quiet" data-photo="${esc(item.id)}">Foto toevoegen</button><textarea class="item-note" aria-label="Opmerking bij ${esc(item.title)}" maxlength="3000" hidden></textarea>`;const textarea=row.querySelector('textarea');textarea.value=model.notes[item.id]||'';textarea.oninput=()=>{model.notes[item.id]=textarea.value;persist()};row.querySelector('[data-note]').onclick=()=>{textarea.hidden=!textarea.hidden;if(!textarea.hidden)textarea.focus()};row.querySelector('[data-photo]').onclick=()=>{go('journal');const title=document.querySelector('#photo-title'),category=document.querySelector('#photo-category');title.value=item.title.slice(0,100);category.value=item.area||item.extraArea||model.area||'';document.querySelector('#photo-note').value=(model.notes[item.id]||'').slice(0,2000);window.leonidaPhotoContext=item.id;title.focus()};if(showLocation||item.locationType==='illegal-operation'){const location=document.createElement('p');location.className='mission-location';location.textContent=(item.unlockUncertain?'Hoofdstuk onbekend':item.id==='guide-mission-prologue'?'Proloog':(item.availabilityBasis?.startsWith('afgeleid')?'In app bij hoofdstuk ':'Vanaf hoofdstuk ')+item.chapter)+' · '+(item.sourceLocation||areas.find(a=>a.id===item.area)?.name||'Algemene opdracht')+(item.area?'':' · kaartgebied nog niet bevestigd');row.prepend(location)}return row;}
  function renderMissionHub(all){
   const opened=new Set([...missionHub.querySelectorAll('details[open]')].map(d=>d.dataset.missionKind));missionHub.replaceChildren();
   for(const [kind,title] of [['missions','Hoofdmissies in alle gebieden'],['sidequests','Zijmissies in alle gebieden'],['loot','Overvallen & lootlocaties in alle gebieden']]){
-   const visible=core.visible(core.category(all,kind),model.chapter).sort(storySort),details=document.createElement('details');details.className='explore-category mission-overview';details.dataset.missionKind=kind;details.open=opened.has(kind);details.innerHTML=`<summary><strong>${title} <span aria-hidden="true">⌄</span></strong><span class="mission-visible-count">${visible.length} zichtbaar</span></summary><p class="mission-explanation">Alles tot en met hoofdstuk ${model.chapter}, los van je gebiedskeuze. Startvoorwaarden staan bij elk punt. ${kind==='missions'?'Inclusief kleinere verhaal- en wachttaken: het aantal kan afwijken van Story Recap. De proloog staat bij hoofdstuk 1.':kind==='loot'?'De gele locaties zijn Illegal Operations: vink een locatie af wanneer je de Key Valuables op de spelkaart hebt verzameld. De app bevat alle 39 standaardlocaties. Een rood uitroepteken betekent dat de beschikbaarheid per hoofdstuk onzeker is. Missiegebonden buit en losse kluizen zijn apart gemarkeerd. Bij Stick Ups staan 33 gedocumenteerde spelkaartlocaties en 73 aanvullende gidswinkels. Bij die winkels staat erbij dat de spelregistratie nog onzeker is.':'Sommige uitnodigingen verschijnen pas na een bericht of wisseling van personage.'} Hoofdstuk-exclusieve verlopen punten blijven in je voortgang bewaard.</p><div class="explore-items"></div>`;
+   const visible=core.visible(core.category(all,kind),model.chapter).sort(storySort),details=document.createElement('details');details.className='explore-category mission-overview';details.dataset.missionKind=kind;details.open=opened.has(kind);details.innerHTML=`<summary><strong>${title} <span aria-hidden="true">⌄</span></strong><span class="mission-visible-count">${visible.length} zichtbaar</span></summary><p class="mission-explanation">Alles tot en met hoofdstuk ${model.chapter}, los van je gebiedskeuze. Startvoorwaarden staan bij elk punt. ${kind==='missions'?'Inclusief kleinere verhaal- en wachttaken: het aantal kan afwijken van Story Recap. De proloog staat bij hoofdstuk 1.':kind==='loot'?'De gele locaties zijn Illegal Operations: vink een locatie af wanneer je de Key Valuables op de spelkaart hebt verzameld. De app bevat alle 39 standaardlocaties. Een rood uitroepteken betekent dat de beschikbaarheid per hoofdstuk onzeker is. Missiegebonden buit en losse kluizen zijn apart gemarkeerd. Stick Ups staan bij Activiteiten.':'Sommige uitnodigingen verschijnen pas na een bericht of wisseling van personage.'} Hoofdstuk-exclusieve verlopen punten blijven in je voortgang bewaard.</p><div class="explore-items"></div>`;
    const list=details.querySelector('.explore-items');if(!visible.length){const empty=document.createElement('p');empty.className='scope-note';empty.textContent='Nog geen onderdelen vastgelegd voor deze hoofdstukkeuze.';list.append(empty)}let lastChapter=null;for(const item of visible){if(lastChapter!==item.chapter){const heading=document.createElement('h3');heading.className='list-chapter-heading';heading.textContent=(item.availabilityBasis?.startsWith('afgeleid')?'In app bij hoofdstuk ':'Vanaf hoofdstuk ')+item.chapter;list.append(heading);lastChapter=item.chapter}list.append(itemRow(item,true));}missionHub.append(details);
   }
  }
