@@ -67,7 +67,7 @@
  const nav=document.createElement('nav');nav.id='app-menu';nav.className='app-nav';nav.setAttribute('aria-label','Hoofdnavigatie');nav.innerHTML=[['start','Start'],['intro','Introductie'],['explore','Verkennen'],['collectibles','Collectibles'],['activities','Activiteiten'],['challenges','Uitdagingen'],['trophies','Trofeeën'],['progress','Voortgang'],['journal','Fotodagboek']].map(([id,name])=>`<button type="button" data-page="${id}">${name}</button>`).join('');
  const home=document.createElement('section');home.id='start-view';home.innerHTML="<div class=\"welcome\"><h1 class=\"welcome-title\">Leonida Explorer</h1><p>Kies waar je vandaag zin in hebt.</p></div><div class=\"mode-grid\"><button type=\"button\" class=\"mode-card\" data-page=\"intro\"><strong>Introductie</strong><span>Volg de route voor je eerste middag.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"explore\"><strong>Verkennen</strong><span>Kies je hoofdstuk en gebied.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"collectibles\"><strong>Collectibles</strong><span>Bekijk de verzamelobjecten en hun vindplekken.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"activities\"><strong>Activiteiten</strong><span>Vink stunts, meditaties en andere activiteiten af.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"progress\"><strong>Voortgang</strong><span>Bekijk je vinkjes per hoofdstuk, gebied en categorie.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"journal\"><strong>Fotodagboek</strong><span>Bewaar foto’s en notities van je ontdekkingen.</span><em aria-hidden=\"true\">↗</em></button></div>";
  home.querySelector("[data-page=progress]").insertAdjacentHTML("beforebegin",'<button type="button" class="mode-card" data-page="trophies"><strong>Trofeeën</strong><span>Bekijk je voortgang op PlayStation en Xbox.</span></button>');
- const leonidaMap=`<svg class="leonida-map" role="group" aria-label="Aanklikbare gebiedskaart van Leonida" viewBox="0 0 440 660">
+ const leonidaMap=`<svg class="leonida-map" role="group" aria-label="Aanklikbare gebiedskaart van Leonida" viewBox="0 0 440 680">
   <defs>
     <linearGradient id="map-ocean" x2="0.85" y2="1">
       <stop stop-color="#235970"/>
@@ -91,7 +91,7 @@
     <path class="region-land" fill="#779b75" d="M91 137Q73 123 81 105L101 92 94 74 117 56 142 54 151 34 181 45 203 34 221 49 253 40 274 57 301 53 325 70 352 76 359 99 374 111 364 137 372 161L323 175 268 156 223 162 170 149 132 158Z"/>
     <g class="map-art" fill="none" stroke="#435f51" stroke-width="1.5">
       <path d="M110 96q28 8 48-12t52-9q21 9 47-5t65 12M104 109q39 10 62-14t47-6q26 13 55-6t75 17M108 121q24 10 49-4t42-17q22 2 41 11t45-14q22-13 45 2t22 14M150 130q32-4 46-18t42 5q25 14 55-10t54 17M260 132q24 0 45-13t43 13"/>
-      <path d="m132 100 16-30 15 24 8-13 17 23m66-7 15-29 15 23 9-16 18 23" stroke="#dce3b0" stroke-width="2.4"/>
+      <path d="m127 101 21-34 15 22 8-10 18 22m59-2 19-33 17 23 9-17 23 28" stroke="#f2efcc" stroke-width="3"/>
     </g>
   </g>
 
@@ -141,17 +141,17 @@
     <g class="map-labels">
       <circle cx="124" cy="116" r="2"/><text x="123" y="107">Grayson</text>
       <circle cx="331" cy="118" r="2"/><text x="333" y="108">Millport</text>
-      <circle cx="59" cy="154" r="2"/><text x="49" y="131">Draper Island</text>
+      <path class="map-landmark" d="M81 247l21-7m-18 14 21-7m-17 14 21-7"/><circle cx="59" cy="154" r="2"/><text x="49" y="131">Draper Island</text>
       <circle cx="222" cy="435" r="2"/><text x="212" y="448">Watson Bay</text>
       <circle cx="266" cy="413" r="2"/><text x="270" y="402">Hamlet</text>
-      <circle cx="306" cy="334" r="2"/><text x="309" y="319">VCIA</text>
+      <path class="map-landmark" d="m291 345 22-25m-18 25 22-25m-25 18 9 7"/><circle cx="306" cy="334" r="2"/><text x="309" y="319">VCIA</text>
       <circle cx="404" cy="340" r="2"/><text x="395" y="325">Vice Beach</text>
     </g>
   </g>
   <g class="map-region" data-area="keys" style="--area-color:${areas.find(area=>area.id==='keys').color}" aria-hidden="true" aria-pressed="false">
-    <path class="map-art" d="M339 460Q381 508 314 566T115 636Q53 630 52 597" fill="none" stroke="#58a9ab" stroke-width="35" stroke-linecap="round" opacity=".27"/>
+    <path class="map-art" d="M339 460Q381 508 314 566T115 642Q53 636 52 603" fill="none" stroke="#58a9ab" stroke-width="35" stroke-linecap="round" opacity=".27"/>
     <path class="region-land" fill="#c4b781" d="M304 477l13-13 18 1 15 10 10 20-8 12-16 6-9-9-16-3-10-12Z M317 519l13-5 12 8-7 12-5 11-17 6-12-6 1-10Z M277 550l15-7 11 7-5 10-12 13-19 4-11-8 8-12Z M227 576l15-9 14 5-1 13-13 10-19 3-8-7Z M178 597l17-9 13 4 3 11-14 12-24 3-7-8Z M127 609l19-8 15 4 1 12-12 11-26 4-10-9Z M79 612l17-10 14 4 3 14-17 9-21-2-7-9Z"/>
-    <path class="map-art" d="M321 449q9 16 14 39t-11 43q-20 25-49 31t-42 23q-36 22-95 33l-49-2" fill="none" stroke="#ffe6b7" stroke-width="2.6" stroke-linecap="round"/>
+    <path class="map-art" d="M321 449Q334 469 335 490L321 533 278 561 235 583 189 603 139 616 91 617" fill="none" stroke="#fff0c9" stroke-width="3.4" stroke-linecap="round"/>
     <g class="map-art map-detail">
       <path d="m84 620 21-9m-20 13 15-7" fill="none" stroke="#61586a" stroke-width="2"/>
       <g class="map-labels">
@@ -186,11 +186,11 @@
       <g class="region-name" transform="translate(292 351)"><rect width="112" height="36" rx="11"/><svg x="7" y="7" width="22" height="22" viewBox="0 0 48 48">${svgIcons.skyline}</svg><text x="34" y="23">Vice City</text></g>
     </g>
     <g class="map-region" data-area="keys" style="--area-color:${areas.find(area=>area.id==='keys').color}" role="button" tabindex="0" aria-label="Leonida Keys" aria-pressed="false">
-      <g class="region-name" transform="translate(49 521)"><rect width="153" height="36" rx="11"/><svg x="7" y="7" width="22" height="22" viewBox="0 0 48 48">${svgIcons.island}</svg><text x="34" y="23">Leonida Keys</text><path d="M121 36l30 32" fill="none" stroke-width="1.5"/></g>
+      <g class="region-name" transform="translate(44 505)"><rect width="153" height="36" rx="11"/><svg x="7" y="7" width="22" height="22" viewBox="0 0 48 48">${svgIcons.island}</svg><text x="34" y="23">Leonida Keys</text><path d="M121 36l30 36" fill="none" stroke-width="1.5"/></g>
     </g>
   </g>
 </svg>`;
- const explore=document.createElement('section');explore.id='explorer-view';explore.innerHTML=`<header class="page-heading page-heading--explore"><p class="eyebrow">VOLG JE NIEUWSGIERIGHEID</p><h1>Verkennen</h1></header>${evidenceLegend}<div class="chapter-panel"><div><div class="chapter-field"><label for="current-chapter">Ik speel hoofdstuk <output id="chapter-value" for="current-chapter">1</output></label><input id="current-chapter" type="range" min="1" max="${lastChapter}" step="1"><div class="chapter-ticks" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span></div></div><small class="chapter-note">Je keuze blijft bewaard. Latere onderdelen blijven verborgen.</small></div><div id="chapter-stats" class="chapter-stats"></div></div><div class="map-wrap"><div class="map-caption"><span>KIES EEN GEBIED</span><span>LEONIDA · KAART V5</span></div>${leonidaMap}</div><div class="map-legend"><span><i style="background:#3c8998"></i>Water</span><span><i style="background:#b9a5ab"></i>Stad</span><span><i style="background:#79a684"></i>Natuur</span></div><p class="map-note">Kies een gebied op de kaart. Gebiedsgrenzen en wegen zijn indicatief.</p><div id="chosen-area"></div>`;
+ const explore=document.createElement('section');explore.id='explorer-view';explore.innerHTML=`<header class="page-heading page-heading--explore"><p class="eyebrow">VOLG JE NIEUWSGIERIGHEID</p><h1>Verkennen</h1></header>${evidenceLegend}<div class="chapter-panel"><div><div class="chapter-field"><label for="current-chapter">Ik speel hoofdstuk <output id="chapter-value" for="current-chapter">1</output></label><input id="current-chapter" type="range" min="1" max="${lastChapter}" step="1"><div class="chapter-ticks" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span></div></div><small class="chapter-note">Je keuze blijft bewaard. Latere onderdelen blijven verborgen.</small></div><div id="chapter-stats" class="chapter-stats"></div></div><div class="map-wrap"><div class="map-caption"><span>KIES EEN GEBIED</span><span>LEONIDA · KAART V6</span></div>${leonidaMap}</div><div class="map-legend"><span><i style="background:#3c8998"></i>Water</span><span><i style="background:#b9a5ab"></i>Stad</span><span><i style="background:#79a684"></i>Natuur</span></div><p class="map-note">Kies een gebied op de kaart. Gebiedsgrenzen en wegen zijn indicatief.</p><div id="chosen-area"></div>`;
  const missionHub=document.createElement('section');missionHub.id='mission-hub';missionHub.className='mission-hub';missionHub.setAttribute('aria-label','Missies en overvallocaties in alle gebieden');explore.querySelector('.map-wrap').before(missionHub);
  const overview=document.createElement('section');overview.id='progress-view';
  const collectibles=document.createElement('section');
@@ -366,7 +366,7 @@
   const provisionalCount=isFlamingo?list.filter(item=>item.provisionalTip).length:0;
   collectibles.querySelector('#collect-status').textContent=isFlamingo
    ? `${areaStatus} · ${done}/${list.length} in deze gids · ${list.length-provisionalCount}/125 figuren beschreven · ${provisionalCount} voorlopige zoektips`
-   : actionable.length ? `${areaStatus} · Collectie ${done}/${actionable.length}` : matches.length+" aanwijzingen";
+   : actionable.length ? `${areaStatus} · Collectie ${done}/${actionable.length}` : areaName+" · "+matches.length+" aanwijzingen";
   for(const button of collectibles.querySelectorAll('[data-area],[data-collect-area]'))button.setAttribute('aria-pressed',String((button.dataset.area||button.dataset.collectArea)===collectibleArea));
   const target=collectibles.querySelector('#collect-list');
   const opened=new Set([...target.querySelectorAll('details[open]')].map(node=>node.dataset.card));
@@ -460,7 +460,7 @@
  activities.innerHTML=`<header class="page-heading page-heading--activities"><p class="eyebrow">KIES JE VOLGENDE ACTIVITEIT</p><h1>Activiteiten</h1></header>${evidenceLegend}<div class="collect-controls">
  <label>Activiteit <select id="activity-kind">${collectionOptions(activityNames)}</select></label>
   <label><input type="checkbox" id="activity-missing"> <span id="activity-missing-label">Alleen ontbrekende</span></label>
- </div><div id="activity-map"></div><div id="activity-progress" class="activity-progress" aria-live="polite"></div>
+ </div><div id="activity-map"></div><h2 id="activity-area-heading" class="map-result-heading" hidden></h2><div id="activity-progress" class="activity-progress" aria-live="polite"></div>
  <p id="activity-note" class="scope-note" hidden></p>
  <div id="activity-area-prompt" hidden>${chooseAreaPrompt}</div><p id="activity-empty" class="scope-note" hidden></p>
  <div id="activity-list"></div>
@@ -569,6 +569,9 @@
   const mapItems=activityKind.value==='Basketbalringen'?[...items,...activityReferences]:items;
   markEmptyRegions(activityMap,area=>mapItems.some(item=>inArea(item,area)));
   activityMap.querySelector('.map-unassigned').hidden=!items.some(hasNoRegion)&&!(activityKind.value==='Basketbalringen'&&activityReferences.some(hasNoRegion));
+  const heading=activities.querySelector('#activity-area-heading');
+  heading.hidden=!activityArea;
+  heading.textContent=areas.find(area=>area.id===activityArea)?.name||(activityArea?'Overige vindplekken':'');
   activities.querySelector('#activity-progress').hidden=!activityArea;
   const matches=items.filter(matchesActivityArea);
   const found=new Set(checked());
