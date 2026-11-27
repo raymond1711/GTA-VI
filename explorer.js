@@ -946,6 +946,11 @@
   'trophy-17':['rangeGold',42],'trophy-19':['races',20],'trophy-30':['cardsets',3],
   'trophy-31':['waink',100],'trophy-32':['challenges',50],'trophy-52':['bills',250000]};
  const trophyGrades={Bronze:'Brons',Silver:'Zilver',Gold:'Goud',Platinum:'Platina'};
+ const trophySymbols={
+  cup:'M7 4h10v5a5 5 0 0 1-10 0V4Zm0 2H3v2a4 4 0 0 0 4 4m10-6h4v2a4 4 0 0 1-4 4m-5 2v6m-4 0h8',
+  diamond:'m3 9 4-5h10l4 5-9 11-9-11Zm0 0h18M9 9l3 11 3-11M7 4l2 5 3-5 3 5 2-5',
+  star:'m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-2.9-5.6 2.9 1.1-6.2L3 9.6l6.2-.9L12 3Z'
+ };
  let trophyPlatform='playstation';
  function renderTrophies(){
   const found=new Set(checked()),counts=gameCompletionCounts();
@@ -970,8 +975,10 @@
    <div id="trophy-list">${trophyRows.map(item=>{
     const tracked=auto.has(item.id),goal=trophyLinks[item.id];
     const grade=trophyPlatform==='xbox'?(item.grade==='Platinum'?'Mythic':'Achievement'):trophyGrades[item.grade];
+    const badge=trophyPlatform==='xbox'?(item.grade==='Platinum'?'mythic':'achievement'):item.grade.toLowerCase();
+    const symbol=badge==='achievement'?'star':['platinum','mythic'].includes(badge)?'diamond':'cup';
     return `<article class="corker-card"><label class="task"><input type="checkbox" data-trophy-id="${item.id}" ${tracked||found.has(item.id)?'checked':''} ${tracked?'disabled':''}>
-     <span><b>${esc(item.title)}</b><small>${grade}</small><small>${esc(item.detail)}</small>
+     <span><b>${esc(item.title)}</b><small class="trophy-grade trophy-grade--${badge}"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="${trophySymbols[symbol]}"/></svg>${esc(grade)}</small><small>${esc(item.detail)}</small>
      ${goal?`<small>Voortgang in app: ${Math.min(counts[goal[0]],goal[1])} / ${goal[1]}</small>`:''}
      ${tracked?'<small>Automatisch behaald via je voortgang</small>':''}</span></label>
      <details><summary>Bron</summary><a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">Open de trofeeëngids</a></details></article>`;

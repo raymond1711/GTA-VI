@@ -240,3 +240,11 @@ footer span{color:#dfc4e0}
 .downward-choices button { display: block; width: 100%; text-align: left; padding: .5rem; color: #fff; background: transparent; border: 0; border-radius: .35rem; cursor: pointer; }
 .downward-choices button:hover, .downward-choices button[aria-pressed="true"] { background: #59366f; }
 .map-region[aria-disabled="true"] { filter: grayscale(1); opacity: .48; cursor: default; }
+
+.corker-card .trophy-grade{display:flex;align-items:center;gap:.4rem;margin-block:.25rem;color:var(--trophy-grade,#caefaa)}
+.trophy-grade svg{width:1.15rem;height:1.15rem;flex:none;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.trophy-grade--bronze{--trophy-grade:#ffba8c}
+.trophy-grade--silver{--trophy-grade:#e0e6f2}
+.trophy-grade--gold{--trophy-grade:#ffe082}
+.trophy-grade--platinum{--trophy-grade:#9ce9ff}
+.trophy-grade--mythic{--trophy-grade:#d7c0ff}
