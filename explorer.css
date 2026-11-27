@@ -228,3 +228,7 @@ footer span{color:#dfc4e0}
 .game-goals progress { height: .55rem; }
 .sale-goal label { display: grid; gap: .25rem; }
 .sale-goal input { width: 100%; max-width: 16rem; box-sizing: border-box; font-size: 1rem; }
+
+.overview-disclosure { margin-block: .8rem; }
+.overview-disclosure > summary { cursor: pointer; font-size: 1.15rem; font-weight: 700; }
+.overview-disclosure[open] > summary { margin-bottom: .8rem; }
