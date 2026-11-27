@@ -20553,12 +20553,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
-      "sourceLocation": "Leonida Keys",
-      "detail": "Leonida Keys",
+      "sourceLocation": "Mile Zero Air Station, Goose Key",
+      "detail": "Kijk bij de zuidelijke hangars van Mile Zero Air Station op Goose Key.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://gta6ops.com/database/vehicles/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-e17de21f40763b46d794",
@@ -20568,11 +20570,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Leonida Keys",
-      "detail": "Leonida Keys",
+      "detail": "Begin in Leonida Keys. Kijk bij Mile Zero Air Station. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Hauners%20APC"
     },
     {
       "id": "excel-8902de6d1c2c1fc12ecc",
@@ -20582,11 +20587,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Leonida Keys",
-      "detail": "Leonida Keys",
+      "detail": "Begin in Leonida Keys. Kijk bij Mile Zero Air Station. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Mammoth%20%2792%20Patriot"
     },
     {
       "id": "excel-46a128f66d3a87fb0963",
@@ -20596,11 +20604,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Leonida Keys",
-      "detail": "Leonida Keys",
+      "detail": "Begin in Leonida Keys. Kijk bij Mile Zero Air Station. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Hauners%20P%2D996%20Lazer"
     },
     {
       "id": "excel-254dbd7e3e974c70352a",
@@ -20609,12 +20620,17 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
-      "sourceLocation": "Leonida Keys",
-      "detail": "Leonida Keys",
+      "sourceLocation": "Mile Zero Air Station, Goose Key",
+      "detail": "Zoek bij het vliegveld van Mile Zero Air Station op Goose Key.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-military-base-location/",
+      "extraSourceLabel": "Bron vindtip",
+      "screenshot": "https://gta6tracker.org/img/gw/3358af630fd8ed44.png",
+      "imageSource": "https://gta6tracker.org/l/015a",
+      "screenshotCredit": "© Rockstar Games · GTA Wiki via GTA6Tracker"
     },
     {
       "id": "excel-72d70decd90d1a0c2975",
@@ -20623,12 +20639,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
-      "sourceLocation": "Leonida Keys",
-      "detail": "Leonida Keys",
+      "sourceLocation": "Mile Zero Air Station, Goose Key",
+      "detail": "Zoek bij het vliegveld van Mile Zero Air Station op Goose Key.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-military-base-location/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-382af153c92a5b058053",
@@ -20638,11 +20656,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Zoek op vliegvelden of, bij helikopters, op helipads in Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-92856d7006a6141ac4be",
@@ -20652,11 +20672,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Leonida Keys",
-      "detail": "Leonida Keys",
+      "detail": "Begin in Leonida Keys. Zoek op vliegvelden of, bij helikopters, op helipads in Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Mammoth%20Dodo"
     },
     {
       "id": "excel-589fdb90f97d08cd6d28",
@@ -20666,11 +20689,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Leonida Keys",
-      "detail": "Leonida Keys",
+      "detail": "Begin in Leonida Keys. Zoek op vliegvelden of, bij helikopters, op helipads in Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Buckingham%20Maverick"
     },
     {
       "id": "excel-22fe66ca6f3f6c8b936c",
@@ -20680,11 +20706,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Zoek op vliegvelden of, bij helikopters, op helipads in Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Bottcher%20Duster"
     },
     {
       "id": "excel-9e920dee1b811b507103",
@@ -20694,11 +20723,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Zoek op vliegvelden of, bij helikopters, op helipads in Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-f569756cc81d9ba76922",
@@ -20708,11 +20739,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Zoek op vliegvelden of, bij helikopters, op helipads in Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Lapwing%20Streamer%20216%2DC"
     },
     {
       "id": "excel-013233058a9f9b34f7ea",
@@ -20722,11 +20756,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Mount Kalaga National Park",
-      "detail": "Mount Kalaga National Park",
+      "detail": "Begin in Mount Kalaga National Park. Zoek op vliegvelden of, bij helikopters, op helipads in Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Buckingham%20Volatus"
     },
     {
       "id": "excel-8ba8606a02ee272ae610",
@@ -20736,11 +20773,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Grassrivers",
-      "detail": "Grassrivers",
+      "detail": "Begin in Grassrivers. Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=%2767%20Vapid%20Dominator%20Buggy"
     },
     {
       "id": "excel-65bd9858480fe1fa0ba0",
@@ -20750,11 +20790,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Vice City",
-      "detail": "Vice City",
+      "detail": "Begin in Vice City. Scan met WAiNK zodra je dit model tegenkomt. Vaste vindplek nog niet bevestigd.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-9b900b3c4281c8d09d38",
@@ -20764,11 +20806,16 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Vice City",
-      "detail": "Vice City",
+      "detail": "Begin in Vice City. Kijk langs drukke wegen in Ocean Beach. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "screenshot": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_GROTTI_CHEETAH_01.0a.wy3s_ogjey.jpg?akim=1&imdensity=1&imwidth=3840",
+      "screenshotCredit": "© Rockstar Games · officiële Ultimate Edition-screenshot",
+      "imageSource": "https://www.rockstargames.com/VI/media/screenshots"
     },
     {
       "id": "excel-cfc9819bcd01d0939c63",
@@ -20777,12 +20824,18 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
-      "sourceLocation": "Leonida Keys",
-      "detail": "Leonida Keys",
+      "sourceLocation": "Jasons huis, Key Lento",
+      "detail": "Kijk op de oprit onder het huis. Deze vindplek is een Ultimate Edition-bonus na de eerste missie.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.gtavifaq.com/answers/gta-vi-preorder-and-ultimate-bonus-unlocks",
+      "extraSourceLabel": "Bron vindtip",
+      "screenshot": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_02.0-2n5rm9n8.rq.jpg?akim=1&imdensity=1&imwidth=3840",
+      "screenshotCredit": "© Rockstar Games · officiële Ultimate Edition-screenshot",
+      "imageSource": "https://www.rockstargames.com/VI/media/screenshots",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Dinka%20Enduro"
     },
     {
       "id": "excel-5400d22d8be0e4f03373",
@@ -20791,12 +20844,18 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
-      "sourceLocation": "Leonida Keys",
-      "detail": "Leonida Keys",
+      "sourceLocation": "Jasons huis, Key Lento",
+      "detail": "Kijk achter het huis. Deze vindplek is een Ultimate Edition-bonus na de eerste missie.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.gtavifaq.com/answers/gta-vi-preorder-and-ultimate-bonus-unlocks",
+      "extraSourceLabel": "Bron vindtip",
+      "screenshot": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_03.0c9.qtpdi.tf..jpg?akim=1&imdensity=1&imwidth=3840",
+      "screenshotCredit": "© Rockstar Games · officiële Ultimate Edition-screenshot",
+      "imageSource": "https://www.rockstargames.com/VI/media/screenshots",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Crest%20Kayak"
     },
     {
       "id": "excel-5a096b26647c3ad56bf0",
@@ -20806,11 +20865,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Vice City",
-      "detail": "Vice City",
+      "detail": "Begin in Vice City. Kijk bij steigers en in de haven van Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Shitzu%20Squalo"
     },
     {
       "id": "excel-c4697b79893808ec5942",
@@ -20820,11 +20882,16 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Leonida Keys",
-      "detail": "Leonida Keys",
+      "detail": "Begin in Leonida Keys. Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "screenshot": "https://www.gta6tracker.org/img/gw/b906c374746a9e2c.jpeg",
+      "imageSource": "https://gta6tracker.org/l/ganado",
+      "screenshotCredit": "© Rockstar Games · GTA Wiki via GTA6Tracker"
     },
     {
       "id": "excel-4f3703035d2dce04f2b8",
@@ -20834,11 +20901,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan met WAiNK zodra je dit model tegenkomt. Vaste vindplek nog niet bevestigd.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-0bf72981a3cd51cce2bb",
@@ -20848,11 +20917,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-9d4b0d833b5b402954b9",
@@ -20862,11 +20933,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-93d0f1b1ad130aea934f",
@@ -20876,11 +20949,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-0518cb63190da762d27c",
@@ -20890,11 +20965,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-e5dab7f4e5885e4a460b",
@@ -20904,11 +20981,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Zoek op vliegvelden of, bij helikopters, op helipads in Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Lapwing%20Mallard"
     },
     {
       "id": "excel-37853ddc8a267e6ef880",
@@ -20918,11 +20998,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan met WAiNK zodra je dit model tegenkomt. Vaste vindplek nog niet bevestigd.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-2eef021a620eff1fe811",
@@ -20932,11 +21014,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-d3c58da31c5bff5fe610",
@@ -20946,11 +21030,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk bij steigers en in de haven van Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-b9d34c55741db4235c1c",
@@ -20960,11 +21046,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-1bda06934c16cc6eebee",
@@ -20974,11 +21062,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Vice City",
-      "detail": "Vice City",
+      "detail": "Begin in Vice City. Kijk bij steigers en in de haven van Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Lure%20Predator%20L35P"
     },
     {
       "id": "excel-9f886278e20b8e385a4c",
@@ -20988,11 +21079,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan met WAiNK zodra je dit model tegenkomt. Vaste vindplek nog niet bevestigd.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-e785312b14e7daacd21f",
@@ -21002,11 +21095,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Classique%20%2768%20Stallion"
     },
     {
       "id": "excel-39339b935e21dbe8304f",
@@ -21016,11 +21112,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-6e4009dd99c8b964dd38",
@@ -21030,11 +21128,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-b0c436740de975db1509",
@@ -21044,11 +21144,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-891e5e2566ee95af4505",
@@ -21058,11 +21160,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Declasse%20%2772%20Tulip"
     },
     {
       "id": "excel-03deca479a51d2166a70",
@@ -21072,11 +21177,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-22899b9845136e5e5284",
@@ -21086,11 +21193,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Karin%20%2798%20Feroci"
     },
     {
       "id": "excel-d0bd2e144cdf5caf0840",
@@ -21100,11 +21210,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-ee71f4c768e9643966ab",
@@ -21114,11 +21226,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-b6e938ef6629c55a3031",
@@ -21128,11 +21242,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Willard%20%2790%20Lasso"
     },
     {
       "id": "excel-0ffb2f2b5ec7dbcb3c89",
@@ -21142,11 +21259,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Dundreary%20%2793%20Arcturus"
     },
     {
       "id": "excel-d09c813fbaffd8a51425",
@@ -21156,11 +21276,17 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "screenshot": "https://gta6tracker.org/img/gw/aeda51e0d3bad1aa.jpg",
+      "imageSource": "https://gta6tracker.org/l/animus",
+      "screenshotCredit": "© Rockstar Games · GTA Wiki via GTA6Tracker",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Obey%20Animus"
     },
     {
       "id": "excel-3feee3028f7091338c6c",
@@ -21170,11 +21296,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan met WAiNK zodra je dit model tegenkomt. Vaste vindplek nog niet bevestigd.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-d7a3823f09e4bae1b641",
@@ -21184,11 +21312,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Dinka%20Blista"
     },
     {
       "id": "excel-99be83af035fe13ab5ce",
@@ -21198,11 +21329,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Imponte%20Ruiner"
     },
     {
       "id": "excel-be40287964ee32ffa091",
@@ -21212,11 +21346,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-e0f7396c4a564d20df4b",
@@ -21226,11 +21362,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs drukke wegen in Ocean Beach. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-e69d1ca5ef4c3bde3d95",
@@ -21240,11 +21378,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs drukke wegen in Ocean Beach. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Invetero%20Coquette"
     },
     {
       "id": "excel-1b2e3d3aec2796d1ce6a",
@@ -21254,11 +21395,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Annis%20%2790%20Elegy"
     },
     {
       "id": "excel-277db83872f0cb022d64",
@@ -21268,11 +21412,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-7a2bf726febc1d1f062d",
@@ -21282,11 +21428,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Maibatsu%20%2797%20Penumbra%20FF"
     },
     {
       "id": "excel-2200921f9c754082542a",
@@ -21296,11 +21445,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs drukke wegen in Ocean Beach. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=%C3%9Cbermacht%20%2785%20Sentinel"
     },
     {
       "id": "excel-95270c39fff399d3d1f0",
@@ -21310,11 +21462,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs drukke wegen in Ocean Beach. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Pfister%20Comet%20S2"
     },
     {
       "id": "excel-a82c63b9b02fe80dc079",
@@ -21324,11 +21479,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Nagasaki%20SFB%201000"
     },
     {
       "id": "excel-28714a8d6865879867dd",
@@ -21338,11 +21496,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs drukke wegen in Ocean Beach. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Pfister%20Neon"
     },
     {
       "id": "excel-98153e1084dcadbbedd5",
@@ -21352,11 +21513,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-47bf597ed40dbe631dd5",
@@ -21366,11 +21529,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs drukke wegen in Ocean Beach. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Invetero%20Coquette%20D10"
     },
     {
       "id": "excel-00f5dcfea2bc6299e023",
@@ -21380,11 +21546,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Principe%20Alvino%20V1"
     },
     {
       "id": "excel-0d3c5347fc219e963ce6",
@@ -21394,11 +21563,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs drukke wegen in Ocean Beach. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Grotti%20Carbonizzare"
     },
     {
       "id": "excel-43ceef83361421e71c3c",
@@ -21408,11 +21580,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs drukke wegen in Ocean Beach. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Benefactor%20Schafter%20V12"
     },
     {
       "id": "excel-7795c37614238289e35d",
@@ -21422,11 +21597,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs drukke wegen in Ocean Beach. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Emperor%20Sultan"
     },
     {
       "id": "excel-92cd72ff09bf94edae7c",
@@ -21436,11 +21614,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=%C3%9Cbermacht%20Rebla%20GTS"
     },
     {
       "id": "excel-6993985228fd10da8e76",
@@ -21450,11 +21631,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-a41c16f76eef24280a0c",
@@ -21464,11 +21647,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Vapid%20Stanier%20G2"
     },
     {
       "id": "excel-a41d52831aa1fe27bd2f",
@@ -21477,12 +21663,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
-      "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "sourceLocation": "Ten noordoosten van Grayson",
+      "detail": "Zoek bij Ten noordoosten van Grayson. De leveringsgids beschrijft deze vindplek. Controleer de modelnaam met WAiNK.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-steal-vehicles-for-moses-walkthrough/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-33f401abcba2c6490c6e",
@@ -21491,12 +21679,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
-      "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "sourceLocation": "Zoekgebied bij de Final Chapter-markering",
+      "detail": "Zoek bij Zoekgebied bij de Final Chapter-markering. De leveringsgids beschrijft deze vindplek. Controleer de modelnaam met WAiNK.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-steal-vehicles-for-moses-walkthrough/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-a6fe5f4053984be2a407",
@@ -21505,12 +21695,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
-      "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "sourceLocation": "Draper Island Docks",
+      "detail": "Zoek bij Draper Island Docks. De leveringsgids beschrijft deze vindplek. Controleer de modelnaam met WAiNK.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-steal-vehicles-for-moses-walkthrough/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-7ef9a9bd8956fe15f4f2",
@@ -21519,12 +21711,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
-      "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "sourceLocation": "Bastion Street, Port Gellhorn",
+      "detail": "Zoek bij Bastion Street, Port Gellhorn. De leveringsgids beschrijft deze vindplek. Controleer de modelnaam met WAiNK.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-steal-vehicles-for-moses-walkthrough/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-73f329b2e8593c1d841d",
@@ -21534,11 +21728,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Vapid%20Aleutian"
     },
     {
       "id": "excel-e09fbbe0468643737143",
@@ -21548,11 +21745,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-a112aaf8033ec65b1eee",
@@ -21562,11 +21761,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Vapid%20Reclaimer"
     },
     {
       "id": "excel-b23d00895598870f2178",
@@ -21576,11 +21778,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-c02e11c5e8bf56a68509",
@@ -21590,11 +21794,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Vapid%20Montagne%20XL"
     },
     {
       "id": "excel-c3b8949874b93afe04d0",
@@ -21603,12 +21810,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
-      "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "sourceLocation": "Buckskin Swamp",
+      "detail": "Zoek bij Buckskin Swamp. De leveringsgids beschrijft deze vindplek. Controleer de modelnaam met WAiNK.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-steal-vehicles-for-moses-walkthrough/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-632aacab7f99d4b851bb",
@@ -21618,11 +21827,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Declasse%20Burrito"
     },
     {
       "id": "excel-417363dee6b79fef3053",
@@ -21632,11 +21844,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Mer%2DCan%20Outlaw"
     },
     {
       "id": "excel-4467ea5fe2e1f5847ada",
@@ -21645,12 +21860,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
-      "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "sourceLocation": "Zuid-Port Gellhorn",
+      "detail": "Zoek bij Zuid-Port Gellhorn. De leveringsgids beschrijft deze vindplek. Controleer de modelnaam met WAiNK.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-steal-vehicles-for-moses-walkthrough/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-820b0b713124df7006ad",
@@ -21660,11 +21877,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-321db7ade011977f27fc",
@@ -21674,11 +21893,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-2f268952dcdce7d40612",
@@ -21688,11 +21909,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan met WAiNK zodra je dit model tegenkomt. Vaste vindplek nog niet bevestigd.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-d4a3d888c0fd41d06f42",
@@ -21702,11 +21925,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan met WAiNK zodra je dit model tegenkomt. Vaste vindplek nog niet bevestigd.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-69eb5a97898b34dc82f0",
@@ -21716,11 +21941,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan met WAiNK zodra je dit model tegenkomt. Vaste vindplek nog niet bevestigd.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-a5c62cc37ae068510c75",
@@ -21730,11 +21957,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Let op hulpdienstvoertuigen in Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-2766fe5caa89cdaedb2f",
@@ -21744,11 +21973,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk rond bouwterreinen en industriegebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-17797b0e2272038687cd",
@@ -21758,11 +21989,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan met WAiNK zodra je dit model tegenkomt. Vaste vindplek nog niet bevestigd.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-eedb8aad120c230c831e",
@@ -21772,11 +22005,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Let op hulpdienstvoertuigen in Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-e9bcf4d0569b7b9184cf",
@@ -21786,11 +22021,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-00e1804ff630f43cf472",
@@ -21800,11 +22037,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Whiffler%20Dashound"
     },
     {
       "id": "excel-d14fb7867066fb247546",
@@ -21814,11 +22054,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk rond bouwterreinen en industriegebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-6070b2f398933c29e199",
@@ -21828,11 +22070,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk rond bouwterreinen en industriegebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-33d29c980515f3a37d2e",
@@ -21842,11 +22086,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs drukke wegen in Ocean Beach. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-a5921f2b4a6e72d560c6",
@@ -21856,11 +22102,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs drukke wegen in Ocean Beach. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Truffade%20Thrax"
     },
     {
       "id": "excel-4bb5404b42675c61445e",
@@ -21870,11 +22119,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Mer%2DCan%20Blast"
     },
     {
       "id": "excel-336308dd52f3369def75",
@@ -21884,11 +22136,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Bravado%20Swamp%20Blaster"
     },
     {
       "id": "excel-80378607b69a68ac79fe",
@@ -21898,11 +22153,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-5922b2cea8c71782de3a",
@@ -21912,11 +22169,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Vapid%20Dominator%20ASP"
     },
     {
       "id": "excel-3d5d252860feaa0774ef",
@@ -21926,11 +22186,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Vapid%20Dominator"
     },
     {
       "id": "excel-11f68dfc93a6fadf3f6c",
@@ -21940,11 +22203,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Vapid%20Dominator%20GT"
     },
     {
       "id": "excel-007a2b95bae27cd5f6bb",
@@ -21954,11 +22220,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Dundreary%20Chino"
     },
     {
       "id": "excel-3f965002e39768211780",
@@ -21968,11 +22237,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-9cad03aec98d192ee882",
@@ -21982,11 +22253,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-a7449095aafc28569cbd",
@@ -21996,11 +22269,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-8e80f2f8caa3b5d7110a",
@@ -22010,11 +22285,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Bravado%20Bison"
     },
     {
       "id": "excel-b5f649dbcd87dd03b179",
@@ -22024,11 +22302,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Bravado%20Bison%201800"
     },
     {
       "id": "excel-3e416771b1f796e9acfb",
@@ -22038,11 +22319,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Bravado%20Bison%203800"
     },
     {
       "id": "excel-2a68c58267ddb512ac01",
@@ -22052,11 +22336,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-e450525bd195312d7b53",
@@ -22066,11 +22352,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan met WAiNK zodra je dit model tegenkomt. Vaste vindplek nog niet bevestigd.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Vapid%20Caracara%204X4"
     },
     {
       "id": "excel-b0919d37a660cd9ba880",
@@ -22080,11 +22369,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Vapid%20Montagne%20Pickup"
     },
     {
       "id": "excel-87483889f62c38c9e065",
@@ -22094,11 +22386,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-c9cbbd862208ef20d5a9",
@@ -22108,11 +22402,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-8de558248d179ff40fcd",
@@ -22122,11 +22418,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Vapid%20Sandking%20XL"
     },
     {
       "id": "excel-efaec7dd3f6649414ea9",
@@ -22136,11 +22435,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Vapid%20Sandking%20XT"
     },
     {
       "id": "excel-c306b0a194bed038f876",
@@ -22150,11 +22452,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-cd4f43dea9d458109f11",
@@ -22164,11 +22468,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-4ac663b25e525a3b5ed2",
@@ -22178,11 +22484,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-a309c138a2eafde75373",
@@ -22192,11 +22500,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Vapid%20Rumpo"
     },
     {
       "id": "excel-d6d91bf499ea7885f04f",
@@ -22206,11 +22517,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Vapid%20Shifter"
     },
     {
       "id": "excel-032efa447d8451a80941",
@@ -22220,11 +22534,16 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "screenshot": "https://www.gta6tracker.org/img/gw/5120f515f4d958e8.png",
+      "imageSource": "https://gta6tracker.org/l/vapid-shuttle",
+      "screenshotCredit": "© Rockstar Games · GTA Wiki via GTA6Tracker"
     },
     {
       "id": "excel-848c6c81cb9364dffd1e",
@@ -22234,11 +22553,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-926d3d2946db70e03a9e",
@@ -22248,11 +22569,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Vapid%20Speedo"
     },
     {
       "id": "excel-e4e938e36db4bf34818e",
@@ -22262,11 +22586,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-1b8750412a4b1726e1d9",
@@ -22276,11 +22602,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-43784a54911c0f22ef4d",
@@ -22290,11 +22618,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-dae16846b1e74f9a6e75",
@@ -22304,11 +22634,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Declasse%20Akane"
     },
     {
       "id": "excel-cd3f7c1f84085f860d87",
@@ -22318,11 +22651,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=%C3%9Cbermacht%20Cypher"
     },
     {
       "id": "excel-468389acee0fa919ce05",
@@ -22332,11 +22668,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Fathom%20FR36"
     },
     {
       "id": "excel-80e7cd03f9a799af139e",
@@ -22346,11 +22685,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-0db1efc904364ee2165a",
@@ -22360,11 +22701,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-a752d95dd5cb9a665265",
@@ -22374,11 +22717,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Karin%20Asterope%20GZ"
     },
     {
       "id": "excel-4c08f30ef9632fdae08b",
@@ -22388,11 +22734,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Bravado%20Bogan"
     },
     {
       "id": "excel-a5f53375c48356620659",
@@ -22402,11 +22751,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Dinka%20Chavos%20XS"
     },
     {
       "id": "excel-f8195b159afada56e630",
@@ -22416,11 +22768,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Albany%20Emperor"
     },
     {
       "id": "excel-8481bc5aafc9d9fda9e7",
@@ -22430,11 +22785,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=BF%20Greta"
     },
     {
       "id": "excel-6a217c8e80404a613c4a",
@@ -22444,11 +22802,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-48d11f2d7d54e26fd561",
@@ -22458,11 +22818,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Vapid%20Lowline"
     },
     {
       "id": "excel-c13ba945f7d6559e2ef1",
@@ -22472,11 +22835,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Albany%20Primo"
     },
     {
       "id": "excel-c1a60aba54a872ba89ce",
@@ -22486,11 +22852,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Coil%20Raiden"
     },
     {
       "id": "excel-10c13d08e895a8c40ee7",
@@ -22500,11 +22869,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Benefactor%20Schafter%20S"
     },
     {
       "id": "excel-183e1ac57a4bf47f3004",
@@ -22514,11 +22886,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Dinka%20Sugoi"
     },
     {
       "id": "excel-c30a4e7297726e8a2188",
@@ -22528,11 +22903,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Obey%20Tailgater%20S"
     },
     {
       "id": "excel-789ae9bf665cbecd150f",
@@ -22542,11 +22920,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Willard%20Transient"
     },
     {
       "id": "excel-c900a0dd3ea1b096180a",
@@ -22556,11 +22937,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Karin%20Allander"
     },
     {
       "id": "excel-1f13f77a88cd5fecaff7",
@@ -22570,11 +22954,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-56f2da25817220e06932",
@@ -22584,11 +22970,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Albany%20Cavalcade%20XL"
     },
     {
       "id": "excel-6ad7e16e8be0f3a111ed",
@@ -22598,11 +22987,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Bravado%20Dorado"
     },
     {
       "id": "excel-474ed16c862c6301090f",
@@ -22612,11 +23004,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Declasse%20Granger"
     },
     {
       "id": "excel-b2ec28fc51700c0e870a",
@@ -22626,11 +23021,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-6e4c4652546a8e6641f0",
@@ -22640,11 +23037,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-e3af68b8e67de64f0fb8",
@@ -22654,11 +23053,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Canis%20Kamacho"
     },
     {
       "id": "excel-2cf195e6dfd2ce25adca",
@@ -22668,11 +23070,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Dundreary%20Landstalker%20XL"
     },
     {
       "id": "excel-91fc778589c72054dc4a",
@@ -22682,11 +23087,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Canis%20Mesa"
     },
     {
       "id": "excel-43ecab9528c62d38307b",
@@ -22696,11 +23104,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Vapid%20Montagne"
     },
     {
       "id": "excel-5a30223b1b0dcb7c948a",
@@ -22710,11 +23121,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-e8509c1b913711a34222",
@@ -22724,11 +23137,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-7b0ed378f40046c445df",
@@ -22738,11 +23153,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-0e60e613e34a109e899d",
@@ -22752,11 +23169,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan met WAiNK zodra je dit model tegenkomt. Vaste vindplek nog niet bevestigd.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-4c106095697414a975ac",
@@ -22766,11 +23185,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan met WAiNK zodra je dit model tegenkomt. Vaste vindplek nog niet bevestigd.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Sirius%20%2761%20Sungrazer"
     },
     {
       "id": "excel-f8acbd56954c32d79d09",
@@ -22780,11 +23202,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan met WAiNK zodra je dit model tegenkomt. Vaste vindplek nog niet bevestigd.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Vapid%20%2732%20Hustler"
     },
     {
       "id": "excel-fd51e1260dc964901533",
@@ -22794,11 +23219,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Mount Kalaga National Park",
-      "detail": "Mount Kalaga National Park",
+      "detail": "Begin in Mount Kalaga National Park. Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-4b7090c7bdc82d9e5f83",
@@ -22808,11 +23235,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-c3de723b5e12c648d595",
@@ -22822,11 +23251,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-581d9cc69d00f797c9d5",
@@ -22836,11 +23267,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-313242707150793fd6f6",
@@ -22850,11 +23283,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan met WAiNK zodra je dit model tegenkomt. Vaste vindplek nog niet bevestigd.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-f4dbc01590567ee92670",
@@ -22864,11 +23299,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan met WAiNK zodra je dit model tegenkomt. Vaste vindplek nog niet bevestigd.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-b04683a910f4b6a494a2",
@@ -22878,11 +23315,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-7d9edf010fa9d3ea1d70",
@@ -22892,11 +23331,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=%2755%20Vapid%20Stanier"
     },
     {
       "id": "excel-0260e1b34d1cacdf52b5",
@@ -22906,11 +23348,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan met WAiNK zodra je dit model tegenkomt. Vaste vindplek nog niet bevestigd.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-3d0362ec6cd8f1f6cbac",
@@ -22920,11 +23364,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-6a075a81a4ea0c1448d6",
@@ -22934,11 +23380,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-ef232fb390dbfb901b23",
@@ -22948,11 +23396,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-be06382fc6850e73d685",
@@ -22962,11 +23412,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-d59f4dd575a1d7433f82",
@@ -22976,11 +23428,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Western%20Sovereign%20107"
     },
     {
       "id": "excel-77a6967bf60677d18ab6",
@@ -22990,11 +23445,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-be20e81435162112c18e",
@@ -23004,11 +23461,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-7e4f326ee1da5a99fedf",
@@ -23018,11 +23477,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-5e8a4406a2ea66641289",
@@ -23032,11 +23493,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-4707ba42e8c6b99f36b2",
@@ -23046,11 +23509,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-89bab3aa3855bb8e9ec8",
@@ -23060,11 +23525,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan met WAiNK zodra je dit model tegenkomt. Vaste vindplek nog niet bevestigd.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Dinka%20Verus"
     },
     {
       "id": "excel-3c98b77795c67c348d32",
@@ -23074,11 +23542,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-7d8b78a912c83a852eaf",
@@ -23088,11 +23558,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-86e1bf9fbcf1c5b55f21",
@@ -23102,11 +23574,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Taci%20Ragno"
     },
     {
       "id": "excel-33bae90b39f2e11c9dd9",
@@ -23116,11 +23591,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk bij steigers en in de haven van Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-5637bc5951390971655b",
@@ -23130,11 +23607,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk bij steigers en in de haven van Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Seashark%20Hydroblast"
     },
     {
       "id": "excel-f2e56eb9bc748a2aba14",
@@ -23144,11 +23624,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk bij steigers en in de haven van Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-d2f0119fb82873de52f3",
@@ -23158,11 +23640,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk bij steigers en in de haven van Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-3da18da8cdde04abf68a",
@@ -23172,11 +23656,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk bij steigers en in de haven van Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-52b430e613af65ff1dec",
@@ -23186,11 +23672,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk bij steigers en in de haven van Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-8f1388b1e32fccf7874f",
@@ -23200,11 +23688,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk bij steigers en in de haven van Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Calder%20Torlan"
     },
     {
       "id": "excel-8773c2dbe83d1775ad04",
@@ -23214,11 +23705,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk bij steigers en in de haven van Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-915bc89eb89a529fb696",
@@ -23228,11 +23721,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan met WAiNK zodra je dit model tegenkomt. Vaste vindplek nog niet bevestigd.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Clarion"
     },
     {
       "id": "excel-7784a3ac33bb4e788959",
@@ -23242,11 +23738,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk bij steigers en in de haven van Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Dingus%20Como"
     },
     {
       "id": "excel-08ba1c2fe9008c0f4b82",
@@ -23256,11 +23755,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk bij steigers en in de haven van Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Dingus%20Nepa"
     },
     {
       "id": "excel-a6c2ecc3865dca44b7c0",
@@ -23270,11 +23772,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk bij steigers en in de haven van Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-5baf6c35aba313d13ed5",
@@ -23284,11 +23788,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk bij steigers en in de haven van Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Hulls%20Sea%20Enchantress"
     },
     {
       "id": "excel-5bd20c835683e6fd20f3",
@@ -23298,11 +23805,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk bij steigers en in de haven van Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-476d0850f4ffce468fed",
@@ -23312,11 +23821,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk bij steigers en in de haven van Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-a9a50238d2f6ccaa596c",
@@ -23326,11 +23837,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan met WAiNK zodra je dit model tegenkomt. Vaste vindplek nog niet bevestigd.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-dc595a7b99b7b9bf70a5",
@@ -23340,11 +23853,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk bij steigers en in de haven van Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-3c64cfade1c24d3823d1",
@@ -23354,11 +23869,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk bij steigers en in de haven van Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Lure%20Predator%20L20S"
     },
     {
       "id": "excel-fadaa47940e41b5821cc",
@@ -23368,11 +23886,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk bij steigers en in de haven van Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-c3c8dc4835ba1945153b",
@@ -23382,11 +23902,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan met WAiNK zodra je dit model tegenkomt. Vaste vindplek nog niet bevestigd.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-f305ea0a6b47d382e804",
@@ -23396,11 +23918,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk bij steigers en in de haven van Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-af4c879fc95bcb03fedf",
@@ -23410,11 +23934,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk bij steigers en in de haven van Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-7a02dca0d73d640dc24a",
@@ -23424,11 +23950,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk bij steigers en in de haven van Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-5d0aad15bc2892f0ee78",
@@ -23438,11 +23966,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk bij Mile Zero Air Station. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Hauners%20Cargobob"
     },
     {
       "id": "excel-eaa5c36a493b2f058725",
@@ -23452,11 +23983,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan met WAiNK zodra je dit model tegenkomt. Vaste vindplek nog niet bevestigd.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-45b891c034df8e4f6aa2",
@@ -23466,11 +23999,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Zoek op vliegvelden of, bij helikopters, op helipads in Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Lapwing%20Mammatus"
     },
     {
       "id": "excel-0e05680d60f49f6b5d5c",
@@ -23480,11 +24016,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Let op hulpdienstvoertuigen in Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-44530cb92e04039508d4",
@@ -23494,11 +24032,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-46312ede1b4e64983616",
@@ -23508,11 +24048,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Cartright%20Biff"
     },
     {
       "id": "excel-37a90f86c250798399e9",
@@ -23522,11 +24065,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Cartright%20Hauler"
     },
     {
       "id": "excel-f00888ff519889ec83a8",
@@ -23536,11 +24082,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-ab96a35fbcbbd5a6d7e5",
@@ -23550,11 +24098,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Vapid%20Guardian%20TX2"
     },
     {
       "id": "excel-90f4fbe14a95c047b1a6",
@@ -23564,11 +24115,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Maibatsu%20Iota"
     },
     {
       "id": "excel-5eb56eabf094344e5820",
@@ -23578,11 +24132,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Maibatsu%20Mule"
     },
     {
       "id": "excel-dd8ee4b2bd1187d3fe30",
@@ -23592,11 +24149,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=JoBuilt%20MB2%2D10"
     },
     {
       "id": "excel-5ba77362f92aa5821fd7",
@@ -23606,11 +24166,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-aa1081f2941597a0ad3c",
@@ -23620,11 +24182,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk langs buitenwegen en in landelijke gebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=MTL%20Packer"
     },
     {
       "id": "excel-3e8e4e8708cc9f95c2c7",
@@ -23634,11 +24199,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk rond bouwterreinen en industriegebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip",
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles#:~:text=Maibatsu%20Caddy"
     },
     {
       "id": "excel-2a02975a360916bf9b2d",
@@ -23648,11 +24216,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk rond bouwterreinen en industriegebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-d4ccfebda3a5fee47d85",
@@ -23662,11 +24232,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk rond bouwterreinen en industriegebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-ed7b6d3b001b95030136",
@@ -23676,11 +24248,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk rond bouwterreinen en industriegebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-338b82da2f0bf738324f",
@@ -23690,11 +24264,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk rond bouwterreinen en industriegebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-079ebae727f4aa865272",
@@ -23704,11 +24280,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk rond bouwterreinen en industriegebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-8307dfcd347b45f8c34c",
@@ -23718,11 +24296,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Kijk rond bouwterreinen en industriegebieden. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-d8e5ee8ce6d272a20b00",
@@ -23732,11 +24312,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-19f5800f53f40e04f272",
@@ -23746,11 +24328,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-ac930cb2dfc50c72e7e6",
@@ -23760,11 +24344,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Scan passerend verkeer en controleer parkeerplaatsen. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-b595ff763c9e5521e9c4",
@@ -23774,11 +24360,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "chapter": 1,
       "collection": "Voertuigmodellen scannen",
       "sourceLocation": "Locatie volgens bron",
-      "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
+      "detail": "Let op hulpdienstvoertuigen in Vice City. Algemene zoektip voor dit voertuigtype.",
       "source": "https://game-checklists.com/gta6/vehicles-checklist/",
       "sourceName": "game-checklists.com",
       "workbookStatus": "Modelvermelding",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
+      "extraSourceLabel": "Bron vindtip"
     },
     {
       "id": "excel-2cf7f44acf27ba6baed6",

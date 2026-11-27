@@ -259,13 +259,13 @@
   const showImage=()=>{
    if(!details.open||details.querySelector('img'))return;
    const image=document.createElement('img');
-   image.alt='Vindplek van '+item.title;
+   image.alt=(item.imageSource?'Voertuig: ':'Vindplek van ')+item.title;
    image.loading='lazy';
    image.src=item.screenshot;
    const zoomButton=document.createElement('button');
    zoomButton.type='button';
    zoomButton.className='screenshot-zoom';
-   zoomButton.setAttribute('aria-label','Vergroot de vindplek van '+item.title);
+   zoomButton.setAttribute('aria-label',(item.imageSource?'Vergroot de voertuigafbeelding van ':'Vergroot de vindplek van ')+item.title);
    zoomButton.append(image);
    zoomButton.addEventListener('click',()=>{
     const enlarged=screenshotViewer.querySelector('img');
@@ -381,7 +381,7 @@
   'Voertuigmodellen scannen':'Deze lijst bevat de voertuigmodellen die al in de gids zijn opgenomen.',
   'Basketbalringen':'Open bij het nummer de kaart of route uit de gids. Sommige locaties hebben meerdere ringen.'
  };
- activities.innerHTML=`<header class="page-heading page-heading--activities"><p class="eyebrow">KIES JE VOLGENDE UITDAGING</p><h1>Activiteiten</h1></header>${evidenceLegend}<div class="collect-controls">
+ activities.innerHTML=`<header class="page-heading page-heading--activities"><p class="eyebrow">KIES JE VOLGENDE ACTIVITEIT</p><h1>Activiteiten</h1></header>${evidenceLegend}<div class="collect-controls">
  <label>Activiteit <select id="activity-kind">${collectionOptions(activityNames)}</select></label>
   <label><input type="checkbox" id="activity-missing"> <span id="activity-missing-label">Alleen ontbrekende</span></label>
  </div><div id="activity-map"></div><div id="activity-progress" class="activity-progress" aria-live="polite"></div>
@@ -501,12 +501,12 @@
      </div></fieldset>`
     : `<label class="task"><input type="checkbox" data-activity-record="${esc(item.id)}" ${found.has(item.id)?'checked':''}><span>${title}</span></label>`;
    card.innerHTML=`${result}
-    <details><summary>${item.screenshot?'Uitleg, bron en screenshot':'Uitleg en bron'}</summary>
+    <details><summary>${item.screenshot&&item.collection!=='Voertuigmodellen scannen'?'Uitleg, bron en screenshot':'Uitleg en bron'}</summary>
     ${item.detail&&item.detail!==location?`<p>${esc(item.detail)}</p>`:''}
     ${stickUp?`<label>Opmerking<textarea class="item-note" maxlength="3000" data-stick-note>${esc(model.notes[item.id]||"")}</textarea></label>`:""}${item.workbookStatus?`<p class="scope-note">${esc(item.workbookStatus)}</p>`:''}
     ${item.source?`<a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">${item.locationType==='stick-up-community'?'Open kaartpin':'Open gids'}</a>`: ''}
     ${item.extraSource?` &middot; <a href="${esc(item.extraSource)}" target="_blank" rel="noopener noreferrer">${esc(item.extraSourceLabel||'Tweede bron')}</a>`:''}
-    ${item.screenshot?` &middot; <a href="${esc(item.screenshot)}" target="_blank" rel="noopener noreferrer">Open screenshot</a>`:''}</details>`;
+    ${item.screenshot?` &middot; <a href="${esc(item.screenshot)}" target="_blank" rel="noopener noreferrer">Open screenshot</a>`:''}${item.vehiclePhotoLink?`<p><a href="${esc(item.vehiclePhotoLink)}" target="_blank" rel="noopener noreferrer">Bekijk voertuigafbeelding op MeowDB ↗</a></p>`:''}${item.imageSource?`<p>${esc(item.screenshotCredit)} · <a href="${esc(item.imageSource)}" target="_blank" rel="noopener noreferrer">Bron afbeelding</a></p>`: ''}</details>`;
    attachScreenshot(card.querySelector('details'),item);
    const stickNote=card.querySelector('[data-stick-note]');
    if(stickNote)stickNote.oninput=()=>{model.notes[item.id]=stickNote.value;persist()};
