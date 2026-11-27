@@ -741,11 +741,46 @@
  const guideMap=cloneAreaMap('guide');
  areaGuide.querySelector('.guide-region-map').append(guideMap);
  const guideResults=areaGuide.querySelector('.guide-results');
- const districts=[
-  'La Perle','Downtown','Vice Beach',
-  'Little Cuba','Rialto Islands','Ocean Beach',
-  'Hamlet','Southside','Port Vice City'
+ const districtShapes=[
+  ['La Perle',110,72,'#ba91ab','M0 0H204L207 56 188 111 157 133 103 125 71 139 0 124Z'],
+  ['Downtown',269,76,'#b9a5ab','M204 0H352L355 39 335 66 337 92 308 121 303 153 253 148 205 161 157 133 188 111 207 56Z'],
+  ['Vice Beach',439,117,'#d4ac9d','M405 33l39-19 29 14 8 42-5 44 10 42-4 49-26-10-55 8 7-39-10-49 8-42Z'],
+  ['Little Cuba',122,196,'#c9a39b','M0 124l71 15 32-14 54 8 48 28 48-13 50 5-13 27-30 19-17 31-39 5-47 29-47-18-38 12L0 242Z'],
+  ['Rialto Islands',331,248,'#ac98b7','M296 192l31-13 22 10-5 18-21 11-26-7z M348 212l24-14 16 4 2 19-15 15-25-6z M289 250l27-18 27 4 9 19-22 21-35-6z M346 272l26-18 16 8-2 18-21 14-17-5Z'],
+  ['Ocean Beach',436,284,'#ceb49a','M401 203l55-8 26 10 1 50-13 44-4 44-22 32-24-6-13-26 8-50-17-43Z'],
+  ['Hamlet',94,318,'#9fa888','M0 242l72 16 38-12 47 18-8 47 19 31-24 48-29 31L0 418Z'],
+  ['Southside',218,324,'#b395a5','M157 264l47-29 39-5-9 35 18 25 22 4 7 28-30 34-20 34-42 24-74 7 29-31 24-48-19-31Z'],
+  ['Port Vice City',338,358,'#a8a3b3','M251 356l30-34 35-10 25 12 47-9 10 14-24 16-27 2 6 11 38-6 7 12-39 15-26-4-29 19-73-4Z']
  ];
+ const districts=districtShapes.map(([name])=>name);
+ function districtMap(count){
+  const group=(name,content)=>`<g role="button" tabindex="0" data-guide-district="${esc(name)}" aria-pressed="${guideDistrict===name}" aria-label="${esc(name)}, ${count(name)} openstaand">${content}</g>`;
+  return `<svg class="guide-district-map" viewBox="0 0 500 430" role="group" aria-label="Ingezoomde wijkkaart van Vice City">
+   <defs>
+    <pattern id="guide-city-blocks" width="17" height="21" patternUnits="userSpaceOnUse" patternTransform="rotate(-10)">
+     <rect x="2" y="2" width="12" height="16" rx="1.5" fill="#51465c" opacity=".19"/>
+     <path d="M0 0H17M0 0V21" fill="none" stroke="#ffebce" stroke-opacity=".4"/>
+    </pattern>
+   </defs>
+   <rect width="500" height="430" fill="#397988"/>
+   <g class="guide-map-shallows" aria-hidden="true">
+    <path d="M363 1l4 43-19 25 2 32-28 27-10 43m177-143 5 48-6 38 10 44-3 104-14 58-5 37-25 31m-245 36 35-22 63 10 31-19 27 1 43-19"/>
+    <path d="M376 2l5 44-21 30 1 28-27 29m101 267-22 12-38-3M260 416l40 8 39-19"/>
+   </g>
+   ${districtShapes.map(([name,,,fill,shape])=>group(name,`<path class="guide-map-land" fill="${fill}" d="${shape}"/><path class="guide-map-blocks" d="${shape}"/>`)).join('')}
+   <g class="guide-map-roads" aria-hidden="true">
+    <path d="M0 86l99 17 93-5 79 17 42-9 92 7m-405 90 91 17 70-25 93 16 66-15 38 28 52-13M0 349l88 21 82-16 79-17 54 2 27-20 80-21M176 0l-16 95 17 61-12 58 20 64 6 73-18 63M287 0l-13 59 12 49-33 59-7 62-23 52 18 54M440 28l-10 58 13 59-13 63 15 51-6 52-12 47"/>
+    <path class="guide-map-bridge" d="M313 106l92 7m-139 95 54-12 38 28 52-13m-81 108 81-21"/>
+   </g>
+   <text class="guide-map-water-label" x="365" y="145">BAAI</text>
+   <path class="guide-map-north" d="M37 41l6-14 6 14-6-3Z" aria-hidden="true"/>
+   <text class="guide-map-water-label" x="43" y="22">N</text>
+   ${districtShapes.map(([name,x,y])=>`<g class="guide-map-label" data-guide-district="${esc(name)}" data-selected="${guideDistrict===name}" aria-hidden="true" transform="translate(${x} ${y})">
+    <rect x="-58" y="-19" width="116" height="39" rx="8"/>
+    <text y="-3">${esc(name)}</text><text class="guide-map-count" y="12">${count(name)} open</text>
+   </g>`).join('')}
+  </svg>`;
+ }
  let guideArea=null,guideDistrict=null,guideOpenOnly=true;
  function taskDistrict(item){
   const location=item.sourceLocation||'';
@@ -771,7 +806,7 @@
   const collapsed=new Set(previousGroups.filter(node=>!node.open).map(node=>node.dataset.guideGroup));
   const districtButton=name=>`<button type="button" data-guide-district="${esc(name)}" aria-pressed="${guideDistrict===name}"><strong>${esc(name)}</strong><small>${remaining(districtRows(name))} open</small></button>`;
   guideResults.innerHTML=`<h2 class="map-result-heading">${esc(region.name)}</h2>
-   ${guideArea==='city'?`<p class="scope-note">Schematische wijkkaart van Vice City</p><div class="guide-district-map">${districts.map(districtButton).join('')}</div><div class="guide-other-district">${districtButton('Subgebied nog onbekend')}</div>`:''}
+   ${guideArea==='city'?`<p class="scope-note">Schematische wijkkaart van Vice City</p>${districtMap(name=>remaining(districtRows(name)))}<div class="guide-other-district">${districtButton('Subgebied nog onbekend')}</div>`:''}
    ${guideArea==='city'&&!guideDistrict?chooseAreaPrompt:`<h3>${esc(guideDistrict||region.name)} · ${remaining(rows)} open</h3><label class="task"><input type="checkbox" data-guide-filter ${guideOpenOnly?'checked':''}><span>Alleen openstaand</span></label>
    ${Object.entries(groups).map(([group,items])=>{
     const visible=guideOpenOnly?items.filter(item=>!done(item)):items;
@@ -803,6 +838,15 @@
   else if(district)guideDistrict=district.dataset.guideDistrict;
   else return;
   renderAreaGuide();
+  if(district&&event.detail===0){
+   [...guideResults.querySelectorAll('[tabindex="0"][data-guide-district],button[data-guide-district]')]
+    .find(node=>node.dataset.guideDistrict===guideDistrict)?.focus({preventScroll:true});
+  }
+ });
+ guideResults.addEventListener('keydown',event=>{
+  if(!event.target.matches('[role="button"][data-guide-district]')||!['Enter',' '].includes(event.key))return;
+  event.preventDefault();
+  event.target.dispatchEvent(new MouseEvent('click',{bubbles:true}));
  });
  guideMap.addEventListener('keydown',event=>{
   if(!event.target.matches('[role="button"][data-area]')||!['Enter',' '].includes(event.key))return;

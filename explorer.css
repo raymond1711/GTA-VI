@@ -257,8 +257,23 @@ footer span{color:#dfc4e0}
 .leonida-map .map-region .map-remaining rect{fill:#21172d;stroke:var(--area-color);stroke-width:1.5}
 .leonida-map .map-region .map-remaining text{fill:#fff7ee;stroke:none;font-size:12px;font-weight:700}
 
-.guide-district-map{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.4rem;padding:.55rem;border-radius:14px;background:#24394e;border:1px solid #89cada55}
-.guide-district-map button,.guide-other-district button{font:inherit;color:#fff6ff;background:#533952;border:1px solid #d5a2c288;border-radius:9px;min-height:56px;padding:.4rem;overflow-wrap:anywhere}
-.guide-district-map button[aria-pressed=true],.guide-other-district button[aria-pressed=true]{background:#ffc5df;color:#2c1730}
-.guide-district-map small,.guide-other-district small{display:block}
+.guide-district-map{display:block;width:100%;height:auto;border-radius:14px;border:1px solid #89cada55;background:#397988}
+.guide-district-map [role=button],.guide-map-label{cursor:pointer}
+.guide-map-land{stroke:#615666;stroke-width:2;stroke-linejoin:round}
+.guide-map-blocks{fill:url(#guide-city-blocks);pointer-events:none}
+.guide-map-roads,.guide-map-shallows{fill:none;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.guide-map-shallows{stroke:#87c1b9;stroke-width:2;opacity:.65}
+.guide-map-roads{stroke:#ffe4bf;stroke-width:2.2;opacity:.78}
+.guide-map-roads .guide-map-bridge{stroke-width:3;stroke-dasharray:5 3}
+.guide-map-water-label{fill:#d6f3f3;letter-spacing:.12em;text-anchor:middle;font:700 11px system-ui;pointer-events:none}
+.guide-map-north{fill:#fff0cc;pointer-events:none}
+.guide-district-map [role=button]:where(:focus-visible,[aria-pressed=true]) .guide-map-land{stroke:#fff0d6;stroke-width:4}
+@media(hover:hover){.guide-district-map [role=button]:hover .guide-map-land{stroke:#fff0d6;stroke-width:4}}
+.guide-map-label rect{fill:#352643;stroke:#d2a9c4;stroke-width:1.4}
+.guide-map-label[data-selected=true] rect{fill:#563953;stroke:#fff0d6;stroke-width:2.5}
+.guide-map-label text{text-anchor:middle;fill:#fff6ef;font:700 15px system-ui;pointer-events:none}
+.guide-map-label .guide-map-count{fill:#f1d9e9;font:600 12px system-ui}
+.guide-other-district button{font:inherit;color:#fff6ff;background:#533952;border:1px solid #d5a2c288;border-radius:9px;min-height:56px;padding:.4rem;overflow-wrap:anywhere}
+.guide-other-district button[aria-pressed=true]{background:#ffc5df;color:#2c1730}
+.guide-other-district small{display:block}
 .guide-other-district{margin-top:.5rem}
