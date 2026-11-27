@@ -436,10 +436,11 @@
  const activityNames=[
   'Stuntsprongen','Onder bruggen door','Mesvluchten','BASE-sprongen','Basketbalringen',
   'Meditaties','Dieren bestuderen','Voertuigmodellen scannen','Gewone races','Race-uitdagingen','Top Fun-droneproeven','Jachtopdrachten van Bret','Schietuitdagingen',
-  'Stick Ups','Overige activiteiten','Arcadegames','Pooltegenstanders','Minigolf','Dino Golf-medailles'
+  'Stick Ups','Optionele taken','Overige activiteiten','Arcadegames','Pooltegenstanders','Minigolf','Dino Golf-medailles'
  ];
  const medalOptions=[['bronze','Brons'],['silver','Zilver'],['gold','Goud']];
  const activityNotes={
+  'Optionele taken':'Kies een gebied. Zijmissies delen hun vinkje met Verkennen. Meditaties hebben hun eigen categorie.',
   'Stick Ups':'Kies een gebied op de kaart. De bronstatus staat bij elk filiaal. Vergelijk je vinkjes met Overvallen → Stick Ups in de game.',
   'Top Fun-droneproeven':'Per station moet je de eerste twee richttijden verslaan. De derde proef telt voor 100% zodra je finisht.',
   'Jachtopdrachten van Bret':'Speel als Jason. De doelwitten en exacte zoekgebieden van opdracht 5 t/m 15 staan op de kaart zodra Bret je sms’t.',
@@ -475,7 +476,9 @@
  function matchesActivityArea(item){
   return activityArea==='unknown'?hasNoRegion(item):activityArea&&inArea(item,activityArea);
  }
- const selectedActivities=()=>activityKind.value==='Overige activiteiten'
+ const selectedActivities=()=>activityKind.value==='Optionele taken'
+  ? core.visible(optionalTasks.filter(item=>!item.referenceOnly&&item.collection!=='Meditaties'&&!item.meditationParent),model.chapter)
+  : activityKind.value==='Overige activiteiten'
   ? [...activeDiscoveries,...model.custom].filter(item=>item.category==='activities')
   : activityRecords.filter(item=>item.collection===activityKind.value);
  const stuntCollections=new Set(['Stuntsprongen','Onder bruggen door','Mesvluchten','BASE-sprongen']);
@@ -959,6 +962,7 @@
    const goal=trophyLinks[item.id];
    return goal&&counts[goal[0]]>=goal[1];
   }).map(item=>item.id));
+  if(found.has('guide-side-catch-a-bigger-fish'))auto.add('trophy-20');
   if(trophyRows.slice(1).every(item=>found.has(item.id)||auto.has(item.id)))auto.add(trophyRows[0].id);
   const done=trophyRows.filter(item=>found.has(item.id)||auto.has(item.id)).length;
   trophies.innerHTML=`
