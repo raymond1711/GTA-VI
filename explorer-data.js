@@ -17697,7 +17697,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Mount Kalaga National Park Leonida Keys",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "wildboar",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-5d2947c332208662e6b1",
@@ -17710,7 +17712,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Mount Kalaga National Park",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "leonidapanther",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-5a24e2319ba4c765d30c",
@@ -17749,7 +17753,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Mount Kalaga National Park",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "easternspottedskunk",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-95f0ba54eadda00000fc",
@@ -17762,7 +17768,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Grassrivers",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "nutria",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-57120e73c3a647315c40",
@@ -17775,7 +17783,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "ninebandedarmadillo",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-2911abcbc1b00cd753ae",
@@ -17788,7 +17798,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "rhesusmacaque",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-mammals/"
     },
     {
       "id": "excel-a6af27329b4aefa09ca9",
@@ -17801,7 +17813,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "northernraccoon",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-cf6ad8484cdf5ad364e7",
@@ -17814,7 +17828,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "easterncottontailrabbit",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-a0db57010c78394d41b3",
@@ -17827,7 +17843,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "bengal",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-5b8c47dee6daf952ec2e",
@@ -17840,7 +17858,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "americanpitbullterrier",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-b3d42c4eb43567455aec",
@@ -17853,7 +17873,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "americanfoxhound",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-77b5c703745f909c5983",
@@ -17866,7 +17888,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "labradorretriever",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-ec632503ba3087d17a60",
@@ -17879,7 +17903,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Mount Kalaga National Park",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "americanblackbear",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-a9c57afe2da8ae32aa19",
@@ -17892,7 +17918,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "northerncoyote",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-e878151c7505f05c1e9e",
@@ -17905,7 +17933,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "spottedwildboar",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-fac0a4285d1d1c316154",
@@ -17918,7 +17948,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Vice City",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "bengaltiger",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-mammals/"
     },
     {
       "id": "excel-18a1b65543fd2a23514d",
@@ -17944,7 +17976,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "balinse",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-b7b3871a045bfd2e8deb",
@@ -17957,7 +17991,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "calico",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-cf5be232a510e53b95c3",
@@ -17970,7 +18006,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "gingerlonghair",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-c9b11ee881ce4364cef9",
@@ -17983,7 +18021,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "gingertabby",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-1e51d88495c366fd451b",
@@ -17996,7 +18036,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "stripedtabby",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-b847f00a5cd6563163c1",
@@ -18009,7 +18051,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "dobermanpinscher",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-1f4d8c9329b03bc6b28f",
@@ -18022,7 +18066,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "germanshepherd",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-0f0ab7d59279e94bad03",
@@ -18035,7 +18081,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "glorianadog",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-7ca8eff2975fd4974fb8",
@@ -18048,7 +18096,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "rottweiler",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-34ae469cc17de3039f3c",
@@ -18061,7 +18111,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "leonidabobcat",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-7400f52fe8cbdfe96dc4",
@@ -18074,7 +18126,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Mount Kalaga National Park Port Gellhorn",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "americanredfox",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-f08441a36eb2ff10d90c",
@@ -18087,7 +18141,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "grayfox",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-2ca3e9dedd6e0f68ba46",
@@ -18100,7 +18156,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "easterngraysquirrel",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-2e6d2f8921676c5e0496",
@@ -18113,7 +18171,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Grassrivers",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "roundtailedmuskrat",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-4ea1591ef43f99d3c5fa",
@@ -18126,7 +18186,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "whiteriverotter",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-f20d9f9613d6c3b161fe",
@@ -18139,7 +18201,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "piebaldwhitetailbuck",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-f67ba665ea3573b38b89",
@@ -18152,7 +18216,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "leonidablackpanther",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-d8d3059e7ac549ca96da",
@@ -18165,7 +18231,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "chimpanzee",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-mammals/"
     },
     {
       "id": "excel-366bf0b12c6d14ca118c",
@@ -18178,7 +18246,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "glorianaopossum",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-e47ff024d4c59e9acf5d",
@@ -18191,7 +18261,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "northernsilvercoyote",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-307c784b5e320895b7d9",
@@ -18204,7 +18276,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "whiteheadedcapuchin",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-mammals/"
     },
     {
       "id": "excel-a668538128a838057975",
@@ -18217,7 +18291,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "brownrat",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-mammals/"
     },
     {
       "id": "excel-8956ca576abe785ef05d",
@@ -18230,7 +18306,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "holsteincattle",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-mammals/"
     },
     {
       "id": "excel-db08f19802890a16c22e",
@@ -18243,7 +18321,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "gulfcoastsheep",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-mammals/"
     },
     {
       "id": "excel-6cf060cd84d687786592",
@@ -18256,7 +18336,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "americanquarterhorse",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-mammals/"
     },
     {
       "id": "excel-a9a1cf9f561d7a07e7cc",
@@ -18269,7 +18351,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "blotchedtabby",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-58d9bdc066086e483662",
@@ -18282,7 +18366,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "ragdoll",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-2b107df344c27197cd90",
@@ -18295,7 +18381,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "redtabby",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-4fe4e9e6f2f15d972afa",
@@ -18308,7 +18396,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "belgianmalinois",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-9cd34985a67db25e1b7b",
@@ -18321,7 +18411,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "boxer",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-5546c3f7ff14e3449b74",
@@ -18334,7 +18426,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "catahoulacur",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-ac46ba05e1dba19f6137",
@@ -18347,7 +18441,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "yorkshireterrier",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-7c933f35629fce9f2795",
@@ -18386,7 +18482,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "blackfox",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-9e68bcdabcfe0b89b80f",
@@ -18399,7 +18497,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "australianshepherd",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-54f4108806a044c15f03",
@@ -18412,7 +18512,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "bombay",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-6208e8c4389787536c49",
@@ -18425,7 +18527,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "marshrabbit",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-fe5e61a20808722cdd00",
@@ -18438,7 +18542,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "alpinegoat",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-mammals/"
     },
     {
       "id": "excel-910bdb836891ff114f88",
@@ -18451,7 +18557,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "bigbrownbat",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-mammals/"
     },
     {
       "id": "excel-025aecd1209f16da87ad",
@@ -18464,7 +18572,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "northamericanriverotter",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-9d1c916fcecd51d0004a",
@@ -18477,7 +18587,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "northernalbinoraccoon",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-482f040d8fe8f6a332d5",
@@ -18490,7 +18602,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "uniqueblackbear",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-7b859eae9de660044e73",
@@ -18503,7 +18617,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "goldenfox",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-fa5e0f7a35266b7d3a8c",
@@ -18516,7 +18632,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "northernblackcoyote",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-3c60a6d09f0e1546bda0",
@@ -18529,7 +18647,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "housemouse",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-mammals/"
     },
     {
       "id": "excel-1e2333ef81fa41c3cbcf",
@@ -18568,7 +18688,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "uniquebuck",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-2c278087aea14c96ac1f",
@@ -18581,7 +18703,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "uniquecoyote",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-ef7ead4e23a07639b4c9",
@@ -18594,7 +18718,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "uniquepanther",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-d33773c7eadf2069e9d4",
@@ -18607,7 +18733,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "uniquewhitefox",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-bc5ff337b2a04dba6c89",
@@ -18620,7 +18748,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "uniquewildboar",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-0b30248c16fb6757d0f0",
@@ -18633,7 +18763,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "leonidablackbobcat",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-0691249b3c71b2a5962e",
@@ -18646,7 +18778,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "sootspottedcottontailrabbit",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-99f04bdab5a03a86c9f9",
@@ -18711,7 +18845,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "americanyorkshirepig",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-mammals/"
     },
     {
       "id": "excel-1cadaeefed71f366ae44",
@@ -18724,7 +18860,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Vice City Port Gellhorn",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "americanshorthair",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-61e0032ed8c305e39f8d",
@@ -18750,7 +18888,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "bullworthlonghair",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-ffe79ab5878a4f46f6f6",
@@ -18763,7 +18903,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "chocolatelonghair",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-3c472b9d50b9fb32b09f",
@@ -18776,7 +18918,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "creamlonghair",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-ad3c5f50afd136467a85",
@@ -18789,7 +18933,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "mackereltabby",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-20b72f1641fed53cfb99",
@@ -18815,7 +18961,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "persian",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-862289fa544ae99db4d0",
@@ -18828,7 +18976,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "russianblue",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-5dfd1fbab1eae048abef",
@@ -18841,7 +18991,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "bordercollie",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-b6c1bf7f06c35d93aa7d",
@@ -18854,7 +19006,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "frenchbulldog",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-8b7b74986dd162382083",
@@ -18867,7 +19021,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "maltesedog",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-96e78f6f037c4142e9b6",
@@ -18906,7 +19062,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "chihuahua",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-dc2e5d77b7847498e104",
@@ -18919,7 +19077,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "standardpoodle",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-89639d02882f64867761",
@@ -18971,7 +19131,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Mount Kalaga National Park",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "leonidawildwhitetom",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-74c13c4ea92c9a5d907c",
@@ -18984,7 +19146,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "baldeagle",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-db5dff6d621f430a9a55",
@@ -18997,7 +19161,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Grassrivers Mount Kalaga National Park",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "whoopingcrane",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-45567e9f4376e9797aec",
@@ -19010,7 +19176,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "caspiantern",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-2ea0c751f3cfc2ee97af",
@@ -19023,7 +19191,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "greatblueheron",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-e488f229538d58afece9",
@@ -19036,7 +19206,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "greategret",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-36318e836fe83e15881e",
@@ -19049,7 +19221,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "blackvulture",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-b617a4e4eb7de8816721",
@@ -19062,7 +19236,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "mottledduck",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-4f3d5406ac761be4428c",
@@ -19075,7 +19251,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "americancrow",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-e0aad8dc23f4dbf1ae9e",
@@ -19088,7 +19266,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "americanwhitepelican",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-93150f9adae012f4ca9e",
@@ -19101,7 +19281,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "easternbrownpelican",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-f3985f224bbf9935b3b3",
@@ -19114,7 +19296,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "herringgull",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-be1308c14a94f6aeb1f0",
@@ -19127,7 +19311,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "laughinggull",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-ee656036ba1a27421994",
@@ -19140,7 +19326,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "leghornchicken",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-91a8a5708da09239e99f",
@@ -19153,7 +19341,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "rockpigeon",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-af97d4326f0325b99474",
@@ -19166,7 +19356,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "tricoloredheron",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-7368a276f29ff1d753fb",
@@ -19179,7 +19371,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "woodstork",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-9ff909e1f8245b380929",
@@ -19192,7 +19386,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "leonidawildturkey",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-33a85a6a335e068eac69",
@@ -19205,7 +19401,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "turkeyvulture",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-e5349d31debc76c38851",
@@ -19218,7 +19416,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Grassrivers",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "roseatespoonbill",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-5a12f0af859c91ebc17b",
@@ -19231,7 +19431,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "westernosprey",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-fe53a62a46d491e14a47",
@@ -19244,7 +19446,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "purplegallinule",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-4188625e346598b05488",
@@ -19257,7 +19461,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "trumpeterswan",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-16b499e2f82deea98230",
@@ -19270,7 +19476,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "commonloon",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-35d89bcd08c1289c05aa",
@@ -19283,7 +19491,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "americanwhiteibis",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-4d4044c1eb498e33295b",
@@ -19296,7 +19506,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "cubalayachicken",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-4621d0573145368125de",
@@ -19309,7 +19521,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "doublecrestedcormorant",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-beea6fdd235a0dbcd3eb",
@@ -19322,7 +19536,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "housesparrow",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-c22029228f4517bd8c3a",
@@ -19335,7 +19551,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "monkparakeet",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-a8e799075589aecc1ff0",
@@ -19348,7 +19566,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "sanderling",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-429dacec923883a5ed91",
@@ -19361,7 +19581,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "spottedsandpiper",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-686187400c4df1140ebd",
@@ -19374,7 +19596,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "glossyibis",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-a5e3295dab6bee96853e",
@@ -19387,7 +19611,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "redcockadedwoodpecker",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-4ad660b66628c765cf6a",
@@ -19400,7 +19626,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Mount Kalaga National Park",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "goldeneagle",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-d80d16ffa13eba6f0087",
@@ -19413,7 +19641,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "americanbarnowl",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-a60c6b14f97a4ef2ae46",
@@ -19426,7 +19656,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "redbelliedwoodpecker",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-2a0216dffccf62d3a9b7",
@@ -19439,7 +19671,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "americanrobin",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-cf89948cb4f807dad115",
@@ -19452,7 +19686,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Grassrivers",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "americanflamingo",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-caf0b6f1801f75370813",
@@ -19465,7 +19701,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "crestedcaracara",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-afbfc13b83190aeaf5e7",
@@ -19478,7 +19716,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "americananhinga",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-ee58c160f5cf50622ce3",
@@ -19504,7 +19744,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "indianpeacock",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-d62db138ee7e5aab949b",
@@ -19517,7 +19759,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "magnificentfrigatebird",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-4906950711b97ce17a90",
@@ -19530,7 +19774,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "easterngreathornedowl",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-503cdd10676ffa29811c",
@@ -19543,7 +19789,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "peregrinefalcon",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-0c27569dd2dfece5634e",
@@ -19556,7 +19804,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "redtailedhawk",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-1c03df4907c2a3a8e983",
@@ -19569,7 +19819,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "redshoulderedhawk",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-406121a6a6d4de35ee94",
@@ -19582,7 +19834,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "northerngannet",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-385da87cb12e820cf9a1",
@@ -19595,7 +19849,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "scarletmacaw",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-ba29083ad47fa495646c",
@@ -19608,7 +19864,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "canadagoose",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-e42a4aa282355384bbbf",
@@ -19621,7 +19879,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "killdeer",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-79b98b16585fb1af5fab",
@@ -19634,7 +19894,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "northerncardinal",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-ffc47b7275bfb79a7606",
@@ -19647,7 +19909,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Vice City",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "spotbreastedoriole",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-8b70e8731e4386e3f5c7",
@@ -19660,7 +19924,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "bluejay",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-6fa77eada55ed9274bfb",
@@ -19673,7 +19939,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "scrubjay",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-c48898819a291446b641",
@@ -19686,7 +19954,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "redcrownedparrot",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-b7281ec74c1b021e0575",
@@ -19699,7 +19969,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "northernmockingbird",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-3d2a2be44f7429cd8066",
@@ -19712,7 +19984,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "americangoldfinch",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-5bc25023b545f6b69212",
@@ -19725,7 +19999,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "housefinch",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-400cdfb07781555b6450",
@@ -19738,7 +20014,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "mosaicmottledduck",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-86e6be8bb31ba3957878",
@@ -19790,7 +20068,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "americanpekinduck",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-4f1e7e7b277dca9f68b4",
@@ -19803,7 +20083,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "blackcappedchickadee",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-de8ea4b92ceb612f7c64",
@@ -19816,7 +20098,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "blueandyellowmacaw",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-ceda6812fb1c837e238d",
@@ -19829,7 +20113,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "newworldoriole",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-3e875cc52e1c47946b48",
@@ -19842,7 +20128,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "orchardoriole",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-20fee73e74614f434cc7",
@@ -19855,7 +20143,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "yellowcrestedcockatoo",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-887c8f088cf1f6829acc",
@@ -19868,7 +20158,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Grassrivers",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "americanalligator",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-6416827c8c367415423f",
@@ -19894,7 +20186,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Grassrivers",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "nilemonitor",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-eecf88b3ebecbabff835",
@@ -19920,7 +20214,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Vice City",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "albinoamericanalligator",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-cc56c27e24bf27a3806c",
@@ -19933,7 +20229,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Leonida Keys",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "americancrocodile",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-2eb8cdf793643ed7cae1",
@@ -19946,7 +20244,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "leonidacottonmouth",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-0073da20f91ca95abafb",
@@ -19959,7 +20259,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "snappingturtle",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-3e9703057f14383d2ea3",
@@ -19972,7 +20274,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "spectacledcaiman",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-e652b30435b87d43a603",
@@ -19985,7 +20289,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "blueaxanthiciguana",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-97e1c4fa88ca3341dfea",
@@ -19998,7 +20304,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "superrediguana",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-6a1b5278fdcf9669e9a9",
@@ -20011,7 +20319,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "greenseaturtle",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-reptiles-amphibians/"
     },
     {
       "id": "excel-921f44a3b45ec58059ec",
@@ -20024,7 +20334,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "boxturtle",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-d58d904f72d25fdebb8d",
@@ -20037,7 +20349,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "leonidakingsnake",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-632f1e56e9eb6b4cae43",
@@ -20050,7 +20364,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "softshellturtle",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-9cff583ca77f70188375",
@@ -20063,7 +20379,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "albinospectacledcaiman",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-102a4e4cacd2cfa3710a",
@@ -20089,7 +20407,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "cornsnake",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-263c77a0541ca6c0ee96",
@@ -20102,7 +20422,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "easterncoralsnake",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-b36c6914bede5703a9ce",
@@ -20115,7 +20437,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "uniquecrocodile",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-e218086705b7b29ca399",
@@ -20128,7 +20452,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "uniqueswampalligator",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-13f5ae57e16653c1c9aa",
@@ -20154,7 +20480,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "gophertortoise",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-reptiles-amphibians/"
     },
     {
       "id": "excel-ee60a303f6359b14cd2c",
@@ -20167,7 +20495,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Grassrivers",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "canetoad",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-69ce98f03d929dfd497a",
@@ -20180,7 +20510,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "americanbullfrog",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-reptiles-amphibians/"
     },
     {
       "id": "excel-b4cf58af0e551abd0444",
@@ -20193,7 +20525,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "greentreefrog",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-reptiles-amphibians/"
     },
     {
       "id": "excel-6df6af91340bf8fe24af",
@@ -20206,7 +20540,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "southernleopardfrog",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-reptiles-amphibians/"
     },
     {
       "id": "excel-833b47701971f2eb123f",
@@ -20219,7 +20555,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "southerntoad",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-reptiles-amphibians/"
     },
     {
       "id": "excel-bf037f8379761ffed4ae",
@@ -20232,7 +20570,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Vice City",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "orca",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-mammals/"
     },
     {
       "id": "excel-60c0d7f51dff49d010d9",
@@ -20245,7 +20585,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Vice City",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "bottlenosedolphin",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-mammals/"
     },
     {
       "id": "excel-21ab13c00a34727f025a",
@@ -20284,7 +20626,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "atlanticgoliathgrouper",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-aquatic-animals/"
     },
     {
       "id": "excel-29324d33936e3b57dde8",
@@ -20297,7 +20641,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "blacktipshark",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-aquatic-animals/"
     },
     {
       "id": "excel-d4812131736428236a53",
@@ -20310,7 +20656,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "moonjellyfish",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-aquatic-animals/"
     },
     {
       "id": "excel-caa161452b1492eb4546",
@@ -20323,7 +20671,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "spottedeagleray",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-aquatic-animals/"
     },
     {
       "id": "excel-07ac47a427826cff7056",
@@ -20336,7 +20686,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "tigershark",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-aquatic-animals/"
     },
     {
       "id": "excel-1c77baa9f2058d95ef3f",
@@ -20349,7 +20701,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "bluelandcrab",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-aquatic-animals/"
     },
     {
       "id": "excel-b83f5732fb20159be61b",
@@ -20375,7 +20729,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "bullshark",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-aquatic-animals/"
     },
     {
       "id": "excel-8309b17eabf7c05fa6da",
@@ -20388,7 +20744,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "greathammerheadshark",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-aquatic-animals/"
     },
     {
       "id": "excel-e964a10a0820568b2b18",
@@ -20401,7 +20759,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "nurseshark",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-aquatic-animals/"
     },
     {
       "id": "excel-628f31ecac8b41c9c125",
@@ -20414,7 +20774,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "humpbackwhale",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-mammals/"
     },
     {
       "id": "excel-959cf66e94e1a0756934",
@@ -20427,7 +20789,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "spermwhale",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-mammals/"
     },
     {
       "id": "excel-41147c62d10257f148bb",
@@ -20440,7 +20804,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "shortbeakedcommondolphin",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-mammals/"
     },
     {
       "id": "excel-3de9a09f5ae2249a8066",
@@ -20453,7 +20819,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "atlanticstingray",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-aquatic-animals/"
     },
     {
       "id": "excel-f5af3bbe8232667bb7eb",
@@ -20466,7 +20834,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "portuguesemanowar",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-aquatic-animals/"
     },
     {
       "id": "excel-be49d8ec7a1a152ae885",
@@ -20479,7 +20849,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "leonidastonecrab",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-aquatic-animals/"
     },
     {
       "id": "excel-2cbf8d0f50ab45d626b3",
@@ -20492,7 +20864,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "atlanticsailfish",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-aquatic-animals/"
     },
     {
       "id": "excel-c51b9759c9366d4df5d0",
@@ -20505,7 +20879,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "northatlanticswordfish",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-aquatic-animals/"
     },
     {
       "id": "excel-97cbfb2fc631f72b0421",
@@ -20518,7 +20894,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "atlanticbluefintuna",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-aquatic-animals/"
     },
     {
       "id": "excel-ab5fa89b14d6a897e381",
@@ -20531,7 +20909,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "koi",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-aquatic-animals/"
     },
     {
       "id": "excel-ffef580c5acf19f4e90b",
@@ -20544,7 +20924,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bekijk de bron voor de vindplek of verkrijgwijze.",
       "source": "https://game-checklists.com/gta6/animals-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "yellowtaildamselfish",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-aquatic-animals/"
     },
     {
       "id": "excel-95e88ee500a1f31d594c",
@@ -20561,7 +20943,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://gta6ops.com/database/vehicles/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://www.gtabase.com/vehicles/gta-6/rhino-tank"
+      "vehiclePhotoLink": "https://www.gtabase.com/vehicles/gta-6/rhino-tank",
+      "vehicleGameId": "haunersrhinotank",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-e17de21f40763b46d794",
@@ -20578,7 +20962,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://www.gtabase.com/gta-6/vehicles/apc"
+      "vehiclePhotoLink": "https://www.gtabase.com/gta-6/vehicles/apc",
+      "vehicleGameId": "haunersapc",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-8902de6d1c2c1fc12ecc",
@@ -20595,7 +20981,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/mammoth-patriot/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/mammoth-patriot/",
+      "vehicleGameId": "92mammothpatriot",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-46a128f66d3a87fb0963",
@@ -20612,7 +21000,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/hauners-p-996-lazer"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/hauners-p-996-lazer",
+      "vehicleGameId": "haunersp996lazer",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-254dbd7e3e974c70352a",
@@ -20632,7 +21022,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "screenshot": "https://gta6tracker.org/img/gw/3358af630fd8ed44.png",
       "imageSource": "https://gta6tracker.org/l/015a",
       "screenshotCredit": "© Rockstar Games · GTA Wiki via GTA6Tracker",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/botticher-015a/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/botticher-015a/",
+      "vehicleGameId": "bottcher015a",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-72d70decd90d1a0c2975",
@@ -20649,7 +21041,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-military-base-location/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/botticher-buzzard/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/botticher-buzzard/",
+      "vehicleGameId": "bottcherbuzzard",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-382af153c92a5b058053",
@@ -20666,7 +21060,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/nagasaki-sea-sparrow/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/nagasaki-sea-sparrow/",
+      "vehicleGameId": "nagasakiseasparrow",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-92856d7006a6141ac4be",
@@ -20683,7 +21079,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/mammoth-dodo/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/mammoth-dodo/",
+      "vehicleGameId": "mammothdodo",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-589fdb90f97d08cd6d28",
@@ -20700,7 +21098,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/buckingham-maverick/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/buckingham-maverick/",
+      "vehicleGameId": "buckinghammaverick",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-22fe66ca6f3f6c8b936c",
@@ -20717,7 +21117,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/crop-duster-plane/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/crop-duster-plane/",
+      "vehicleGameId": "bottcherduster",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-9e920dee1b811b507103",
@@ -20734,7 +21136,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/lapwing-300-h/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/lapwing-300-h/",
+      "vehicleGameId": "lapwing300h",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-f569756cc81d9ba76922",
@@ -20751,7 +21155,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/lapwing-streamer-216-c/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/lapwing-streamer-216-c/",
+      "vehicleGameId": "lapwingstreamer216c",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-013233058a9f9b34f7ea",
@@ -20768,7 +21174,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/buckingham-volatus/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/buckingham-volatus/",
+      "vehicleGameId": "buckinghamvolatus",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-8ba8606a02ee272ae610",
@@ -20785,7 +21193,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/67-vapid-dominator-buggy/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/67-vapid-dominator-buggy/",
+      "vehicleGameId": "67vapiddominatorbuggy",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-65bd9858480fe1fa0ba0",
@@ -20822,7 +21232,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "screenshot": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_GROTTI_CHEETAH_01.0a.wy3s_ogjey.jpg?akim=1&imdensity=1&imwidth=3840",
       "screenshotCredit": "© Rockstar Games · officiële Ultimate Edition-screenshot",
       "imageSource": "https://www.rockstargames.com/VI/media/screenshots",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/95-grotti-cheetah/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/95-grotti-cheetah/",
+      "vehicleGameId": "95grotticheetah",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-cfc9819bcd01d0939c63",
@@ -20842,7 +21254,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "screenshot": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_02.0-2n5rm9n8.rq.jpg?akim=1&imdensity=1&imwidth=3840",
       "screenshotCredit": "© Rockstar Games · officiële Ultimate Edition-screenshot",
       "imageSource": "https://www.rockstargames.com/VI/media/screenshots",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/dinka-enduro"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/dinka-enduro",
+      "vehicleGameId": "72dinkaenduro",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-5400d22d8be0e4f03373",
@@ -20862,7 +21276,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "screenshot": "https://www.rockstargames.com/VI/_next/static/media/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_03.0c9.qtpdi.tf..jpg?akim=1&imdensity=1&imwidth=3840",
       "screenshotCredit": "© Rockstar Games · officiële Ultimate Edition-screenshot",
       "imageSource": "https://www.rockstargames.com/VI/media/screenshots",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/crest-kayak/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/crest-kayak/",
+      "vehicleGameId": "crestkayak",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-5a096b26647c3ad56bf0",
@@ -20879,7 +21295,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/shitzu-squalo/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/shitzu-squalo/",
+      "vehicleGameId": "shitzusqualo",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-c4697b79893808ec5942",
@@ -20899,7 +21317,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "screenshot": "https://www.gta6tracker.org/img/gw/b906c374746a9e2c.jpeg",
       "imageSource": "https://gta6tracker.org/l/ganado",
       "screenshotCredit": "© Rockstar Games · GTA Wiki via GTA6Tracker",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/vapid-ganado"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/vapid-ganado",
+      "vehicleGameId": "70vapidganado",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-4f3703035d2dce04f2b8",
@@ -20933,7 +21353,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/tuff-bmx/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/tuff-bmx/",
+      "vehicleGameId": "tuffbmx",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-9d4b0d833b5b402954b9",
@@ -20950,7 +21372,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/maibatsu-boomazoom/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/maibatsu-boomazoom/",
+      "vehicleGameId": "maibatsuboomazoom",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-93d0f1b1ad130aea934f",
@@ -20967,7 +21391,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/nagasaki-carbon-rs/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/nagasaki-carbon-rs/",
+      "vehicleGameId": "nagasakicarbonrs",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-0518cb63190da762d27c",
@@ -20984,7 +21410,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/65-vapid-dominator/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/65-vapid-dominator/",
+      "vehicleGameId": "65vapiddominator",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-e5dab7f4e5885e4a460b",
@@ -21001,7 +21429,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/lapwing-mallard/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/lapwing-mallard/",
+      "vehicleGameId": "lapwingmallard",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-37853ddc8a267e6ef880",
@@ -21035,7 +21465,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/maibatsu-sanchez/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/maibatsu-sanchez/",
+      "vehicleGameId": "maibatsusanchez",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-d3c58da31c5bff5fe610",
@@ -21052,7 +21484,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/speeder-700-gt/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/speeder-700-gt/",
+      "vehicleGameId": "speeder700gt",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-b9d34c55741db4235c1c",
@@ -21069,7 +21503,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/western-zombie-bobber/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/western-zombie-bobber/",
+      "vehicleGameId": "westernzombiebobber",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-1bda06934c16cc6eebee",
@@ -21086,7 +21522,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/lure-predator-l35p/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/lure-predator-l35p/",
+      "vehicleGameId": "lurepredatorl35p",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-9f886278e20b8e385a4c",
@@ -21120,7 +21558,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/68-classique-stallion/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/68-classique-stallion/",
+      "vehicleGameId": "68classiquestallion",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-39339b935e21dbe8304f",
@@ -21137,7 +21577,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/albany-hermes/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/albany-hermes/",
+      "vehicleGameId": "50albanyhermes",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-6e4009dd99c8b964dd38",
@@ -21154,7 +21596,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/bravado-gauntlet-custom/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/bravado-gauntlet-custom/",
+      "vehicleGameId": "69bravadogauntletcustom",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-b0c436740de975db1509",
@@ -21171,7 +21615,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/pfister-astron"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/pfister-astron",
+      "vehicleGameId": "pfisterastron",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-891e5e2566ee95af4505",
@@ -21188,7 +21634,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/72-declasse-tulip/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/72-declasse-tulip/",
+      "vehicleGameId": "72declassetulip",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-03deca479a51d2166a70",
@@ -21205,7 +21653,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/72-declasse-picador/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/72-declasse-picador/",
+      "vehicleGameId": "72declassepicador",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-22899b9845136e5e5284",
@@ -21222,7 +21672,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/98-karin-feroci/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/98-karin-feroci/",
+      "vehicleGameId": "98karinferoci",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-d0bd2e144cdf5caf0840",
@@ -21239,7 +21691,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/73-bf-injection/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/73-bf-injection/",
+      "vehicleGameId": "73bfinjection",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-ee71f4c768e9643966ab",
@@ -21256,7 +21710,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/ubermacht-apoc/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/ubermacht-apoc/",
+      "vehicleGameId": "ubermachtapoc",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-b6e938ef6629c55a3031",
@@ -21273,7 +21729,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/90-willard-lasso/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/90-willard-lasso/",
+      "vehicleGameId": "90willardlasso",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-0ffb2f2b5ec7dbcb3c89",
@@ -21290,7 +21748,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/dundreary-arcturus/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/dundreary-arcturus/",
+      "vehicleGameId": "93dundrearyarcturus",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-d09c813fbaffd8a51425",
@@ -21310,7 +21770,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "screenshot": "https://gta6tracker.org/img/gw/aeda51e0d3bad1aa.jpg",
       "imageSource": "https://gta6tracker.org/l/animus",
       "screenshotCredit": "© Rockstar Games · GTA Wiki via GTA6Tracker",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/obey-animus/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/obey-animus/",
+      "vehicleGameId": "obeyanimus",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-3feee3028f7091338c6c",
@@ -21344,7 +21806,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/85-dinka-blista/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/85-dinka-blista/",
+      "vehicleGameId": "85dinkablista",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-99be83af035fe13ab5ce",
@@ -21361,7 +21825,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/imponte-ruiner/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/imponte-ruiner/",
+      "vehicleGameId": "82imponteruiner",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-be40287964ee32ffa091",
@@ -21378,7 +21844,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/95-declasse-impaler-sz/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/95-declasse-impaler-sz/",
+      "vehicleGameId": "95declasseimpalersz",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-e0f7396c4a564d20df4b",
@@ -21395,7 +21863,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/88-pfister-comet/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/88-pfister-comet/",
+      "vehicleGameId": "88pfistercomet",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-e69d1ca5ef4c3bde3d95",
@@ -21412,7 +21882,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/invetero-coquette/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/invetero-coquette/",
+      "vehicleGameId": "inveterocoquette",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-1b2e3d3aec2796d1ce6a",
@@ -21429,7 +21901,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/90-annis-elegy/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/90-annis-elegy/",
+      "vehicleGameId": "90anniselegy",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-277db83872f0cb022d64",
@@ -21446,7 +21920,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/obey-8f-drafter/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/obey-8f-drafter/",
+      "vehicleGameId": "obey8fdrafter",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-7a2bf726febc1d1f062d",
@@ -21463,7 +21939,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/maibatsu-97-penumbra-ff/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/maibatsu-97-penumbra-ff/",
+      "vehicleGameId": "97maibatsupenumbraff",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-2200921f9c754082542a",
@@ -21480,7 +21958,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/85-ubermacht-sentinel/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/85-ubermacht-sentinel/",
+      "vehicleGameId": "85ubermachtsentinel",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-95270c39fff399d3d1f0",
@@ -21497,7 +21977,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/pfister-comet-s2/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/pfister-comet-s2/",
+      "vehicleGameId": "pfistercomets2",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-a82c63b9b02fe80dc079",
@@ -21514,7 +21996,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/nagasaki-sfb-1000/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/nagasaki-sfb-1000/",
+      "vehicleGameId": "nagasakisfb1000",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-28714a8d6865879867dd",
@@ -21531,7 +22015,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/pfister-neon/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/pfister-neon/",
+      "vehicleGameId": "pfisterneon",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-98153e1084dcadbbedd5",
@@ -21548,7 +22034,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/albany-v-str"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/albany-v-str",
+      "vehicleGameId": "albanyvstr",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-47bf597ed40dbe631dd5",
@@ -21565,7 +22053,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/invetero-coquette-d10/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/invetero-coquette-d10/",
+      "vehicleGameId": "inveterocoquetted10",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-00f5dcfea2bc6299e023",
@@ -21582,7 +22072,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/principe-alvino-v1/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/principe-alvino-v1/",
+      "vehicleGameId": "principealvinov1",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-0d3c5347fc219e963ce6",
@@ -21599,7 +22091,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/grotti-carbonizzare"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/grotti-carbonizzare",
+      "vehicleGameId": "grotticarbonizzare",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-43ceef83361421e71c3c",
@@ -21616,7 +22110,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/benefactor-schafter-v12/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/benefactor-schafter-v12/",
+      "vehicleGameId": "benefactorschafterv12",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-7795c37614238289e35d",
@@ -21633,7 +22129,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/emperor-sultan/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/emperor-sultan/",
+      "vehicleGameId": "emperorsultan",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-92cd72ff09bf94edae7c",
@@ -21650,7 +22148,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/ubermacht-rebla-gts/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/ubermacht-rebla-gts/",
+      "vehicleGameId": "ubermachtreblagts",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-6993985228fd10da8e76",
@@ -21667,7 +22167,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/karin-contender/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/karin-contender/",
+      "vehicleGameId": "karincontender",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-a41c16f76eef24280a0c",
@@ -21684,7 +22186,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/vapid-stanier-g2/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/vapid-stanier-g2/",
+      "vehicleGameId": "vapidstanierg2",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-a41d52831aa1fe27bd2f",
@@ -21701,7 +22205,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-steal-vehicles-for-moses-walkthrough/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/74-declasse-vamos/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/74-declasse-vamos/",
+      "vehicleGameId": "74declassevamos",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-33f401abcba2c6490c6e",
@@ -21718,7 +22224,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-steal-vehicles-for-moses-walkthrough/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/western-nightblade/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/western-nightblade/",
+      "vehicleGameId": "westernnightblade",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-a6fe5f4053984be2a407",
@@ -21735,7 +22243,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-steal-vehicles-for-moses-walkthrough/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/85-karin-futo/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/85-karin-futo/",
+      "vehicleGameId": "85karinfuto",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-7ef9a9bd8956fe15f4f2",
@@ -21752,7 +22262,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-steal-vehicles-for-moses-walkthrough/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/declasse-yosemite-1500/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/declasse-yosemite-1500/",
+      "vehicleGameId": "declasseyosemite1500",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-73f329b2e8593c1d841d",
@@ -21769,7 +22281,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/vapid-aleutian/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/vapid-aleutian/",
+      "vehicleGameId": "vapidaleutian",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-e09fbbe0468643737143",
@@ -21786,7 +22300,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/95-bravado-bison-900/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/95-bravado-bison-900/",
+      "vehicleGameId": "95bravadobison900",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-a112aaf8033ec65b1eee",
@@ -21803,7 +22319,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/vapid-reclaimer/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/vapid-reclaimer/",
+      "vehicleGameId": "vapidreclaimer",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-b23d00895598870f2178",
@@ -21820,7 +22338,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/maibatsu-manchez"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/maibatsu-manchez",
+      "vehicleGameId": "maibatsumanchez",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-c02e11c5e8bf56a68509",
@@ -21837,7 +22357,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/vapid-montagne-xl/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/vapid-montagne-xl/",
+      "vehicleGameId": "vapidmontagnexl",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-c3b8949874b93afe04d0",
@@ -21854,7 +22376,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-steal-vehicles-for-moses-walkthrough/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/77-bf-bandito/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/77-bf-bandito/",
+      "vehicleGameId": "77bfbandito",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-632aacab7f99d4b851bb",
@@ -21871,7 +22395,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/98-declasse-burrito/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/98-declasse-burrito/",
+      "vehicleGameId": "98declasseburrito",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-417363dee6b79fef3053",
@@ -21888,7 +22414,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/mer-can-outlaw"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/mer-can-outlaw",
+      "vehicleGameId": "mercanoutlaw",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-4467ea5fe2e1f5847ada",
@@ -21905,7 +22433,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-steal-vehicles-for-moses-walkthrough/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/95-annis-hellion/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/95-annis-hellion/",
+      "vehicleGameId": "95annishellion",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-820b0b713124df7006ad",
@@ -21922,7 +22452,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/82-canis-crawler/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/82-canis-crawler/",
+      "vehicleGameId": "82caniscrawler",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-321db7ade011977f27fc",
@@ -21939,7 +22471,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/78-osprey-journey/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/78-osprey-journey/",
+      "vehicleGameId": "78ospreyjourney",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-2f268952dcdce7d40612",
@@ -22007,7 +22541,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/mtl-pumper/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/mtl-pumper/",
+      "vehicleGameId": "mtlpumper",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-2766fe5caa89cdaedb2f",
@@ -22024,7 +22560,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/hvy-bulldozer/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/hvy-bulldozer/",
+      "vehicleGameId": "hvybulldozer",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-17797b0e2272038687cd",
@@ -22058,7 +22596,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/brute-police-riot/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/brute-police-riot/",
+      "vehicleGameId": "brutepoliceriot",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-e9bcf4d0569b7b9184cf",
@@ -22075,7 +22615,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/81-jobuilt-phantom-custom/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/81-jobuilt-phantom-custom/",
+      "vehicleGameId": "81jobuiltphantomcustom",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-00e1804ff630f43cf472",
@@ -22092,7 +22634,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://www.gtabase.com/gta-6/vehicles/dashound"
+      "vehiclePhotoLink": "https://www.gtabase.com/gta-6/vehicles/dashound",
+      "vehicleGameId": "whifflerdashound",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-d14fb7867066fb247546",
@@ -22109,7 +22653,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/b3000-excavator/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/b3000-excavator/",
+      "vehicleGameId": "b3000excavator",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-6070b2f398933c29e199",
@@ -22126,7 +22672,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/hvy-airtug/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/hvy-airtug/",
+      "vehicleGameId": "hvyairtug",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-33d29c980515f3a37d2e",
@@ -22143,7 +22691,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/progen-emerus/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/progen-emerus/",
+      "vehicleGameId": "progenemerus",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-a5921f2b4a6e72d560c6",
@@ -22160,7 +22710,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/truffade-thrax/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/truffade-thrax/",
+      "vehicleGameId": "truffadethrax",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-4bb5404b42675c61445e",
@@ -22177,7 +22729,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/mer-can-blast"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/mer-can-blast",
+      "vehicleGameId": "mercanblast",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-336308dd52f3369def75",
@@ -22194,7 +22748,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/bravado-swamp-blaster"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/bravado-swamp-blaster",
+      "vehicleGameId": "bravadoswampblaster",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-80378607b69a68ac79fe",
@@ -22211,7 +22767,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/hvy-wastelander"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/hvy-wastelander",
+      "vehicleGameId": "hvywastelander",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-5922b2cea8c71782de3a",
@@ -22228,7 +22786,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/vapid-dominator-asp/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/vapid-dominator-asp/",
+      "vehicleGameId": "vapiddominatorasp",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-3d5d252860feaa0774ef",
@@ -22245,7 +22805,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/vapid-dominator/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/vapid-dominator/",
+      "vehicleGameId": "vapiddominator",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-11f68dfc93a6fadf3f6c",
@@ -22262,7 +22824,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/vapid-dominator-gt"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/vapid-dominator-gt",
+      "vehicleGameId": "vapiddominatorgt",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-007a2b95bae27cd5f6bb",
@@ -22279,7 +22843,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/65-dundreary-chino/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/65-dundreary-chino/",
+      "vehicleGameId": "65dundrearychino",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-3f965002e39768211780",
@@ -22296,7 +22862,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/77-imponte-phoenix/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/77-imponte-phoenix/",
+      "vehicleGameId": "77impontephoenix",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-9cad03aec98d192ee882",
@@ -22313,7 +22881,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/78-declasse-tulip-m-100/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/78-declasse-tulip-m-100/",
+      "vehicleGameId": "78declassetulipm100",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-a7449095aafc28569cbd",
@@ -22330,7 +22900,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/declasse-vigero-zx-convertible"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/declasse-vigero-zx-convertible",
+      "vehicleGameId": "declassevigerozxconvertible",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-8e80f2f8caa3b5d7110a",
@@ -22347,7 +22919,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/bravado-bison"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/bravado-bison",
+      "vehicleGameId": "bravadobison",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-b5f649dbcd87dd03b179",
@@ -22364,7 +22938,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/bravado-bison-1800/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/bravado-bison-1800/",
+      "vehicleGameId": "bravadobison1800",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-3e416771b1f796e9acfb",
@@ -22381,7 +22957,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/bravado-bison-3800/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/bravado-bison-3800/",
+      "vehicleGameId": "bravadobison3800",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-2a68c58267ddb512ac01",
@@ -22398,7 +22976,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/84-declasse-bobcat-xl/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/84-declasse-bobcat-xl/",
+      "vehicleGameId": "84declassebobcatxl",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-e450525bd195312d7b53",
@@ -22415,7 +22995,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://www.gtabase.com/gta-6/vehicles/caracara-4x4"
+      "vehiclePhotoLink": "https://www.gtabase.com/gta-6/vehicles/caracara-4x4",
+      "vehicleGameId": "vapidcaracara4x4",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-b0919d37a660cd9ba880",
@@ -22432,7 +23014,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/vapid-montagne-pickup/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/vapid-montagne-pickup/",
+      "vehicleGameId": "vapidmontagnepickup",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-87483889f62c38c9e065",
@@ -22449,7 +23033,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/86-declasse-rancher/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/86-declasse-rancher/",
+      "vehicleGameId": "86declasserancher",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-c9cbbd862208ef20d5a9",
@@ -22466,7 +23052,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/84-karin-rebel/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/84-karin-rebel/",
+      "vehicleGameId": "84karinrebel",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-8de558248d179ff40fcd",
@@ -22483,7 +23071,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/vapid-sandking-xl/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/vapid-sandking-xl/",
+      "vehicleGameId": "vapidsandkingxl",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-efaec7dd3f6649414ea9",
@@ -22500,7 +23090,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/vapid-sandking-xt"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/vapid-sandking-xt",
+      "vehicleGameId": "vapidsandkingxt",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-c306b0a194bed038f876",
@@ -22517,7 +23109,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/81-declasse-walton/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/81-declasse-walton/",
+      "vehicleGameId": "81declassewalton",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-cd4f43dea9d458109f11",
@@ -22534,7 +23128,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/brute-boxville"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/brute-boxville",
+      "vehicleGameId": "bruteboxville",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-4ac663b25e525a3b5ed2",
@@ -22551,7 +23147,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/83-willard-moocher/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/83-willard-moocher/",
+      "vehicleGameId": "83willardmoocher",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-a309c138a2eafde75373",
@@ -22568,7 +23166,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/vapid-rumpo"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/vapid-rumpo",
+      "vehicleGameId": "vapidrumpo",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-d6d91bf499ea7885f04f",
@@ -22585,7 +23185,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/vapid-shifter"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/vapid-shifter",
+      "vehicleGameId": "vapidshifter",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-032efa447d8451a80941",
@@ -22605,7 +23207,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "screenshot": "https://www.gta6tracker.org/img/gw/5120f515f4d958e8.png",
       "imageSource": "https://gta6tracker.org/l/vapid-shuttle",
       "screenshotCredit": "© Rockstar Games · GTA Wiki via GTA6Tracker",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/vapid-shuttle"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/vapid-shuttle",
+      "vehicleGameId": "vapidshuttle",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-848c6c81cb9364dffd1e",
@@ -22622,7 +23226,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/bravado-sojourn"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/bravado-sojourn",
+      "vehicleGameId": "bravadosojourn",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-926d3d2946db70e03a9e",
@@ -22639,7 +23245,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/vapid-speedo/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/vapid-speedo/",
+      "vehicleGameId": "vapidspeedo",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-e4e938e36db4bf34818e",
@@ -22656,7 +23264,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/95-willard-trotter/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/95-willard-trotter/",
+      "vehicleGameId": "95willardtrotter",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-1b8750412a4b1726e1d9",
@@ -22673,7 +23283,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/benefactor-spritz/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/benefactor-spritz/",
+      "vehicleGameId": "benefactorspritz",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-43784a54911c0f22ef4d",
@@ -22690,7 +23302,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/karin-vivanite"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/karin-vivanite",
+      "vehicleGameId": "karinvivanite",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-dae16846b1e74f9a6e75",
@@ -22707,7 +23321,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/declasse-akane/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/declasse-akane/",
+      "vehicleGameId": "declasseakane",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-cd3f7c1f84085f860d87",
@@ -22724,7 +23340,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/ubermacht-cypher"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/ubermacht-cypher",
+      "vehicleGameId": "ubermachtcypher",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-468389acee0fa919ce05",
@@ -22741,7 +23359,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/fathom-fr36"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/fathom-fr36",
+      "vehicleGameId": "fathomfr36",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-80e7cd03f9a799af139e",
@@ -22758,7 +23378,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/maibatsu-penumbra/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/maibatsu-penumbra/",
+      "vehicleGameId": "maibatsupenumbra",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-0db1efc904364ee2165a",
@@ -22775,7 +23397,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/emperor-vectre/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/emperor-vectre/",
+      "vehicleGameId": "emperorvectre",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-a752d95dd5cb9a665265",
@@ -22792,7 +23416,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/karin-asterope-gz"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/karin-asterope-gz",
+      "vehicleGameId": "karinasteropegz",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-4c08f30ef9632fdae08b",
@@ -22809,7 +23435,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/bravado-bogan/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/bravado-bogan/",
+      "vehicleGameId": "bravadobogan",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-a5f53375c48356620659",
@@ -22826,7 +23454,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/dinka-chavos-xs/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/dinka-chavos-xs/",
+      "vehicleGameId": "dinkachavosxs",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-f8195b159afada56e630",
@@ -22843,7 +23473,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/85-albany-emperor/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/85-albany-emperor/",
+      "vehicleGameId": "85albanyemperor",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-8481bc5aafc9d9fda9e7",
@@ -22860,7 +23492,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/bf-greta"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/bf-greta",
+      "vehicleGameId": "bfgreta",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-6a217c8e80404a613c4a",
@@ -22877,7 +23511,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/92-willard-grouse/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/92-willard-grouse/",
+      "vehicleGameId": "92willardgrouse",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-48d11f2d7d54e26fd561",
@@ -22894,7 +23530,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/vapid-lowline/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/vapid-lowline/",
+      "vehicleGameId": "vapidlowline",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-c13ba945f7d6559e2ef1",
@@ -22911,7 +23549,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/albany-primo"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/albany-primo",
+      "vehicleGameId": "albanyprimo",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-c1a60aba54a872ba89ce",
@@ -22928,7 +23568,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/coil-raiden/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/coil-raiden/",
+      "vehicleGameId": "coilraiden",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-10c13d08e895a8c40ee7",
@@ -22945,7 +23587,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/benefactor-schafter-s/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/benefactor-schafter-s/",
+      "vehicleGameId": "benefactorschafters",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-183e1ac57a4bf47f3004",
@@ -22962,7 +23606,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/dinka-sugoi/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/dinka-sugoi/",
+      "vehicleGameId": "dinkasugoi",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-c30a4e7297726e8a2188",
@@ -22979,7 +23625,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/obey-tailgater-s"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/obey-tailgater-s",
+      "vehicleGameId": "obeytailgaters",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-789ae9bf665cbecd150f",
@@ -22996,7 +23644,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/willard-transient/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/willard-transient/",
+      "vehicleGameId": "willardtransient",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-c900a0dd3ea1b096180a",
@@ -23013,7 +23663,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/karin-allander/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/karin-allander/",
+      "vehicleGameId": "karinallander",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-1f13f77a88cd5fecaff7",
@@ -23030,7 +23682,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/gallivanter-baller/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/gallivanter-baller/",
+      "vehicleGameId": "gallivanterballer",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-56f2da25817220e06932",
@@ -23047,7 +23701,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/albany-cavalcade-xl/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/albany-cavalcade-xl/",
+      "vehicleGameId": "albanycavalcadexl",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-6ad7e16e8be0f3a111ed",
@@ -23064,7 +23720,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/bravado-dorado/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/bravado-dorado/",
+      "vehicleGameId": "bravadodorado",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-474ed16c862c6301090f",
@@ -23081,7 +23739,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/declasse-granger/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/declasse-granger/",
+      "vehicleGameId": "declassegranger",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-b2ec28fc51700c0e870a",
@@ -23098,7 +23758,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/declasse-granger-3600lx"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/declasse-granger-3600lx",
+      "vehicleGameId": "declassegranger3600lx",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-6e4c4652546a8e6641f0",
@@ -23115,7 +23777,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/bravado-gresley-xt/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/bravado-gresley-xt/",
+      "vehicleGameId": "bravadogresleyxt",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-e3af68b8e67de64f0fb8",
@@ -23132,7 +23796,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/canis-kamacho/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/canis-kamacho/",
+      "vehicleGameId": "caniskamacho",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-2cf195e6dfd2ce25adca",
@@ -23149,7 +23815,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/dundreary-landstalker-xl"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/dundreary-landstalker-xl",
+      "vehicleGameId": "dundrearylandstalkerxl",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-91fc778589c72054dc4a",
@@ -23166,7 +23834,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/canis-mesa/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/canis-mesa/",
+      "vehicleGameId": "canismesa",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-43ecab9528c62d38307b",
@@ -23183,7 +23853,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/vapid-montagne"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/vapid-montagne",
+      "vehicleGameId": "vapidmontagne",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-5a30223b1b0dcb7c948a",
@@ -23200,7 +23872,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/benefactor-xls/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/benefactor-xls/",
+      "vehicleGameId": "benefactorxls",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-e8509c1b913711a34222",
@@ -23217,7 +23891,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/70-vapid-reclaimer/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/70-vapid-reclaimer/",
+      "vehicleGameId": "70vapidreclaimer",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-7b0ed378f40046c445df",
@@ -23234,7 +23910,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/schyster-pmp-700/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/schyster-pmp-700/",
+      "vehicleGameId": "schysterpmp700",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-0e60e613e34a109e899d",
@@ -23251,7 +23929,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://www.gtabase.com/gta-6/vehicles/parkland-71"
+      "vehiclePhotoLink": "https://www.gtabase.com/gta-6/vehicles/parkland-71",
+      "vehicleGameId": "71declasseparkland",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-4c106095697414a975ac",
@@ -23268,7 +23948,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/61-sirius-sungrazer/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/61-sirius-sungrazer/",
+      "vehicleGameId": "61siriussungrazer",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-f8acbd56954c32d79d09",
@@ -23285,7 +23967,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/vapid-hustler"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/vapid-hustler",
+      "vehicleGameId": "32vapidhustler",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-fd51e1260dc964901533",
@@ -23302,7 +23986,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/56-vapid-slamvan/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/56-vapid-slamvan/",
+      "vehicleGameId": "56vapidslamvan",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-4b7090c7bdc82d9e5f83",
@@ -23319,7 +24005,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/74-bravado-youga/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/74-bravado-youga/",
+      "vehicleGameId": "74bravadoyouga",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-c3de723b5e12c648d595",
@@ -23336,7 +24024,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/79-bravado-youga-xl/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/79-bravado-youga-xl/",
+      "vehicleGameId": "79bravadoyougaxl",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-581d9cc69d00f797c9d5",
@@ -23353,7 +24043,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/vapid-marshall/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/vapid-marshall/",
+      "vehicleGameId": "vapidmarshall",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-313242707150793fd6f6",
@@ -23404,7 +24096,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/karin-intruder/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/karin-intruder/",
+      "vehicleGameId": "karinintruder",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-7d9edf010fa9d3ea1d70",
@@ -23421,7 +24115,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/55-vapid-stanier/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/55-vapid-stanier/",
+      "vehicleGameId": "55vapidstanier",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-0260e1b34d1cacdf52b5",
@@ -23455,7 +24151,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/59-albany-devanity/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/59-albany-devanity/",
+      "vehicleGameId": "59albanydevanity",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-6a075a81a4ea0c1448d6",
@@ -23472,7 +24170,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/55-declasse-bobcat-500/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/55-declasse-bobcat-500/",
+      "vehicleGameId": "55declassebobcat500",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-ef232fb390dbfb901b23",
@@ -23489,7 +24189,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/principe-esskey/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/principe-esskey/",
+      "vehicleGameId": "principeesskey",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-be06382fc6850e73d685",
@@ -23506,7 +24208,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/72-western-cliffhanger/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/72-western-cliffhanger/",
+      "vehicleGameId": "72westerncliffhanger",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-d59f4dd575a1d7433f82",
@@ -23523,7 +24227,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/western-sovereign-107/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/western-sovereign-107/",
+      "vehicleGameId": "westernsovereign107",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-77a6967bf60677d18ab6",
@@ -23540,7 +24246,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/lcc-avarus/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/lcc-avarus/",
+      "vehicleGameId": "lccavarus",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-be20e81435162112c18e",
@@ -23557,7 +24265,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/nagasaki-nimbe/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/nagasaki-nimbe/",
+      "vehicleGameId": "nagasakinimbe",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-7e4f326ee1da5a99fedf",
@@ -23574,7 +24284,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/nagasaki-street-blazer/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/nagasaki-street-blazer/",
+      "vehicleGameId": "nagasakistreetblazer",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-5e8a4406a2ea66641289",
@@ -23591,7 +24303,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/walter-cruiser/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/walter-cruiser/",
+      "vehicleGameId": "waltercruiser",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-4707ba42e8c6b99f36b2",
@@ -23608,7 +24322,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/shift-e-fan-e"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/shift-e-fan-e",
+      "vehicleGameId": "shiftefane",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-89bab3aa3855bb8e9ec8",
@@ -23642,7 +24358,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/del-perro-erode/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/del-perro-erode/",
+      "vehicleGameId": "delperroerode",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-7d8b78a912c83a852eaf",
@@ -23659,7 +24377,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/del-perro-scorcher/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/del-perro-scorcher/",
+      "vehicleGameId": "delperroscorcher",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-86e1bf9fbcf1c5b55f21",
@@ -23676,7 +24396,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/taci-ragno"
+      "vehiclePhotoLink": "https://meowdb.com/gta6/vehicles/taci-ragno",
+      "vehicleGameId": "taciragno",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-33bae90b39f2e11c9dd9",
@@ -23693,7 +24415,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/seashark-azure/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/seashark-azure/",
+      "vehicleGameId": "seasharkazure",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-5637bc5951390971655b",
@@ -23710,7 +24434,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/seashark-hydroblast/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/seashark-hydroblast/",
+      "vehicleGameId": "seasharkhydroblast",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-f2e56eb9bc748a2aba14",
@@ -23727,7 +24453,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/seashark-sedna/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/seashark-sedna/",
+      "vehicleGameId": "seasharksedna",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-d2f0119fb82873de52f3",
@@ -23744,7 +24472,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/calder-cb69/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/calder-cb69/",
+      "vehicleGameId": "caldercb69",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-3da18da8cdde04abf68a",
@@ -23761,7 +24491,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/calder-marquis/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/calder-marquis/",
+      "vehicleGameId": "caldermarquis",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-52b430e613af65ff1dec",
@@ -23778,7 +24510,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/calder-shasa/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/calder-shasa/",
+      "vehicleGameId": "caldershasa",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-8f1388b1e32fccf7874f",
@@ -23795,7 +24529,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/calder-torlan/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/calder-torlan/",
+      "vehicleGameId": "caldertorlan",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-8773c2dbe83d1775ad04",
@@ -23812,7 +24548,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/calder-yakuruna/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/calder-yakuruna/",
+      "vehicleGameId": "calderyakuruna",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-915bc89eb89a529fb696",
@@ -23846,7 +24584,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/dingus-como/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/dingus-como/",
+      "vehicleGameId": "dinguscomo",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-08ba1c2fe9008c0f4b82",
@@ -23863,7 +24603,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/dingus-nepa/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/dingus-nepa/",
+      "vehicleGameId": "dingusnepa",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-a6c2ecc3865dca44b7c0",
@@ -23880,7 +24622,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/hulls-flatdeck/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/hulls-flatdeck/",
+      "vehicleGameId": "hullsflatdeck",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-5baf6c35aba313d13ed5",
@@ -23897,7 +24641,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/hulls-sea-enchantress/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/hulls-sea-enchantress/",
+      "vehicleGameId": "hullsseaenchantress",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-5bd20c835683e6fd20f3",
@@ -23914,7 +24660,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/rugger-fortune/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/rugger-fortune/",
+      "vehicleGameId": "ruggerfortune",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-476d0850f4ffce468fed",
@@ -23931,7 +24679,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/rugger-hemming/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/rugger-hemming/",
+      "vehicleGameId": "ruggerhemming",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-a9a50238d2f6ccaa596c",
@@ -23965,7 +24715,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/nagasaki-tao/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/nagasaki-tao/",
+      "vehicleGameId": "nagasakitao",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-3c64cfade1c24d3823d1",
@@ -23982,7 +24734,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/lure-predator-l20s/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/lure-predator-l20s/",
+      "vehicleGameId": "lurepredatorl20s",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-fadaa47940e41b5821cc",
@@ -23999,7 +24753,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/blade-500/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/blade-500/",
+      "vehicleGameId": "blade500",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-c3c8dc4835ba1945153b",
@@ -24033,7 +24789,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/calder-dibnah/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/calder-dibnah/",
+      "vehicleGameId": "calderdibnah",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-af4c879fc95bcb03fedf",
@@ -24050,7 +24808,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/hulls-pontoon/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/hulls-pontoon/",
+      "vehicleGameId": "hullspontoon",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-7a02dca0d73d640dc24a",
@@ -24067,7 +24827,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/rugger-rhode/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/rugger-rhode/",
+      "vehicleGameId": "ruggerrhode",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-5d0aad15bc2892f0ee78",
@@ -24084,7 +24846,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/hauners-cargobob/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/hauners-cargobob/",
+      "vehicleGameId": "haunerscargobob",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-eaa5c36a493b2f058725",
@@ -24118,7 +24882,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/lapwing-mammatus/"
+      "vehiclePhotoLink": "https://sweatschool.app/gta-6/vehicles/lapwing-mammatus/",
+      "vehicleGameId": "lapwingmammatus",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-0e05680d60f49f6b5d5c",
@@ -24135,7 +24901,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/dingus-garda/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/dingus-garda/",
+      "vehicleGameId": "dingusgarda",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-44530cb92e04039508d4",
@@ -24169,7 +24937,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/cartright-biff/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/cartright-biff/",
+      "vehicleGameId": "cartrightbiff",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-37a90f86c250798399e9",
@@ -24186,7 +24956,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/cartright-hauler/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/cartright-hauler/",
+      "vehicleGameId": "cartrighthauler",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-f00888ff519889ec83a8",
@@ -24203,7 +24975,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/declasse-d7700/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/declasse-d7700/",
+      "vehicleGameId": "declassed7700",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-ab96a35fbcbbd5a6d7e5",
@@ -24220,7 +24994,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/vapid-guardian-tx2/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/vapid-guardian-tx2/",
+      "vehicleGameId": "vapidguardiantx2",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-90f4fbe14a95c047b1a6",
@@ -24237,7 +25013,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/maibatsu-iota/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/maibatsu-iota/",
+      "vehicleGameId": "maibatsuiota",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-5eb56eabf094344e5820",
@@ -24254,7 +25032,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://www.gtabase.com/gta-6/vehicles/mule"
+      "vehiclePhotoLink": "https://www.gtabase.com/gta-6/vehicles/mule",
+      "vehicleGameId": "maibatsumule",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-dd8ee4b2bd1187d3fe30",
@@ -24271,7 +25051,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/jobuilt-mb2-10/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/jobuilt-mb2-10/",
+      "vehicleGameId": "jobuiltmb210",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-5ba77362f92aa5821fd7",
@@ -24288,7 +25070,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/jobuilt-rubble/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/jobuilt-rubble/",
+      "vehicleGameId": "jobuiltrubble",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-aa1081f2941597a0ad3c",
@@ -24305,7 +25089,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/mtl-packer/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/mtl-packer/",
+      "vehicleGameId": "mtlpacker",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-3e8e4e8708cc9f95c2c7",
@@ -24322,7 +25108,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/maibatsu-caddy/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/maibatsu-caddy/",
+      "vehicleGameId": "maibatsucaddy",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-2a02975a360916bf9b2d",
@@ -24339,7 +25127,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://www.gtabase.com/gta-6/vehicles/ripley"
+      "vehiclePhotoLink": "https://www.gtabase.com/gta-6/vehicles/ripley",
+      "vehicleGameId": "bruteripley",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-d4ccfebda3a5fee47d85",
@@ -24356,7 +25146,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/80-interstate-yankee/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/80-interstate-yankee/",
+      "vehicleGameId": "80interstateyankee",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-ed7b6d3b001b95030136",
@@ -24373,7 +25165,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://www.gtabase.com/gta-6/vehicles/th42-telehandler"
+      "vehiclePhotoLink": "https://www.gtabase.com/gta-6/vehicles/th42-telehandler",
+      "vehicleGameId": "th42telehandler",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-338b82da2f0bf738324f",
@@ -24390,7 +25184,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/lifta/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/lifta/",
+      "vehicleGameId": "lifta",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-079ebae727f4aa865272",
@@ -24407,7 +25203,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://www.gtabase.com/gta-6/vehicles/furrow-tc-2350"
+      "vehiclePhotoLink": "https://www.gtabase.com/gta-6/vehicles/furrow-tc-2350",
+      "vehicleGameId": "stanleyfurrowtc2350",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-8307dfcd347b45f8c34c",
@@ -24424,7 +25222,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/99-jack-sheepe-fieldmaster/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/99-jack-sheepe-fieldmaster/",
+      "vehicleGameId": "99jacksheepefieldmaster",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-d8e5ee8ce6d272a20b00",
@@ -24441,7 +25241,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/whiffler-bus/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/whiffler-bus/",
+      "vehicleGameId": "whifflerbus",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-19f5800f53f40e04f272",
@@ -24458,7 +25260,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/brute-rental-bus/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/brute-rental-bus/",
+      "vehicleGameId": "bruterentalbus",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-ac930cb2dfc50c72e7e6",
@@ -24475,7 +25279,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://ultimategta6.com/database/vehicles/hulls-seacab/"
+      "vehiclePhotoLink": "https://ultimategta6.com/database/vehicles/hulls-seacab/",
+      "vehicleGameId": "hullsseacab",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-b595ff763c9e5521e9c4",
@@ -24492,7 +25298,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "pendingActivity": true,
       "extraSource": "https://www.powerpyx.com/gta-6-all-vehicles-cars/",
       "extraSourceLabel": "Bron vindtip",
-      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/declasse-ambulance-90s/"
+      "vehiclePhotoLink": "https://gta6wiki.eu/vehicles/declasse-ambulance-90s/",
+      "vehicleGameId": "declasseambulance",
+      "gameRegistrationSource": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/"
     },
     {
       "id": "excel-2cf7f44acf27ba6baed6",
@@ -35778,7 +36586,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vogels",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "blackcappedchickadee",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-animal-a1f989fb03d4f1c7cc03",
@@ -35790,7 +36600,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vogels",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "blueandyellowmacaw",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-animal-d9c5d15554dcc3949d4f",
@@ -35802,7 +36614,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vogels",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "newworldoriole",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-birds/"
     },
     {
       "id": "excel-animal-2fb68ac2348c0bcbbe72",
@@ -35814,7 +36628,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "americaneel",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-1c25747709dfab9c3e51",
@@ -35826,7 +36642,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "atlanticspadefish",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-0bd88dfcd8ef8c8cc457",
@@ -35838,7 +36656,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "atlanticspanishmackerel",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-9e15d52efabfa7690f97",
@@ -35850,7 +36670,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "atlantictarpon",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-3ee6d4c8c00eb588acd1",
@@ -35862,7 +36684,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "atlanticthreadherring",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-e6a80a58d3ddfe04bda8",
@@ -35874,7 +36698,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "blackdrum",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-e2f4fb820f0eb40311f1",
@@ -35886,7 +36712,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "blackgrouper",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-7387789a1c51e0410e66",
@@ -35898,7 +36726,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "bluegill",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-faefe07cc11f3966494e",
@@ -35910,7 +36740,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "bluestripedgrunt",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-b6651ffbc6d5e198b2b8",
@@ -35922,7 +36754,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "candyfish",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-f264bd0d749f1b53aa18",
@@ -35934,7 +36768,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "channelcatfish",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-f708ee848449bee46631",
@@ -35946,7 +36782,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "cobia",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-a344adaa39ac8d50ee30",
@@ -35958,7 +36796,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "commonsnook",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-06c964ee66667a33eeb9",
@@ -35970,7 +36810,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "greatbarracuda",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-cae455ed9a3b3d722875",
@@ -35982,7 +36824,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "greateramberjack",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-0ff6d7e3477c3bc98255",
@@ -35994,7 +36838,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "greenmorayeel",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-5fb22a6c82eb6a97496a",
@@ -36006,7 +36852,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "hogfish",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-bd443da35a7f14350cec",
@@ -36018,7 +36866,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "lakechubsucker",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-ee38230502ec8963ddc7",
@@ -36030,7 +36880,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "largemouthbass",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-84cb59cbdc09a5ee06fb",
@@ -36042,7 +36894,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "leonidagar",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-77bc226c62c5b2df454b",
@@ -36054,7 +36908,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "littleheadporgy",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-6c8db84ee566557dd1cc",
@@ -36066,7 +36922,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "mahimahi",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-93361d22e8c5e8d467ec",
@@ -36078,7 +36936,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "northernredsnapper",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-db1da349bb63856ac479",
@@ -36090,7 +36950,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "permit",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-d48f4dd496c9c5f4926f",
@@ -36102,7 +36964,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "redlionfish",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-2f93f93935bfed5956c2",
@@ -36114,7 +36978,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "redbreastsunfish",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-08181ff7ef5ac58dc62e",
@@ -36126,7 +36992,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "redfinpickerel",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-135296df4d0717355bef",
@@ -36138,7 +37006,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "rockseabass",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-59d6eb4188b0dcbde390",
@@ -36150,7 +37020,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "saltfish",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-746188a7f344ef4e33ac",
@@ -36162,7 +37034,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "spottedmorayeel",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-7324e958fd019b1b2793",
@@ -36174,7 +37048,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "stoplightparrotfish",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-33c6fbe93f946aa29800",
@@ -36186,7 +37062,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "stripedbass",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-d827f56b733022b6aeb3",
@@ -36198,7 +37076,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "tigergrouper",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-24ce9d7c47e70c2096cd",
@@ -36210,7 +37090,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "yellowfintuna",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-812d4d08cf372e62a3b9",
@@ -36222,7 +37104,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Vangbare vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "yellowtailsnapper",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-fish-fishing/"
     },
     {
       "id": "excel-animal-b3de91fc5acf7ff95e29",
@@ -36234,7 +37118,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Wilde zoogdieren",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "whitetaildeer",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-animal-f7d4b4aa110435988be5",
@@ -36270,7 +37156,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Honden",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "chihuahua",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-animal-aa8c761e58ff54f218d3",
@@ -36294,7 +37182,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Honden",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "maltesedog",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-animal-3bd6b96169f87f30aa30",
@@ -36330,7 +37220,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Honden",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "standardpoodle",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-animal-e1562989b94f78dc770e",
@@ -36354,7 +37246,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Katten",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "bengal",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-animal-5175542bc8e0e6d893d9",
@@ -36366,7 +37260,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Katten",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "bullworthlonghair",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-animal-3f77ac1811ffe183c4b6",
@@ -36378,7 +37274,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Katten",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "chocolatelonghair",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-animal-ae70a895f7a82987595a",
@@ -36390,7 +37288,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Katten",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "creamlonghair",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-animal-4ceb6820f13b37297502",
@@ -36402,7 +37302,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Katten",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "mackereltabby",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-animal-bb54a8d5190bc2d3912c",
@@ -36414,7 +37316,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Katten",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "russianblue",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-cats-dogs/"
     },
     {
       "id": "excel-animal-e176cf8671720e8bc2cf",
@@ -36426,7 +37330,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Reptielen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "easterndiamondbackrattlesnake",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-animal-024f341c0feaadaf7190",
@@ -36438,7 +37344,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Reptielen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "greeniguana",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-animal-6081c5fa1e242ba19d72",
@@ -36450,7 +37358,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Reptielen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "gulfcoastboxturtle",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-hunting-animals/"
     },
     {
       "id": "excel-animal-d3b4d2ebca9a6e2574e6",
@@ -36462,7 +37372,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Haaien en roggen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "giantoceanicmantaray",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-aquatic-animals/"
     },
     {
       "id": "excel-animal-f896921f14baac528ea9",
@@ -36474,7 +37386,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Zeezoogdieren",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "leonidamanatee",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-mammals/"
     },
     {
       "id": "excel-animal-70b28a6b4ead9f3ab56b",
@@ -36486,7 +37400,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Overige vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "atlanticbluefintuna",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-aquatic-animals/"
     },
     {
       "id": "excel-animal-daa7fad33da933664373",
@@ -36498,7 +37414,9 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Overige vissen",
       "detail": "Raadpleeg de gids voor deze soort.",
       "source": "https://gta6gang.com/guides/gta6-animals-list.html",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "animalGameId": "koi",
+      "gameRegistrationSource": "https://www.powerpyx.com/gta-6-all-aquatic-animals/"
     },
     {
       "id": "excel-dive-aba030dae3ef6b14492a",
@@ -43857,6 +44775,790 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "source": "https://leonipedia.com/guides/luxury-watches/",
       "sourceName": "Leonipedia",
       "type": "verified"
+    },
+    {
+      "id": "guide-game-vehicle-ascotparagon",
+      "title": "Ascot Paragon",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Coupes. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "ascotparagon"
+    },
+    {
+      "id": "guide-game-vehicle-benefactorschutzen",
+      "title": "Benefactor Schutzen",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Coupes. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "benefactorschutzen"
+    },
+    {
+      "id": "guide-game-vehicle-buckinghamwindsordrop",
+      "title": "Buckingham Windsor Drop",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Coupes. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "buckinghamwindsordrop"
+    },
+    {
+      "id": "guide-game-vehicle-65albanybuccaneer",
+      "title": "’65 Albany Buccaneer",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Muscle Cars. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "65albanybuccaneer"
+    },
+    {
+      "id": "guide-game-vehicle-64inveterocoquette",
+      "title": "’64 Invetero Coquette",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Muscle Cars. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "64inveterocoquette"
+    },
+    {
+      "id": "guide-game-vehicle-bravadogauntlethellfire",
+      "title": "Bravado Gauntlet Hellfire",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Muscle Cars. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "bravadogauntlethellfire"
+    },
+    {
+      "id": "guide-game-vehicle-77albanymanana",
+      "title": "’77 Albany Manana",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Muscle Cars. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "77albanymanana"
+    },
+    {
+      "id": "guide-game-vehicle-67declasseyosemite",
+      "title": "’67 Declasse Yosemite",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Muscle Cars. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "67declasseyosemite"
+    },
+    {
+      "id": "guide-game-vehicle-72schysterdeviant",
+      "title": "’72 Schyster Deviant",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Muscle Cars. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "72schysterdeviant"
+    },
+    {
+      "id": "guide-game-vehicle-67siriustransgressor",
+      "title": "’67 Sirius Transgressor",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Muscle Cars. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "67siriustransgressor"
+    },
+    {
+      "id": "guide-game-vehicle-vapidriata",
+      "title": "Vapid Riata",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Pickups. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "vapidriata"
+    },
+    {
+      "id": "guide-game-vehicle-07bravadobuffalo",
+      "title": "’07 Bravado Buffalo",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Sedans. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "07bravadobuffalo"
+    },
+    {
+      "id": "guide-game-vehicle-19bravadobuffalo",
+      "title": "’19 Bravado Buffalo",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Sedans. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "19bravadobuffalo"
+    },
+    {
+      "id": "guide-game-vehicle-80declasseimpaler",
+      "title": "’80 Declasse Impaler",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Sedans. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "80declasseimpaler"
+    },
+    {
+      "id": "guide-game-vehicle-29declasseimpaler",
+      "title": "’29 Declasse Impaler",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Sedans. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "29declasseimpaler"
+    },
+    {
+      "id": "guide-game-vehicle-ocelotjugular",
+      "title": "Ocelot Jugular",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Sedans. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "ocelotjugular"
+    },
+    {
+      "id": "guide-game-vehicle-98vapidstanier",
+      "title": "’98 Vapid Stanier",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Sedans. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "98vapidstanier"
+    },
+    {
+      "id": "guide-game-vehicle-85schysterwoodland",
+      "title": "’85 Schyster Woodland",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Sedans. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "85schysterwoodland"
+    },
+    {
+      "id": "guide-game-vehicle-bravadobanshee",
+      "title": "Bravado Banshee",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Sports Cars. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "bravadobanshee"
+    },
+    {
+      "id": "guide-game-vehicle-pfistergrowler",
+      "title": "Pfister Growler",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Sports Cars. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "pfistergrowler"
+    },
+    {
+      "id": "guide-game-vehicle-64declassemambagt",
+      "title": "’64 Declasse Mamba GT",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Sports Cars. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "64declassemambagt"
+    },
+    {
+      "id": "guide-game-vehicle-picciafuria",
+      "title": "Piccia Furia",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Supercars. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "picciafuria"
+    },
+    {
+      "id": "guide-game-vehicle-96pegassiinfernus",
+      "title": "’96 Pegassi Infernus",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Supercars. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "96pegassiinfernus"
+    },
+    {
+      "id": "guide-game-vehicle-grottiitalirsx",
+      "title": "Grotti Itali RSX",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Supercars. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "grottiitalirsx"
+    },
+    {
+      "id": "guide-game-vehicle-pegassitempesta",
+      "title": "Pegassi Tempesta",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Supercars. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "pegassitempesta"
+    },
+    {
+      "id": "guide-game-vehicle-pegassivitello",
+      "title": "Pegassi Vitello",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Supercars. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "pegassivitello"
+    },
+    {
+      "id": "guide-game-vehicle-granformazorrusso",
+      "title": "Granforma Zorrusso",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Supercars. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "granformazorrusso"
+    },
+    {
+      "id": "guide-game-vehicle-gallivanterballerstd",
+      "title": "Gallivanter Baller ST-D",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse SUVs. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "gallivanterballerstd"
+    },
+    {
+      "id": "guide-game-vehicle-benefactordubsta",
+      "title": "Benefactor Dubsta",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse SUVs. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "benefactordubsta"
+    },
+    {
+      "id": "guide-game-vehicle-buckinghamjubilee",
+      "title": "Buckingham Jubilee",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse SUVs. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "buckinghamjubilee"
+    },
+    {
+      "id": "guide-game-vehicle-pegassitoros",
+      "title": "Pegassi Toros",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse SUVs. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "pegassitoros"
+    },
+    {
+      "id": "guide-game-vehicle-endurexaerobike",
+      "title": "Endurex Aerobike",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Bikes. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "endurexaerobike"
+    },
+    {
+      "id": "guide-game-vehicle-bravadoaphid",
+      "title": "Bravado Aphid",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Bikes. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "bravadoaphid"
+    },
+    {
+      "id": "guide-game-vehicle-waltercrusher",
+      "title": "Walter Crusher",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Bikes. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "waltercrusher"
+    },
+    {
+      "id": "guide-game-vehicle-dinkadoublet",
+      "title": "Dinka Double-T",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Bikes. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "dinkadoublet"
+    },
+    {
+      "id": "guide-game-vehicle-ubermachtfcr1000",
+      "title": "Übermacht FCR 1000",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Bikes. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "ubermachtfcr1000"
+    },
+    {
+      "id": "guide-game-vehicle-principelectro",
+      "title": "Principe Lectro",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Bikes. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "principelectro"
+    },
+    {
+      "id": "guide-game-vehicle-walterlombike",
+      "title": "Walter Lombike",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Bikes. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "walterlombike"
+    },
+    {
+      "id": "guide-game-vehicle-dinkaversus",
+      "title": "Dinka Versus",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Bikes. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "dinkaversus"
+    },
+    {
+      "id": "guide-game-vehicle-airgatorairboat09",
+      "title": "Airgator Airboat 09",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Watercraft. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "airgatorairboat09"
+    },
+    {
+      "id": "guide-game-vehicle-clario",
+      "title": "Clario",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Watercraft. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "clario"
+    },
+    {
+      "id": "guide-game-vehicle-bomboras23css",
+      "title": "Bombora S23 CSS",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Watercraft. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "bomboras23css"
+    },
+    {
+      "id": "guide-game-vehicle-bottcher020",
+      "title": "Bottcher 020",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Aircraft. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "bottcher020"
+    },
+    {
+      "id": "guide-game-vehicle-deckercrake",
+      "title": "Decker Crake",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Aircraft. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "deckercrake"
+    },
+    {
+      "id": "guide-game-vehicle-lapwingnimbus",
+      "title": "Lapwing Nimbus",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Aircraft. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "lapwingnimbus"
+    },
+    {
+      "id": "guide-game-vehicle-buckinghamshamal",
+      "title": "Buckingham Shamal",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Aircraft. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "buckinghamshamal"
+    },
+    {
+      "id": "guide-game-vehicle-buckinghamsupervolito",
+      "title": "Buckingham Supervolito",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Aircraft. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "buckinghamsupervolito"
+    },
+    {
+      "id": "guide-game-vehicle-buckinghamswift",
+      "title": "Buckingham Swift",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Aircraft. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "buckinghamswift"
+    },
+    {
+      "id": "guide-game-vehicle-95interstatebenson",
+      "title": "’95 Interstate Benson",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Trucks. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "95interstatebenson"
+    },
+    {
+      "id": "guide-game-vehicle-82maibatsucaddy",
+      "title": "’82 Maibatsu Caddy",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Utility Vehicles. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "82maibatsucaddy"
+    },
+    {
+      "id": "guide-game-vehicle-brutetacovan",
+      "title": "Brute Taco Van",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Utility Vehicles. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "brutetacovan"
+    },
+    {
+      "id": "guide-game-vehicle-haunersbrigade",
+      "title": "Hauners Brigade",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Emergency Vehicles. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "haunersbrigade"
+    },
+    {
+      "id": "guide-game-vehicle-99interstatestockade",
+      "title": "’99 Interstate Stockade",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Emergency Vehicles. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "99interstatestockade"
+    },
+    {
+      "id": "guide-game-vehicle-mtlcr5013",
+      "title": "MTL CR5013",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Industrial Vehicles. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "mtlcr5013"
+    },
+    {
+      "id": "guide-game-vehicle-dump",
+      "title": "Dump",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Industrial Vehicles. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "dump"
+    },
+    {
+      "id": "guide-game-vehicle-taxi",
+      "title": "Taxi",
+      "category": "activities",
+      "collection": "Voertuigmodellen scannen",
+      "pendingActivity": true,
+      "area": null,
+      "chapter": 1,
+      "detail": "Zoek op de modelnaam in Progress → Vehicles. De bron noemt de klasse Transport Vehicles. Een specifieke vindplek is nog niet gekoppeld.",
+      "source": "https://sweatschool.app/gta-6/gameplay/all-vehicles-by-class/",
+      "sourceName": "Sweat School / PowerPyx",
+      "type": "verified",
+      "vehicleGameId": "taxi"
     }
   ],
   "overrides": {

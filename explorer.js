@@ -518,7 +518,9 @@
   const gold=Object.keys(model.medals||{}).filter(id=>model.medals[id]==='gold');
   const goal=gameTargets.get(kind);
   const medalActivity=items.some(item=>item.medal);
-  const totalMeter=kind==='Stick Ups' ? stickUpProgress(items) : kind==='Meditaties'
+  const surveyed=kind==='Dieren bestuderen'?['Dieren','animalGameId',255,100]:
+   kind==='Voertuigmodellen scannen'?['Voertuigbasismodellen','vehicleGameId',277,200]:null;
+  const totalMeter=surveyed?collectibleGoalRow(surveyed[0],registrationsDone(items,new Set(checked()),surveyed[1]),surveyed[2],surveyed[3]):kind==='Stick Ups' ? stickUpProgress(items) : kind==='Meditaties'
    ? gameGoalMeter(items.flatMap(item=>meditationCharacters.get(item.id)||[item]),'Meditaties per personage',goal,model.checked)
    : goal
     ? gameGoalMeter(items,medalActivity?'Gouden medailles':kind,goal,medalActivity?gold:checked())
@@ -532,7 +534,20 @@
   const goldTotal=medalActivity&&!goal?`<p>Goud ${items.filter(item=>gold.includes(item.id)).length} van ${items.length}</p>`:'';
   progress.innerHTML=totalMeter+marked+areaMeter+stunts+goldTotal;
  }
+ const registrationKey=item=>item?.animalGameId?'animal:'+item.animalGameId:item?.vehicleGameId?'vehicle:'+item.vehicleGameId:null;
+ const registrations=new Map();
+ for(const item of activityRecords){
+  const key=registrationKey(item);
+  if(!key)continue;
+  if(!registrations.has(key))registrations.set(key,[]);
+  registrations.get(key).push(item.id);
+ }
+ function registrationsDone(items,found,property){
+  return new Set(items.filter(item=>item[property]&&found.has(item.id)).map(item=>item[property])).size;
+ }
  function activityDone(item,found){
+  const equivalent=registrations.get(registrationKey(item));
+  if(equivalent)return equivalent.some(id=>found.has(id));
   if(item.medal)return model.medals?.[item.id]==='gold';
   const characters=meditationCharacters.get(item.id);
   return characters?characters.every(character=>found.has(character.id)):found.has(item.id);
@@ -575,7 +590,7 @@
     ? `<fieldset class="medal-choice"><legend>${title}</legend><div class="medal-options">
      ${medalOptions.map(([value,name])=>`<label class="medal-option" data-rank="${value}"><input type="checkbox" data-activity-medal="${esc(item.id)}" value="${value}" ${model.medals?.[item.id]===value?'checked':''}><span aria-hidden="true" class="medal-icon"></span>${name}</label>`).join('')}
      </div></fieldset>`
-    : `<label class="task"><input type="checkbox" data-activity-record="${esc(item.id)}" ${found.has(item.id)?'checked':''}><span>${title}</span></label>`;
+    : `<label class="task"><input type="checkbox" data-activity-record="${esc(item.id)}" ${activityDone(item,found)?'checked':''}><span>${title}</span></label>`;
    card.innerHTML=`${result}
     <details><summary>${item.screenshot&&item.collection!=='Voertuigmodellen scannen'?'Uitleg, bron en screenshot':'Uitleg en bron'}</summary>
     ${item.detail&&item.detail!==location?`<p>${esc(item.detail)}</p>`:''}
@@ -617,7 +632,11 @@
    else delete model.medals[activityMedal];
    for(const option of input.closest('fieldset').querySelectorAll('input'))option.checked=option===input&&input.checked;
   }else{
-   model.checked=input.checked?[...new Set([...model.checked,activityRecord])]:model.checked.filter(value=>value!==activityRecord);
+   const ids=registrations.get(registrationKey(activityRecords.find(item=>item.id===activityRecord)))||[activityRecord];
+   model.checked=input.checked?[...new Set([...model.checked,activityRecord])]:model.checked.filter(id=>!ids.includes(id));
+   for(const checkbox of activityList.querySelectorAll('[data-activity-record]')){
+    if(ids.includes(checkbox.dataset.activityRecord))checkbox.checked=input.checked;
+   }
   }
   persist();
   const items=selectedActivities();
@@ -828,7 +847,7 @@
   if(value===undefined)return 'Onbekend · doel '+dollars.format(goal);
   return dollars.format(value)+' / '+dollars.format(goal)+(value>=goal?' · Behaald':' · Nog '+dollars.format(goal-value));
  }
- const gameGoalGroups=[["Verhaal en taken",[["Hoofdverhaal",1,"story"],["Optionele taken",100,"optional"],["Bendeoperaties",39,"gangs"],["Bankovervallen",22,"banks"],["Payday Loan Jobs",7,"payday"],["Smash ’N’ Grabs",34,"smash"],["Stick Ups",50,"stickups"],["Drugs verkocht",100000,"drugs"],["Juwelen verkocht",100000,"jewelry"],["Gemarkeerde biljetten verkocht",250000,"bills"],["Kluizen",8,"vaults"],["Voertuigen verkocht",200000,"vehicles"]]],["Verkenning en activiteiten",[["Kenton-sets",5,"kenton"],["Kaartseries",15,"cardsets"],["WAiNK-scans",100,"waink"],["Onderwatervondsten",33,"dives"],["Tijdschriften, boeken en strips",30,"reading"],["Meditaties",15,"meditations"],["Flamingo’s",100,"flamingos"],["Unieke afspeellijsten",2,"playlists"],["Ontdekte stijlen",70,"styles"],["Unieke races",30,"races"],["Race-uitdagingen met goud",10,"raceGold"],["Schietuitdagingen met goud",42,"rangeGold"],["Arcadegames",4,"arcade"],["Pooltegenstanders",5,"pool"],["Minigolflocaties",2,"golf"],["Basketbalringen",90,"hoops"],["Droneproeven",42,"drones"],["Stunts",300,"stunts"],["Uitdagingen",70,"challenges"],["Bret’s Target Decks",15,"bret"]]],["Ontdekkingen",[["Voertuigbasismodellen",200],["Standaardwapens",50,"weapons"],["Dieren",100]]]];
+ const gameGoalGroups=[["Verhaal en taken",[["Hoofdverhaal",1,"story"],["Optionele taken",100,"optional"],["Bendeoperaties",39,"gangs"],["Bankovervallen",22,"banks"],["Payday Loan Jobs",7,"payday"],["Smash ’N’ Grabs",34,"smash"],["Stick Ups",50,"stickups"],["Drugs verkocht",100000,"drugs"],["Juwelen verkocht",100000,"jewelry"],["Gemarkeerde biljetten verkocht",250000,"bills"],["Kluizen",8,"vaults"],["Voertuigen verkocht",200000,"vehicles"]]],["Verkenning en activiteiten",[["Kenton-sets",5,"kenton"],["Kaartseries",15,"cardsets"],["WAiNK-scans",100,"waink"],["Onderwatervondsten",33,"dives"],["Tijdschriften, boeken en strips",30,"reading"],["Meditaties",15,"meditations"],["Flamingo’s",100,"flamingos"],["Unieke afspeellijsten",2,"playlists"],["Ontdekte stijlen",70,"styles"],["Unieke races",30,"races"],["Race-uitdagingen met goud",10,"raceGold"],["Schietuitdagingen met goud",42,"rangeGold"],["Arcadegames",4,"arcade"],["Pooltegenstanders",5,"pool"],["Minigolflocaties",2,"golf"],["Basketbalringen",90,"hoops"],["Droneproeven",42,"drones"],["Stunts",300,"stunts"],["Uitdagingen",70,"challenges"],["Bret’s Target Decks",15,"bret"]]],["Ontdekkingen",[["Voertuigbasismodellen",200,"baseVehicles"],["Standaardwapens",50,"weapons"],["Dieren",100,"animals"]]]];
  const wainkCollections=new Set(['WAiNK-bezienswaardigheden','WAiNK-curiositeiten','WAiNK-sculpturen','NoFlusher-tags','PeeWee-billboards']);
  const wainkScans=trusted.filter(item=>!item.referenceOnly&&wainkCollections.has(item.collection));
  const underwaterDiscoveries=trusted.filter(item=>!item.referenceOnly&&item.collection==='Duikplekken en schatten'&&
@@ -896,6 +915,7 @@
   return {
    kenton:kentonCount(found),reading:readingCount(found),playlists:playlistCount(found),
    styles:core.progress(styleRecords,found).done,weapons:core.progress(standardWeapons,found).done,
+   baseVehicles:registrationsDone(activityRecords,completed,"vehicleGameId"),animals:registrationsDone(activityRecords,completed,"animalGameId"),
    story:Number(completed.has('guide-mission-ch5-the-end-of-the-road')),
    optional:core.progress(optionalTasks,found).done,
    gangs:amount(item=>item.locationType==='illegal-operation'),
