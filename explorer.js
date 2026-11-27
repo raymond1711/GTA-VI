@@ -207,7 +207,7 @@
     "Flessenpost",
     "Unieke afspeellijsten"
   ],
-  "Stijl en horloges": [
+  "Ontdekte stijlen": [
     "Tijdschriftstijlen Jason en Lucia",
     "Tijdschrifttatoeages",
     "Luxe horloges"
@@ -225,7 +225,11 @@
  const groupedNames=new Set(Object.values(themedCollections).flat());
  const groups=Object.entries(themedCollections).map(([label,names])=>[label,names.filter(name=>otherCollections.includes(name))]);
  groups.push(["Overige verzamelobjecten",otherCollections.filter(name=>!groupedNames.has(name))]);
- const themedOptions=groups.filter(([,names])=>names.length).map(([label,names])=>`<optgroup label="${esc(label)}">${collectionOptions(names)}</optgroup>`).join("");
+ const collectibleLabels={
+  'Tijdschriftstijlen Jason en Lucia':'Kapsels, gezichtshaar en make-up',
+  'Tijdschrifttatoeages':'Tatoeageontwerpen'
+ };
+ const themedOptions=groups.filter(([,names])=>names.length).map(([label,names])=>`<optgroup label="${esc(label)}">${names.map(name=>`<option value="${esc(name)}">${esc(collectibleLabels[name]||name)}</option>`).join("")}</optgroup>`).join("");
  collectibles.innerHTML=`<header class="page-heading page-heading--collect"><p class="eyebrow">VIND EN VERZAMEL</p><h1>Collectibles</h1></header>${evidenceLegend}<div class="collect-controls">
  <label>Collectie <select id="collect-series"><optgroup label="Verzamelkaartjes">${collectionOptions(cardSeries)}</optgroup>${themedOptions}</select></label>
  <label><input type="checkbox" id="collect-missing"> Alleen ontbrekende</label>
@@ -628,8 +632,24 @@
  explore.addEventListener('click',e=>{const area=e.target.closest('[data-area]');if(area)selectArea(area.dataset.area)});
  explore.querySelectorAll('.map-region').forEach(p=>p.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();selectArea(p.dataset.area)}}));
  function itemRow(item,showLocation=false){const row=document.createElement('div');row.className='explore-item';row.innerHTML=`<label class="task"><input type="checkbox" data-record="${esc(item.id)}" ${checked().includes(item.id)?'checked':''}><span>${item.locationType==='illegal-operation'?'<em class="robbery-tag">● Gele overvallocatie</em>':''}<b>${esc(item.title)}</b>${sourceEvidence(item)}${item.unlockUncertain?'<small class="unlock-uncertain"><span aria-hidden="true">!</span> Beschikbaarheid per hoofdstuk onzeker</small>':''}<small>${esc(item.detail)}${item.mapLabel?'<br><span class="unlock-condition">Op de kaart: '+esc(item.mapLabel)+'</span>':''}${item.condition?'<br><span class="unlock-condition">Voorwaarde: '+esc(item.condition)+'</span>':''}${item.availableUntilChapter?'<br><span class="expiry-condition">Alleen t/m hoofdstuk '+item.availableUntilChapter+'</span>':''}${!item.unlockUncertain&&item.availabilityBasis?.startsWith('afgeleid')?'<br><span class="unlock-condition">Indeling: '+esc(item.availabilityBasis)+'.</span>':''}</small></span></label><div class="item-meta">${item.locationType==='mission-loot'?'Missiegebonden buit · ':item.locationType==='safe'?'Losse kluis · ':item.locationType==='bank-job'||item.locationType==='bank-vault'?'Bankoverval · ':''}${item.type==='verified'?'Gidsbron: '+esc(item.sourceName||'bronlink'):'Persoonlijke opdracht'}${item.sourceNote?' · Bronnotitie: '+esc(item.sourceNote):''}${item.source?` · <a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">Bron ↗</a>`:''}</div><button type="button" class="quiet" data-note="${esc(item.id)}">Opmerking</button><button type="button" class="quiet" data-photo="${esc(item.id)}">Foto toevoegen</button><textarea class="item-note" aria-label="Opmerking bij ${esc(item.title)}" maxlength="3000" hidden></textarea>`;const textarea=row.querySelector('textarea');textarea.value=model.notes[item.id]||'';textarea.oninput=()=>{model.notes[item.id]=textarea.value;persist()};row.querySelector('[data-note]').onclick=()=>{textarea.hidden=!textarea.hidden;if(!textarea.hidden)textarea.focus()};row.querySelector('[data-photo]').onclick=()=>{go('journal');const title=document.querySelector('#photo-title'),category=document.querySelector('#photo-category');title.value=item.title.slice(0,100);category.value=item.area||item.extraArea||model.area||'';document.querySelector('#photo-note').value=(model.notes[item.id]||'').slice(0,2000);window.leonidaPhotoContext=item.id;title.focus()};if(showLocation||item.locationType==='illegal-operation'){const location=document.createElement('p');location.className='mission-location';location.textContent=(item.unlockUncertain?'Hoofdstuk onbekend':item.id==='guide-mission-prologue'?'Proloog':(item.availabilityBasis?.startsWith('afgeleid')?'In app bij hoofdstuk ':'Vanaf hoofdstuk ')+item.chapter)+' · '+(item.sourceLocation||areas.find(a=>a.id===item.area)?.name||'Algemene opdracht')+(item.area?'':' · kaartgebied nog niet bevestigd');row.prepend(location)}return row;}
+ const styleCollections=new Set(['Tijdschriftstijlen Jason en Lucia','Tijdschrifttatoeages','Luxe horloges']);
+ const styleRecords=trusted.filter(item=>styleCollections.has(item.collection)&&!item.referenceOnly&&item.id!=='guide-watch-crowex-bobby'&&item.id!=='guide-style-midas');
+ const standardWeapons=trusted.filter(item=>item.locationType==='standard-weapon');
+ function renderStandardWeapons(opened){
+  const details=document.createElement('details');
+  details.className='explore-category mission-overview';
+  details.dataset.missionKind='standard-weapons';
+  details.open=opened.has('standard-weapons');
+  details.innerHTML='<summary><strong>Standaardwapens · Wapens &amp; uitrusting</strong></summary><div class="explore-items"></div>';
+  const list=details.querySelector('.explore-items');
+  for(const group of ['Vuurwapens','Slagwapens','Explosieven']){
+   const heading=document.createElement('h3');heading.className='list-chapter-heading';heading.textContent=group;list.append(heading);
+   for(const item of standardWeapons.filter(item=>item.weaponGroup===group))list.append(itemRow(item,true));
+  }
+  missionHub.append(details);
+ }
  function renderMissionHub(all){
-  const opened=new Set([...missionHub.querySelectorAll('details[open]')].map(d=>d.dataset.missionKind));missionHub.replaceChildren();
+  const opened=new Set([...missionHub.querySelectorAll('details[open]')].map(d=>d.dataset.missionKind));missionHub.replaceChildren();renderStandardWeapons(opened);
   for(const [kind,title] of [['missions','Hoofdmissies in alle gebieden'],['sidequests','Zijmissies in alle gebieden'],['loot','Overvallen & lootlocaties in alle gebieden']]){
    const visible=core.visible(core.category(all,kind),model.chapter).sort(storySort),details=document.createElement('details');details.className='explore-category mission-overview';details.dataset.missionKind=kind;details.open=opened.has(kind);details.innerHTML=`<summary><strong>${title} <span aria-hidden="true">⌄</span></strong><span class="mission-visible-count">${visible.length} zichtbaar</span></summary><p class="mission-explanation">Alles tot en met hoofdstuk ${model.chapter}, los van je gebiedskeuze. Startvoorwaarden staan bij elk punt. ${kind==='missions'?'Inclusief kleinere verhaal- en wachttaken: het aantal kan afwijken van Story Recap. De proloog staat bij hoofdstuk 1.':kind==='loot'?'De gele locaties zijn Illegal Operations: vink een locatie af wanneer je de Key Valuables op de spelkaart hebt verzameld. De app bevat alle 39 standaardlocaties. Een rood uitroepteken betekent dat de beschikbaarheid per hoofdstuk onzeker is. Missiegebonden buit en losse kluizen zijn apart gemarkeerd. Stick Ups staan bij Activiteiten.':'Sommige uitnodigingen verschijnen pas na een bericht of wisseling van personage.'} Hoofdstuk-exclusieve verlopen punten blijven in je voortgang bewaard.</p><div class="explore-items"></div>`;
    const list=details.querySelector('.explore-items');if(!visible.length){const empty=document.createElement('p');empty.className='scope-note';empty.textContent='Nog geen onderdelen vastgelegd voor deze hoofdstukkeuze.';list.append(empty)}let lastChapter=null;for(const item of visible){if(lastChapter!==item.chapter){const heading=document.createElement('h3');heading.className='list-chapter-heading';heading.textContent=(item.availabilityBasis?.startsWith('afgeleid')?'In app bij hoofdstuk ':'Vanaf hoofdstuk ')+item.chapter;list.append(heading);lastChapter=item.chapter}list.append(itemRow(item,true));}missionHub.append(details);
@@ -736,7 +756,7 @@
   if(value===undefined)return 'Onbekend · doel '+dollars.format(goal);
   return dollars.format(value)+' / '+dollars.format(goal)+(value>=goal?' · Behaald':' · Nog '+dollars.format(goal-value));
  }
- const gameGoalGroups=[["Verhaal en taken",[["Hoofdverhaal",1,"story"],["Optionele taken",100,"optional"],["Bendeoperaties",39,"gangs"],["Bankovervallen",22,"banks"],["Payday Loan Jobs",7,"payday"],["Smash ’N’ Grabs",34],["Stick Ups",50,"stickups"],["Drugs verkocht",100000,"drugs"],["Juwelen verkocht",100000,"jewelry"],["Gemarkeerde biljetten verkocht",250000,"bills"],["Kluizen",8,"vaults"],["Voertuigen verkocht",200000,"vehicles"]]],["Verkenning en activiteiten",[["Kenton-sets",5,"kenton"],["Kaartseries",15,"cardsets"],["WAiNK-scans",100,"waink"],["Onderwatervondsten",33,"dives"],["Tijdschriften, boeken en strips",30,"reading"],["Meditaties",15,"meditations"],["Flamingo’s",100],["Unieke afspeellijsten",2,"playlists"],["Ontdekte stijlen",70],["Unieke races",30,"races"],["Race-uitdagingen met goud",10,"raceGold"],["Schietuitdagingen met goud",42,"rangeGold"],["Arcadegames",4,"arcade"],["Pooltegenstanders",5,"pool"],["Minigolflocaties",2,"golf"],["Basketbalringen",90,"hoops"],["Droneproeven",42,"drones"],["Stunts",300,"stunts"],["Uitdagingen",70,"challenges"],["Bret’s Target Decks",15,"bret"]]],["Ontdekkingen",[["Voertuigbasismodellen",200],["Standaardwapens",50],["Dieren",100]]]];
+ const gameGoalGroups=[["Verhaal en taken",[["Hoofdverhaal",1,"story"],["Optionele taken",100,"optional"],["Bendeoperaties",39,"gangs"],["Bankovervallen",22,"banks"],["Payday Loan Jobs",7,"payday"],["Smash ’N’ Grabs",34],["Stick Ups",50,"stickups"],["Drugs verkocht",100000,"drugs"],["Juwelen verkocht",100000,"jewelry"],["Gemarkeerde biljetten verkocht",250000,"bills"],["Kluizen",8,"vaults"],["Voertuigen verkocht",200000,"vehicles"]]],["Verkenning en activiteiten",[["Kenton-sets",5,"kenton"],["Kaartseries",15,"cardsets"],["WAiNK-scans",100,"waink"],["Onderwatervondsten",33,"dives"],["Tijdschriften, boeken en strips",30,"reading"],["Meditaties",15,"meditations"],["Flamingo’s",100],["Unieke afspeellijsten",2,"playlists"],["Ontdekte stijlen",70,"styles"],["Unieke races",30,"races"],["Race-uitdagingen met goud",10,"raceGold"],["Schietuitdagingen met goud",42,"rangeGold"],["Arcadegames",4,"arcade"],["Pooltegenstanders",5,"pool"],["Minigolflocaties",2,"golf"],["Basketbalringen",90,"hoops"],["Droneproeven",42,"drones"],["Stunts",300,"stunts"],["Uitdagingen",70,"challenges"],["Bret’s Target Decks",15,"bret"]]],["Ontdekkingen",[["Voertuigbasismodellen",200],["Standaardwapens",50,"weapons"],["Dieren",100]]]];
  const wainkCollections=new Set(['WAiNK-bezienswaardigheden','WAiNK-curiositeiten','WAiNK-sculpturen','NoFlusher-tags','PeeWee-billboards']);
  const wainkScans=trusted.filter(item=>!item.referenceOnly&&wainkCollections.has(item.collection));
  const underwaterDiscoveries=trusted.filter(item=>!item.referenceOnly&&item.collection==='Duikplekken en schatten'&&
@@ -753,6 +773,8 @@
    return collectibleGoalRow('Unieke gelezen titels',readingCount(found),34,30);
   }else if(selection==='Unieke afspeellijsten'){
    return collectibleGoalRow('Unieke afspeellijsten',playlistCount(found),2,2);
+  }else if(styleCollections.has(selection)){
+   return collectibleGoalRow('Ontdekte stijlen',core.progress(styleRecords,found).done,79,70);
   }else if(selection===flamingoCollection){
    [title,rows,total,goal]=['Flamingo’s',trusted.filter(item=>collectionOf(item)===selection&&!item.referenceOnly),125,100];
   }else if(trusted.some(item=>item.series&&collectionOf(item)===selection)){
@@ -801,6 +823,7 @@
   }
   return {
    kenton:kentonCount(found),reading:readingCount(found),playlists:playlistCount(found),
+   styles:core.progress(styleRecords,found).done,weapons:core.progress(standardWeapons,found).done,
    story:Number(completed.has('guide-mission-ch5-the-end-of-the-road')),
    optional:core.progress(optionalTasks,found).done,
    gangs:amount(item=>item.locationType==='illegal-operation'),
@@ -846,7 +869,7 @@
      const value=counts[key];
      if(Object.hasOwn(core.saleGoals,key))return `<li class="sale-goal"><label>${esc(title)}<input type="number" min="0" max="${Number.MAX_SAFE_INTEGER}" step="1" inputmode="numeric" data-sale="${key}" value="${value??''}"></label><small data-sale-status="${key}" aria-live="polite">${esc(saleStatus(key))}</small><div data-sale-track="${key}">${goalTrack(title,value,minimum)}</div></li>`;
      const status=key==='story'?(value?'Behaald':'Laatste hoofdmissie nog niet afgevinkt'):value===undefined?'Onbekend · doel '+number.format(minimum):number.format(value)+' van '+number.format(minimum)+(value>=minimum?' · Behaald':'');
-     return `<li><strong>${esc(title)}</strong><span>${esc(status)}${key==='optional'?' · '+optionalTasks.length+' taken gekoppeld':key==='reading'?' · 33 van 34 unieke titels opgenomen':''}${provisional[key]?' · '+provisional[key]+' voorlopig':''}</span>
+     return `<li><strong>${esc(title)}</strong><span>${esc(status)}${key==='optional'?' · '+optionalTasks.length+' taken gekoppeld':key==='reading'?' · 33 van 34 unieke titels opgenomen':key==='styles'?' · '+styleRecords.length+' van 79 vermeldingen gekoppeld':''}${provisional[key]?' · '+provisional[key]+' voorlopig':''}</span>
       ${goalTrack(title,value,minimum)}</li>`;
     }).join('')}</ul></section>`).join('')}`;
   const optional=target.querySelector('[aria-label="Optionele taken"]').closest('li');
