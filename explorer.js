@@ -25,7 +25,20 @@
  // Bestaande opdrachten delen exact dezelfde IDs/vinkjes; geen officiële vindplaatsen.
  const legacy=cats.flatMap(c=>c.tasks.map(t=>({...t,area:['city','keys','grass'].includes(c.id)?c.id:null,category:/screenshot|herinnering|uitzicht|favoriete|omgeving/.test((t.title+' '+t.detail).toLowerCase())?'sights':'activities',chapter:1,source:'',type:'personal'})));
  const activeDiscoveries=trusted.filter(item=>!item.pendingActivity);
- const activeReferences=info.filter(item=>!item.pendingActivity);
+ const activeReferences=info.filter(item=>!item.pendingActivity&&!item.collection?.includes('gidsverwijzingen')&&!item.collection?.includes('alternatieve vindplekken'));
+ const alternateReadings=info.filter(item=>item.collection?.includes('alternatieve vindplekken'));
+ const readingTitleKey=title=>title.normalize('NFD').toLowerCase().replace(/\(?issue\s+\d+\)?/g,'').replace(/[^a-z0-9]/g,'');
+ function readingLocations(item){
+  if(!item.readingId)return [];
+  return [...trusted.filter(other=>other.readingId===item.readingId&&other.id!==item.id),
+   ...alternateReadings.filter(other=>readingTitleKey(other.title)===readingTitleKey(item.title))];
+ }
+ function readingChecked(item,found){
+  return found.has(item.id)||readingLocations(item).some(other=>found.has(other.id));
+ }
+ function collectibleInArea(item,area){
+  return [item,...readingLocations(item)].some(place=>area==='unknown'?hasNoRegion(place):place.area===area||place.extraArea===area);
+ }
  const activityRecords=core.unique(trusted.filter(item=>item.pendingActivity&&!item.referenceOnly)).map(item=>({...item,category:'activities'}));
  const meditationCharacters=new Map();
  for(const item of trusted.filter(item=>item.meditationParent)){
@@ -215,11 +228,6 @@
   "Voertuigen": ["Standout-voertuigen", "Wyman’s Cars"],
   "Wapens en uitrusting": ["Unieke wapenvarianten", "Uitrusting"],
   "Persoonlijk": ["Eigen verzamelobjecten"],
-  "Kaarten en extra vindplaatsen": [
-    "Aanvullende kaartpinnen",
-    "Ahol Street Art · gidsverwijzingen",
-    "Tijdschriften · alternatieve vindplekken"
-  ]
 };
  const collectionOptions=names=>names.map(name=>`<option>${esc(name)}</option>`).join('');
  const groupedNames=new Set(Object.values(themedCollections).flat());
@@ -235,6 +243,56 @@
  <label><input type="checkbox" id="collect-missing"> Alleen ontbrekende</label>
  </div>
  <div id="collect-map"></div><p id="collect-status" aria-live="polite"></p><div id="collect-game-goal" hidden></div><p id="collect-coverage" class="scope-note" hidden></p><div id="collect-list"></div>`;
+ function makeDownwardPicker(select){
+  const label=select.closest('label');
+  const picker=document.createElement('details');
+  picker.className='downward-picker';
+  const summary=document.createElement('summary');
+  const choices=document.createElement('div');
+  choices.className='downward-choices';
+  const heading=label.firstChild.textContent.trim();
+  const refresh=()=>{
+   summary.textContent=heading+' · '+(select.selectedOptions[0]?.textContent||'Maak een keuze');
+   for(const option of choices.querySelectorAll('button'))option.setAttribute('aria-pressed',String(option.dataset.value===select.value));
+  };
+  const addOptions=(parent,options)=>{
+   for(const option of options){
+    const button=document.createElement('button');
+    button.type='button';
+    button.dataset.value=option.value;
+    button.textContent=option.textContent;
+    button.disabled=option.disabled;
+    button.onclick=()=>{
+     select.value=option.value;
+     select.dispatchEvent(new Event('change',{bubbles:true}));
+     picker.open=false;
+     summary.focus();
+    };
+    parent.append(button);
+   }
+  };
+  for(const node of select.children){
+   if(node.tagName==='OPTGROUP'){
+    const group=document.createElement('div');
+    const title=document.createElement('strong');title.textContent=node.label;
+    group.append(title);addOptions(group,node.children);choices.append(group);
+   }else addOptions(choices,[node]);
+  }
+  select.addEventListener('change',refresh);
+  picker.addEventListener('keydown',event=>{if(event.key==='Escape'){picker.open=false;summary.focus();}});
+  picker.append(summary,choices);
+  label.hidden=true;
+  label.after(picker);
+  refresh();
+ }
+ makeDownwardPicker(collectibles.querySelector('#collect-series'));
+ function markEmptyRegions(map,available){
+  for(const region of map.querySelectorAll('.map-region[data-area]')){
+   const disabled=!available(region.dataset.area);
+   region.setAttribute('aria-disabled',String(disabled));
+   region.setAttribute('tabindex',disabled?'-1':'0');
+  }
+ }
  function cloneAreaMap(prefix){
   const map=explore.querySelector('.map-wrap').cloneNode(true);
   for(const node of map.querySelectorAll('[id]')){
@@ -292,11 +350,13 @@
   coverageLine.textContent=coverage[selection]||'';
   coverageLine.hidden=!coverageLine.textContent;
   const list=[...records(),...activeReferences].filter(item=>collectionOf(item)===selection&&(item.chapter!==lastChapter||model.chapter===lastChapter));
-  collectibles.querySelector('.map-unassigned').hidden=!list.some(hasNoRegion);
-  const matches=list.filter(item=>collectibleArea==='unknown'?hasNoRegion(item):collectibleArea&&(item.area===collectibleArea||item.extraArea===collectibleArea));
+  const collectMap=collectibles.querySelector('#collect-map');
+  markEmptyRegions(collectMap,area=>list.some(item=>collectibleInArea(item,area)));
+  collectMap.querySelector('.map-unassigned').hidden=!list.some(item=>collectibleInArea(item,'unknown'));
+  const matches=list.filter(item=>(!item.readingId||item.readingId===item.id)&&collectibleArea&&collectibleInArea(item,collectibleArea));
   const found=new Set(checked());
   const missing=collectibles.querySelector('#collect-missing').checked;
-  const visible=matches.filter(item=>!missing||(!item.referenceOnly&&(!found.has(item.id)||item.kentonSet&&!found.has(kentonId(item)))));
+  const visible=matches.filter(item=>!missing||(!item.referenceOnly&&(!readingChecked(item,found)||item.kentonSet&&!found.has(kentonId(item)))));
   const areaName=areas.find(area=>area.id===collectibleArea)?.name||(collectibleArea==='unknown'?'Overige vindplekken':'Alle vindplekken');
   const actionable=list.filter(item=>!item.referenceOnly);
   const done=core.progress(actionable,found).done;
@@ -319,18 +379,25 @@
   for(const item of visible){
    const row=document.createElement('article');
    row.className='corker-card';
-   row.innerHTML=`<label class="task"><input ${item.referenceOnly?'hidden disabled':''} type="checkbox" data-collect-record="${esc(item.id)}" ${found.has(item.id)?'checked':''}><span><b>${esc(item.title)}</b>${sourceEvidence(item)}<small>${esc(item.sourceLocation)}${item.workbookStatus?' · '+esc(item.workbookStatus):''}${item.provisionalTip?' · Voorlopige zoektip':item.approximateLocation?' · Zoekgebied':''}</small></span></label>
+   row.innerHTML=`<label class="task"><input ${item.referenceOnly?'hidden disabled':''} type="checkbox" data-collect-record="${esc(item.id)}" ${readingChecked(item,found)?'checked':''}><span><b>${esc(item.title)}</b>${sourceEvidence(item)}<small>${esc(item.sourceLocation)}${item.workbookStatus?' · '+esc(item.workbookStatus):''}${item.provisionalTip?' · Voorlopige zoektip':item.approximateLocation?' · Zoekgebied':''}</small></span></label>
    ${item.kentonSet?`<label class="task"><input type="checkbox" data-collect-record="${esc(kentonId(item))}" ${found.has(kentonId(item))?'checked':''}><span>Alle schatten opgedoken · Kenton-set ${item.kentonSet}</span></label>`:''}<details data-card="${esc(item.id)}"><summary>${item.screenshot?'Vindplek en screenshot':'Vindplek'}</summary><p>${esc(item.detail)}</p>
    ${item.screenshot?`<a href="${esc(item.screenshot)}" target="_blank" rel="noopener noreferrer">Open screenshot</a>${item.screenshotCredit?` (${esc(item.screenshotCredit)})`: ''} · `:isFlamingo?'':'<p>Geen screenshot beschikbaar.</p>'}
    ${item.source?`<a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">${isFlamingo&&/#(?:hidden-package|cocaine-flamingo)-/.test(item.source)?'Open kaartpin':'Bron'}</a>`:''}
    ${item.extraSource?` · <a href="${esc(item.extraSource)}" target="_blank" rel="noopener noreferrer">${esc(item.extraSourceLabel||'Tweede bron')}</a>`:''}</details>`;
    const details=row.querySelector('details');
+   const alternatives=readingLocations(item);
+   if(alternatives.length){
+    const section=document.createElement('section');
+    section.innerHTML='<h3>Andere vindplekken</h3><ul>'+alternatives.map(place=>`<li><strong>${esc(place.sourceLocation||place.title)}</strong> · ${esc(place.detail||'')} ${place.source?`<a href="${esc(place.source)}" target="_blank" rel="noopener noreferrer">Bron</a>`:''}</li>`).join('')+'</ul>';
+    details.append(section);
+   }
    attachScreenshot(details,item);
    details.open=opened.has(item.id);
    target.append(row);
   }
  }
  function chooseCollectibleArea(button){
+  if(button.getAttribute('aria-disabled')==='true')return;
   collectibleArea=button.dataset.collectArea||button.dataset.area;
   renderCollectibles();
  }
@@ -347,7 +414,9 @@
   if(input.id==='collect-series')collectibleArea=null;
   if(input.matches('[data-collect-record]')){
    const id=input.dataset.collectRecord;
-   model.checked=input.checked?[...new Set([...model.checked,id])]:model.checked.filter(value=>value!==id);
+   const reading=trusted.find(item=>item.id===id&&item.readingId);
+   const aliases=reading?[id,...readingLocations(reading).map(item=>item.id)]:[id];
+   model.checked=input.checked?[...new Set([...model.checked,id])]:model.checked.filter(value=>!aliases.includes(value));
    persist();
    const top=window.scrollY,wasFocused=document.activeElement===input;
    renderCollectibles();
@@ -396,6 +465,7 @@
  const activityMap=cloneAreaMap('activity');
  activities.querySelector('#activity-map').append(activityMap);
  const activityKind=activities.querySelector('#activity-kind');
+ makeDownwardPicker(activityKind);
  let activityArea=null;
  const activityMissing=activities.querySelector('#activity-missing');
  const activityList=activities.querySelector('#activity-list');
@@ -475,6 +545,8 @@
  function renderActivities(){
   for(const control of activities.querySelectorAll('[data-area],[data-activity-area]'))control.setAttribute('aria-pressed',String((control.dataset.area||control.dataset.activityArea)===activityArea));
   const items=selectedActivities();
+  const mapItems=activityKind.value==='Basketbalringen'?[...items,...activityReferences]:items;
+  markEmptyRegions(activityMap,area=>mapItems.some(item=>item.area===area||item.extraArea===area));
   activityMap.querySelector('.map-unassigned').hidden=!items.some(hasNoRegion)&&!(activityKind.value==='Basketbalringen'&&activityReferences.some(hasNoRegion));
   activities.querySelector('#activity-progress').hidden=!activityArea;
   const matches=items.filter(matchesActivityArea);
@@ -524,7 +596,7 @@
  }
  function chooseActivityArea(event){
   const control=event.target.closest('[data-area],[data-activity-area]');
-  if(!control)return;
+  if(!control||control.getAttribute('aria-disabled')==='true')return;
   if(event.type==='keydown'){
    if(!control.matches('.map-region')||!['Enter',' '].includes(event.key))return;
    event.preventDefault();
@@ -756,7 +828,7 @@
   if(value===undefined)return 'Onbekend · doel '+dollars.format(goal);
   return dollars.format(value)+' / '+dollars.format(goal)+(value>=goal?' · Behaald':' · Nog '+dollars.format(goal-value));
  }
- const gameGoalGroups=[["Verhaal en taken",[["Hoofdverhaal",1,"story"],["Optionele taken",100,"optional"],["Bendeoperaties",39,"gangs"],["Bankovervallen",22,"banks"],["Payday Loan Jobs",7,"payday"],["Smash ’N’ Grabs",34],["Stick Ups",50,"stickups"],["Drugs verkocht",100000,"drugs"],["Juwelen verkocht",100000,"jewelry"],["Gemarkeerde biljetten verkocht",250000,"bills"],["Kluizen",8,"vaults"],["Voertuigen verkocht",200000,"vehicles"]]],["Verkenning en activiteiten",[["Kenton-sets",5,"kenton"],["Kaartseries",15,"cardsets"],["WAiNK-scans",100,"waink"],["Onderwatervondsten",33,"dives"],["Tijdschriften, boeken en strips",30,"reading"],["Meditaties",15,"meditations"],["Flamingo’s",100],["Unieke afspeellijsten",2,"playlists"],["Ontdekte stijlen",70,"styles"],["Unieke races",30,"races"],["Race-uitdagingen met goud",10,"raceGold"],["Schietuitdagingen met goud",42,"rangeGold"],["Arcadegames",4,"arcade"],["Pooltegenstanders",5,"pool"],["Minigolflocaties",2,"golf"],["Basketbalringen",90,"hoops"],["Droneproeven",42,"drones"],["Stunts",300,"stunts"],["Uitdagingen",70,"challenges"],["Bret’s Target Decks",15,"bret"]]],["Ontdekkingen",[["Voertuigbasismodellen",200],["Standaardwapens",50,"weapons"],["Dieren",100]]]];
+ const gameGoalGroups=[["Verhaal en taken",[["Hoofdverhaal",1,"story"],["Optionele taken",100,"optional"],["Bendeoperaties",39,"gangs"],["Bankovervallen",22,"banks"],["Payday Loan Jobs",7,"payday"],["Smash ’N’ Grabs",34,"smash"],["Stick Ups",50,"stickups"],["Drugs verkocht",100000,"drugs"],["Juwelen verkocht",100000,"jewelry"],["Gemarkeerde biljetten verkocht",250000,"bills"],["Kluizen",8,"vaults"],["Voertuigen verkocht",200000,"vehicles"]]],["Verkenning en activiteiten",[["Kenton-sets",5,"kenton"],["Kaartseries",15,"cardsets"],["WAiNK-scans",100,"waink"],["Onderwatervondsten",33,"dives"],["Tijdschriften, boeken en strips",30,"reading"],["Meditaties",15,"meditations"],["Flamingo’s",100,"flamingos"],["Unieke afspeellijsten",2,"playlists"],["Ontdekte stijlen",70,"styles"],["Unieke races",30,"races"],["Race-uitdagingen met goud",10,"raceGold"],["Schietuitdagingen met goud",42,"rangeGold"],["Arcadegames",4,"arcade"],["Pooltegenstanders",5,"pool"],["Minigolflocaties",2,"golf"],["Basketbalringen",90,"hoops"],["Droneproeven",42,"drones"],["Stunts",300,"stunts"],["Uitdagingen",70,"challenges"],["Bret’s Target Decks",15,"bret"]]],["Ontdekkingen",[["Voertuigbasismodellen",200],["Standaardwapens",50,"weapons"],["Dieren",100]]]];
  const wainkCollections=new Set(['WAiNK-bezienswaardigheden','WAiNK-curiositeiten','WAiNK-sculpturen','NoFlusher-tags','PeeWee-billboards']);
  const wainkScans=trusted.filter(item=>!item.referenceOnly&&wainkCollections.has(item.collection));
  const underwaterDiscoveries=trusted.filter(item=>!item.referenceOnly&&item.collection==='Duikplekken en schatten'&&
@@ -868,7 +940,7 @@
     ${goals.map(([title,minimum,key])=>{
      const value=counts[key];
      if(Object.hasOwn(core.saleGoals,key))return `<li class="sale-goal"><label>${esc(title)}<input type="number" min="0" max="${Number.MAX_SAFE_INTEGER}" step="1" inputmode="numeric" data-sale="${key}" value="${value??''}"></label><small data-sale-status="${key}" aria-live="polite">${esc(saleStatus(key))}</small><div data-sale-track="${key}">${goalTrack(title,value,minimum)}</div></li>`;
-     const status=key==='story'?(value?'Behaald':'Laatste hoofdmissie nog niet afgevinkt'):value===undefined?'Onbekend · doel '+number.format(minimum):number.format(value)+' van '+number.format(minimum)+(value>=minimum?' · Behaald':'');
+     const status=key==='story'?(value?'Behaald':'Laatste hoofdmissie nog niet afgevinkt'):value===undefined?'Onbekend · doel '+number.format(minimum)+(title==='Dieren'?' · Unieke dierregistraties controleren':title==='Voertuigbasismodellen'?' · Basismodellen en varianten controleren':''):number.format(value)+' van '+number.format(minimum)+(value>=minimum?' · Behaald':'');
      return `<li><strong>${esc(title)}</strong><span>${esc(status)}${key==='optional'?' · '+optionalTasks.length+' taken gekoppeld':key==='reading'?' · 33 van 34 unieke titels opgenomen':key==='styles'?' · '+styleRecords.length+' van 79 vermeldingen gekoppeld':''}${provisional[key]?' · '+provisional[key]+' voorlopig':''}</span>
       ${goalTrack(title,value,minimum)}</li>`;
     }).join('')}</ul></section>`).join('')}`;
