@@ -843,8 +843,7 @@
  const optionalTasks=core.unique(trusted.filter(item=>item.optionalTask||optionalMissionIds.has(item.id)||item.meditationParent||
   (item.collection==='Meditaties'&&!meditationCharacters.has(item.id))));
  function saleStatus(key){
-  const value=model.sales?.[key],goal=core.saleGoals[key];
-  if(value===undefined)return 'Onbekend · doel '+dollars.format(goal);
+  const value=model.sales?.[key]??0,goal=core.saleGoals[key];
   return dollars.format(value)+' / '+dollars.format(goal)+(value>=goal?' · Behaald':' · Nog '+dollars.format(goal-value));
  }
  const gameGoalGroups=[["Verhaal en taken",[["Hoofdverhaal",1,"story"],["Optionele taken",100,"optional"],["Bendeoperaties",39,"gangs"],["Bankovervallen",22,"banks"],["Payday Loan Jobs",7,"payday"],["Smash ’N’ Grabs",34,"smash"],["Stick Ups",50,"stickups"],["Drugs verkocht",100000,"drugs"],["Juwelen verkocht",100000,"jewelry"],["Gemarkeerde biljetten verkocht",250000,"bills"],["Kluizen",8,"vaults"],["Voertuigen verkocht",200000,"vehicles"]]],["Verkenning en activiteiten",[["Kenton-sets",5,"kenton"],["Kaartseries",15,"cardsets"],["WAiNK-scans",100,"waink"],["Onderwatervondsten",33,"dives"],["Tijdschriften, boeken en strips",30,"reading"],["Meditaties",15,"meditations"],["Flamingo’s",100,"flamingos"],["Unieke afspeellijsten",2,"playlists"],["Ontdekte stijlen",70,"styles"],["Unieke races",30,"races"],["Race-uitdagingen met goud",10,"raceGold"],["Schietuitdagingen met goud",42,"rangeGold"],["Arcadegames",4,"arcade"],["Pooltegenstanders",5,"pool"],["Minigolflocaties",2,"golf"],["Basketbalringen",90,"hoops"],["Droneproeven",42,"drones"],["Stunts",300,"stunts"],["Uitdagingen",70,"challenges"],["Bret’s Target Decks",15,"bret"]]],["Ontdekkingen",[["Voertuigbasismodellen",200,"baseVehicles"],["Standaardwapens",50,"weapons"],["Dieren",100,"animals"]]]];
@@ -934,7 +933,7 @@
    hoops:collection('Basketbalringen'),drones:collection('Top Fun-droneproeven'),
    stunts:amount(item=>stuntCollections.has(item.collection)),bret:collection('Jachtopdrachten van Bret'),
    challenges:core.progress(challengeRows,[...found,...automaticChallenges(found)]).done,
-   ...model.sales
+   ...Object.fromEntries(Object.keys(core.saleGoals).map(key=>[key,model.sales?.[key]??0]))
   };
  }
  function updateGameSummary(){
@@ -961,7 +960,7 @@
      const value=counts[key];
      if(Object.hasOwn(core.saleGoals,key))return `<li class="sale-goal"><label>${esc(title)}<input type="number" min="0" max="${Number.MAX_SAFE_INTEGER}" step="1" inputmode="numeric" data-sale="${key}" value="${value??''}"></label><small data-sale-status="${key}" aria-live="polite">${esc(saleStatus(key))}</small><div data-sale-track="${key}">${goalTrack(title,value,minimum)}</div></li>`;
      const status=key==='story'?(value?'Behaald':'Laatste hoofdmissie nog niet afgevinkt'):value===undefined?'Onbekend · doel '+number.format(minimum)+(title==='Dieren'?' · Unieke dierregistraties controleren':title==='Voertuigbasismodellen'?' · Basismodellen en varianten controleren':''):number.format(value)+' van '+number.format(minimum)+(value>=minimum?' · Behaald':'');
-     return `<li><strong>${esc(title)}</strong><span>${esc(status)}${key==='optional'?' · '+optionalTasks.length+' taken gekoppeld':key==='reading'?' · 33 van 34 unieke titels opgenomen':key==='styles'?' · '+styleRecords.length+' van 79 vermeldingen gekoppeld':''}${provisional[key]?' · '+provisional[key]+' voorlopig':''}</span>
+     return `<li><strong>${esc(title)}</strong><span>${esc(status)}${key==='optional'?' · '+optionalTasks.length+' taken gekoppeld':key==='reading'?' · 34 van 34 unieke titels opgenomen':key==='styles'?' · '+styleRecords.length+' van 79 vermeldingen gekoppeld':''}${provisional[key]?' · '+provisional[key]+' voorlopig':''}</span>
       ${goalTrack(title,value,minimum)}</li>`;
     }).join('')}</ul></section>`).join('')}`;
   const optional=target.querySelector('[aria-label="Optionele taken"]').closest('li');
@@ -981,9 +980,10 @@
   const sales={...model.sales};
   if(field.value==='')delete sales[key];else sales[key]=amount;
   model.sales=sales;
+  if(field.value==='')field.value='0';
   persist();
   overview.querySelector('[data-sale-status="'+key+'"]').textContent=saleStatus(key);
-  overview.querySelector('[data-sale-track="'+key+'"]').innerHTML=goalTrack(salesLabels[key],sales[key],core.saleGoals[key]);
+  overview.querySelector('[data-sale-track="'+key+'"]').innerHTML=goalTrack(salesLabels[key],sales[key]??0,core.saleGoals[key]);
   updateGameSummary();
  });
  overview.addEventListener('input',event=>{if(event.target.dataset.sale)event.target.setCustomValidity('')});
