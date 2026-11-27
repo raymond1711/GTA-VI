@@ -64,7 +64,7 @@
  const icon=a=>`<svg aria-hidden="true" viewBox="0 0 48 48">${svgIcons[a.icon]}</svg>`;
  const main=document.querySelector('main'),footer=document.querySelector('footer'),journal=document.querySelector('.journal');
  const intro=document.createElement('section');intro.id='introduction-view';
- const nav=document.createElement('nav');nav.id='app-menu';nav.className='app-nav';nav.setAttribute('aria-label','Hoofdnavigatie');nav.innerHTML=[['start','Start'],['intro','Introductie'],['explore','Verkennen'],['collectibles','Collectibles'],['activities','Activiteiten'],['challenges','Uitdagingen'],['trophies','Trofeeën'],['progress','Voortgang'],['journal','Fotodagboek']].map(([id,name])=>`<button type="button" data-page="${id}">${name}</button>`).join('');
+ const nav=document.createElement('nav');nav.id='app-menu';nav.className='app-nav';nav.setAttribute('aria-label','Hoofdnavigatie');nav.innerHTML=[['start','Start'],['intro','Introductie'],['explore','Verkennen'],['area-guide','Gebiedsgids'],['collectibles','Collectibles'],['activities','Activiteiten'],['challenges','Uitdagingen'],['trophies','Trofeeën'],['progress','Voortgang'],['journal','Fotodagboek']].map(([id,name])=>`<button type="button" data-page="${id}">${name}</button>`).join('');
  const home=document.createElement('section');home.id='start-view';home.innerHTML="<div class=\"welcome\"><h1 class=\"welcome-title\">Leonida Explorer</h1><p>Kies waar je vandaag zin in hebt.</p></div><div class=\"mode-grid\"><button type=\"button\" class=\"mode-card\" data-page=\"intro\"><strong>Introductie</strong><span>Volg de route voor je eerste middag.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"explore\"><strong>Verkennen</strong><span>Kies je hoofdstuk en gebied.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"collectibles\"><strong>Collectibles</strong><span>Bekijk de verzamelobjecten en hun vindplekken.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"activities\"><strong>Activiteiten</strong><span>Vink stunts, meditaties en andere activiteiten af.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"progress\"><strong>Voortgang</strong><span>Bekijk je vinkjes per hoofdstuk, gebied en categorie.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"journal\"><strong>Fotodagboek</strong><span>Bewaar foto’s en notities van je ontdekkingen.</span><em aria-hidden=\"true\">↗</em></button></div>";
  home.querySelector("[data-page=progress]").insertAdjacentHTML("beforebegin",'<button type="button" class="mode-card" data-page="trophies"><strong>Trofeeën</strong><span>Bekijk je voortgang op PlayStation en Xbox.</span></button>');
  const leonidaMap=`<svg class="leonida-map" role="group" aria-label="Aanklikbare gebiedskaart van Leonida" viewBox="0 0 440 680">
@@ -735,9 +735,103 @@
  challengeButton.dataset.page='challenges';
  challengeButton.innerHTML='<strong>Uitdagingen</strong><span>Houd de 80 speluitdagingen bij.</span>';
  home.querySelector('[data-page=progress]').before(challengeButton);
- main.prepend(nav,home,intro,explore,collectibles,activities,challenges,trophies,overview);journal.id='journal-view';
+ const areaGuide=document.createElement('section');
+ areaGuide.id='area-guide-view';
+ areaGuide.innerHTML=`<header class="page-heading page-heading--explore"><h1>Gebiedsgids</h1></header><div class="guide-region-map"></div><div class="guide-results"></div>`;
+ const guideMap=cloneAreaMap('guide');
+ areaGuide.querySelector('.guide-region-map').append(guideMap);
+ const guideResults=areaGuide.querySelector('.guide-results');
+ const districts=[
+  'La Perle','Downtown','Vice Beach',
+  'Little Cuba','Rialto Islands','Ocean Beach',
+  'Hamlet','Southside','Port Vice City'
+ ];
+ let guideArea=null,guideDistrict=null,guideOpenOnly=true;
+ function taskDistrict(item){
+  const location=item.sourceLocation||'';
+  const matches=districts.filter(name=>new RegExp('\\b'+name+'\\b','i').test(location));
+  return matches.length===1?matches[0]:'Subgebied nog onbekend';
+ }
+ function renderAreaGuide(){
+  for(const node of guideMap.querySelectorAll('[data-area]'))node.setAttribute('aria-pressed',String(node.dataset.area===guideArea));
+  const region=areas.find(item=>item.id===guideArea);
+  if(!region){guideResults.innerHTML=chooseAreaPrompt;return;}
+  const all=core.visible([...trusted,...model.custom],model.chapter).filter(item=>!item.referenceOnly&&!item.meditationParent&&item.category!=='trophies'&&item.collection!=='Uitdagingen'&&(!item.readingId||item.readingId===item.id)&&collectibleInArea(item,guideArea));
+  const found=new Set(checked());
+  const done=item=>item.category==='collectibles'
+   ? readingChecked(item,found)&&(!item.kentonSet||found.has(kentonId(item)))
+   : activityDone(item,found);
+  const remaining=items=>items.filter(item=>!done(item)).length;
+  const districtRows=name=>all.filter(item=>taskDistrict(item)===name);
+  const rows=guideArea==='city'?(guideDistrict?districtRows(guideDistrict):[]):all;
+  const groups=rows.reduce((groups,item)=>{
+   (groups[guideGroup(item)]??=[]).push(item);return groups;
+  },{});
+  const previousGroups=[...guideResults.querySelectorAll('details[data-guide-group]')];
+  const collapsed=new Set(previousGroups.filter(node=>!node.open).map(node=>node.dataset.guideGroup));
+  const districtButton=name=>`<button type="button" data-guide-district="${esc(name)}" aria-pressed="${guideDistrict===name}"><strong>${esc(name)}</strong><small>${remaining(districtRows(name))} open</small></button>`;
+  guideResults.innerHTML=`<h2 class="map-result-heading">${esc(region.name)}</h2>
+   ${guideArea==='city'?`<p class="scope-note">Schematische wijkkaart van Vice City</p><div class="guide-district-map">${districts.map(districtButton).join('')}</div><div class="guide-other-district">${districtButton('Subgebied nog onbekend')}</div>`:''}
+   ${guideArea==='city'&&!guideDistrict?chooseAreaPrompt:`<h3>${esc(guideDistrict||region.name)} · ${remaining(rows)} open</h3><label class="task"><input type="checkbox" data-guide-filter ${guideOpenOnly?'checked':''}><span>Alleen openstaand</span></label>
+   ${Object.entries(groups).map(([group,items])=>{
+    const visible=guideOpenOnly?items.filter(item=>!done(item)):items;
+    return visible.length?`<details class="explore-category" data-guide-group="${esc(group)}" ${collapsed.has(group)?'':'open'}><summary><strong>${esc(group)}</strong><span>${remaining(items)} open</span></summary><div>${visible.map(item=>guideCard(item,found)).join('')}</div></details>`:'';
+   }).join('')||'<p class="scope-note">Geen items in deze selectie.</p>'}`}
+  `;
+ }
+ function guideGroup(item){
+  if(item.optionalTask||optionalMissionIds.has(item.id))return 'Optionele taken';
+  if(item.pendingActivity)return 'Activiteiten';
+  return {collectibles:'Collectibles',missions:'Hoofdmissies',sidequests:'Zijmissies',loot:'Overvallen en loot'}[item.category]||'Overige vondsten';
+ }
+ function guideCard(item,found){
+  const id=esc(item.id);
+  const checkbox=(key,label,on)=>`<label class="task"><input type="checkbox" data-guide-check="${esc(key)}" ${on?'checked':''}><span>${label}</span></label>`;
+  const characters=meditationCharacters.get(item.id);
+  const controls=item.medal?`<fieldset class="medal-choice"><legend>Beste medaille</legend><div class="medal-options">${medalOptions.map(([value,label])=>`<label class="medal-option" data-rank="${value}"><input type="checkbox" data-guide-medal="${id}" value="${value}" ${model.medals?.[item.id]===value?'checked':''}><span class="medal-icon" aria-hidden="true"></span>${label}</label>`).join('')}</div></fieldset>`
+   :characters?characters.map(character=>checkbox(character.id,esc(character.character),found.has(character.id))).join('')
+   :checkbox(item.id,'Afgevinkt',readingChecked(item,found)||activityDone(item,found));
+  return `<article class="corker-card"><strong>${esc(item.title)}</strong><small>${esc(item.sourceLocation||'')}${item.collection?' · '+esc(item.collection):''}</small>
+   ${controls}${item.kentonSet?checkbox(kentonId(item),'Alle schatten opgedoken',found.has(kentonId(item))):''}
+   <details><summary>Uitleg en bron</summary><p>${esc(item.detail||'')}</p>${item.condition?`<p>${esc(item.condition)}</p>`:''}
+   ${item.source?`<a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">Open gids</a>`:''}</details></article>`;
+ }
+ areaGuide.addEventListener('click',event=>{
+  const region=event.target.closest('[data-area]');
+  const district=event.target.closest('[data-guide-district]');
+  if(region){guideArea=region.dataset.area;guideDistrict=null;}
+  else if(district)guideDistrict=district.dataset.guideDistrict;
+  else return;
+  renderAreaGuide();
+ });
+ guideMap.addEventListener('keydown',event=>{
+  if(!event.target.matches('[role="button"][data-area]')||!['Enter',' '].includes(event.key))return;
+  event.preventDefault();
+  event.target.dispatchEvent(new MouseEvent('click',{bubbles:true}));
+ });
+ areaGuide.addEventListener('change',event=>{
+  const input=event.target;
+  const {guideCheck,guideMedal}=input.dataset;
+  if(input.matches('[data-guide-filter]'))guideOpenOnly=input.checked;
+  else if(guideMedal){
+   model.medals??={};
+   if(input.checked)model.medals[guideMedal]=input.value;
+   else delete model.medals[guideMedal];
+   persist();
+  }else if(guideCheck){
+   const item=trusted.find(item=>item.id===guideCheck);
+   const aliases=item?[guideCheck,...readingLocations(item).map(row=>row.id),...(registrations.get(registrationKey(item))||[])]:[guideCheck];
+   model.checked=input.checked?[...new Set([...model.checked,guideCheck])]:model.checked.filter(id=>!aliases.includes(id));
+   persist();
+  }else return;
+  const top=window.scrollY;
+  renderAreaGuide();
+  window.scrollTo({top,behavior:'instant'});
+ });
+ home.querySelector('[data-page=progress]').insertAdjacentHTML('beforebegin','<button type="button" class="mode-card" data-page="area-guide"><strong>Gebiedsgids</strong><span>Bekijk wat je per gebied kunt vinden.</span></button>');
+ main.prepend(nav,home,intro,explore,areaGuide,collectibles,activities,challenges,trophies,overview);journal.id='journal-view';
  const editor=document.createElement('dialog');editor.id='discovery-editor';editor.innerHTML=`<button type="button" class="close" id="close-editor" aria-label="Sluiten">×</button><p class="eyebrow">VOEG JOUW VONDST TOE</p><h2>Eigen ontdekking</h2><p>Leg zelf vast wat je tegenkomt. Jouw hoofdstuk is de eerste beschikbaarheid voor deze persoonlijke checklist.</p><form class="entry-form" id="discovery-form"><label>Naam<input name="title" maxlength="150" required></label><label>Omschrijving<textarea name="detail" maxlength="2000"></textarea></label><div class="entry-columns"><label>Gebied<select name="area">${areas.map(a=>`<option value="${a.id}">${esc(a.name)}</option>`).join('')}</select></label><label>Categorie<select name="category">${exploreTypes.map(c=>`<option value="${c.id}">${esc(c.name)}</option>`).join('')}</select></label></div><label>Vanaf hoofdstuk<input name="chapter" type="number" min="1" max="99" step="1" required></label><label>Bronlink (optioneel)<input name="source" type="url" maxlength="1000" placeholder="https://…"></label><p id="entry-error" role="status"></p><button type="submit" class="primary">Ontdekking opslaan</button></form>`;document.body.append(editor);
- function go(next){if(!['start','intro','explore','collectibles','activities','challenges','trophies','progress','journal'].includes(next))next='start';page=next;nav.hidden=page==="start";for(const [id,node] of Object.entries({start:home,intro,explore,collectibles,activities,challenges,trophies,progress:overview,journal}))node.hidden=id!==page;nav.querySelectorAll('button').forEach(b=>{if(b.dataset.page===page)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current')});if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='challenges')renderChallenges();if(page==='trophies')renderTrophies();if(page==='progress')renderOverview();window.scrollTo({top:0,behavior:'instant'});}
+ function go(next){if(!['start','intro','explore','area-guide','collectibles','activities','challenges','trophies','progress','journal'].includes(next))next='start';page=next;nav.hidden=page==="start";for(const [id,node] of Object.entries({start:home,intro,explore,'area-guide':areaGuide,collectibles,activities,challenges,trophies,progress:overview,journal}))node.hidden=id!==page;nav.querySelectorAll('button').forEach(b=>{if(b.dataset.page===page)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current')});if(page==='explore')renderExplore();if(page==='area-guide')renderAreaGuide();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='challenges')renderChallenges();if(page==='trophies')renderTrophies();if(page==='progress')renderOverview();window.scrollTo({top:0,behavior:'instant'});}
  document.addEventListener('click',e=>{const target=e.target.closest('[data-page]');if(target){e.preventDefault();go(target.dataset.page)}});
  document.querySelector('.brand').onclick=e=>{e.preventDefault();go('start')};
  const chapterInput=explore.querySelector('#current-chapter');
@@ -1087,11 +1181,11 @@
  function renderOverview(){const chapterRecords=exploreRecords(),all=[...records(),...activityRecords],p=core.progress(all,[...checked(),...automaticChallenges(checked())]);const chapters=[...new Set([model.chapter,...chapterRecords.filter(x=>x.chapter<=model.chapter).map(x=>x.chapter)])].sort((a,b)=>a-b);overview.innerHTML=`<header class="page-heading page-heading--progress"><p class="eyebrow">JOUW REIS IN CIJFERS</p><h1>Voortgang</h1></header><details class="progress-group overview-disclosure"><summary>100% spelvoltooiing</summary><div class="game-completion" id="game-completion"></div></details><details class="progress-group overview-disclosure"><summary>App-voltooiing</summary><div class="progress-hero"><strong class="big-percent">${label(p)}</strong><p>${p.done} van ${p.total} unieke onderdelen afgevinkt</p><div class="neutral-track"><div style="width:${p.percent??0}%"></div></div></div><p class="app-scope">Hier zie je hoeveel checklistonderdelen je in Leonida Explorer hebt afgevinkt, uitgesplitst per hoofdstuk, gebied en categorie.</p><div class="progress-columns"><section class="progress-group"><h2>Hoofdstukken</h2>${chapters.map(n=>meter(core.chapter(chapterRecords,n),'Hoofdstuk '+n)).join('')}<p class="scope-note">Alleen hoofdstukken tot en met jouw keuze worden getoond.</p></section><section class="progress-group"><h2>Gebieden</h2>${areas.map(a=>meter(core.area(all,a.id),a.name)).join('')}${meter(all.filter(x=>!x.area),'Algemeen / regio nog onbevestigd')}</section><section class="progress-group"><h2>Categorieën</h2>${types.map(t=>meter(core.category(all,t.id),t.name)).join('')}</section></div></details>`;renderGameCompletion();}
  function openEditor(area){const form=editor.querySelector('form');form.reset();form.elements.area.value=area||areas[0].id;form.elements.chapter.value=model.chapter;editor.querySelector('#entry-error').textContent='';editor.showModal();}
  editor.querySelector('#close-editor').onclick=()=>editor.close();editor.querySelector('form').onsubmit=e=>{e.preventDefault();const form=e.target,values=new FormData(form);const item={id:'custom-'+crypto.randomUUID(),title:String(values.get('title')).trim(),detail:String(values.get('detail')).trim(),area:String(values.get('area')),category:String(values.get('category')),chapter:Number(values.get('chapter')),source:String(values.get('source')).trim(),type:'personal'};try{const next=validModel({...model,custom:[...model.custom,item]});const previous=model;model=next;if(!persist()){model=previous;throw Error('Opslag is niet beschikbaar.')}editor.close();renderExplore();notify('Eigen ontdekking toegevoegd.')}catch(err){editor.querySelector('#entry-error').textContent=err.message}};
- const baseUpdate=update;update=function(){baseUpdate();if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='challenges')renderChallenges();if(page==='trophies')renderTrophies();if(page==='progress')renderOverview()};
- function merge(incoming){const clean=validModel(incoming),items=new Map(model.custom.map(x=>[x.id,x]));for(const x of clean.custom)if(!items.has(x.id))items.set(x.id,x);model=validModel({...model,chapter:Math.min(lastChapter,Math.max(model.chapter,clean.chapter)),custom:[...items.values()],checked:[...new Set([...model.checked,...clean.checked])],notes:{...clean.notes,...model.notes},medals:core.mergeMedals(model.medals||{},clean.medals||{}),sales:{...model.sales,...clean.sales}});persist();syncChapterSlider();if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='challenges')renderChallenges();if(page==='trophies')renderTrophies();if(page==='progress')renderOverview()}
- window.ExplorerApp={exportData:()=>structuredClone(model),validate:validModel,merge,refresh:()=>{if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='challenges')renderChallenges();if(page==='trophies')renderTrophies();if(page==='progress')renderOverview()},reset:()=>{model=initial();persist();syncChapterSlider();window.leonidaPhotoContext=null;go('start')}};
+ const baseUpdate=update;update=function(){baseUpdate();if(page==='explore')renderExplore();if(page==='area-guide')renderAreaGuide();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='challenges')renderChallenges();if(page==='trophies')renderTrophies();if(page==='progress')renderOverview()};
+ function merge(incoming){const clean=validModel(incoming),items=new Map(model.custom.map(x=>[x.id,x]));for(const x of clean.custom)if(!items.has(x.id))items.set(x.id,x);model=validModel({...model,chapter:Math.min(lastChapter,Math.max(model.chapter,clean.chapter)),custom:[...items.values()],checked:[...new Set([...model.checked,...clean.checked])],notes:{...clean.notes,...model.notes},medals:core.mergeMedals(model.medals||{},clean.medals||{}),sales:{...model.sales,...clean.sales}});persist();syncChapterSlider();if(page==='explore')renderExplore();if(page==='area-guide')renderAreaGuide();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='challenges')renderChallenges();if(page==='trophies')renderTrophies();if(page==='progress')renderOverview()}
+ window.ExplorerApp={exportData:()=>structuredClone(model),validate:validModel,merge,refresh:()=>{if(page==='explore')renderExplore();if(page==='area-guide')renderAreaGuide();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='challenges')renderChallenges();if(page==='trophies')renderTrophies();if(page==='progress')renderOverview()},reset:()=>{model=initial();persist();syncChapterSlider();window.leonidaPhotoContext=null;go('start')}};
  document.querySelectorAll('footer p').forEach(p=>{if(p.textContent.includes('VERSIE 1.1'))p.innerHTML='LEONIDA EXPLORER <span>· VERSIE 2.4 · BOUWVERSIE</span>'});
  // Stil omschakelen bij een volgende opening; niet tijdens het laatste afvinken.
- window.addEventListener('hashchange',()=>{const hash=location.hash.slice(1),next={map:'explore',stats:'progress',explore:'intro'}[hash]||hash;if(['start','intro','explore','collectibles','activities','challenges','trophies','progress','journal'].includes(next))go(next)});
+ window.addEventListener('hashchange',()=>{const hash=location.hash.slice(1),next={map:'explore',stats:'progress',explore:'intro'}[hash]||hash;if(['start','intro','explore','area-guide','collectibles','activities','challenges','trophies','progress','journal'].includes(next))go(next)});
  const entryHash=location.hash.slice(1);go(entryHash?({map:'explore',stats:'progress',explore:'intro'}[entryHash]||entryHash):(core.shouldAutoExplore([...ids],state.checked)?'explore':'start'));
 })();

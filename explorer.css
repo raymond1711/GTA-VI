@@ -256,3 +256,9 @@ footer span{color:#dfc4e0}
 
 .leonida-map .map-region .map-remaining rect{fill:#21172d;stroke:var(--area-color);stroke-width:1.5}
 .leonida-map .map-region .map-remaining text{fill:#fff7ee;stroke:none;font-size:12px;font-weight:700}
+
+.guide-district-map{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.4rem;padding:.55rem;border-radius:14px;background:#24394e;border:1px solid #89cada55}
+.guide-district-map button,.guide-other-district button{font:inherit;color:#fff6ff;background:#533952;border:1px solid #d5a2c288;border-radius:9px;min-height:56px;padding:.4rem;overflow-wrap:anywhere}
+.guide-district-map button[aria-pressed=true],.guide-other-district button[aria-pressed=true]{background:#ffc5df;color:#2c1730}
+.guide-district-map small,.guide-other-district small{display:block}
+.guide-other-district{margin-top:.5rem}
