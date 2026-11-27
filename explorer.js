@@ -37,7 +37,7 @@
   return found.has(item.id)||readingLocations(item).some(other=>found.has(other.id));
  }
  function collectibleInArea(item,area){
-  return [item,...readingLocations(item)].some(place=>area==='unknown'?hasNoRegion(place):place.area===area||place.extraArea===area);
+  return [item,...readingLocations(item)].some(place=>area==='unknown'?hasNoRegion(place):inArea(place,area));
  }
  const activityRecords=core.unique(trusted.filter(item=>item.pendingActivity&&!item.referenceOnly)).map(item=>({...item,category:'activities'}));
  const meditationCharacters=new Map();
@@ -341,7 +341,8 @@
   details.addEventListener('toggle',showImage);
  }
  const chooseAreaPrompt='<p class="no-items">Tik op een gebied op de kaart.</p>';
- const hasNoRegion=item=>!item.area&&!item.extraArea;
+ const inArea=(item,area)=>item.area===area||item.extraArea===area||Boolean(item.additionalAreas?.includes(area));
+ const hasNoRegion=item=>!item.area&&!item.extraArea&&!item.additionalAreas?.length;
  let collectibleArea=null;
  function renderCollectibles(){
   const selection=collectibles.querySelector('#collect-series').value;
@@ -471,7 +472,7 @@
  const activityList=activities.querySelector('#activity-list');
  const activityEmpty=activities.querySelector('#activity-empty');
  function matchesActivityArea(item){
-  return activityArea==='unknown'?hasNoRegion(item):activityArea&&(item.area===activityArea||item.extraArea===activityArea);
+  return activityArea==='unknown'?hasNoRegion(item):activityArea&&inArea(item,activityArea);
  }
  const selectedActivities=()=>activityKind.value==='Overige activiteiten'
   ? [...activeDiscoveries,...model.custom].filter(item=>item.category==='activities')
@@ -561,7 +562,7 @@
   for(const control of activities.querySelectorAll('[data-area],[data-activity-area]'))control.setAttribute('aria-pressed',String((control.dataset.area||control.dataset.activityArea)===activityArea));
   const items=selectedActivities();
   const mapItems=activityKind.value==='Basketbalringen'?[...items,...activityReferences]:items;
-  markEmptyRegions(activityMap,area=>mapItems.some(item=>item.area===area||item.extraArea===area));
+  markEmptyRegions(activityMap,area=>mapItems.some(item=>inArea(item,area)));
   activityMap.querySelector('.map-unassigned').hidden=!items.some(hasNoRegion)&&!(activityKind.value==='Basketbalringen'&&activityReferences.some(hasNoRegion));
   activities.querySelector('#activity-progress').hidden=!activityArea;
   const matches=items.filter(matchesActivityArea);
@@ -750,7 +751,7 @@
   const all=exploreRecords();renderMissionHub(all);explore.querySelector('#chapter-stats').innerHTML=meter(core.chapter(all,model.chapter),'Hoofdstuk '+model.chapter)+`<small>Eenmalig aan dit hoofdstuk toegewezen, inclusief vastgelegde hoofdmissies.</small>`;
   explore.querySelectorAll('[data-area]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.area===model.area)));
   const target=explore.querySelector('#chosen-area'),area=areas.find(a=>a.id===model.area);if(!area){target.innerHTML=chooseAreaPrompt;return}target.style.setProperty('--area-color',area.color);
-  const areaItems=all.filter(item=>item.area===area.id||item.extraArea===area.id),visible=core.visible(areaItems,model.chapter),p=core.progress(areaItems,checked());
+  const areaItems=all.filter(item=>inArea(item,area.id)),visible=core.visible(areaItems,model.chapter),p=core.progress(areaItems,checked());
   const opened=new Set([...target.querySelectorAll('details[open]')].map(d=>d.dataset.category));
   target.innerHTML=`<header class="area-header"><div class="area-icon">${icon(area)}</div><div><p class="eyebrow">JOUW GEKOZEN GEBIED</p><h2>${esc(area.name)}</h2><p>${esc(area.description)}</p><div class="area-meter"><div class="meter-label"><span>Gebied · alle hoofdstukken</span><strong>${label(p)}</strong></div><div class="neutral-track"><div style="width:${p.percent??0}%"></div></div></div></div></header><p class="source-notice">Hoofdstuk 1 t/m 5. Verzamelobjecten en activiteiten staan in hun eigen tabs. Binnen een hoofdstuk kunnen extra missievoorwaarden gelden; die staan bij het onderdeel.</p><div class="explore-list"></div><div class="explorer-tools"><button type="button" id="add-discovery" class="primary small">+ Eigen ontdekking</button><button type="button" class="quiet" data-page="progress">Alle voortgang bekijken ↗</button></div><p class="scope-note">Gebieds- en categorietotalen tellen alle vastgelegde hoofdstukken mee. Namen en details van latere onderdelen blijven verborgen.</p>`;
   const list=target.querySelector('.explore-list');let groups=0;
@@ -768,7 +769,7 @@
    '<small>Eenmalig aan dit hoofdstuk toegewezen, inclusief vastgelegde hoofdmissies.</small>';
   const areaMeter=explore.querySelector('.area-meter');
   if(areaMeter){
-   const areaItems=all.filter(item=>item.area===model.area||item.extraArea===model.area);
+   const areaItems=all.filter(item=>inArea(item,model.area));
    const p=core.progress(areaItems,selected);
    areaMeter.querySelector('strong').textContent=label(p);
    areaMeter.querySelector('.neutral-track div').style.width=(p.percent??0)+'%';
