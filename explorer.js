@@ -379,7 +379,7 @@
   for(const item of visible){
    const row=document.createElement('article');
    row.className='corker-card';
-   row.innerHTML=`<label class="task"><input ${item.referenceOnly?'hidden disabled':''} type="checkbox" data-collect-record="${esc(item.id)}" ${readingChecked(item,found)?'checked':''}><span><b>${esc(item.title)}</b>${sourceEvidence(item)}<small>${esc(item.sourceLocation)}${item.workbookStatus?' · '+esc(item.workbookStatus):''}${item.provisionalTip?' · Voorlopige zoektip':item.approximateLocation?' · Zoekgebied':''}</small></span></label>
+   row.innerHTML=`<label class="task"><input ${item.referenceOnly?'hidden disabled':''} type="checkbox" data-collect-record="${esc(item.id)}" ${readingChecked(item,found)?'checked':''}><span><b>${esc(item.title)}</b>${sourceEvidence(item)}<small>${esc(item.sourceLocation)}${item.workbookStatus?' · '+esc(item.workbookStatus):''}${item.provisionalTip?' · Voorlopige zoektip':item.approximateLocation?' · Voorlopige vindplek':''}</small></span></label>
    ${item.kentonSet?`<label class="task"><input type="checkbox" data-collect-record="${esc(kentonId(item))}" ${found.has(kentonId(item))?'checked':''}><span>Alle schatten opgedoken · Kenton-set ${item.kentonSet}</span></label>`:''}<details data-card="${esc(item.id)}"><summary>${item.screenshot?'Vindplek en screenshot':'Vindplek'}</summary><p>${esc(item.detail)}</p>
    ${item.screenshot?`<a href="${esc(item.screenshot)}" target="_blank" rel="noopener noreferrer">Open screenshot</a>${item.screenshotCredit?` (${esc(item.screenshotCredit)})`: ''} · `:isFlamingo?'':'<p>Geen screenshot beschikbaar.</p>'}
    ${item.source?`<a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">${isFlamingo&&/#(?:hidden-package|cocaine-flamingo)-/.test(item.source)?'Open kaartpin':'Bron'}</a>`:''}
@@ -578,7 +578,7 @@
    card.className='corker-card';
    card.dataset.activityCard=item.id;
    const location=item.sourceLocation||areas.find(area=>area.id===item.area)?.name||'';
-   const title=`<b>${esc(item.title)}</b>${sourceEvidence(item)}${location?`<small>${esc(location)}</small>`:''}`;
+   const title=`<b>${esc(item.title)}</b>${sourceEvidence(item)}${location?`<small>${esc(location)}${item.approximateLocation?" · Voorlopige vindplek":""}</small>`:''}`;
    const stickUp=item.collection==='Stick Ups';
    const characters=meditationCharacters.get(item.id);
    const oldCheck=characters&&model.checked.includes(item.id)

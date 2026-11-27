@@ -14718,7 +14718,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "ordinary-race-animal-crackers-wetlands-circuit",
       "title": "Wetlands Circuit",
-      "area": null,
+      "area": "grass",
       "chapter": 1,
       "category": "activities",
       "collection": "Gewone races",
@@ -14730,7 +14730,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "source": "https://www.powerpyx.com/gta-6-all-unique-race-locations-racing-activities/",
       "sourceName": "PowerPyx",
       "extraSource": "https://neuralboost.gg/blog/gta-6-races-all-unique-races-and-race-challenges",
-      "extraSourceLabel": "Racenamen en toelichting"
+      "extraSourceLabel": "Racenamen en toelichting",
+      "approximateLocation": true
     },
     {
       "id": "ordinary-race-animal-crackers-strip-mine",
@@ -26206,134 +26207,145 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-7e98cdb161a6eeed35e3",
       "title": "Albany Verdant Buccaneer",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Standout-voertuigen",
       "sourceLocation": "Leonard County",
       "detail": "Leonard County",
       "source": "https://game-checklists.com/gta6/standout-vehicles-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "approximateLocation": true
     },
     {
       "id": "excel-fb544ba2238573312b7b",
       "title": "Vapid Finns Reclaimer",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Standout-voertuigen",
       "sourceLocation": "Leonard County",
       "detail": "Leonard County",
       "source": "https://game-checklists.com/gta6/standout-vehicles-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "approximateLocation": true
     },
     {
       "id": "excel-d408b6f3b8d285ee9df6",
       "title": "Declasse Flower Powered Rancher",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Standout-voertuigen",
       "sourceLocation": "Leonard County",
       "detail": "Leonard County",
       "source": "https://game-checklists.com/gta6/standout-vehicles-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "approximateLocation": true
     },
     {
       "id": "excel-1690b63aea7bfa260fb6",
       "title": "Declasse Truther Burrito",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Standout-voertuigen",
       "sourceLocation": "Leonard County",
       "detail": "Leonard County",
       "source": "https://game-checklists.com/gta6/standout-vehicles-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "approximateLocation": true
     },
     {
       "id": "excel-7e91df4465a12c784d16",
       "title": "Albany Driveshaft Devanity",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Standout-voertuigen",
       "sourceLocation": "Leonard County",
       "detail": "Leonard County",
       "source": "https://game-checklists.com/gta6/standout-vehicles-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "approximateLocation": true
     },
     {
       "id": "excel-da08b419e633e4e8348f",
       "title": "Brute Boxville",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Standout-voertuigen",
       "sourceLocation": "Leonard County",
       "detail": "Leonard County",
       "source": "https://game-checklists.com/gta6/standout-vehicles-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "approximateLocation": true
     },
     {
       "id": "excel-f67718d9ee3ecf80a846",
       "title": "Taci Ragno",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Standout-voertuigen",
       "sourceLocation": "Leonard County",
       "detail": "Leonard County",
       "source": "https://game-checklists.com/gta6/standout-vehicles-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "approximateLocation": true
     },
     {
       "id": "excel-5b95aff08532eb5e49e7",
       "title": "LCC Monarch Avarus",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Standout-voertuigen",
       "sourceLocation": "Leonard County",
       "detail": "Leonard County",
       "source": "https://game-checklists.com/gta6/standout-vehicles-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "approximateLocation": true
     },
     {
       "id": "excel-6361321d0a2169180dfc",
       "title": "Nagasaki Hung Carbos RS",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Standout-voertuigen",
       "sourceLocation": "Leonard County",
       "detail": "Leonard County",
       "source": "https://game-checklists.com/gta6/standout-vehicles-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "approximateLocation": true
     },
     {
       "id": "excel-67a9ad53e4f6196bdf2e",
       "title": "Western Searing Zombie Bobber",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Standout-voertuigen",
       "sourceLocation": "Leonard County",
       "detail": "Leonard County",
       "source": "https://game-checklists.com/gta6/standout-vehicles-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "approximateLocation": true
     },
     {
       "id": "excel-fce08e164785670093c5",
       "title": "Ocelot Bloodless Jugular",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Standout-voertuigen",
       "sourceLocation": "Leonard County",
       "detail": "Leonard County",
       "source": "https://game-checklists.com/gta6/standout-vehicles-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "approximateLocation": true
     },
     {
       "id": "excel-3dfbb5e8f76da544740c",
@@ -27083,7 +27095,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-66214ba603ec111ee224",
       "title": "Scorpio Turnt Nipper .38",
-      "area": null,
+      "area": "keys",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Unieke wapenvarianten",
@@ -27091,7 +27103,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Paramotor in een den bij Bobcat Bight",
       "source": "https://gta-top.com/en/gta-6/unique-weapons",
       "sourceName": "gta-top.com",
-      "workbookStatus": "Bronvermelding"
+      "workbookStatus": "Bronvermelding",
+      "approximateLocation": true
     },
     {
       "id": "excel-ee0aa65a5190170b8de3",
@@ -27477,7 +27490,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-b25c985c89f68afdc811",
       "title": "Humanity vs Space",
-      "area": null,
+      "area": "port",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Boekenruil",
@@ -27486,7 +27499,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/gta-6-book-swaps",
       "sourceName": "www.nexzyapp.com",
       "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwrw0q4d-ba2bed7b.avif",
-      "readingId": "excel-b25c985c89f68afdc811"
+      "readingId": "excel-b25c985c89f68afdc811",
+      "approximateLocation": true
     },
     {
       "id": "excel-0a984f836641b696d44a",
@@ -27967,7 +27981,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-2e151d606330da29565e",
       "title": "15 Lake Bonner Construction East Stunt Jump",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
@@ -27982,7 +27996,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-f7680c7953f878b23443",
       "title": "16 Lake Leonida Lock South Stunt Jump",
-      "area": null,
+      "area": "port",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
@@ -27997,7 +28011,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-2910961bff05ffb91e81",
       "title": "17 Richard Barebone Overpass South Stunt Jump",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
@@ -28312,7 +28326,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-0424de49e47d1d872d77",
       "title": "38 Kalaga Roadside Stunt Jump",
-      "area": null,
+      "area": "kalaga",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
@@ -28357,7 +28371,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-81345ce7efac0e0d0101",
       "title": "41 The Free State of Henry Perculay Stunt Jump",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
@@ -28387,7 +28401,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-79850e8c962e979f73ac",
       "title": "43 Richard Barebone Overpass North Stunt Jump",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
@@ -28552,7 +28566,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-72b99c732c3b3708a8ae",
       "title": "54 Lake Leonida Lock East Stunt Jump",
-      "area": null,
+      "area": "port",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
@@ -28567,7 +28581,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-60f9875b81356735bc3d",
       "title": "55 Thundergolf Stunt Jump",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
@@ -28672,7 +28686,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-cb534c76031c07057bd6",
       "title": "62 Lake Bonner Construction West Stunt Jump",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
@@ -28762,7 +28776,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-446a8629d981738d28de",
       "title": "68 Waste Transfer Services Lake Stunt Jump",
-      "area": null,
+      "area": "city",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
@@ -28777,7 +28791,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-9390d33d6967d7f0bc0e",
       "title": "69 Waste Transfer Services Pond Stunt Jump",
-      "area": null,
+      "area": "city",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
@@ -29863,7 +29877,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-7780a00167f99ddc75fd",
       "title": "143 Under the Bridge: Tallaloko River",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
@@ -29871,7 +29885,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Zoek Under the Bridge: Tallaloko River onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-529f6fd5a4cbb927ccd5",
@@ -29967,7 +29982,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-93fafa89b7f610d02e6c",
       "title": "151 Under the Bridge: Richard Barebone Overpass East",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
@@ -29975,12 +29990,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Zoek Under the Bridge: Richard Barebone Overpass East onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-2f172d5291bf8ed3f8ec",
       "title": "152 Under the Bridge: Richard Barebone Overpass West",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
@@ -29988,7 +30004,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Zoek Under the Bridge: Richard Barebone Overpass West onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-b500684e9ae3f91be46d",
@@ -30058,7 +30075,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-cc89489ef3996de508d0",
       "title": "158 Under the Bridge: North Kelly County Overpass East",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
@@ -30066,7 +30083,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Zoek Under the Bridge: North Kelly County Overpass East onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-99b9bb2fd5980c86caa3",
@@ -30123,7 +30141,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-2be91f02048cd4fbc64d",
       "title": "163 Under the Bridge: Leith River North",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
@@ -30131,7 +30149,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Zoek Under the Bridge: Leith River North onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-2c5742d7547fa945b3eb",
@@ -30227,7 +30246,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-b0fee8bafaac1598f169",
       "title": "171 Under the Bridge: Tybee Channel North",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
@@ -30235,12 +30254,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Zoek Under the Bridge: Tybee Channel North onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-682bfc4c245b1232251f",
       "title": "172 Under the Bridge: Tybee Channel Railroad North",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
@@ -30248,7 +30268,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Zoek Under the Bridge: Tybee Channel Railroad North onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-e561f644ec1d4475c6ae",
@@ -30318,7 +30339,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-4a81ab4576cf13046988",
       "title": "178 Under the Bridge: Leith River Central",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
@@ -30326,12 +30347,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Zoek Under the Bridge: Leith River Central onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-0e57188ad685559a846d",
       "title": "179 Under the Bridge: Leith River South",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
@@ -30339,12 +30361,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Zoek Under the Bridge: Leith River South onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-ec8e8a16a8b4a5d444ac",
       "title": "180 Under the Bridge: Tybee Channel Central",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
@@ -30352,7 +30375,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Zoek Under the Bridge: Tybee Channel Central onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-777828c993721783dc4d",
@@ -30409,7 +30433,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-cf27635219ca4e731e62",
       "title": "185 Under the Bridge: West Mall Drive",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
@@ -30417,7 +30441,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Zoek Under the Bridge: West Mall Drive onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-7a46a62b2b1476e10441",
@@ -30461,7 +30486,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-26d26238032194a8de72",
       "title": "189 Under the Bridge: Tybee Channel Railroad South",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
@@ -30469,12 +30494,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Zoek Under the Bridge: Tybee Channel Railroad South onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-d6522283628e3d07fe56",
       "title": "190 Under the Bridge: Evergreen Mall Bridge",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
@@ -30482,7 +30508,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Zoek Under the Bridge: Evergreen Mall Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-ad7f9d8c10111df005c7",
@@ -30500,7 +30527,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-636a9fff03224f3b2afb",
       "title": "192 Under the Bridge: Flamingo Parkway North",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
@@ -30508,7 +30535,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Zoek Under the Bridge: Flamingo Parkway North onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-67c4374e38a5f5c93b4b",
@@ -30708,7 +30736,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-d151b76be6ece4b037ac",
       "title": "208 Under the Bridge: County Route 62",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
@@ -30716,7 +30744,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Zoek Under the Bridge: County Route 62 onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-70d12fdc7ce5db9a8380",
@@ -30838,7 +30867,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-8c21569822876059ed77",
       "title": "218 Under the Bridge: Caledonia Boulevard",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
@@ -30846,7 +30875,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Zoek Under the Bridge: Caledonia Boulevard onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-26051a8b49dfa9338d02",
@@ -35188,7 +35218,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-c53317e95a64e3666598",
       "title": "Basketball Hoop #5",
-      "area": null,
+      "area": "keys",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -35199,12 +35229,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%235%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-5018f3288f1172ddf555",
       "title": "Basketball Hoop #6",
-      "area": null,
+      "area": "keys",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -35215,12 +35246,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%236%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-fe38bc0ce4c94ce25ff5",
       "title": "Basketball Hoop #7",
-      "area": null,
+      "area": "keys",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -35231,12 +35263,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%237%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-54cfd389800df9078417",
       "title": "Basketball Hoop #8",
-      "area": null,
+      "area": "keys",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -35247,12 +35280,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%238%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-c1e774a6c1905f0a87fe",
       "title": "Basketball Hoop #9",
-      "area": null,
+      "area": "keys",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -35263,12 +35297,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%239%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-4c26a745a67ddec04437",
       "title": "Basketball Hoop #10",
-      "area": null,
+      "area": "keys",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -35279,12 +35314,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2310%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-be25b3ea90037972ecd6",
       "title": "Basketball Hoop #11",
-      "area": null,
+      "area": "keys",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -35295,12 +35331,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2311%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-e5e02c65a120f4b93a07",
       "title": "Basketball Hoop #12",
-      "area": null,
+      "area": "keys",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -35311,12 +35348,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2312%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-59d2db9f5bbfc5b5894a",
       "title": "Basketball Hoop #13",
-      "area": null,
+      "area": "keys",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -35327,12 +35365,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2313%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-364523ff87d1abad0b78",
       "title": "Basketball Hoop #14",
-      "area": null,
+      "area": "keys",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -35343,12 +35382,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2314%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-f4d4bd9589e31fe92e1c",
       "title": "Basketball Hoop #15",
-      "area": null,
+      "area": "keys",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -35359,12 +35399,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2315%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-750f97aaf2e2b64f4282",
       "title": "Basketball Hoop #16",
-      "area": null,
+      "area": "keys",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -35375,12 +35416,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2316%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-1b1981ca1faa63a90cf1",
       "title": "Basketball Hoop #17",
-      "area": null,
+      "area": "keys",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -35391,12 +35433,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2317%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-30fbaf6b5d3fda5e23df",
       "title": "Basketball Hoop #18",
-      "area": null,
+      "area": "keys",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -35407,7 +35450,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2318%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-a667b879330df2ccfe52",
@@ -36196,7 +36240,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-61bc4de3ce223da421a3",
       "title": "Basketball Hoop #68",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36207,12 +36251,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2368%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-f862fbc21aed82198a84",
       "title": "Basketball Hoop #69",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36223,12 +36268,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2369%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-d3d7e5703db92ab141ff",
       "title": "Basketball Hoop #70",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36239,12 +36285,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2370%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-b892d4f36f2f2190d7d8",
       "title": "Basketball Hoop #71",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36255,12 +36302,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2371%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-e619d04c4bd585b9f67a",
       "title": "Basketball Hoop #72",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36271,12 +36319,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2372%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-fb34cfcfec1633399d69",
       "title": "Basketball Hoop #73",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36287,12 +36336,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2373%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-550758a64be37468da21",
       "title": "Basketball Hoop #74",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36303,12 +36353,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2374%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-e058c1c5a222b313b595",
       "title": "Basketball Hoop #75",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36319,12 +36370,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2375%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-e2fa2396ca4c19dc5b06",
       "title": "Basketball Hoop #76",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36335,12 +36387,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2376%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-358f18d4dd8f292ab059",
       "title": "Basketball Hoop #77",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36351,12 +36404,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2377%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-cc25ca219956b805c823",
       "title": "Basketball Hoop #78",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36367,12 +36421,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2378%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-4bdc989fbb031d255383",
       "title": "Basketball Hoop #79",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36383,12 +36438,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2379%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-84d0b04fd856f113f999",
       "title": "Basketball Hoop #80",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36399,12 +36455,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2380%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-cf5bc3f3d3f674f394f4",
       "title": "Basketball Hoop #81",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36415,12 +36472,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2381%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-9205e77d78fb4600d5a3",
       "title": "Basketball Hoop #82",
-      "area": null,
+      "area": "port",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36431,12 +36489,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2382%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-89e03befd7ceb4664ae8",
       "title": "Basketball Hoop #83",
-      "area": null,
+      "area": "port",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36447,12 +36506,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2383%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-18bbd7e53cafebfe7ad3",
       "title": "Basketball Hoop #84",
-      "area": null,
+      "area": "port",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36463,12 +36523,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2384%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-caf723fece8616300f0c",
       "title": "Basketball Hoop #85",
-      "area": null,
+      "area": "port",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36479,12 +36540,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2385%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-1b93542a568ec3c6326b",
       "title": "Basketball Hoop #86",
-      "area": null,
+      "area": "port",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36495,12 +36557,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2386%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-627228fa5b69e958673e",
       "title": "Basketball Hoop #87",
-      "area": null,
+      "area": "port",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36511,12 +36574,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2387%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-c83e0c7d0bf4a7407650",
       "title": "Basketball Hoop #88",
-      "area": null,
+      "area": "port",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36527,12 +36591,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2388%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-23b9479e55b23cc9e732",
       "title": "Basketball Hoop #89",
-      "area": null,
+      "area": "port",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36543,12 +36608,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2389%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-4271ba17320522c1ac8f",
       "title": "Basketball Hoop #90",
-      "area": null,
+      "area": "port",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36559,12 +36625,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2390%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-c29ae0e95f11ac7855f4",
       "title": "Basketball Hoop #91",
-      "area": null,
+      "area": "port",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36575,12 +36642,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2391%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-349875347977ee669a9e",
       "title": "Basketball Hoop #92",
-      "area": null,
+      "area": "port",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36591,12 +36659,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2392%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-b1cb2330497377d30567",
       "title": "Basketball Hoop #93",
-      "area": null,
+      "area": "port",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Basketbalringen",
@@ -36607,7 +36676,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://hundomaps.com/locations/basketball-hoops/#:~:text=Basketball%20Hoop%20%2393%20in%20PowerPyx",
       "extraSourceLabel": "Kaart en foto bij dit nummer",
       "workbookStatus": "Locatie beschreven",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-fa0ff95b2f9a3508f621",
@@ -37690,37 +37760,43 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "id": "video-game-1",
       "title": "Tenebrae Lux",
       "collection": "Arcadegames",
-      "area": null,
+      "area": "keys",
       "chapter": 1,
       "category": "activities",
       "pendingActivity": true,
       "sourceLocation": "JoySystem thuis",
       "detail": "Kies het spel op de JoySystem bij je tv. Deze console is beschikbaar in hoofdstuk 1 en weer vanaf hoofdstuk 3. Start het spel eenmaal om het af te vinken.",
-      "source": "https://www.powerpyx.com/gta-6-all-video-game-locations/"
+      "source": "https://www.powerpyx.com/gta-6-all-video-game-locations/",
+      "approximateLocation": true,
+      "extraArea": "city"
     },
     {
       "id": "video-game-2",
       "title": "Street Trash III: Dezombifier",
       "collection": "Arcadegames",
-      "area": null,
+      "area": "keys",
       "chapter": 1,
       "category": "activities",
       "pendingActivity": true,
       "sourceLocation": "JoySystem thuis",
       "detail": "Kies het spel op de JoySystem bij je tv. Deze console is beschikbaar in hoofdstuk 1 en weer vanaf hoofdstuk 3. Start het spel eenmaal om het af te vinken.",
-      "source": "https://www.powerpyx.com/gta-6-all-video-game-locations/"
+      "source": "https://www.powerpyx.com/gta-6-all-video-game-locations/",
+      "approximateLocation": true,
+      "extraArea": "city"
     },
     {
       "id": "video-game-3",
       "title": "Time Jackers: Rewind",
       "collection": "Arcadegames",
-      "area": null,
+      "area": "keys",
       "chapter": 1,
       "category": "activities",
       "pendingActivity": true,
       "sourceLocation": "JoySystem thuis",
       "detail": "Kies het spel op de JoySystem bij je tv. Deze console is beschikbaar in hoofdstuk 1 en weer vanaf hoofdstuk 3. Start het spel eenmaal om het af te vinken.",
-      "source": "https://www.powerpyx.com/gta-6-all-video-game-locations/"
+      "source": "https://www.powerpyx.com/gta-6-all-video-game-locations/",
+      "approximateLocation": true,
+      "extraArea": "city"
     },
     {
       "id": "video-game-4",
@@ -38520,7 +38596,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "guide-loot-payday-loan-07",
       "title": "Cash Flow",
-      "area": null,
+      "area": "port",
       "chapter": 3,
       "sourceLocation": "Kelly County",
       "detail": "Payday Loan Jobs. Zoek Cash Flow op de kaart onder Overvallen → Payday Loan Jobs of open de bron bij nummer 7. Vink af zodra de spelkaart deze locatie als voltooid toont.",
@@ -38529,12 +38605,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "type": "verified",
       "category": "loot",
       "locationType": "payday-loan",
-      "sourceName": "PowerPyx"
+      "sourceName": "PowerPyx",
+      "approximateLocation": true
     },
     {
       "id": "guide-loot-smash-grab-01",
       "title": "The Siren’s Chest",
-      "area": null,
+      "area": "keys",
       "chapter": 3,
       "sourceLocation": "Mariana County",
       "detail": "Smash ’n’ Grabs. Zoek The Siren’s Chest op de kaart onder Overvallen → Smash ’n’ Grabs of open de bron bij nummer 1. Vink af zodra de spelkaart deze locatie als voltooid toont.",
@@ -38543,12 +38620,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "type": "verified",
       "category": "loot",
       "locationType": "smash-grab",
-      "sourceName": "PowerPyx"
+      "sourceName": "PowerPyx",
+      "approximateLocation": true
     },
     {
       "id": "guide-loot-smash-grab-02",
       "title": "Timeless Peculiars",
-      "area": null,
+      "area": "keys",
       "chapter": 2,
       "sourceLocation": "Mariana County",
       "detail": "Smash ’n’ Grabs. Zoek Timeless Peculiars op de kaart onder Overvallen → Smash ’n’ Grabs of open de bron bij nummer 2. Vink af zodra de spelkaart deze locatie als voltooid toont.",
@@ -38557,12 +38635,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "type": "verified",
       "category": "loot",
       "locationType": "smash-grab",
-      "sourceName": "PowerPyx"
+      "sourceName": "PowerPyx",
+      "approximateLocation": true
     },
     {
       "id": "guide-loot-smash-grab-03",
       "title": "Victoria Lee Jeweler",
-      "area": null,
+      "area": "keys",
       "chapter": 3,
       "sourceLocation": "Mariana County",
       "detail": "Smash ’n’ Grabs. Zoek Victoria Lee Jeweler op de kaart onder Overvallen → Smash ’n’ Grabs of open de bron bij nummer 3. Vink af zodra de spelkaart deze locatie als voltooid toont.",
@@ -38571,7 +38650,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "type": "verified",
       "category": "loot",
       "locationType": "smash-grab",
-      "sourceName": "PowerPyx"
+      "sourceName": "PowerPyx",
+      "approximateLocation": true
     },
     {
       "id": "guide-loot-smash-grab-04",
@@ -38940,7 +39020,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "guide-loot-smash-grab-30",
       "title": "Brilliant Cuts",
-      "area": null,
+      "area": "ambrosia",
       "chapter": 3,
       "sourceLocation": "Leonard County",
       "detail": "Smash ’n’ Grabs. Zoek Brilliant Cuts op de kaart onder Overvallen → Smash ’n’ Grabs of open de bron bij nummer 30. Vink af zodra de spelkaart deze locatie als voltooid toont.",
@@ -38949,12 +39029,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "type": "verified",
       "category": "loot",
       "locationType": "smash-grab",
-      "sourceName": "PowerPyx"
+      "sourceName": "PowerPyx",
+      "approximateLocation": true
     },
     {
       "id": "guide-loot-smash-grab-31",
       "title": "Skala",
-      "area": null,
+      "area": "ambrosia",
       "chapter": 3,
       "sourceLocation": "Leonard County",
       "detail": "Smash ’n’ Grabs. Zoek Skala op de kaart onder Overvallen → Smash ’n’ Grabs of open de bron bij nummer 31. Vink af zodra de spelkaart deze locatie als voltooid toont.",
@@ -38963,12 +39044,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "type": "verified",
       "category": "loot",
       "locationType": "smash-grab",
-      "sourceName": "PowerPyx"
+      "sourceName": "PowerPyx",
+      "approximateLocation": true
     },
     {
       "id": "guide-loot-smash-grab-32",
       "title": "Kowalski",
-      "area": null,
+      "area": "ambrosia",
       "chapter": 3,
       "sourceLocation": "Leonard County",
       "detail": "Smash ’n’ Grabs. Zoek Kowalski op de kaart onder Overvallen → Smash ’n’ Grabs of open de bron bij nummer 32. Vink af zodra de spelkaart deze locatie als voltooid toont.",
@@ -38977,12 +39059,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "type": "verified",
       "category": "loot",
       "locationType": "smash-grab",
-      "sourceName": "PowerPyx"
+      "sourceName": "PowerPyx",
+      "approximateLocation": true
     },
     {
       "id": "guide-loot-smash-grab-33",
       "title": "Buck’s Jewelry & Pawn",
-      "area": null,
+      "area": "port",
       "chapter": 2,
       "sourceLocation": "Kelly County",
       "detail": "Smash ’n’ Grabs. Zoek Buck’s Jewelry & Pawn op de kaart onder Overvallen → Smash ’n’ Grabs of open de bron bij nummer 33. Vink af zodra de spelkaart deze locatie als voltooid toont.",
@@ -38991,7 +39074,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "type": "verified",
       "category": "loot",
       "locationType": "smash-grab",
-      "sourceName": "PowerPyx"
+      "sourceName": "PowerPyx",
+      "approximateLocation": true
     },
     {
       "id": "guide-loot-smash-grab-34",
@@ -39011,7 +39095,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "guide-loot-smash-grab-35",
       "title": "Florence & Co.",
-      "area": null,
+      "area": "port",
       "chapter": 2,
       "sourceLocation": "Kelly County",
       "detail": "Smash ’n’ Grabs. Zoek Florence & Co. op de kaart onder Overvallen → Smash ’n’ Grabs of open de bron bij nummer 35. Vink af zodra de spelkaart deze locatie als voltooid toont.",
@@ -39020,7 +39104,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "type": "verified",
       "category": "loot",
       "locationType": "smash-grab",
-      "sourceName": "PowerPyx"
+      "sourceName": "PowerPyx",
+      "approximateLocation": true
     },
     {
       "id": "guide-loot-stick-up-01",
@@ -39976,28 +40061,30 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "title": "Burg Facility 3",
       "category": "collectibles",
       "collection": "Duikplekken en schatten",
-      "area": null,
+      "area": "port",
       "chapter": 1,
       "sourceLocation": "Kelly County",
       "source": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/#:~:text=Underwater%20Discovery%20%2330%3A%20Burg%20Facility%203",
       "sourceName": "PowerPyx",
       "screenshot": "https://www.powerpyx.com/wp-content/uploads/gta-6-underwater-discovery-location-59.jpg",
       "screenshotCredit": "PowerPyx · kaartbeeld",
-      "detail": "Volg kaartbeeld 30 in Kelly County. Zoek op de spelkaart op deze naam onder Verkenning → Onderwatervondsten. Vaar naar de markering en duik naar het object."
+      "detail": "Volg kaartbeeld 30 in Kelly County. Zoek op de spelkaart op deze naam onder Verkenning → Onderwatervondsten. Vaar naar de markering en duik naar het object.",
+      "approximateLocation": true
     },
     {
       "id": "guide-underwater-31",
       "title": "Selfie Circle",
       "category": "collectibles",
       "collection": "Duikplekken en schatten",
-      "area": null,
+      "area": "port",
       "chapter": 1,
       "sourceLocation": "Kelly County",
       "source": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/#:~:text=Underwater%20Discovery%20%2331%3A%20Selfie%20Circle",
       "sourceName": "PowerPyx",
       "screenshot": "https://www.powerpyx.com/wp-content/uploads/gta-6-underwater-discovery-location-61.jpg",
       "screenshotCredit": "PowerPyx · kaartbeeld",
-      "detail": "Volg kaartbeeld 31 in Kelly County. Zoek op de spelkaart op deze naam onder Verkenning → Onderwatervondsten. Vaar naar de markering en duik naar het object."
+      "detail": "Volg kaartbeeld 31 in Kelly County. Zoek op de spelkaart op deze naam onder Verkenning → Onderwatervondsten. Vaar naar de markering en duik naar het object.",
+      "approximateLocation": true
     },
     {
       "id": "guide-underwater-32",
@@ -40018,14 +40105,15 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "title": "Burg Facility 2",
       "category": "collectibles",
       "collection": "Duikplekken en schatten",
-      "area": null,
+      "area": "ambrosia",
       "chapter": 1,
       "sourceLocation": "Leonard County",
       "source": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/#:~:text=Underwater%20Discovery%20%2333%3A%20Burg%20Facility%202",
       "sourceName": "PowerPyx",
       "screenshot": "https://www.powerpyx.com/wp-content/uploads/gta-6-underwater-discovery-location-65.jpg",
       "screenshotCredit": "PowerPyx · kaartbeeld",
-      "detail": "Volg kaartbeeld 33 in Leonard County. Zoek op de spelkaart op deze naam onder Verkenning → Onderwatervondsten. Vaar naar de markering en duik naar het object."
+      "detail": "Volg kaartbeeld 33 in Leonard County. Zoek op de spelkaart op deze naam onder Verkenning → Onderwatervondsten. Vaar naar de markering en duik naar het object.",
+      "approximateLocation": true
     },
     {
       "id": "guide-flamingo-gtabase-012",
@@ -42036,7 +42124,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "guide-side-audit-retest-freddies",
       "title": "Retest Freddie’s Defenses",
-      "area": null,
+      "area": "ambrosia",
       "chapter": 1,
       "category": "sidequests",
       "type": "verified",
@@ -42044,7 +42132,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Leonard County > North Leonard County",
       "source": "https://www.powerpyx.com/gta-6-retest-freddies-defenses-walkthrough/",
       "detail": "Bezoek Freddie’s terrein in het noorden van Leonard County.",
-      "condition": "Ga Freddie’s terrein op om de opdracht te starten."
+      "condition": "Ga Freddie’s terrein op om de opdracht te starten.",
+      "approximateLocation": true
     },
     {
       "id": "guide-side-audit-bring-out-the-chimp",
@@ -42516,14 +42605,15 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "title": "Moses · Western Nightblade",
       "category": "sidequests",
       "chapter": 2,
-      "area": null,
+      "area": "port",
       "condition": "Na Daily Driver",
       "detail": "Zoek bij Zoekgebied bij de Final Chapter-markering. Vink af zodra het voertuig is afgeleverd bij Moses in Port Gellhorn.",
       "sourceLocation": "Zoekgebied bij de Final Chapter-markering",
       "source": "https://www.powerpyx.com/gta-6-steal-vehicles-for-moses-walkthrough/",
       "sourceName": "PowerPyx",
       "type": "verified",
-      "optionalTask": true
+      "optionalTask": true,
+      "approximateLocation": true
     },
     {
       "id": "guide-optional-tyrone-1",
@@ -42996,10 +43086,11 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "collection": "Uitdagingen",
       "pendingActivity": true,
       "type": "verified",
-      "area": null,
+      "area": "city",
       "chapter": 1,
       "source": "https://www.powerpyx.com/gta-6-all-challenges-guide/",
-      "sourceName": "PowerPyx"
+      "sourceName": "PowerPyx",
+      "approximateLocation": true
     },
     {
       "id": "guide-challenge-3-3",
@@ -43220,10 +43311,11 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "collection": "Uitdagingen",
       "pendingActivity": true,
       "type": "verified",
-      "area": null,
+      "area": "ambrosia",
       "chapter": 1,
       "source": "https://www.powerpyx.com/gta-6-all-challenges-guide/",
-      "sourceName": "PowerPyx"
+      "sourceName": "PowerPyx",
+      "approximateLocation": true
     },
     {
       "id": "guide-challenge-4-9",
@@ -43234,10 +43326,11 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "collection": "Uitdagingen",
       "pendingActivity": true,
       "type": "verified",
-      "area": null,
+      "area": "city",
       "chapter": 1,
       "source": "https://www.powerpyx.com/gta-6-all-challenges-guide/",
-      "sourceName": "PowerPyx"
+      "sourceName": "PowerPyx",
+      "approximateLocation": true
     },
     {
       "id": "guide-challenge-4-10",
@@ -44617,7 +44710,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "id": "guide-standard-weapon-51",
       "title": "Deever Tech GLR40",
       "detail": "Zoek volgens GTABase in de garage voor één auto bij het Sunrise Motel. PowerPyx noemt ook verkoop bij Expanded; de bronnen verschillen.",
-      "area": null,
+      "area": "city",
       "chapter": 1,
       "category": "weapons",
       "locationType": "standard-weapon",
@@ -44627,7 +44720,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSource": "https://gta6viki.com/weapon-stats",
       "extraSourceLabel": "Winkelaanbod en voorwaarden",
       "type": "verified",
-      "weaponGroup": "Vuurwapens"
+      "weaponGroup": "Vuurwapens",
+      "approximateLocation": true
     },
     {
       "id": "guide-standard-weapon-52",
@@ -48050,6 +48144,71 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "availabilityBasis": "hoofdstuk en startvoorwaarden gecontroleerd in individuele gids",
       "checkedOn": "2026-11-22"
     },
+    "guide-side-donnies-lost-drugs": {
+      "id": "guide-side-donnies-lost-drugs",
+      "title": "Donnie’s Lost Drugs",
+      "detail": "Zoek onder water naar Donnie’s verloren lading. Dit is een optionele opdracht naast de hoofdroute, geen vereiste om alle hoofdmissies af te vinken.",
+      "area": "keys",
+      "category": "sidequests",
+      "chapter": 1,
+      "source": "https://www.powerpyx.com/gta-6-donnies-lost-drugs-walkthrough/",
+      "sourceName": "PowerPyx",
+      "type": "verified",
+      "condition": "Na Swamped; spelen als Jason. Optioneel.",
+      "sourceLocation": "Leonida Straits Ocean in north-east of Mariana County",
+      "availabilityBasis": "expliciet hoofdstuk en startvoorwaarde in individuele walkthrough; proloog bij hoofdstuk 1 getoond",
+      "checkedOn": "2026-11-22",
+      "approximateLocation": true
+    },
+    "guide-side-collect-chemicals-for-kyle": {
+      "id": "guide-side-collect-chemicals-for-kyle",
+      "title": "Collect Chemicals for Kyle",
+      "detail": "Zoek de bestelwagen met chemicaliën en breng die naar Kyle. De gids beschrijft zowel betalen als stelen als aanpak.",
+      "area": "ambrosia",
+      "category": "sidequests",
+      "chapter": 2,
+      "source": "https://www.powerpyx.com/gta-6-collect-chemicals-for-kyle-walkthrough/",
+      "sourceName": "PowerPyx",
+      "type": "verified",
+      "condition": "Na Check Out McKittrick Farm; wacht op Kyles bericht.",
+      "sourceLocation": "Leonard County",
+      "availabilityBasis": "hoofdstuk en startvoorwaarden gecontroleerd in individuele gids",
+      "checkedOn": "2026-11-22",
+      "approximateLocation": true
+    },
+    "guide-operation-sunrise-rv-park": {
+      "id": "guide-operation-sunrise-rv-park",
+      "title": "Sunrise RV Park",
+      "detail": "Zoek op het Kingfishers-terrein naar kluizen en de Akulus Revolver in een koffer op een bed. De revolver werd door de bron pas in hoofdstuk 2 aangetroffen; vroeg verkennen garandeert nog geen volledige buit.",
+      "area": "keys",
+      "category": "loot",
+      "chapter": 2,
+      "source": "https://playtheorymedia.com/gta-6-sunrise-rv-park-akulus-revolver-safe-code/",
+      "sourceName": "PlayTheory",
+      "type": "verified",
+      "condition": "Terrein en buit kunnen tijdelijk niet beschikbaar zijn; controleer de locatiekaart en kom zo nodig later terug.",
+      "sourceLocation": "Sunrise RV Park, Mariana County",
+      "availabilityBasis": "eerstehands volledige roof in hoofdstuk 2; wapen ontbrak bij bezoek in hoofdstuk 1",
+      "checkedOn": "2026-11-22",
+      "locationType": "illegal-operation",
+      "approximateLocation": true
+    },
+    "guide-side-puff-puff-pass-meet-at-the-warehouse": {
+      "id": "guide-side-puff-puff-pass-meet-at-the-warehouse",
+      "title": "Puff Puff Pass",
+      "detail": "Bezoek het magazijn op Cecilia’s uitnodiging en volg Felix. De opdracht gaat daarna elders verder; het eerste bezoek is niet het einde.",
+      "area": "ambrosia",
+      "category": "sidequests",
+      "chapter": 3,
+      "source": "https://www.powerpyx.com/gta-6-puff-puff-pass-meet-at-the-warehouse-walkthrough/",
+      "sourceName": "PowerPyx",
+      "type": "verified",
+      "condition": "Na Read the Label; wacht op Cecilia’s bericht. Alleen Lucia.",
+      "sourceLocation": "Leonard County > Cecilia’s Mansion",
+      "availabilityBasis": "hoofdstuk en startvoorwaarden gecontroleerd in individuele gids",
+      "checkedOn": "2026-11-22",
+      "approximateLocation": true
+    },
     "guide-side-hometown-heroes": {
       "id": "guide-side-hometown-heroes",
       "title": "Hometown Heroes",
@@ -48064,6 +48223,72 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "PowerPyx",
       "availabilityBasis": "Hoofdstuk of voorwaarden uit de gekoppelde gids",
       "checkedOn": "2026-11-23"
+    },
+    "guide-side-the-last-mile-passing-the-torch": {
+      "id": "guide-side-the-last-mile-passing-the-torch",
+      "title": "The Last Mile: Passing the Torch",
+      "chapter": 4,
+      "category": "sidequests",
+      "area": "port",
+      "sourceLocation": "Sundown Private Airfield",
+      "detail": "Speel als Jason. Na Pool Day belt Pete over zijn vliegtuig.",
+      "source": "https://www.powerpyx.com/gta-6-the-last-mile-passing-the-torch-recover-petes-plane-walkthrough/",
+      "condition": "",
+      "type": "verified",
+      "sourceName": "PowerPyx",
+      "availabilityBasis": "Hoofdstuk of voorwaarden uit de gekoppelde gids",
+      "checkedOn": "2026-11-23",
+      "approximateLocation": true
+    },
+    "guide-side-petes-deliveries-southpoint-airfield": {
+      "id": "guide-side-petes-deliveries-southpoint-airfield",
+      "title": "Pete’s Deliveries: Southpoint Airfield",
+      "chapter": 4,
+      "category": "sidequests",
+      "area": "keys",
+      "sourceLocation": "Mariana County",
+      "detail": "Voltooi als Jason deze route na Backseat Pilot.",
+      "source": "https://www.powerpyx.com/gta-6-petes-deliveries-southpoint-airfield-avery-allen-co-walkthrough/",
+      "condition": "",
+      "type": "verified",
+      "sourceName": "PowerPyx",
+      "availabilityBasis": "Hoofdstuk of voorwaarden uit de gekoppelde gids",
+      "checkedOn": "2026-11-23",
+      "approximateLocation": true
+    },
+    "guide-bank-3": {
+      "id": "guide-bank-3",
+      "title": "Gibson Brothers Bank · Mariana County",
+      "chapter": 3,
+      "category": "loot",
+      "area": "keys",
+      "sourceLocation": "Mariana County",
+      "detail": "Vink de vestiging af zodra kassa en kluis op de spelkaart als voltooid staan.",
+      "source": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/#Small_Banks_14_Total",
+      "condition": "Na Credit Check in hoofdstuk 3.",
+      "type": "verified",
+      "sourceName": "PowerPyx",
+      "availabilityBasis": "Hoofdstuk of voorwaarden uit de gekoppelde gids",
+      "checkedOn": "2026-11-23",
+      "locationType": "bank-job",
+      "approximateLocation": true
+    },
+    "guide-bank-13": {
+      "id": "guide-bank-13",
+      "title": "Druthers State Bank · Leonard County",
+      "chapter": 3,
+      "category": "loot",
+      "area": "ambrosia",
+      "sourceLocation": "Leonard County",
+      "detail": "Vink de vestiging af zodra kassa en kluis op de spelkaart als voltooid staan.",
+      "source": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/#Small_Banks_14_Total",
+      "condition": "Na Credit Check in hoofdstuk 3.",
+      "type": "verified",
+      "sourceName": "PowerPyx",
+      "availabilityBasis": "Hoofdstuk of voorwaarden uit de gekoppelde gids",
+      "checkedOn": "2026-11-23",
+      "locationType": "bank-job",
+      "approximateLocation": true
     },
     "guide-operation-palmer-fishing-warehouse": {
       "id": "guide-operation-palmer-fishing-warehouse",
@@ -48099,6 +48324,24 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "locationType": "illegal-operation",
       "unlockUncertain": true
     },
+    "guide-operation-cigar-import-front": {
+      "id": "guide-operation-cigar-import-front",
+      "title": "Cigar Import Front",
+      "category": "loot",
+      "area": "city",
+      "chapter": 1,
+      "detail": "Open de bron voor de locatiekaart en controleer in het spel welke Key Valuables je nog nodig hebt.",
+      "sourceLocation": "Locatiekaart in de brongids",
+      "source": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+      "sourceName": "PowerPyx",
+      "type": "verified",
+      "checkedOn": "2026-11-23",
+      "availabilityBasis": "Genoemd in de operatie-index; startmoment onbekend",
+      "condition": "",
+      "locationType": "illegal-operation",
+      "unlockUncertain": true,
+      "approximateLocation": true
+    },
     "guide-operation-vespucci-mansion": {
       "id": "guide-operation-vespucci-mansion",
       "title": "Vespucci Mansion",
@@ -48131,6 +48374,41 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "availabilityBasis": "Vindplek uit de gids; beschikbaar hoofdstuk niet per kaart bevestigd",
       "series": "Vice City Flamingos",
       "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwplgbug-f696c8c8.avif"
+    },
+    "guide-swingers-10": {
+      "id": "guide-swingers-10",
+      "title": "Duke King · Silver",
+      "area": "grass",
+      "sourceLocation": "North Mariana County",
+      "category": "collectibles",
+      "chapter": 1,
+      "detail": "North Mariana County — Archiefkast bouwkeet Breakwater Quarry.",
+      "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/liberty-swingers-cards",
+      "sourceName": "Nexzy",
+      "type": "verified",
+      "checkedOn": "2026-11-23",
+      "availabilityBasis": "Vindplek uit de gids; beschikbaar hoofdstuk niet per kaart bevestigd",
+      "series": "Liberty City Swingers",
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqg12kx-11bd118c.avif",
+      "approximateLocation": true
+    },
+    "guide-card-manatees-08": {
+      "id": "guide-card-manatees-08",
+      "title": "Dominic Brizzolato · Silver",
+      "area": "grass",
+      "sourceLocation": "North Mariana County",
+      "category": "collectibles",
+      "chapter": 1,
+      "detail": "North Mariana County — Op het bureau aan het einde van de gang in de bouwkeet bij de Nehrling River.",
+      "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/vice-city-manatees-cards",
+      "sourceName": "Nexzy",
+      "type": "verified",
+      "checkedOn": "2026-11-23",
+      "availabilityBasis": "Vindplek uit de gids; beschikbaar hoofdstuk niet per kaart bevestigd",
+      "series": "Vice City Manatees",
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqqlhvj-38cc0ff7.avif",
+      "unlockUncertain": true,
+      "approximateLocation": true
     },
     "guide-card-pounders-14": {
       "id": "guide-card-pounders-14",
@@ -48183,6 +48461,24 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwq6e6jc-09a979f2.avif",
       "unlockUncertain": true
     },
+    "guide-card-vcfutbol-29": {
+      "id": "guide-card-vcfutbol-29",
+      "title": "Renata Vasquez · Teal",
+      "area": "grass",
+      "sourceLocation": "North Mariana County",
+      "category": "collectibles",
+      "chapter": 1,
+      "detail": "North Mariana County — Naast een klapstoel in een vervallen schuur bij de boerderij aan Pigeon Plum Rd.",
+      "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/vice-city-club-de-futbol-cards",
+      "sourceName": "Nexzy",
+      "type": "verified",
+      "checkedOn": "2026-11-23",
+      "availabilityBasis": "Vindplek uit de gids; beschikbaar hoofdstuk niet per kaart bevestigd",
+      "series": "Vice City Club De Fútbol",
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwq6eaf4-0721a3f3.avif",
+      "unlockUncertain": true,
+      "approximateLocation": true
+    },
     "guide-card-wrestling-02": {
       "id": "guide-card-wrestling-02",
       "title": "Blood Smith",
@@ -48217,6 +48513,42 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwq7j7r0-8f3f84e8.avif",
       "unlockUncertain": true
     },
+    "guide-card-ratface-11": {
+      "id": "guide-card-ratface-11",
+      "title": "Disastrous Duo · Maroon",
+      "area": "grass",
+      "sourceLocation": "South Kelly County",
+      "category": "collectibles",
+      "chapter": 1,
+      "detail": "South Kelly County — In het zand naast een losse bank en krat op het uiterste westelijke strand.",
+      "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/legends-of-ratface-cards",
+      "sourceName": "Nexzy",
+      "type": "verified",
+      "checkedOn": "2026-11-23",
+      "availabilityBasis": "Vindplek uit de gids; beschikbaar hoofdstuk niet per kaart bevestigd",
+      "series": "The Legends of Ratface",
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqfe555-a1428f41.avif",
+      "unlockUncertain": true,
+      "approximateLocation": true
+    },
+    "guide-card-ratface-12": {
+      "id": "guide-card-ratface-12",
+      "title": "Disastrous Duo · Purple",
+      "area": "grass",
+      "sourceLocation": "North Mariana County",
+      "category": "collectibles",
+      "chapter": 1,
+      "detail": "North Mariana County — Op de achterste terrasreling van gebouw 2 op de camping bij Terrapin Rd.",
+      "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/legends-of-ratface-cards",
+      "sourceName": "Nexzy",
+      "type": "verified",
+      "checkedOn": "2026-11-23",
+      "availabilityBasis": "Vindplek uit de gids; beschikbaar hoofdstuk niet per kaart bevestigd",
+      "series": "The Legends of Ratface",
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqfeadd-1f51bcea.avif",
+      "unlockUncertain": true,
+      "approximateLocation": true
+    },
     "guide-card-ratface-30": {
       "id": "guide-card-ratface-30",
       "title": "The Ratster · Purple",
@@ -48233,6 +48565,24 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "series": "The Legends of Ratface",
       "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqfhyt1-3843bf8e.avif",
       "unlockUncertain": true
+    },
+    "guide-card-ratface-33": {
+      "id": "guide-card-ratface-33",
+      "title": "Todd · Purple",
+      "area": "ambrosia",
+      "sourceLocation": "Richard Barebone State Park",
+      "category": "collectibles",
+      "chapter": 1,
+      "detail": "Richard Barebone State Park — Onder de bank op de hoogste verdieping van de uitkijktoren aan het zuidstrand.",
+      "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/legends-of-ratface-cards",
+      "sourceName": "Nexzy",
+      "type": "verified",
+      "checkedOn": "2026-11-23",
+      "availabilityBasis": "Vindplek uit de gids; beschikbaar hoofdstuk niet per kaart bevestigd",
+      "series": "The Legends of Ratface",
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqfib6c-775099bd.avif",
+      "unlockUncertain": true,
+      "approximateLocation": true
     },
     "guide-card-right-wing-29": {
       "id": "guide-card-right-wing-29",
@@ -48302,6 +48652,24 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqenylr-5d9a7064.avif",
       "unlockUncertain": true
     },
+    "guide-card-ed-comics-14": {
+      "id": "guide-card-ed-comics-14",
+      "title": "Fornicator · Orange",
+      "area": "grass",
+      "sourceLocation": "South Kelly County",
+      "category": "collectibles",
+      "chapter": 1,
+      "detail": "South Kelly County — Op een vuilnisbak tegen de muur bij de zijdeur van Xero.",
+      "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/ed-universe-cards",
+      "sourceName": "Nexzy",
+      "type": "verified",
+      "checkedOn": "2026-11-23",
+      "availabilityBasis": "Vindplek uit de gids; beschikbaar hoofdstuk niet per kaart bevestigd",
+      "series": "Ed Comics Universe",
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqeo4na-78506945.avif",
+      "unlockUncertain": true,
+      "approximateLocation": true
+    },
     "guide-card-ed-comics-22": {
       "id": "guide-card-ed-comics-22",
       "title": "MR.I · Light Blue",
@@ -48319,6 +48687,24 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqep2ci-351024cd.avif",
       "unlockUncertain": true
     },
+    "guide-card-delights-01": {
+      "id": "guide-card-delights-01",
+      "title": "Amber",
+      "area": "ambrosia",
+      "sourceLocation": "South Leonard County",
+      "category": "collectibles",
+      "chapter": 1,
+      "detail": "South Leonard County — Onder de stoel op de rand bij de deur van de Agricore-mijntoren.",
+      "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/delights-dancers-cards",
+      "sourceName": "Nexzy",
+      "type": "verified",
+      "checkedOn": "2026-11-23",
+      "availabilityBasis": "Vindplek uit de gids; beschikbaar hoofdstuk niet per kaart bevestigd",
+      "series": "Delights Dancers",
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqbu1o7-3f61f262.avif",
+      "unlockUncertain": true,
+      "approximateLocation": true
+    },
     "guide-card-delights-13": {
       "id": "guide-card-delights-13",
       "title": "Nevaeh",
@@ -48335,6 +48721,24 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "series": "Delights Dancers",
       "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqbwtg0-ecf4e74a.avif",
       "unlockUncertain": true
+    },
+    "guide-card-jack-of-hearts-12": {
+      "id": "guide-card-jack-of-hearts-12",
+      "title": "Jemila · Purple",
+      "area": "ambrosia",
+      "sourceLocation": "Fairbanks Pharmacy",
+      "category": "collectibles",
+      "chapter": 1,
+      "detail": "Fairbanks Pharmacy — Neem de trap achter de apotheek. Kijk boven op de vloer onder de elektrakast.",
+      "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/jack-of-hearts-cards",
+      "sourceName": "Nexzy",
+      "type": "verified",
+      "checkedOn": "2026-11-23",
+      "availabilityBasis": "Vindplek uit de gids; beschikbaar hoofdstuk niet per kaart bevestigd",
+      "series": "Jack of Hearts Dancers",
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqaoo6k-f274a497.avif",
+      "unlockUncertain": true,
+      "approximateLocation": true
     },
     "guide-card-jack-of-hearts-13": {
       "id": "guide-card-jack-of-hearts-13",
@@ -48369,6 +48773,24 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "series": "Jack of Hearts Dancers",
       "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqaws7k-f0e12627.avif",
       "unlockUncertain": true
+    },
+    "guide-card-jack-of-hearts-25": {
+      "id": "guide-card-jack-of-hearts-25",
+      "title": "MonaLi$a · Bronze",
+      "area": "grass",
+      "sourceLocation": "South Kelly County",
+      "category": "collectibles",
+      "chapter": 1,
+      "detail": "South Kelly County — In het herentoilet langs de zuidelijke paden.",
+      "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/jack-of-hearts-cards",
+      "sourceName": "Nexzy",
+      "type": "verified",
+      "checkedOn": "2026-11-23",
+      "availabilityBasis": "Vindplek uit de gids; beschikbaar hoofdstuk niet per kaart bevestigd",
+      "series": "Jack of Hearts Dancers",
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqb4kap-d7dc0c1a.avif",
+      "unlockUncertain": true,
+      "approximateLocation": true
     },
     "guide-card-jack-of-hearts-27": {
       "id": "guide-card-jack-of-hearts-27",
@@ -48420,6 +48842,24 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "series": "Nine1Nine Dancers",
       "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqwycqi-b1fe2841.avif",
       "unlockUncertain": true
+    },
+    "guide-card-nine1nine-04": {
+      "id": "guide-card-nine1nine-04",
+      "title": "Braelynn · Deep Red",
+      "area": "kalaga",
+      "sourceLocation": "North Kelly County",
+      "category": "collectibles",
+      "chapter": 1,
+      "detail": "North Kelly County — Naast een tijdschrift op de bovenverdieping van de verlaten sterrenwacht langs een zandweg.",
+      "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/nine1nine-cards",
+      "sourceName": "Nexzy",
+      "type": "verified",
+      "checkedOn": "2026-11-23",
+      "availabilityBasis": "Vindplek uit de gids; beschikbaar hoofdstuk niet per kaart bevestigd",
+      "series": "Nine1Nine Dancers",
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwqwyq22-9480dbfd.avif",
+      "unlockUncertain": true,
+      "approximateLocation": true
     },
     "guide-card-nine1nine-09": {
       "id": "guide-card-nine1nine-09",
@@ -48522,6 +48962,42 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "series": "America’s Next Top Hooker",
       "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwq8htwx-ac8afd91.avif",
       "unlockUncertain": true
+    },
+    "guide-card-next-top-hooker-09": {
+      "id": "guide-card-next-top-hooker-09",
+      "title": "Boris · Gold",
+      "area": "grass",
+      "sourceLocation": "North Mariana County",
+      "category": "collectibles",
+      "chapter": 1,
+      "detail": "North Mariana County — Op de rand bij de deuropening van het gebouwtje op het lege terrein bij NW 3rd Ave.",
+      "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/americas-next-top-hooker-cards",
+      "sourceName": "Nexzy",
+      "type": "verified",
+      "checkedOn": "2026-11-23",
+      "availabilityBasis": "Vindplek uit de gids; beschikbaar hoofdstuk niet per kaart bevestigd",
+      "series": "America’s Next Top Hooker",
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwq8i2pg-5254f9e4.avif",
+      "unlockUncertain": true,
+      "approximateLocation": true
+    },
+    "guide-card-next-top-hooker-12": {
+      "id": "guide-card-next-top-hooker-12",
+      "title": "Crystal",
+      "area": "kalaga",
+      "sourceLocation": "North Kelly County",
+      "category": "collectibles",
+      "chapter": 1,
+      "detail": "North Kelly County — Op de badkamervloer in de grote rode schuur bij SR-27.",
+      "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/americas-next-top-hooker-cards",
+      "sourceName": "Nexzy",
+      "type": "verified",
+      "checkedOn": "2026-11-23",
+      "availabilityBasis": "Vindplek uit de gids; beschikbaar hoofdstuk niet per kaart bevestigd",
+      "series": "America’s Next Top Hooker",
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwq8if5y-b9f7087d.avif",
+      "unlockUncertain": true,
+      "approximateLocation": true
     },
     "guide-card-next-top-hooker-14": {
       "id": "guide-card-next-top-hooker-14",
@@ -49209,7 +49685,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-d1f27493e3255b19f5c7",
       "title": "Kaartpin 43",
-      "area": null,
+      "area": "keys",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Unieke wapenvarianten",
@@ -49221,12 +49697,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSourceLabel": "Kaart of route",
       "workbookStatus": "Kaartmelding",
       "workbookGroup": "Unieke wapenvariant",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-71a008eebbcdd8384191",
       "title": "Kaartpin 44 · revolver inside the trailer",
-      "area": null,
+      "area": "keys",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Unieke wapenvarianten",
@@ -49238,12 +49715,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSourceLabel": "Kaart of route",
       "workbookStatus": "Kaartmelding",
       "workbookGroup": "Unieke wapenvariant",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-7280bdb48296851d803a",
       "title": "Kaartpin 45",
-      "area": null,
+      "area": "keys",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Unieke wapenvarianten",
@@ -49255,12 +49733,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSourceLabel": "Kaart of route",
       "workbookStatus": "Kaartmelding",
       "workbookGroup": "Unieke wapenvariant",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-84069b40601c2e45a1bd",
       "title": "Kaartpin 46 · tactical rifle",
-      "area": null,
+      "area": "keys",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Unieke wapenvarianten",
@@ -49272,12 +49751,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSourceLabel": "Kaart of route",
       "workbookStatus": "Kaartmelding",
       "workbookGroup": "Unieke wapenvariant",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-bec930fa27c08e0974cb",
       "title": "Kaartpin 47",
-      "area": null,
+      "area": "keys",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Unieke wapenvarianten",
@@ -49289,12 +49769,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSourceLabel": "Kaart of route",
       "workbookStatus": "Kaartmelding",
       "workbookGroup": "Unieke wapenvariant",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-9c0775ad3ead1418195f",
       "title": "Kaartpin 48 · 556 rifle in the bunker",
-      "area": null,
+      "area": "keys",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Unieke wapenvarianten",
@@ -49306,7 +49787,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSourceLabel": "Kaart of route",
       "workbookStatus": "Kaartmelding",
       "workbookGroup": "Unieke wapenvariant",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-0f3ba0ad18686eebe8d8",
@@ -49702,7 +50184,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-9c8f946416c379bb6233",
       "title": "Kaartpin 87 · TMR rifle",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Unieke wapenvarianten",
@@ -49714,12 +50196,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSourceLabel": "Kaart of route",
       "workbookStatus": "Kaartmelding",
       "workbookGroup": "Unieke wapenvariant",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-5f091baff6efdb9ce1ab",
       "title": "Kaartpin 88 · Whistle to lure the guard",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Unieke wapenvarianten",
@@ -49731,12 +50214,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSourceLabel": "Kaart of route",
       "workbookStatus": "Kaartmelding",
       "workbookGroup": "Unieke wapenvariant",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-7babe5ffc7dea8642491",
       "title": "Kaartpin 89 · semi-automatic shotgun",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Unieke wapenvarianten",
@@ -49748,12 +50232,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSourceLabel": "Kaart of route",
       "workbookStatus": "Kaartmelding",
       "workbookGroup": "Unieke wapenvariant",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-23d946200986f9e72aee",
       "title": "Kaartpin 90 · On the second floor inside the warehouse",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Unieke wapenvarianten",
@@ -49765,7 +50250,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSourceLabel": "Kaart of route",
       "workbookStatus": "Kaartmelding",
       "workbookGroup": "Unieke wapenvariant",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-687667b786e3e4c940c0",
@@ -49872,7 +50358,7 @@ window.EXPLORER_RELEASE_ADDITIONS = {
     {
       "id": "excel-7e0f0d73da0a8341f4b9",
       "title": "Kaartpin 103 · baseball bat at the marked spot",
-      "area": null,
+      "area": "port",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Unieke wapenvarianten",
@@ -49884,12 +50370,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSourceLabel": "Kaart of route",
       "workbookStatus": "Kaartmelding",
       "workbookGroup": "Unieke wapenvariant",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-6348e0035647e8f61a93",
       "title": "Kaartpin 104",
-      "area": null,
+      "area": "port",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Unieke wapenvarianten",
@@ -49901,7 +50388,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "extraSourceLabel": "Kaart of route",
       "workbookStatus": "Kaartmelding",
       "workbookGroup": "Unieke wapenvariant",
-      "referenceOnly": true
+      "referenceOnly": true,
+      "approximateLocation": true
     },
     {
       "id": "excel-24841a90c38f01c40022",
