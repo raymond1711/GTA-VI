@@ -230,7 +230,7 @@
  <label>Collectie <select id="collect-series"><optgroup label="Verzamelkaartjes">${collectionOptions(cardSeries)}</optgroup>${themedOptions}</select></label>
  <label><input type="checkbox" id="collect-missing"> Alleen ontbrekende</label>
  </div>
- <div id="collect-map"></div><p id="collect-status" aria-live="polite"></p><p id="collect-coverage" class="scope-note" hidden></p><div id="collect-list"></div>`;
+ <div id="collect-map"></div><p id="collect-status" aria-live="polite"></p><div id="collect-game-goal" hidden></div><p id="collect-coverage" class="scope-note" hidden></p><div id="collect-list"></div>`;
  function cloneAreaMap(prefix){
   const map=explore.querySelector('.map-wrap').cloneNode(true);
   for(const node of map.querySelectorAll('[id]')){
@@ -307,6 +307,9 @@
   target.replaceChildren();
   collectibles.querySelector('#collect-status').hidden=!collectibleArea;
   coverageLine.hidden=!collectibleArea||!coverageLine.textContent;
+  const goalPanel=collectibles.querySelector('#collect-game-goal');
+  goalPanel.innerHTML=collectibleArea?collectibleGoal(selection,found):'';
+  goalPanel.hidden=!goalPanel.innerHTML;
   if(!collectibleArea){target.innerHTML=chooseAreaPrompt;return;}
   if(!visible.length)target.textContent=missing&&matches.length?'Alle opgenomen vindplekken afgevinkt.':'Geen vindplekken voor deze collectie in dit gebied.';
   for(const item of visible){
@@ -405,15 +408,20 @@
   ['Schietuitdagingen',42],['Top Fun-droneproeven',42],['Jachtopdrachten van Bret',15],
   ['Arcadegames',4],['Pooltegenstanders',5],['Minigolf',2]
  ]);
+ function goalTrack(title,value,total,goal){
+  const position=goal/total*100;
+  const fill=Math.min(value??0,total);
+  const state=value===undefined?'Stand onbekend':undefined;
+  return `<div class="game-goal-track">
+   <div class="neutral-track" role="progressbar" aria-label="${esc(title)}" aria-valuemin="0" aria-valuemax="${total}" ${state?'aria-valuetext="'+state+'"':'aria-valuenow="'+fill+'"'}><div style="width:${fill/total*100}%"></div></div>
+   <span class="game-goal-marker" style="left:${position}%" title="Spelminimum: ${goal}"></span>
+  </div>`;
+ }
  function gameGoalMeter(rows,title,goal,completed){
   const progress=core.progress(rows,completed);
-  const position=Math.min(100,goal/progress.total*100);
   return `<div class="progress-row">
    <div class="meter-label"><span>${esc(title)}</span><strong>${label(progress)}</strong></div>
-   <div class="game-goal-track">
-    <div class="neutral-track" role="progressbar" aria-label="${esc(title)}" aria-valuemin="0" aria-valuemax="${progress.total}" aria-valuenow="${progress.done}"><div style="width:${progress.percent??0}%"></div></div>
-    <span class="game-goal-marker" style="left:${position}%" aria-hidden="true"></span>
-   </div>
+   ${goalTrack(title,progress.done,progress.total,goal)}
    <small>${progress.done} van ${progress.total} · Spelminimum ${goal} van ${progress.total}${progress.done>=goal?' · Behaald':''}</small>
   </div>`;
  }
@@ -424,10 +432,7 @@
   const total=91, goal=50;
   return `<div class="progress-row">
    <div class="meter-label"><span>Stick Ups · alle gebieden</span><strong>${done} / ${total}</strong></div>
-   <div class="game-goal-track">
-    <div class="neutral-track" role="progressbar" aria-label="Afgevinkte Stick Ups in de app" aria-valuemin="0" aria-valuemax="${total}" aria-valuenow="${done}"><div style="width:${done/total*100}%"></div></div>
-    <span class="game-goal-marker" style="left:${goal/total*100}%" aria-hidden="true"></span>
-   </div>
+   ${goalTrack("Stick Ups",done,total,goal)}
    <small>Voor 100% in het spel: ${goal} van ${total} · ${items.length} locaties afvinkbaar in de app · ${community} vinkjes op communitylocaties.</small>
   </div>`;
  }
@@ -629,11 +634,111 @@
   }
   refreshExploreChecks(id,on);
  });
- function renderOverview(){const chapterRecords=exploreRecords(),all=[...records(),...activityRecords],p=core.progress(all,checked());const chapters=[...new Set([model.chapter,...chapterRecords.filter(x=>x.chapter<=model.chapter).map(x=>x.chapter)])].sort((a,b)=>a-b);overview.innerHTML=`<header class="page-heading page-heading--progress"><p class="eyebrow">JOUW REIS IN CIJFERS</p><h1>Voortgang</h1></header><div class="progress-hero"><p class="eyebrow">APP-VOLTOOIING</p><strong class="big-percent">${label(p)}</strong><p>${p.done} van ${p.total} unieke onderdelen afgevinkt</p><div class="neutral-track"><div style="width:${p.percent??0}%"></div></div></div><p class="app-scope">Dit is de voortgang van alle onderdelen in jouw app, geen officieel spelpercentage. De gids bevat hoofdstuk 1 t/m 5. Activiteiten uit de aparte tab tellen mee bij het app-totaal, de gebieden en de categorieën. Algemene punten en locaties waarvan het kaartgebied nog niet bevestigd is, staan ook in de overzichten boven de kaart. Nieuwe onderdelen vergroten het totaal. Latere hoofdstukken tellen wel mee in gebieds-, categorie- en app-totalen, maar hun namen en details blijven verborgen.</p><div class="progress-columns"><section class="progress-group"><h2>Hoofdstukken</h2>${chapters.map(n=>meter(core.chapter(chapterRecords,n),'Hoofdstuk '+n)).join('')}<p class="scope-note">Alleen hoofdstukken tot en met jouw keuze worden getoond.</p></section><section class="progress-group"><h2>Gebieden</h2>${areas.map(a=>meter(core.area(all,a.id),a.name)).join('')}${meter(all.filter(x=>!x.area),'Algemeen / regio nog onbevestigd')}</section><section class="progress-group"><h2>Categorieën</h2>${types.map(t=>meter(core.category(all,t.id),t.name)).join('')}</section></div><p class="overview-footer">Eén vinkje werkt door in alle bijbehorende overzichten. Introductie en Verkennen delen hun vinkjes. Een streepje betekent dat er nog geen onderdelen zijn vastgelegd.</p>`;}
+ const salesLabels={drugs:'Drugs',jewelry:'Juwelen',bills:'Gemarkeerde biljetten',vehicles:'Voertuigen'};
+ const dollars=new Intl.NumberFormat('nl-NL',{style:'currency',currency:'USD',currencyDisplay:'narrowSymbol',maximumFractionDigits:0});
+ // Alleen expliciet onderbouwde individuele taken. Verzamelopdrachten en hun subtaken kunnen overlappen.
+ const optionalMissionIds=new Set([
+  'guide-side-audit-get-lucias-clothes','guide-side-audit-dale-mamba','guide-side-audit-mansion-thrax',
+  'guide-side-join-a-street-race','guide-side-bumper-to-bumper-mentor-yago',
+  'guide-side-race-against-yago','guide-side-brother-to-brother-back-up-yago',
+  'guide-side-the-unknown-stuntman','guide-side-audit-trial-by-tire','guide-side-audit-quit-your-job',
+  'guide-side-audit-catching-a-whale','guide-side-audit-the-audacity-attend'
+ ]);
+ const optionalTasks=core.unique(trusted.filter(item=>optionalMissionIds.has(item.id)||item.meditationParent||
+  (item.collection==='Meditaties'&&!meditationCharacters.has(item.id))));
+ function saleStatus(key){
+  const value=model.sales?.[key],goal=core.saleGoals[key];
+  if(value===undefined)return 'Onbekend · doel '+dollars.format(goal);
+  return dollars.format(value)+' / '+dollars.format(goal)+(value>=goal?' · Behaald':' · Nog '+dollars.format(goal-value));
+ }
+ const gameGoalGroups=[["Verhaal en taken",[["Hoofdverhaal",1],["Optionele taken",100,"optional"],["Bendeoperaties",39],["Bankovervallen",22],["Payday Loan Jobs",7],["Smash ’N’ Grabs",34],["Stick Ups",50],["Drugs verkocht",100000,"drugs"],["Juwelen verkocht",100000,"jewelry"],["Gemarkeerde biljetten verkocht",250000,"bills"],["Kluizen",8],["Voertuigen verkocht",200000,"vehicles"]]],["Verkenning en activiteiten",[["Kenton-sets",5],["Kaartseries",15],["WAiNK-scans",100,"waink"],["Onderwatervondsten",33,"dives"],["Tijdschriften, boeken en strips",30],["Meditaties",15],["Flamingo’s",100],["Unieke afspeellijsten",2],["Ontdekte stijlen",70],["Unieke races",30],["Race-uitdagingen met goud",10],["Schietuitdagingen met goud",42],["Arcadegames",4],["Pooltegenstanders",5],["Minigolflocaties",2],["Basketbalringen",90],["Droneproeven",42],["Stunts",300],["Uitdagingen",70],["Bret’s Target Decks",15]]],["Ontdekkingen",[["Voertuigbasismodellen",200],["Standaardwapens",50],["Dieren",100]]]];
+ const wainkCollections=new Set(['WAiNK-bezienswaardigheden','WAiNK-curiositeiten','WAiNK-sculpturen','NoFlusher-tags','PeeWee-billboards']);
+ const wainkScans=trusted.filter(item=>!item.referenceOnly&&wainkCollections.has(item.collection));
+ const underwaterDiscoveries=trusted.filter(item=>!item.referenceOnly&&item.collection==='Duikplekken en schatten'&&
+  !['excel-dive-a15788fa43ad4077fac8','excel-dive-7069022c3e0f6d10b4ed'].includes(item.id));
+ function collectibleGoal(selection,found){
+  let title,rows,total,goal;
+  if(wainkCollections.has(selection)){
+   [title,rows,total,goal]=['WAiNK-scans',wainkScans,108,100];
+  }else if(selection==='Duikplekken en schatten'){
+   [title,rows,total,goal]=['Onderwatervondsten',underwaterDiscoveries,33,33];
+  }else if(selection===flamingoCollection){
+   [title,rows,total,goal]=['Flamingo’s',trusted.filter(item=>collectionOf(item)===selection&&!item.referenceOnly),125,100];
+  }else if(trusted.some(item=>item.series&&collectionOf(item)===selection)){
+   const cards=trusted.filter(item=>item.series&&!item.referenceOnly);
+   const sets=new Map();
+   for(const item of cards){
+    if(!sets.has(item.series))sets.set(item.series,[]);
+    sets.get(item.series).push(item);
+   }
+   const done=[...sets.values()].filter(set=>set.every(item=>found.has(item.id))).length;
+   return collectibleGoalRow('Complete kaartseries',done,18,15);
+  }else return '';
+  return collectibleGoalRow(title,core.progress(rows,found).done,total,goal);
+ }
+ function collectibleGoalRow(title,done,total,goal){
+  return `<div class="progress-row"><div class="meter-label"><span>${esc(title)} · alle gebieden</span><strong>${done} / ${total}</strong></div>${goalTrack(title,done,total,goal)}<small>Voor 100% in het spel: ${goal} van ${total}</small></div>`;
+ }
+ const gameGoalTotals=new Map([
+  ['Kenton-sets',7],['Kaartseries',18],['WAiNK-scans',108],['Stick Ups',91],
+  ["Smash 'N' Grabs",35],['Tijdschriften, boeken en strips',34],['Meditaties',18],
+  ["Flamingo's",125],['Ontdekte stijlen',79],['Unieke races',40],
+  ['Race-uitdagingen met goud',13],['Pooltegenstanders',7],['Minigolflocaties',3],
+  ['Basketbalringen',100],['Stunts',397],['Uitdagingen',80],
+  ['Voertuigbasismodellen',277],['Standaardwapens',66],['Dieren',255]
+ ]);
+ function gameCompletionCounts(){
+  const found=checked();
+  return {optional:core.progress(optionalTasks,found).done,waink:core.progress(wainkScans,found).done,dives:core.progress(underwaterDiscoveries,found).done,...model.sales};
+ }
+ function updateGameSummary(){
+  const counts=gameCompletionCounts();
+  const goals=gameGoalGroups.flatMap(([,rows])=>rows);
+  const achieved=goals.filter(([,minimum,key])=>counts[key]>=minimum).length;
+  const unknown=goals.filter(([, ,key])=>counts[key]===undefined).length;
+  overview.querySelector('#game-goal-summary').textContent=`${achieved} van ${goals.length} speldoelen behaald · ${unknown} onbekend`;
+ }
+ function renderGameCompletion(){
+  const target=overview.querySelector('#game-completion');
+  const counts=gameCompletionCounts();
+  const number=new Intl.NumberFormat('nl-NL');
+  target.innerHTML=`<h2>100% spelvoltooiing</h2>
+   <p id="game-goal-summary" aria-live="polite"></p>
+   <p class="scope-note">Verkoopbedragen vind je na het hoofdverhaal onder Progress → Stats → 100% Completion → Story &amp; Tasks.</p>
+   ${gameGoalGroups.map(([group,goals])=>`<section><h3>${esc(group)}</h3><ul class="game-goals">
+    ${goals.map(([title,minimum,key])=>{
+     const value=counts[key];
+     if(Object.hasOwn(core.saleGoals,key))return `<li class="sale-goal"><label>${esc(title)}<input type="number" min="0" max="${Number.MAX_SAFE_INTEGER}" step="1" inputmode="numeric" data-sale="${key}" value="${value??''}"></label><small data-sale-status="${key}" aria-live="polite">${esc(saleStatus(key))}</small><div data-sale-track="${key}">${goalTrack(title,value,minimum,minimum)}</div></li>`;
+     const status=value===undefined?'Onbekend · doel '+number.format(minimum):number.format(value)+' van '+number.format(minimum)+(value>=minimum?' · Behaald':'');
+     return `<li><strong>${esc(title)}</strong><span>${esc(status)}${key==='optional'?' · Gedeeltelijk gekoppeld':''}</span>
+      ${goalTrack(title,value,gameGoalTotals.get(title)||minimum,minimum)}</li>`;
+    }).join('')}</ul></section>`).join('')}`;
+  updateGameSummary();
+ }
+ overview.addEventListener('change',event=>{
+  const field=event.target,key=field.dataset.sale;
+  if(!Object.hasOwn(core.saleGoals,key))return;
+  const amount=field.valueAsNumber;
+  field.setCustomValidity('');
+  if(!field.validity.valid||(field.value!==''&&!Number.isSafeInteger(amount))){
+   field.setCustomValidity('Vul een geldig geheel bedrag in dollars in.');
+   field.reportValidity();
+   return;
+  }
+  const sales={...model.sales};
+  if(field.value==='')delete sales[key];else sales[key]=amount;
+  model.sales=sales;
+  persist();
+  overview.querySelector('[data-sale-status="'+key+'"]').textContent=saleStatus(key);
+  overview.querySelector('[data-sale-track="'+key+'"]').innerHTML=goalTrack(salesLabels[key],sales[key],core.saleGoals[key],core.saleGoals[key]);
+  updateGameSummary();
+ });
+ overview.addEventListener('input',event=>{if(event.target.dataset.sale)event.target.setCustomValidity('')});
+ function renderOverview(){const chapterRecords=exploreRecords(),all=[...records(),...activityRecords],p=core.progress(all,checked());const chapters=[...new Set([model.chapter,...chapterRecords.filter(x=>x.chapter<=model.chapter).map(x=>x.chapter)])].sort((a,b)=>a-b);overview.innerHTML=`<header class="page-heading page-heading--progress"><p class="eyebrow">JOUW REIS IN CIJFERS</p><h1>Voortgang</h1></header><div class="progress-hero"><p class="eyebrow">APP-VOLTOOIING</p><strong class="big-percent">${label(p)}</strong><p>${p.done} van ${p.total} unieke onderdelen afgevinkt</p><div class="neutral-track"><div style="width:${p.percent??0}%"></div></div></div><p class="app-scope">Dit is de voortgang van alle onderdelen in jouw app, geen officieel spelpercentage. De gids bevat hoofdstuk 1 t/m 5. Activiteiten uit de aparte tab tellen mee bij het app-totaal, de gebieden en de categorieën. Algemene punten en locaties waarvan het kaartgebied nog niet bevestigd is, staan ook in de overzichten boven de kaart. Nieuwe onderdelen vergroten het totaal. Latere hoofdstukken tellen wel mee in gebieds-, categorie- en app-totalen, maar hun namen en details blijven verborgen.</p><section class="progress-group game-completion" id="game-completion"></section><div class="progress-columns"><section class="progress-group"><h2>Hoofdstukken</h2>${chapters.map(n=>meter(core.chapter(chapterRecords,n),'Hoofdstuk '+n)).join('')}<p class="scope-note">Alleen hoofdstukken tot en met jouw keuze worden getoond.</p></section><section class="progress-group"><h2>Gebieden</h2>${areas.map(a=>meter(core.area(all,a.id),a.name)).join('')}${meter(all.filter(x=>!x.area),'Algemeen / regio nog onbevestigd')}</section><section class="progress-group"><h2>Categorieën</h2>${types.map(t=>meter(core.category(all,t.id),t.name)).join('')}</section></div><p class="overview-footer">Eén vinkje werkt door in alle bijbehorende overzichten. Introductie en Verkennen delen hun vinkjes. Een streepje betekent dat er nog geen onderdelen zijn vastgelegd.</p>`;renderGameCompletion();}
  function openEditor(area){const form=editor.querySelector('form');form.reset();form.elements.area.value=area||areas[0].id;form.elements.chapter.value=model.chapter;editor.querySelector('#entry-error').textContent='';editor.showModal();}
  editor.querySelector('#close-editor').onclick=()=>editor.close();editor.querySelector('form').onsubmit=e=>{e.preventDefault();const form=e.target,values=new FormData(form);const item={id:'custom-'+crypto.randomUUID(),title:String(values.get('title')).trim(),detail:String(values.get('detail')).trim(),area:String(values.get('area')),category:String(values.get('category')),chapter:Number(values.get('chapter')),source:String(values.get('source')).trim(),type:'personal'};try{const next=validModel({...model,custom:[...model.custom,item]});const previous=model;model=next;if(!persist()){model=previous;throw Error('Opslag is niet beschikbaar.')}editor.close();renderExplore();notify('Eigen ontdekking toegevoegd.')}catch(err){editor.querySelector('#entry-error').textContent=err.message}};
  const baseUpdate=update;update=function(){baseUpdate();if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='progress')renderOverview()};
- function merge(incoming){const clean=validModel(incoming),items=new Map(model.custom.map(x=>[x.id,x]));for(const x of clean.custom)if(!items.has(x.id))items.set(x.id,x);model=validModel({...model,chapter:Math.min(lastChapter,Math.max(model.chapter,clean.chapter)),custom:[...items.values()],checked:[...new Set([...model.checked,...clean.checked])],notes:{...clean.notes,...model.notes},medals:core.mergeMedals(model.medals||{},clean.medals||{})});persist();syncChapterSlider();if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='progress')renderOverview()}
+ function merge(incoming){const clean=validModel(incoming),items=new Map(model.custom.map(x=>[x.id,x]));for(const x of clean.custom)if(!items.has(x.id))items.set(x.id,x);model=validModel({...model,chapter:Math.min(lastChapter,Math.max(model.chapter,clean.chapter)),custom:[...items.values()],checked:[...new Set([...model.checked,...clean.checked])],notes:{...clean.notes,...model.notes},medals:core.mergeMedals(model.medals||{},clean.medals||{}),sales:{...model.sales,...clean.sales}});persist();syncChapterSlider();if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='progress')renderOverview()}
  window.ExplorerApp={exportData:()=>structuredClone(model),validate:validModel,merge,refresh:()=>{if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='progress')renderOverview()},reset:()=>{model=initial();persist();syncChapterSlider();window.leonidaPhotoContext=null;go('start')}};
  document.querySelectorAll('footer p').forEach(p=>{if(p.textContent.includes('VERSIE 1.1'))p.innerHTML='LEONIDA EXPLORER <span>· VERSIE 2.4 · BOUWVERSIE</span>'});
  // Stil omschakelen bij een volgende opening; niet tijdens het laatste afvinken.

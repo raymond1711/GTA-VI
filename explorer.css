@@ -219,3 +219,12 @@ footer span{color:#dfc4e0}
 .evidence-legend { display: flex; flex-wrap: wrap; gap: .4rem 1rem; align-items: center; margin: .6rem 0; font-size: .8rem; }
 .evidence-legend span { display: inline-flex; align-items: center; gap: .3rem; }
 .evidence-legend .evidence-icon { margin-inline-start: 0; }
+
+.game-completion { margin-block: 1rem; }
+.game-completion progress { width: 100%; accent-color: #9ff4cb; }
+
+.game-goals { padding: 0; list-style: none; display: grid; gap: .55rem; }
+.game-goals li { display: grid; gap: .25rem; padding: .6rem .75rem; border-radius: .55rem; background: rgba(255,255,255,.05); }
+.game-goals progress { height: .55rem; }
+.sale-goal label { display: grid; gap: .25rem; }
+.sale-goal input { width: 100%; max-width: 16rem; box-sizing: border-box; font-size: 1rem; }
