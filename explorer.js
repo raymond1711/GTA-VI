@@ -51,7 +51,7 @@
  const icon=a=>`<svg aria-hidden="true" viewBox="0 0 48 48">${svgIcons[a.icon]}</svg>`;
  const main=document.querySelector('main'),footer=document.querySelector('footer'),journal=document.querySelector('.journal');
  const intro=document.createElement('section');intro.id='introduction-view';
- const nav=document.createElement('nav');nav.id='app-menu';nav.className='app-nav';nav.setAttribute('aria-label','Hoofdnavigatie');nav.innerHTML=[['start','Start'],['intro','Introductie'],['explore','Verkennen'],['collectibles','Collectibles'],['activities','Activiteiten'],['progress','Voortgang'],['journal','Fotodagboek']].map(([id,name])=>`<button type="button" data-page="${id}">${name}</button>`).join('');
+ const nav=document.createElement('nav');nav.id='app-menu';nav.className='app-nav';nav.setAttribute('aria-label','Hoofdnavigatie');nav.innerHTML=[['start','Start'],['intro','Introductie'],['explore','Verkennen'],['collectibles','Collectibles'],['activities','Activiteiten'],['challenges','Uitdagingen'],['progress','Voortgang'],['journal','Fotodagboek']].map(([id,name])=>`<button type="button" data-page="${id}">${name}</button>`).join('');
  const home=document.createElement('section');home.id='start-view';home.innerHTML="<div class=\"welcome\"><h1 class=\"welcome-title\">Leonida Explorer</h1><p>Kies waar je vandaag zin in hebt.</p></div><div class=\"mode-grid\"><button type=\"button\" class=\"mode-card\" data-page=\"intro\"><strong>Introductie</strong><span>Volg de route voor je eerste middag.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"explore\"><strong>Verkennen</strong><span>Kies je hoofdstuk en gebied.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"collectibles\"><strong>Collectibles</strong><span>Bekijk de verzamelobjecten en hun vindplekken.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"activities\"><strong>Activiteiten</strong><span>Vink stunts, meditaties en andere activiteiten af.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"progress\"><strong>Voortgang</strong><span>Bekijk je vinkjes per hoofdstuk, gebied en categorie.</span><em aria-hidden=\"true\">↗</em></button><button type=\"button\" class=\"mode-card\" data-page=\"journal\"><strong>Fotodagboek</strong><span>Bewaar foto’s en notities van je ontdekkingen.</span><em aria-hidden=\"true\">↗</em></button></div>";
  const leonidaMap=`<svg class="leonida-map" role="group" aria-label="Aanklikbare gebiedskaart van Leonida" viewBox="0 0 440 660">
   <defs>
@@ -361,7 +361,7 @@
  const activityNames=[
   'Stuntsprongen','Onder bruggen door','Mesvluchten','BASE-sprongen','Basketbalringen',
   'Meditaties','Dieren bestuderen','Voertuigmodellen scannen','Gewone races','Race-uitdagingen','Top Fun-droneproeven','Jachtopdrachten van Bret','Schietuitdagingen',
-  'Stick Ups','Overige activiteiten','Arcadegames','Pooltegenstanders','Minigolf','Dino Golf-medailles','Minigolfuitdagingen'
+  'Stick Ups','Overige activiteiten','Arcadegames','Pooltegenstanders','Minigolf','Dino Golf-medailles'
  ];
  const medalOptions=[['bronze','Brons'],['silver','Zilver'],['gold','Goud']];
  const activityNotes={
@@ -558,9 +558,55 @@
   }
  });
  for(const child of [...main.children])if(child!==footer&&child!==journal)intro.append(child);
- main.prepend(nav,home,intro,explore,collectibles,activities,overview);journal.id='journal-view';
+ const challenges=document.createElement('section');
+ challenges.id='challenges-view';
+ const challengeRows=trusted.filter(item=>item.collection==='Uitdagingen');
+ const challengeGroups=[...new Set(challengeRows.map(item=>item.group))];
+ function automaticChallenges(found){
+  const complete=new Set();
+  const count=rows=>core.progress(rows,found).done;
+  if(count(wainkScans.filter(item=>['WAiNK-bezienswaardigheden','WAiNK-curiositeiten','WAiNK-sculpturen'].includes(item.collection)))>=4)complete.add('guide-challenge-3-1');
+  if(count(underwaterDiscoveries)>=25)complete.add('guide-challenge-3-5');
+  if(count(activityRecords.filter(item=>item.collection==='Basketbalringen'))>=100)complete.add('guide-challenge-6-8');
+  return complete;
+ }
+ function renderChallenges(){
+  const found=checked(),automatic=automaticChallenges(found);
+  const complete=new Set([...found,...automatic]);
+  const opened=new Set([...challenges.querySelectorAll('details[open]')].map(details=>details.dataset.group));
+  challenges.innerHTML=`<header class="page-heading page-heading--activities"><p class="eyebrow">PROBEER IETS NIEUWS</p><h1>Uitdagingen</h1></header>
+   <p class="scope-note">Vink een uitdaging af zodra GTA VI die onder Progress → Challenges als voltooid toont.</p>
+   ${collectibleGoalRow('Uitdagingen',core.progress(challengeRows,complete).done,80,70)}
+   ${challengeGroups.map(group=>{
+    const rows=challengeRows.filter(item=>item.group===group);
+    const {done,total}=core.progress(rows,complete);
+    return `<details class="explore-category" data-group="${esc(group)}" ${opened.has(group)?'open':''}>
+     <summary><strong>${esc(group)}</strong><span>${done} van ${total}</span></summary>
+     <div class="explore-items">${rows.map(item=>`<article class="corker-card"><label class="task">
+      <input type="checkbox" data-challenge="${esc(item.id)}" ${complete.has(item.id)?'checked':''} ${automatic.has(item.id)?'disabled':''}>
+      <span><b>${esc(item.title)}</b>${sourceEvidence(item)}<small>${esc(item.detail)}</small>${automatic.has(item.id)?'<small>Automatisch behaald via bestaande vinkjes</small>':''}</span></label></article>`).join('')}</div></details>`;
+   }).join('')}
+   <p><a href="https://www.powerpyx.com/gta-6-all-challenges-guide/" target="_blank" rel="noopener noreferrer">Bron: PowerPyx</a></p>`;
+ }
+ challenges.addEventListener('change',event=>{
+  const {target}=event,id=target.dataset.challenge;
+  if(!id)return;
+  model.checked=target.checked?[...new Set([...model.checked,id])]:model.checked.filter(value=>value!==id);
+  persist();
+  const top=window.scrollY,focused=document.activeElement===target;
+  renderChallenges();
+  if(focused)challenges.querySelector('[data-challenge="'+id+'"]').focus({preventScroll:true});
+  if(window.scrollY!==top)window.scrollTo({top,behavior:'instant'});
+ });
+ const challengeButton=document.createElement('button');
+ challengeButton.type='button';
+ challengeButton.className='mode-card';
+ challengeButton.dataset.page='challenges';
+ challengeButton.innerHTML='<strong>Uitdagingen</strong><span>Houd de 80 speluitdagingen bij.</span>';
+ home.querySelector('[data-page=progress]').before(challengeButton);
+ main.prepend(nav,home,intro,explore,collectibles,activities,challenges,overview);journal.id='journal-view';
  const editor=document.createElement('dialog');editor.id='discovery-editor';editor.innerHTML=`<button type="button" class="close" id="close-editor" aria-label="Sluiten">×</button><p class="eyebrow">VOEG JOUW VONDST TOE</p><h2>Eigen ontdekking</h2><p>Leg zelf vast wat je tegenkomt. Jouw hoofdstuk is de eerste beschikbaarheid voor deze persoonlijke checklist.</p><form class="entry-form" id="discovery-form"><label>Naam<input name="title" maxlength="150" required></label><label>Omschrijving<textarea name="detail" maxlength="2000"></textarea></label><div class="entry-columns"><label>Gebied<select name="area">${areas.map(a=>`<option value="${a.id}">${esc(a.name)}</option>`).join('')}</select></label><label>Categorie<select name="category">${exploreTypes.map(c=>`<option value="${c.id}">${esc(c.name)}</option>`).join('')}</select></label></div><label>Vanaf hoofdstuk<input name="chapter" type="number" min="1" max="99" step="1" required></label><label>Bronlink (optioneel)<input name="source" type="url" maxlength="1000" placeholder="https://…"></label><p id="entry-error" role="status"></p><button type="submit" class="primary">Ontdekking opslaan</button></form>`;document.body.append(editor);
- function go(next){if(!['start','intro','explore','collectibles','activities','progress','journal'].includes(next))next='start';page=next;nav.hidden=page==="start";for(const [id,node] of Object.entries({start:home,intro,explore,collectibles,activities,progress:overview,journal}))node.hidden=id!==page;nav.querySelectorAll('button').forEach(b=>{if(b.dataset.page===page)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current')});if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='progress')renderOverview();window.scrollTo({top:0,behavior:'instant'});}
+ function go(next){if(!['start','intro','explore','collectibles','activities','challenges','progress','journal'].includes(next))next='start';page=next;nav.hidden=page==="start";for(const [id,node] of Object.entries({start:home,intro,explore,collectibles,activities,challenges,progress:overview,journal}))node.hidden=id!==page;nav.querySelectorAll('button').forEach(b=>{if(b.dataset.page===page)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current')});if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='challenges')renderChallenges();if(page==='progress')renderOverview();window.scrollTo({top:0,behavior:'instant'});}
  document.addEventListener('click',e=>{const target=e.target.closest('[data-page]');if(target){e.preventDefault();go(target.dataset.page)}});
  document.querySelector('.brand').onclick=e=>{e.preventDefault();go('start')};
  const chapterInput=explore.querySelector('#current-chapter');
@@ -690,7 +736,7 @@
   if(value===undefined)return 'Onbekend · doel '+dollars.format(goal);
   return dollars.format(value)+' / '+dollars.format(goal)+(value>=goal?' · Behaald':' · Nog '+dollars.format(goal-value));
  }
- const gameGoalGroups=[["Verhaal en taken",[["Hoofdverhaal",1,"story"],["Optionele taken",100,"optional"],["Bendeoperaties",39,"gangs"],["Bankovervallen",22,"banks"],["Payday Loan Jobs",7,"payday"],["Smash ’N’ Grabs",34],["Stick Ups",50,"stickups"],["Drugs verkocht",100000,"drugs"],["Juwelen verkocht",100000,"jewelry"],["Gemarkeerde biljetten verkocht",250000,"bills"],["Kluizen",8,"vaults"],["Voertuigen verkocht",200000,"vehicles"]]],["Verkenning en activiteiten",[["Kenton-sets",5],["Kaartseries",15,"cardsets"],["WAiNK-scans",100,"waink"],["Onderwatervondsten",33,"dives"],["Tijdschriften, boeken en strips",30],["Meditaties",15,"meditations"],["Flamingo’s",100],["Unieke afspeellijsten",2],["Ontdekte stijlen",70],["Unieke races",30,"races"],["Race-uitdagingen met goud",10,"raceGold"],["Schietuitdagingen met goud",42,"rangeGold"],["Arcadegames",4,"arcade"],["Pooltegenstanders",5,"pool"],["Minigolflocaties",2,"golf"],["Basketbalringen",90,"hoops"],["Droneproeven",42,"drones"],["Stunts",300,"stunts"],["Uitdagingen",70],["Bret’s Target Decks",15,"bret"]]],["Ontdekkingen",[["Voertuigbasismodellen",200],["Standaardwapens",50],["Dieren",100]]]];
+ const gameGoalGroups=[["Verhaal en taken",[["Hoofdverhaal",1,"story"],["Optionele taken",100,"optional"],["Bendeoperaties",39,"gangs"],["Bankovervallen",22,"banks"],["Payday Loan Jobs",7,"payday"],["Smash ’N’ Grabs",34],["Stick Ups",50,"stickups"],["Drugs verkocht",100000,"drugs"],["Juwelen verkocht",100000,"jewelry"],["Gemarkeerde biljetten verkocht",250000,"bills"],["Kluizen",8,"vaults"],["Voertuigen verkocht",200000,"vehicles"]]],["Verkenning en activiteiten",[["Kenton-sets",5],["Kaartseries",15,"cardsets"],["WAiNK-scans",100,"waink"],["Onderwatervondsten",33,"dives"],["Tijdschriften, boeken en strips",30],["Meditaties",15,"meditations"],["Flamingo’s",100],["Unieke afspeellijsten",2],["Ontdekte stijlen",70],["Unieke races",30,"races"],["Race-uitdagingen met goud",10,"raceGold"],["Schietuitdagingen met goud",42,"rangeGold"],["Arcadegames",4,"arcade"],["Pooltegenstanders",5,"pool"],["Minigolflocaties",2,"golf"],["Basketbalringen",90,"hoops"],["Droneproeven",42,"drones"],["Stunts",300,"stunts"],["Uitdagingen",70,"challenges"],["Bret’s Target Decks",15,"bret"]]],["Ontdekkingen",[["Voertuigbasismodellen",200],["Standaardwapens",50],["Dieren",100]]]];
  const wainkCollections=new Set(['WAiNK-bezienswaardigheden','WAiNK-curiositeiten','WAiNK-sculpturen','NoFlusher-tags','PeeWee-billboards']);
  const wainkScans=trusted.filter(item=>!item.referenceOnly&&wainkCollections.has(item.collection));
  const underwaterDiscoveries=trusted.filter(item=>!item.referenceOnly&&item.collection==='Duikplekken en schatten'&&
@@ -748,6 +794,7 @@
    arcade:collection('Arcadegames'),pool:collection('Pooltegenstanders'),golf:collection('Minigolf'),
    hoops:collection('Basketbalringen'),drones:collection('Top Fun-droneproeven'),
    stunts:amount(item=>stuntCollections.has(item.collection)),bret:collection('Jachtopdrachten van Bret'),
+   challenges:core.progress(challengeRows,[...found,...automaticChallenges(found)]).done,
    ...model.sales
   };
  }
@@ -801,14 +848,14 @@
   updateGameSummary();
  });
  overview.addEventListener('input',event=>{if(event.target.dataset.sale)event.target.setCustomValidity('')});
- function renderOverview(){const chapterRecords=exploreRecords(),all=[...records(),...activityRecords],p=core.progress(all,checked());const chapters=[...new Set([model.chapter,...chapterRecords.filter(x=>x.chapter<=model.chapter).map(x=>x.chapter)])].sort((a,b)=>a-b);overview.innerHTML=`<header class="page-heading page-heading--progress"><p class="eyebrow">JOUW REIS IN CIJFERS</p><h1>Voortgang</h1></header><details class="progress-group overview-disclosure"><summary>100% spelvoltooiing</summary><div class="game-completion" id="game-completion"></div></details><details class="progress-group overview-disclosure"><summary>App-voltooiing</summary><div class="progress-hero"><strong class="big-percent">${label(p)}</strong><p>${p.done} van ${p.total} unieke onderdelen afgevinkt</p><div class="neutral-track"><div style="width:${p.percent??0}%"></div></div></div><p class="app-scope">Hier zie je hoeveel checklistonderdelen je in Leonida Explorer hebt afgevinkt, uitgesplitst per hoofdstuk, gebied en categorie.</p><div class="progress-columns"><section class="progress-group"><h2>Hoofdstukken</h2>${chapters.map(n=>meter(core.chapter(chapterRecords,n),'Hoofdstuk '+n)).join('')}<p class="scope-note">Alleen hoofdstukken tot en met jouw keuze worden getoond.</p></section><section class="progress-group"><h2>Gebieden</h2>${areas.map(a=>meter(core.area(all,a.id),a.name)).join('')}${meter(all.filter(x=>!x.area),'Algemeen / regio nog onbevestigd')}</section><section class="progress-group"><h2>Categorieën</h2>${types.map(t=>meter(core.category(all,t.id),t.name)).join('')}</section></div></details>`;renderGameCompletion();}
+ function renderOverview(){const chapterRecords=exploreRecords(),all=[...records(),...activityRecords],p=core.progress(all,[...checked(),...automaticChallenges(checked())]);const chapters=[...new Set([model.chapter,...chapterRecords.filter(x=>x.chapter<=model.chapter).map(x=>x.chapter)])].sort((a,b)=>a-b);overview.innerHTML=`<header class="page-heading page-heading--progress"><p class="eyebrow">JOUW REIS IN CIJFERS</p><h1>Voortgang</h1></header><details class="progress-group overview-disclosure"><summary>100% spelvoltooiing</summary><div class="game-completion" id="game-completion"></div></details><details class="progress-group overview-disclosure"><summary>App-voltooiing</summary><div class="progress-hero"><strong class="big-percent">${label(p)}</strong><p>${p.done} van ${p.total} unieke onderdelen afgevinkt</p><div class="neutral-track"><div style="width:${p.percent??0}%"></div></div></div><p class="app-scope">Hier zie je hoeveel checklistonderdelen je in Leonida Explorer hebt afgevinkt, uitgesplitst per hoofdstuk, gebied en categorie.</p><div class="progress-columns"><section class="progress-group"><h2>Hoofdstukken</h2>${chapters.map(n=>meter(core.chapter(chapterRecords,n),'Hoofdstuk '+n)).join('')}<p class="scope-note">Alleen hoofdstukken tot en met jouw keuze worden getoond.</p></section><section class="progress-group"><h2>Gebieden</h2>${areas.map(a=>meter(core.area(all,a.id),a.name)).join('')}${meter(all.filter(x=>!x.area),'Algemeen / regio nog onbevestigd')}</section><section class="progress-group"><h2>Categorieën</h2>${types.map(t=>meter(core.category(all,t.id),t.name)).join('')}</section></div></details>`;renderGameCompletion();}
  function openEditor(area){const form=editor.querySelector('form');form.reset();form.elements.area.value=area||areas[0].id;form.elements.chapter.value=model.chapter;editor.querySelector('#entry-error').textContent='';editor.showModal();}
  editor.querySelector('#close-editor').onclick=()=>editor.close();editor.querySelector('form').onsubmit=e=>{e.preventDefault();const form=e.target,values=new FormData(form);const item={id:'custom-'+crypto.randomUUID(),title:String(values.get('title')).trim(),detail:String(values.get('detail')).trim(),area:String(values.get('area')),category:String(values.get('category')),chapter:Number(values.get('chapter')),source:String(values.get('source')).trim(),type:'personal'};try{const next=validModel({...model,custom:[...model.custom,item]});const previous=model;model=next;if(!persist()){model=previous;throw Error('Opslag is niet beschikbaar.')}editor.close();renderExplore();notify('Eigen ontdekking toegevoegd.')}catch(err){editor.querySelector('#entry-error').textContent=err.message}};
- const baseUpdate=update;update=function(){baseUpdate();if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='progress')renderOverview()};
- function merge(incoming){const clean=validModel(incoming),items=new Map(model.custom.map(x=>[x.id,x]));for(const x of clean.custom)if(!items.has(x.id))items.set(x.id,x);model=validModel({...model,chapter:Math.min(lastChapter,Math.max(model.chapter,clean.chapter)),custom:[...items.values()],checked:[...new Set([...model.checked,...clean.checked])],notes:{...clean.notes,...model.notes},medals:core.mergeMedals(model.medals||{},clean.medals||{}),sales:{...model.sales,...clean.sales}});persist();syncChapterSlider();if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='progress')renderOverview()}
- window.ExplorerApp={exportData:()=>structuredClone(model),validate:validModel,merge,refresh:()=>{if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='progress')renderOverview()},reset:()=>{model=initial();persist();syncChapterSlider();window.leonidaPhotoContext=null;go('start')}};
+ const baseUpdate=update;update=function(){baseUpdate();if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='challenges')renderChallenges();if(page==='progress')renderOverview()};
+ function merge(incoming){const clean=validModel(incoming),items=new Map(model.custom.map(x=>[x.id,x]));for(const x of clean.custom)if(!items.has(x.id))items.set(x.id,x);model=validModel({...model,chapter:Math.min(lastChapter,Math.max(model.chapter,clean.chapter)),custom:[...items.values()],checked:[...new Set([...model.checked,...clean.checked])],notes:{...clean.notes,...model.notes},medals:core.mergeMedals(model.medals||{},clean.medals||{}),sales:{...model.sales,...clean.sales}});persist();syncChapterSlider();if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='challenges')renderChallenges();if(page==='progress')renderOverview()}
+ window.ExplorerApp={exportData:()=>structuredClone(model),validate:validModel,merge,refresh:()=>{if(page==='explore')renderExplore();if(page==='collectibles')renderCollectibles();if(page==='activities')renderActivities();if(page==='challenges')renderChallenges();if(page==='progress')renderOverview()},reset:()=>{model=initial();persist();syncChapterSlider();window.leonidaPhotoContext=null;go('start')}};
  document.querySelectorAll('footer p').forEach(p=>{if(p.textContent.includes('VERSIE 1.1'))p.innerHTML='LEONIDA EXPLORER <span>· VERSIE 2.4 · BOUWVERSIE</span>'});
  // Stil omschakelen bij een volgende opening; niet tijdens het laatste afvinken.
- window.addEventListener('hashchange',()=>{const hash=location.hash.slice(1),next={map:'explore',stats:'progress',explore:'intro'}[hash]||hash;if(['start','intro','explore','collectibles','activities','progress','journal'].includes(next))go(next)});
+ window.addEventListener('hashchange',()=>{const hash=location.hash.slice(1),next={map:'explore',stats:'progress',explore:'intro'}[hash]||hash;if(['start','intro','explore','collectibles','activities','challenges','progress','journal'].includes(next))go(next)});
  const entryHash=location.hash.slice(1);go(entryHash?({map:'explore',stats:'progress',explore:'intro'}[entryHash]||entryHash):(core.shouldAutoExplore([...ids],state.checked)?'explore':'start'));
 })();
