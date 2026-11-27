@@ -774,6 +774,13 @@
  function districtMap(count,name,shapes,area,pins){
   const isKeys=area==='keys',isGrass=area==='grass';
   const group=(name,content)=>`<g role="button" tabindex="0" data-guide-district="${esc(name)}" aria-pressed="${guideDistrict===name}" aria-label="${esc(name)}, ${count(name)} openstaand">${content}</g>`;
+  const badge=(place,x,y)=>{
+   const total=count(place);
+   const width=Math.max(18,String(total).length*7+8);
+   return `<g class="guide-map-badge" aria-hidden="true" transform="translate(${x} ${y})">
+    <rect x="${-width/2}" y="-8" width="${width}" height="16" rx="8"/>
+    <text y="4">${total}</text></g>`;
+  };
   return `<svg class="guide-district-map${isGrass?' guide-district-map--grass':''}" viewBox="0 0 500 430" role="group" aria-label="Ingezoomde kaart van ${esc(name)}">
    <defs>
     <pattern id="guide-city-blocks" width="17" height="21" patternUnits="userSpaceOnUse" patternTransform="rotate(-10)">
@@ -802,18 +809,20 @@
    <text class="guide-map-water-label" x="43" y="22">N</text>
    ${shapes.map(([name,x,y])=>`<g class="guide-map-label" data-guide-district="${esc(name)}" data-selected="${guideDistrict===name}" aria-hidden="true" transform="translate(${x} ${y})">
     <rect x="-58" y="-19" width="116" height="39" rx="8"/>
-    <text y="-3">${esc(name)}</text><text class="guide-map-count" y="12">${count(name)} open</text>
+    <text y="-3">${esc(name)}</text>${badge(name,0,10)}
    </g>`).join('')}
    ${pins.map(([place,x,y,labelX,labelY])=>{
     const lines=place.split('|');
     const labelWidth=Math.max(...lines.map(line=>line.length))*7.1+12;
     const labelHeight=lines.length===1?25:33;
-    return group(lines.join(' '),`<g class="guide-map-pin">
+    const name=lines.join(' ');
+    return group(name,`<g class="guide-map-pin">
      <path d="M${x} ${y} L${labelX} ${labelY}"/>
      <circle class="guide-map-pin-hit" cx="${x}" cy="${y}" r="8"/>
      <circle class="guide-map-pin-dot" cx="${x}" cy="${y}" r="3"/>
      <rect x="${labelX-labelWidth/2}" y="${labelY-labelHeight/2}" width="${labelWidth}" height="${labelHeight}" rx="5"/>
      <text x="${labelX}" y="${labelY+(lines.length===1?4:-2)}">${lines.map((line,i)=>`<tspan x="${labelX}" dy="${i?13:0}">${esc(line)}</tspan>`).join('')}</text>
+     ${badge(name,labelX+labelWidth/2-8,labelY-labelHeight/2+1)}
     </g>`);
    }).join('')}
   </svg>`;

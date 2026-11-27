@@ -272,7 +272,6 @@ footer span{color:#dfc4e0}
 .guide-map-label rect{fill:#352643;stroke:#d2a9c4;stroke-width:1.4}
 .guide-map-label[data-selected=true] rect{fill:#563953;stroke:#fff0d6;stroke-width:2.5}
 .guide-map-label text{text-anchor:middle;fill:#fff6ef;font:700 15px system-ui;pointer-events:none}
-.guide-map-label .guide-map-count{fill:#f1d9e9;font:600 12px system-ui}
 .guide-other-district button{font:inherit;color:#fff6ff;background:#533952;border:1px solid #d5a2c288;border-radius:9px;min-height:56px;padding:.4rem;overflow-wrap:anywhere}
 .guide-other-district button[aria-pressed=true]{background:#ffc5df;color:#2c1730}
 .guide-other-district small{display:block}
@@ -290,4 +289,5 @@ footer span{color:#dfc4e0}
 .guide-district-map [role=button]:where(:focus-visible,[aria-pressed=true]) .guide-map-pin :is(rect,.guide-map-pin-dot){fill:#865079;stroke:#fff0d6;stroke-width:3}
 
 .guide-district-map--grass .guide-map-label text{font-size:13px}
-.guide-district-map--grass .guide-map-label .guide-map-count{font-size:11px}
+.guide-district-map .guide-map-badge rect{fill:#21172d;stroke:#f2dba7;stroke-width:1.5}
+.guide-district-map .guide-map-badge text{fill:#fff7ee;text-anchor:middle;font:700 11px system-ui}
