@@ -294,6 +294,26 @@
    region.setAttribute('tabindex',disabled?'-1':'0');
   }
  }
+ function showRemainingByArea(map,items,belongs,done){
+  const svgNS='http://www.w3.org/2000/svg';
+  for(const region of map.querySelectorAll('.map-region[role="button"][data-area]')){
+   const id=region.dataset.area;
+   const name=areas.find(area=>area.id===id).name;
+   const label=region.querySelector('.region-name');
+   label.querySelector('.map-remaining')?.remove();
+   region.setAttribute('aria-label',name);
+   if(region.getAttribute('aria-disabled')==='true')continue;
+   const remaining=items.filter(item=>!item.referenceOnly&&belongs(item,id)&&!done(item)).length;
+   const width=Number(label.querySelector('rect').getAttribute('width'));
+   const badge=document.createElementNS(svgNS,'g');
+   badge.setAttribute('class','map-remaining');
+   badge.setAttribute('transform','translate('+(width-21)+' -8)');
+   badge.setAttribute('aria-hidden','true');
+   badge.innerHTML='<rect x="-15" y="-9" width="30" height="18" rx="9"/><text y="4" text-anchor="middle">'+remaining+'</text>';
+   label.append(badge);
+   region.setAttribute('aria-label',name+' · '+remaining+' resterend');
+  }
+ }
  function cloneAreaMap(prefix){
   const map=explore.querySelector('.map-wrap').cloneNode(true);
   for(const node of map.querySelectorAll('[id]')){
@@ -357,6 +377,8 @@
   collectMap.querySelector('.map-unassigned').hidden=!list.some(item=>collectibleInArea(item,'unknown'));
   const matches=list.filter(item=>(!item.readingId||item.readingId===item.id)&&collectibleArea&&collectibleInArea(item,collectibleArea));
   const found=new Set(checked());
+  const collectibleDone=item=>readingChecked(item,found)&&(!item.kentonSet||found.has(kentonId(item)));
+  showRemainingByArea(collectMap,core.unique(list).filter(item=>!item.readingId||item.readingId===item.id),collectibleInArea,collectibleDone);
   const missing=collectibles.querySelector('#collect-missing').checked;
   const visible=matches.filter(item=>!missing||(!item.referenceOnly&&(!readingChecked(item,found)||item.kentonSet&&!found.has(kentonId(item)))));
   const areaName=areas.find(area=>area.id===collectibleArea)?.name||(collectibleArea==='unknown'?'Overige vindplekken':'Alle vindplekken');
@@ -575,6 +597,7 @@
   activities.querySelector('#activity-progress').hidden=!activityArea;
   const matches=items.filter(matchesActivityArea);
   const found=new Set(checked());
+  showRemainingByArea(activityMap,items,inArea,item=>activityDone(item,found));
   const note=activities.querySelector('#activity-note');
   note.textContent=activityNotes[activityKind.value]||'';
   note.hidden=!note.textContent;
@@ -650,6 +673,8 @@
   persist();
   const items=selectedActivities();
   updateActivityProgress(items);
+  const found=new Set(checked());
+  showRemainingByArea(activityMap,items,inArea,item=>activityDone(item,found));
   const card=input.closest('article');
   const item=items.find(record=>record.id===card.dataset.activityCard);
   if(activityMissing.checked&&activityDone(item,new Set(checked()))){

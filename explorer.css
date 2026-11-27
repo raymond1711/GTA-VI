@@ -253,3 +253,6 @@ footer span{color:#dfc4e0}
 .leonida-map .map-region[aria-pressed=true] .region-land{stroke:#fff0d6;stroke-width:4.5;stroke-linejoin:round}
 .leonida-map .map-region[aria-pressed=true] .region-name rect{stroke:#fff0d6;stroke-width:2.5}
 .map-result-heading{margin:1rem 0 .5rem;padding:.65rem 1rem;border:1px solid var(--line);border-radius:12px;background:#49365e;font-size:1.05rem}
+
+.leonida-map .map-region .map-remaining rect{fill:#21172d;stroke:var(--area-color);stroke-width:1.5}
+.leonida-map .map-region .map-remaining text{fill:#fff7ee;stroke:none;font-size:12px;font-weight:700}
