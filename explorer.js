@@ -941,7 +941,7 @@
   const goals=gameGoalGroups.flatMap(([,rows])=>rows);
   const achieved=goals.filter(([,minimum,key])=>counts[key]>=minimum).length;
   const unknown=goals.filter(([, ,key])=>counts[key]===undefined).length;
-  overview.querySelector('#game-goal-summary').textContent=`${achieved} van ${goals.length} speldoelen behaald · ${unknown} onbekend`;
+  overview.querySelector('#game-goal-summary').textContent=`${achieved} van ${goals.length} speldoelen behaald${unknown ? ' · '+unknown+' onbekend' : ''}`;
  }
  function renderGameCompletion(){
   const target=overview.querySelector('#game-completion');
