@@ -966,11 +966,11 @@
    <div class="explore-items">${trophyRows.map(item=>{
     const tracked=auto.has(item.id),goal=trophyLinks[item.id];
     const grade=trophyPlatform==='xbox'?(item.grade==='Platinum'?'Mythic':'Achievement'):trophyGrades[item.grade];
-    return `<article class="explore-category"><label class="task"><input type="checkbox" data-trophy-id="${item.id}" ${tracked||found.has(item.id)?'checked':''} ${tracked?'disabled':''}>
-     <span><b>${esc(item.title)}</b><small>${grade}</small><small>${esc(item.detail)}</small></span></label>
+    return `<article class="corker-card"><label class="task"><input type="checkbox" data-trophy-id="${item.id}" ${tracked||found.has(item.id)?'checked':''} ${tracked?'disabled':''}>
+     <span><b>${esc(item.title)}</b><small>${grade}</small><small>${esc(item.detail)}</small>
      ${goal?`<small>Voortgang in app: ${Math.min(counts[goal[0]],goal[1])} / ${goal[1]}</small>`:''}
-     ${tracked?'<small>Automatisch behaald via je voortgang</small>':''}
-     <a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">Bron</a></article>`;
+     ${tracked?'<small>Automatisch behaald via je voortgang</small>':''}</span></label>
+     <details><summary>Bron</summary><a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">Open de trofeeëngids</a></details></article>`;
    }).join('')}</div>`;
   trophies.querySelector('[data-trophy-platform]').value=trophyPlatform;
  }
