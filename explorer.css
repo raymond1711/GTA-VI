@@ -294,3 +294,6 @@ footer span{color:#dfc4e0}
 
 .guide-map-stage{overflow:hidden;border-radius:14px}
 .guide-map-navigation .quiet{margin-top:.6rem}
+.guide-map-navigation{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.6rem}
+.guide-map-navigation .quiet{margin:0;min-height:44px}
+#area-guide-view .guide-region-map[hidden]{display:none}
