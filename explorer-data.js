@@ -27775,13 +27775,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Mile Zero Air Station Southeast · Leonida Keys",
       "detail": "Zoek Mile Zero Air Station Southeast onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Mile%20Zero%20Air%20Station%20Southeast",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Mile%20Zero%20Air%20Station%20Southeast",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-11bb502a1d872d7e644d",
@@ -27790,13 +27790,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Saltrock Bridge West · Leonida Keys",
       "detail": "Zoek Saltrock Bridge West onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Saltrock%20Bridge%20West",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Saltrock%20Bridge%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-9c829291e591ee6629fe",
@@ -27805,13 +27805,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Saltrock Bridge East · Leonida Keys",
       "detail": "Zoek Saltrock Bridge East onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Saltrock%20Bridge%20East",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Saltrock%20Bridge%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-d247dc69950706bcc2ef",
@@ -27820,13 +27820,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Key Lento Bridge West · Leonida Keys",
       "detail": "Zoek Key Lento Bridge West onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Key%20Lento%20Bridge%20West",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Key%20Lento%20Bridge%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-4e3ea59229374d129437",
@@ -27835,13 +27835,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Key Lento Bridge East · Leonida Keys",
       "detail": "Zoek Key Lento Bridge East onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Key%20Lento%20Bridge%20East",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Key%20Lento%20Bridge%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-3688f397a94fb03243b0",
@@ -27850,13 +27850,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Longneck Trail · Leonida Keys",
       "detail": "Zoek Longneck Trail onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Longneck%20Trail",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Longneck%20Trail",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-8cc6e23d3fe1d9b62fc0",
@@ -27865,13 +27865,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Nehrling River · Leonida Keys",
       "detail": "Zoek Nehrling River onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Nehrling%20River",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Nehrling%20River",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-2fc91ef16703c01a9a7e",
@@ -27880,13 +27880,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Hamlet Backyard · Vice City",
       "detail": "Zoek Hamlet Backyard onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Hamlet%20Backyard",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Hamlet%20Backyard",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-fa7bd04342f98c79f279",
@@ -27895,13 +27895,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "VCIA Storage Facility · Vice City",
       "detail": "Zoek VCIA Storage Facility onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=VCIA%20Storage%20Facility",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=VCIA%20Storage%20Facility",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-9a364cff1e368db85996",
@@ -27910,13 +27910,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "SW 4th Avenue Construction · Vice City",
       "detail": "Zoek SW 4th Avenue Construction onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=SW%204th%20Avenue%20Construction",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=SW%204th%20Avenue%20Construction",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-e55ef6cb468568678349",
@@ -27925,13 +27925,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Blackwell Sandrock · Vice City",
       "detail": "Zoek Blackwell Sandrock onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Blackwell%20Sandrock",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Blackwell%20Sandrock",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-ab4096ac866fc8ec1be5",
@@ -27940,13 +27940,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Apollo Aggregates South · Vice City",
       "detail": "Zoek Apollo Aggregates South onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Apollo%20Aggregates%20South",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Apollo%20Aggregates%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-c20aac66a81ec1974ba4",
@@ -27955,13 +27955,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "West Vice-Dale County Broken Bridge · Vice City",
       "detail": "Zoek West Vice-Dale County Broken Bridge onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=West%20Vice-Dale%20County%20Broken%20Bridge",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=West%20Vice-Dale%20County%20Broken%20Bridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-c8e19482e881ae68f203",
@@ -27970,13 +27970,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Nolan Center Parking · Vice City",
       "detail": "Zoek Nolan Center Parking onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Nolan%20Center%20Parking",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Nolan%20Center%20Parking",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-2e151d606330da29565e",
@@ -27985,13 +27985,15 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Bouwterrein aan de oostkant van Lake Bonner, bij I-97",
       "detail": "Zoek Lake Bonner Construction East onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Lake%20Bonner%20Construction%20East",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Lake%20Bonner%20Construction%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids",
+      "extraArea": null,
+      "approximateLocation": false
     },
     {
       "id": "excel-f7680c7953f878b23443",
@@ -28000,13 +28002,15 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Aan het kanaal ten zuiden van Lake Leonida, bij het gebouw met het schuine dak aan het water",
       "detail": "Zoek Lake Leonida Lock South onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Lake%20Leonida%20Lock%20South",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Lake%20Leonida%20Lock%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids",
+      "extraArea": null,
+      "approximateLocation": false
     },
     {
       "id": "excel-2910961bff05ffb91e81",
@@ -28015,13 +28019,15 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Zuidkant van het Richard Barebone-viaduct, Leonard County",
       "detail": "Zoek Richard Barebone Overpass South onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Richard%20Barebone%20Overpass%20South",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Richard%20Barebone%20Overpass%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids",
+      "extraArea": null,
+      "approximateLocation": false
     },
     {
       "id": "excel-95a687894ffbcecf40e6",
@@ -28030,13 +28036,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Gellhorn International Raceway · Port Gellhorn",
       "detail": "Zoek Gellhorn International Raceway onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Gellhorn%20International%20Raceway",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Gellhorn%20International%20Raceway",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-415ae466fd87136e7e5d",
@@ -28045,13 +28051,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Prairie Court · Port Gellhorn",
       "detail": "Zoek Prairie Court onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Prairie%20Court",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Prairie%20Court",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-6ba1b5d96d75c380e2d3",
@@ -28060,43 +28066,47 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Starlet Motel Construction · Port Gellhorn",
       "detail": "Zoek Starlet Motel Construction onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Starlet%20Motel%20Construction",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Starlet%20Motel%20Construction",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-6fa3cf3f48cb8fbc3b49",
       "title": "21 Howe Dairy Stunt Jump",
-      "area": "port",
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Howe Dairy, ten zuidwesten van Frogswater",
       "detail": "Zoek Howe Dairy onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Howe%20Dairy",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Howe%20Dairy",
+      "extraSourceLabel": "Deze stunt in de locatiegids",
+      "extraArea": null,
+      "approximateLocation": false
     },
     {
       "id": "excel-fbece4c34d69bfa92833",
       "title": "22 Saputka River Stunt Jump",
-      "area": "port",
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Bij SR-32 in Frogswater, op de aarden schans langs het veld",
       "detail": "Zoek Saputka River onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Saputka%20River",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Saputka%20River",
+      "extraSourceLabel": "Deze stunt in de locatiegids",
+      "extraArea": null,
+      "approximateLocation": false
     },
     {
       "id": "excel-cada03e64439de29e876",
@@ -28105,13 +28115,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Ambrosia",
+      "sourceLocation": "South Ambrosia Broken Bridge · Ambrosia",
       "detail": "Zoek South Ambrosia Broken Bridge onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=South%20Ambrosia%20Broken%20Bridge",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=South%20Ambrosia%20Broken%20Bridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-64f0e5e0fd2161cdbf3f",
@@ -28120,13 +28130,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "North Moreau Broken Bridge · Mount Kalaga National Park",
       "detail": "Zoek North Moreau Broken Bridge onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=North%20Moreau%20Broken%20Bridge",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=North%20Moreau%20Broken%20Bridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-73c2621b05b9d5de1f48",
@@ -28135,13 +28145,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Grassrivers",
+      "sourceLocation": "LTF Airfield · Grassrivers",
       "detail": "Zoek LTF Airfield onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=LTF%20Airfield",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=LTF%20Airfield",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-8fb7cd377436879c261e",
@@ -28150,13 +28160,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "Bonanza Harbor · Mount Kalaga National Park",
       "detail": "Zoek Bonanza Harbor onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Bonanza%20Harbor",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Bonanza%20Harbor",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-5184764ab6e4f651db22",
@@ -28165,13 +28175,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "Macalister Gold Mine · Mount Kalaga National Park",
       "detail": "Zoek Macalister Gold Mine onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Macalister%20Gold%20Mine",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Macalister%20Gold%20Mine",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-2033eab21fd6aac701ee",
@@ -28180,13 +28190,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "US Route 628 · Mount Kalaga National Park",
       "detail": "Zoek US Route 628 onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=US%20Route%20628",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=US%20Route%20628",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-efda1b53afdadd430ac2",
@@ -28195,13 +28205,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "Moreau Coal Mound · Mount Kalaga National Park",
       "detail": "Zoek Moreau Coal Mound onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Moreau%20Coal%20Mound",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Moreau%20Coal%20Mound",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-66c255d4ae107c3c2096",
@@ -28210,13 +28220,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "Moreau Broken Bridge · Mount Kalaga National Park",
       "detail": "Zoek Moreau Broken Bridge onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Moreau%20Broken%20Bridge",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Moreau%20Broken%20Bridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-1e33173e6c7c0a2c0dcb",
@@ -28225,13 +28235,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "Dock Coal Company Freeway · Mount Kalaga National Park",
       "detail": "Zoek Dock Coal Company Freeway onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Dock%20Coal%20Company%20Freeway",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Dock%20Coal%20Company%20Freeway",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-3e59a4a731325675234a",
@@ -28240,13 +28250,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "Grayson Rail Tunnel · Mount Kalaga National Park",
       "detail": "Zoek Grayson Rail Tunnel onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Grayson%20Rail%20Tunnel",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Grayson%20Rail%20Tunnel",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-2868215d0e0f924a2f6d",
@@ -28255,13 +28265,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "Kalaga Pond · Mount Kalaga National Park",
       "detail": "Zoek Kalaga Pond onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Kalaga%20Pond",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Kalaga%20Pond",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-6cb64273e7d2d71a1027",
@@ -28270,13 +28280,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "Mount Kalaga Visitor Center · Mount Kalaga National Park",
       "detail": "Zoek Mount Kalaga Visitor Center onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Mount%20Kalaga%20Visitor%20Center",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Mount%20Kalaga%20Visitor%20Center",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-818fc848ce542c88254f",
@@ -28285,13 +28295,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "West Kalaga Logging · Mount Kalaga National Park",
       "detail": "Zoek West Kalaga Logging onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=West%20Kalaga%20Logging",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=West%20Kalaga%20Logging",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-0eb08ee36fd6740b604b",
@@ -28300,13 +28310,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Millport Harbor · Leonard County",
       "detail": "Zoek Millport Harbor onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Millport%20Harbor",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Millport%20Harbor",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-0b71a4730bbe271b62e2",
@@ -28315,13 +28325,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "Kalaga Ramp · Mount Kalaga National Park",
       "detail": "Zoek Kalaga Ramp onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Kalaga%20Ramp",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Kalaga%20Ramp",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-0424de49e47d1d872d77",
@@ -28330,13 +28340,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Kalaga Roadside · Leonard County",
       "detail": "Zoek Kalaga Roadside onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Kalaga%20Roadside",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Kalaga%20Roadside",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-ccc079fa19c38f4d3cbe",
@@ -28345,13 +28355,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "Kalaga Ridge · Mount Kalaga National Park",
       "detail": "Zoek Kalaga Ridge onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Kalaga%20Ridge",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Kalaga%20Ridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-8131366a13f8ae4f6a25",
@@ -28360,13 +28370,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Mount Kalaga Lookout Point · Leonard County",
       "detail": "Zoek Mount Kalaga Lookout Point onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Mount%20Kalaga%20Lookout%20Point",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Mount%20Kalaga%20Lookout%20Point",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-81345ce7efac0e0d0101",
@@ -28375,13 +28385,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "The Free State of Henry Perculay · Leonard County",
       "detail": "Zoek The Free State of Henry Perculay onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=The%20Free%20State%20of%20Henry%20Perculay",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=The%20Free%20State%20of%20Henry%20Perculay",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-604033def192c4e43d0b",
@@ -28390,13 +28400,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Kalaga River · Leonard County",
       "detail": "Zoek Kalaga River onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Kalaga%20River",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Kalaga%20River",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-79850e8c962e979f73ac",
@@ -28405,13 +28415,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Richard Barebone Overpass North · Leonard County",
       "detail": "Zoek Richard Barebone Overpass North onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Richard%20Barebone%20Overpass%20North",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Richard%20Barebone%20Overpass%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-8041d9aff7cc54b05350",
@@ -28420,13 +28430,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Lake Leonida Lock Northwest · Port Gellhorn",
       "detail": "Zoek Lake Leonida Lock Northwest onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Lake%20Leonida%20Lock%20Northwest",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Lake%20Leonida%20Lock%20Northwest",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-0eb7a2330d6fee20afca",
@@ -28435,13 +28445,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Manifest Canyon · Port Gellhorn",
       "detail": "Zoek Manifest Canyon onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Manifest%20Canyon",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Manifest%20Canyon",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-b731f90905165bde0bd6",
@@ -28450,13 +28460,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Axiom House · Port Gellhorn",
       "detail": "Zoek Axiom House onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Axiom%20House",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Axiom%20House",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-995165d224cd8098cbb4",
@@ -28465,13 +28475,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Draper Island · Port Gellhorn",
       "detail": "Zoek Draper Island onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Draper%20Island",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Draper%20Island",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-61e090160d378400cfa9",
@@ -28480,13 +28490,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "North Kelly County Ledge · Port Gellhorn",
       "detail": "Zoek North Kelly County Ledge onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=North%20Kelly%20County%20Ledge",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=North%20Kelly%20County%20Ledge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-462a35f0b87047e2474c",
@@ -28495,13 +28505,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Manifest Canyon Trail East · Port Gellhorn",
       "detail": "Zoek Manifest Canyon Trail East onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Manifest%20Canyon%20Trail%20East",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Manifest%20Canyon%20Trail%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-75661714588e8fb905c6",
@@ -28510,13 +28520,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "North Kelly County Railroad · Port Gellhorn",
       "detail": "Zoek North Kelly County Railroad onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=North%20Kelly%20County%20Railroad",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=North%20Kelly%20County%20Railroad",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-c3e1f3dcf6cab3cbf5b6",
@@ -28525,13 +28535,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Manifest Canyon Trail West · Port Gellhorn",
       "detail": "Zoek Manifest Canyon Trail West onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Manifest%20Canyon%20Trail%20West",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Manifest%20Canyon%20Trail%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-3a7f9cdb63e32bcc77cd",
@@ -28540,13 +28550,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Lake Leonida Lock West · Port Gellhorn",
       "detail": "Zoek Lake Leonida Lock West onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Lake%20Leonida%20Lock%20West",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Lake%20Leonida%20Lock%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-77639b0a86a3cc68cf2b",
@@ -28555,13 +28565,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Mud Club Pond · Port Gellhorn",
       "detail": "Zoek Mud Club Pond onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Mud%20Club%20Pond",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Mud%20Club%20Pond",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-72b99c732c3b3708a8ae",
@@ -28570,13 +28580,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Lake Leonida Lock East · Leonard County",
       "detail": "Zoek Lake Leonida Lock East onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Lake%20Leonida%20Lock%20East",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Lake%20Leonida%20Lock%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-60f9875b81356735bc3d",
@@ -28585,13 +28595,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Thundergolf · Leonard County",
       "detail": "Zoek Thundergolf onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Thundergolf",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Thundergolf",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-dcc94c5d80652c1c7c30",
@@ -28600,13 +28610,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Lake Leonida Lock Southwest · Port Gellhorn",
       "detail": "Zoek Lake Leonida Lock Southwest onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Lake%20Leonida%20Lock%20Southwest",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Lake%20Leonida%20Lock%20Southwest",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-fa9abc7280e6c79cabbb",
@@ -28615,13 +28625,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Gellhorn Drive-In Theatre · Port Gellhorn",
       "detail": "Zoek Gellhorn Drive-In Theatre onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Gellhorn%20Drive-In%20Theatre",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Gellhorn%20Drive-In%20Theatre",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-0a937c5bbdefa228de41",
@@ -28630,13 +28640,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Port Gellhorn Center of Praise & Purpose · Port Gellhorn",
       "detail": "Zoek Port Gellhorn Center of Praise & Purpose onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Port%20Gellhorn%20Center%20of%20Praise%20%26%20Purpose",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Port%20Gellhorn%20Center%20of%20Praise%20%26%20Purpose",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-3005262fe6cc15fec939",
@@ -28645,28 +28655,30 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Gellhorn Roadworks West · Port Gellhorn",
       "detail": "Zoek Gellhorn Roadworks West onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Gellhorn%20Roadworks%20West",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Gellhorn%20Roadworks%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-9c333ba6bbd8bf473f09",
       "title": "60 South Ambrosia Water Treatment Stunt Jump",
-      "area": "port",
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Waterzuivering ten zuidwesten van Ambrosia",
       "detail": "Zoek South Ambrosia Water Treatment onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=South%20Ambrosia%20Water%20Treatment",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=South%20Ambrosia%20Water%20Treatment",
+      "extraSourceLabel": "Deze stunt in de locatiegids",
+      "extraArea": null,
+      "approximateLocation": false
     },
     {
       "id": "excel-45cbbb6fba286c61cdaf",
@@ -28675,13 +28687,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Gellhorn Roadworks East · Port Gellhorn",
       "detail": "Zoek Gellhorn Roadworks East onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Gellhorn%20Roadworks%20East",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Gellhorn%20Roadworks%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-cb534c76031c07057bd6",
@@ -28690,13 +28702,15 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Bouwterrein aan de westkant van Lake Bonner, ten zuiden van Waning Sands",
       "detail": "Zoek Lake Bonner Construction West onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Lake%20Bonner%20Construction%20West",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Lake%20Bonner%20Construction%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids",
+      "extraArea": null,
+      "approximateLocation": false
     },
     {
       "id": "excel-0a6aa34d92dc537308e1",
@@ -28705,28 +28719,30 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Abandoned Radio Station · Port Gellhorn",
       "detail": "Zoek Abandoned Radio Station onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Abandoned%20Radio%20Station",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Abandoned%20Radio%20Station",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-b920a7ff2a5d7eea0148",
       "title": "64 Kelly River Stunt Jump",
-      "area": "port",
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Kelly River, ten zuidwesten van Ambrosia",
       "detail": "Zoek Kelly River onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Kelly%20River",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Kelly%20River",
+      "extraSourceLabel": "Deze stunt in de locatiegids",
+      "extraArea": null,
+      "approximateLocation": false
     },
     {
       "id": "excel-3180e04fc147bed567af",
@@ -28735,13 +28751,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "County Route 62 Roadworks · Port Gellhorn",
       "detail": "Zoek County Route 62 Roadworks onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=County%20Route%2062%20Roadworks",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=County%20Route%2062%20Roadworks",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-1f8737cb690fc2c249c7",
@@ -28750,13 +28766,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Gellhorn Hilltop · Port Gellhorn",
       "detail": "Zoek Gellhorn Hilltop onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Gellhorn%20Hilltop",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Gellhorn%20Hilltop",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-fb855af38812a83ac0f7",
@@ -28765,43 +28781,47 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Gellhorn Campsite · Port Gellhorn",
       "detail": "Zoek Gellhorn Campsite onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Gellhorn%20Campsite",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Gellhorn%20Campsite",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-446a8629d981738d28de",
       "title": "68 Waste Transfer Services Lake Stunt Jump",
-      "area": "city",
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Bij het meer van Waste Transfer Services, ten westen van Belville",
       "detail": "Zoek Waste Transfer Services Lake onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Waste%20Transfer%20Services%20Lake",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Waste%20Transfer%20Services%20Lake",
+      "extraSourceLabel": "Deze stunt in de locatiegids",
+      "extraArea": null,
+      "approximateLocation": false
     },
     {
       "id": "excel-9390d33d6967d7f0bc0e",
       "title": "69 Waste Transfer Services Pond Stunt Jump",
-      "area": "city",
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Bij de vijver van Waste Transfer Services, ten westen van Belville",
       "detail": "Zoek Waste Transfer Services Pond onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Waste%20Transfer%20Services%20Pond",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Waste%20Transfer%20Services%20Pond",
+      "extraSourceLabel": "Deze stunt in de locatiegids",
+      "extraArea": null,
+      "approximateLocation": false
     },
     {
       "id": "excel-8eef5d792146c20ce880",
@@ -28810,13 +28830,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Opulence Construction · Vice City",
       "detail": "Zoek Opulence Construction onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Opulence%20Construction",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Opulence%20Construction",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-2cfed806e2009ea9d752",
@@ -28825,13 +28845,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Interstate 97 West · Vice City",
       "detail": "Zoek Interstate 97 West onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Interstate%2097%20West",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Interstate%2097%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-3c79302368b8d22fa79b",
@@ -28840,13 +28860,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Waste Transfer Services North · Vice City",
       "detail": "Zoek Waste Transfer Services North onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Waste%20Transfer%20Services%20North",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Waste%20Transfer%20Services%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-c175ec47de533dc80437",
@@ -28855,13 +28875,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Interstate 97 East · Vice City",
       "detail": "Zoek Interstate 97 East onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Interstate%2097%20East",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Interstate%2097%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-f26e49f8b2e0ad9a5252",
@@ -28870,13 +28890,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Dolly and Darrel Zimmermann Parking · Vice City",
       "detail": "Zoek Dolly and Darrel Zimmermann Parking onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Dolly%20and%20Darrel%20Zimmermann%20Parking",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Dolly%20and%20Darrel%20Zimmermann%20Parking",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-8dffbf6d784b4dcd69a3",
@@ -28885,13 +28905,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Waste Transfer Services South · Vice City",
       "detail": "Zoek Waste Transfer Services South onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Waste%20Transfer%20Services%20South",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Waste%20Transfer%20Services%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-6c6da62cd91096b47022",
@@ -28900,13 +28920,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Hoopla Construction · Vice City",
       "detail": "Zoek Hoopla Construction onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Hoopla%20Construction",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Hoopla%20Construction",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-36f0325a83eb979aed5a",
@@ -28915,13 +28935,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Mastodon U.S.A · Vice City",
       "detail": "Zoek Mastodon U.S.A onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Mastodon%20U.S.A",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Mastodon%20U.S.A",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-4678e9aaecc968924c8d",
@@ -28930,13 +28950,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "La Perle Parking Lot · Vice City",
       "detail": "Zoek La Perle Parking Lot onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=La%20Perle%20Parking%20Lot",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=La%20Perle%20Parking%20Lot",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-f9c7754d37a36d5e70ea",
@@ -28945,13 +28965,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Ocean Beach MVP Park North · Vice City",
       "detail": "Zoek Ocean Beach MVP Park North onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Ocean%20Beach%20MVP%20Park%20North",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Ocean%20Beach%20MVP%20Park%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-5e20c69ea53ad414752d",
@@ -28960,13 +28980,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "7777 Ocean Beach Parking · Vice City",
       "detail": "Zoek 7777 Ocean Beach Parking onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=7777%20Ocean%20Beach%20Parking",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=7777%20Ocean%20Beach%20Parking",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-c3130fc429f22df26541",
@@ -28975,13 +28995,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Gellhorn Pylons · Port Gellhorn",
       "detail": "Zoek Gellhorn Pylons onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Gellhorn%20Pylons",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Gellhorn%20Pylons",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-1bcd09da21474d7fc9c6",
@@ -28990,13 +29010,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Vice Beach Park In · Vice City",
       "detail": "Zoek Vice Beach Park In onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Vice%20Beach%20Park%20In",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Vice%20Beach%20Park%20In",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-4e12d2a101174b6198e6",
@@ -29005,13 +29025,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "The Hog House · Port Gellhorn",
       "detail": "Zoek The Hog House onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=The%20Hog%20House",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=The%20Hog%20House",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-bc9c9792ac2e8cbdcfa8",
@@ -29020,13 +29040,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Leone Street · Vice City",
       "detail": "Zoek Leone Street onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Leone%20Street",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Leone%20Street",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-b104c8670550a0d8fe8f",
@@ -29035,13 +29055,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Vice-Dale Police Parking · Vice City",
       "detail": "Zoek Vice-Dale Police Parking onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Vice-Dale%20Police%20Parking",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Vice-Dale%20Police%20Parking",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-67ef25fdb2c4a3ebd5d7",
@@ -29050,13 +29070,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Vice City Parking Department Ocean Beach · Vice City",
       "detail": "Zoek Vice City Parking Department Ocean Beach onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Vice%20City%20Parking%20Department%20Ocean%20Beach",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Vice%20City%20Parking%20Department%20Ocean%20Beach",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-db27b3c2496298425c53",
@@ -29065,13 +29085,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Cruda Y Asi · Vice City",
       "detail": "Zoek Cruda Y Asi onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Cruda%20Y%20Asi",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Cruda%20Y%20Asi",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-a2aaea0884c461110af7",
@@ -29080,13 +29100,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Schlott Construction West Vice-Dale County · Vice City",
       "detail": "Zoek Schlott Construction West Vice-Dale County onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Schlott%20Construction%20West%20Vice-Dale%20County",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Schlott%20Construction%20West%20Vice-Dale%20County",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-163c28e19450de2c31ec",
@@ -29095,13 +29115,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Ocean Beach MVP Park South · Vice City",
       "detail": "Zoek Ocean Beach MVP Park South onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Ocean%20Beach%20MVP%20Park%20South",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Ocean%20Beach%20MVP%20Park%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-6870c241ed4577b62515",
@@ -29110,13 +29130,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Sixth & Harper Parking · Vice City",
       "detail": "Zoek Sixth & Harper Parking onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Sixth%20%26%20Harper%20Parking",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Sixth%20%26%20Harper%20Parking",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-dcaac98b0c3f4af9665d",
@@ -29125,13 +29145,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Vice Beach Police Headquarters · Vice City",
       "detail": "Zoek Vice Beach Police Headquarters onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Vice%20Beach%20Police%20Headquarters",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Vice%20Beach%20Police%20Headquarters",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-3e0a9851454539d9280a",
@@ -29140,13 +29160,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Ocean Beach Plus Parking · Vice City",
       "detail": "Zoek Ocean Beach Plus Parking onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Ocean%20Beach%20Plus%20Parking",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Ocean%20Beach%20Plus%20Parking",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-712e214d58b14ae41771",
@@ -29155,13 +29175,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Harrison Harbor Parking · Vice City",
       "detail": "Zoek Harrison Harbor Parking onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Harrison%20Harbor%20Parking",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Harrison%20Harbor%20Parking",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-8ceae0104e4800809e13",
@@ -29170,13 +29190,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Interstate 404 · Vice City",
       "detail": "Zoek Interstate 404 onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Interstate%20404",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Interstate%20404",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-4db7387ed2aded964b18",
@@ -29185,13 +29205,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "West Vice-Dale County Landfill · Vice City",
       "detail": "Zoek West Vice-Dale County Landfill onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=West%20Vice-Dale%20County%20Landfill",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=West%20Vice-Dale%20County%20Landfill",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-456f78cba9099674c6f0",
@@ -29200,13 +29220,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "VCIA North Central Gate · Vice City",
       "detail": "Zoek VCIA North Central Gate onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=VCIA%20North%20Central%20Gate",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=VCIA%20North%20Central%20Gate",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-195ad5671aeac2b8d835",
@@ -29215,13 +29235,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Shoreline Park Amphitheater · Vice City",
       "detail": "Zoek Shoreline Park Amphitheater onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Shoreline%20Park%20Amphitheater",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Shoreline%20Park%20Amphitheater",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-08845326b218f8011b88",
@@ -29230,13 +29250,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Valdemar on the River Parking South · Vice City",
       "detail": "Zoek Valdemar on the River Parking South onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Valdemar%20on%20the%20River%20Parking%20South",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Valdemar%20on%20the%20River%20Parking%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-426588dc34f0a73877ba",
@@ -29245,13 +29265,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Valdemar on the River Parking North · Vice City",
       "detail": "Zoek Valdemar on the River Parking North onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Valdemar%20on%20the%20River%20Parking%20North",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Valdemar%20on%20the%20River%20Parking%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-be2e400f15f63e982055",
@@ -29260,13 +29280,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Ocean Beach Marina · Vice City",
       "detail": "Zoek Ocean Beach Marina onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Ocean%20Beach%20Marina",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Ocean%20Beach%20Marina",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-3332525e14b403f69d18",
@@ -29275,13 +29295,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Port Vice City Plus Parking · Vice City",
       "detail": "Zoek Port Vice City Plus Parking onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Port%20Vice%20City%20Plus%20Parking",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Port%20Vice%20City%20Plus%20Parking",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-02eef7d3e12c8e15cf71",
@@ -29290,13 +29310,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Mariner's Highway · Vice City",
       "detail": "Zoek Mariner's Highway onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Mariner%27s%20Highway",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Mariner's%20Highway",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-2566d9040685c5c34e9a",
@@ -29305,13 +29325,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Vice City Parking Department Downtown · Vice City",
       "detail": "Zoek Vice City Parking Department Downtown onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Vice%20City%20Parking%20Department%20Downtown",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Vice%20City%20Parking%20Department%20Downtown",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-da1815660da908e37595",
@@ -29320,13 +29340,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Downtown MVP Park · Vice City",
       "detail": "Zoek Downtown MVP Park onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Downtown%20MVP%20Park",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Downtown%20MVP%20Park",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-1a4f44d821664a2d606d",
@@ -29335,13 +29355,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Goliath Global Quarry Conveyor · Leonida Keys",
       "detail": "Zoek Goliath Global Quarry Conveyor onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Goliath%20Global%20Quarry%20Conveyor",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Goliath%20Global%20Quarry%20Conveyor",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-cac87175aa729e10d81c",
@@ -29350,13 +29370,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Banner Hotel & Spa Parking · Vice City",
       "detail": "Zoek Banner Hotel & Spa Parking onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Banner%20Hotel%20%26%20Spa%20Parking",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Banner%20Hotel%20%26%20Spa%20Parking",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-e30716cfc79cd897cf67",
@@ -29365,13 +29385,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "VCIA Gator Parking · Vice City",
       "detail": "Zoek VCIA Gator Parking onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=VCIA%20Gator%20Parking",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=VCIA%20Gator%20Parking",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-f00559ae29b01f335913",
@@ -29380,13 +29400,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "VCIA Concourse · Vice City",
       "detail": "Zoek VCIA Concourse onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=VCIA%20Concourse",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=VCIA%20Concourse",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-2c5eb632622cb7de3464",
@@ -29395,13 +29415,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Tequesta Park In · Vice City",
       "detail": "Zoek Tequesta Park In onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Tequesta%20Park%20In",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Tequesta%20Park%20In",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-23fecdf4be4c7e038257",
@@ -29410,13 +29430,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Goliath Global Quarry Lakeside · Leonida Keys",
       "detail": "Zoek Goliath Global Quarry Lakeside onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Goliath%20Global%20Quarry%20Lakeside",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Goliath%20Global%20Quarry%20Lakeside",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-16a78e394054cae5ebd3",
@@ -29425,13 +29445,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Go Postal · Vice City",
       "detail": "Zoek Go Postal onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Go%20Postal",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Go%20Postal",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-17fb7343a1680cf78e63",
@@ -29440,13 +29460,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Vice City Parking Department Salton · Vice City",
       "detail": "Zoek Vice City Parking Department Salton onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Vice%20City%20Parking%20Department%20Salton",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Vice%20City%20Parking%20Department%20Salton",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-27823ff578a6ad913147",
@@ -29455,13 +29475,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Goliath Global Quarry Storage · Leonida Keys",
       "detail": "Zoek Goliath Global Quarry Storage onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Goliath%20Global%20Quarry%20Storage",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Goliath%20Global%20Quarry%20Storage",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-a17391cc9247763502cf",
@@ -29470,13 +29490,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Tequesta MVP Park · Vice City",
       "detail": "Zoek Tequesta MVP Park onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Tequesta%20MVP%20Park",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Tequesta%20MVP%20Park",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-9acc396e4e55b5474027",
@@ -29485,13 +29505,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Goliath Global Quarry Heap · Leonida Keys",
       "detail": "Zoek Goliath Global Quarry Heap onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Goliath%20Global%20Quarry%20Heap",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Goliath%20Global%20Quarry%20Heap",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-440a2a3f04b4f334e7c4",
@@ -29500,13 +29520,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "DTH Depot Parking · Vice City",
       "detail": "Zoek DTH Depot Parking onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=DTH%20Depot%20Parking",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=DTH%20Depot%20Parking",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-8820f09373623c34e49d",
@@ -29515,13 +29535,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Dalton Island Sculpture Park · Vice City",
       "detail": "Zoek Dalton Island Sculpture Park onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Dalton%20Island%20Sculpture%20Park",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Dalton%20Island%20Sculpture%20Park",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-8a626eb4a6a4f6377f13",
@@ -29530,13 +29550,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Vice City Parking Department Tequesta · Vice City",
       "detail": "Zoek Vice City Parking Department Tequesta onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Vice%20City%20Parking%20Department%20Tequesta",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Vice%20City%20Parking%20Department%20Tequesta",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-1afe24b098dd6d2f2560",
@@ -29545,13 +29565,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Cargo Road Construction · Vice City",
       "detail": "Zoek Cargo Road Construction onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Cargo%20Road%20Construction",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Cargo%20Road%20Construction",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-f4534a593400bae8b1be",
@@ -29560,13 +29580,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Goliath Global Quarry Railroad · Leonida Keys",
       "detail": "Zoek Goliath Global Quarry Railroad onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Goliath%20Global%20Quarry%20Railroad",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Goliath%20Global%20Quarry%20Railroad",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-91c71981260f5a5a1081",
@@ -29575,13 +29595,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Skorpen Brothers Recycling · Vice City",
       "detail": "Zoek Skorpen Brothers Recycling onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Skorpen%20Brothers%20Recycling",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Skorpen%20Brothers%20Recycling",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-74577878df6e6e4e44dd",
@@ -29590,13 +29610,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "US Route 82 Construction · Leonida Keys",
       "detail": "Zoek US Route 82 Construction onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=US%20Route%2082%20Construction",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=US%20Route%2082%20Construction",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-71aa5c0c3dd633cce2f5",
@@ -29605,13 +29625,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Gator Plaza Parking · Vice City",
       "detail": "Zoek Gator Plaza Parking onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Gator%20Plaza%20Parking",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Gator%20Plaza%20Parking",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-08e3d211e2f688edd183",
@@ -29620,13 +29640,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Peacock Estate · Vice City",
       "detail": "Zoek Peacock Estate onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Peacock%20Estate",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Peacock%20Estate",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-f1cdc13e6c347f12fc1d",
@@ -29635,13 +29655,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Apollo Aggregates Quarry · Vice City",
       "detail": "Zoek Apollo Aggregates Quarry onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Apollo%20Aggregates%20Quarry",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Apollo%20Aggregates%20Quarry",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-052424ea43a8ec387d4e",
@@ -29650,13 +29670,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Anderson Murphy Construction · Vice City",
       "detail": "Zoek Anderson Murphy Construction onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Anderson%20Murphy%20Construction",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Anderson%20Murphy%20Construction",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-b80fc4c9b2d6a19e5dff",
@@ -29665,13 +29685,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Peregrine Bay Coastal · Leonida Keys",
       "detail": "Zoek Peregrine Bay Coastal onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Peregrine%20Bay%20Coastal",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Peregrine%20Bay%20Coastal",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-7b6536340f1e6cf9785f",
@@ -29680,13 +29700,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Ocean Sound Road · Leonida Keys",
       "detail": "Zoek Ocean Sound Road onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Ocean%20Sound%20Road",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Ocean%20Sound%20Road",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-b753832f132d6acb317b",
@@ -29695,13 +29715,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Schlott Construction Key Lento · Leonida Keys",
       "detail": "Zoek Schlott Construction Key Lento onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Schlott%20Construction%20Key%20Lento",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Schlott%20Construction%20Key%20Lento",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-f19726f05e14d7f2240b",
@@ -29710,13 +29730,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Stuntsprongen",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Mile Zero Air Station South · Leonida Keys",
       "detail": "Zoek Mile Zero Air Station South onder Kaart → Verkenning → Stuntplekken. Gebruik de gemarkeerde schans of aanloop.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/#:~:text=Mile%20Zero%20Air%20Station%20South",
-      "extraSourceLabel": "Vindplaats in de stuntgids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Mile%20Zero%20Air%20Station%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-aa8e415d3e955b1aa217",
@@ -29725,11 +29745,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "Macalister River North · Mount Kalaga National Park",
       "detail": "Zoek Under the Bridge: Macalister River North onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Macalister%20River%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-5244f0420f6747028221",
@@ -29738,11 +29760,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "Interstate 297 Overpass · Mount Kalaga National Park",
       "detail": "Zoek Under the Bridge: Interstate 297 Overpass onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Interstate%20297%20Overpass",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-45ea273a2a793e3f968b",
@@ -29751,11 +29775,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "West Moreau Overpass · Mount Kalaga National Park",
       "detail": "Zoek Under the Bridge: West Moreau Overpass onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=West%20Moreau%20Overpass",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-c2726fd7bfa59f3b2804",
@@ -29764,11 +29790,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "Macalister River Central · Mount Kalaga National Park",
       "detail": "Zoek Under the Bridge: Macalister River Central onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Macalister%20River%20Central",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-bc0f7c45460f0a9a5ee9",
@@ -29777,11 +29805,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "West Moreau Railroad North · Mount Kalaga National Park",
       "detail": "Zoek Under the Bridge: West Moreau Railroad North onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=West%20Moreau%20Railroad%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-e46d13686e07bd5d2a64",
@@ -29790,11 +29820,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "Macalister Gold Mine · Mount Kalaga National Park",
       "detail": "Zoek Under the Bridge: Macalister Gold Mine onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Macalister%20Gold%20Mine",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-354a7a19aa0287978c1f",
@@ -29803,11 +29835,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "North Kalaga Bridge · Mount Kalaga National Park",
       "detail": "Zoek Under the Bridge: North Kalaga Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=North%20Kalaga%20Bridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-3c6d4c272f967dc9385a",
@@ -29816,11 +29850,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "East Lummox County Overpass · Mount Kalaga National Park",
       "detail": "Zoek Under the Bridge: East Lummox County Overpass onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=East%20Lummox%20County%20Overpass",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-8ea6bc77a800aeceef59",
@@ -29829,11 +29865,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "West Moreau Railroad South · Mount Kalaga National Park",
       "detail": "Zoek Under the Bridge: West Moreau Railroad South onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=West%20Moreau%20Railroad%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-6b8d868fb5b0d3e518c1",
@@ -29842,11 +29880,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "West Kalaga Overpass North · Mount Kalaga National Park",
       "detail": "Zoek Under the Bridge: West Kalaga Overpass North onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=West%20Kalaga%20Overpass%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-3aaf98e827878cd4930f",
@@ -29855,11 +29895,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "West Kalaga Overpass South · Mount Kalaga National Park",
       "detail": "Zoek Under the Bridge: West Kalaga Overpass South onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=West%20Kalaga%20Overpass%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-4e3750072a0e01951b0a",
@@ -29868,11 +29910,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "Kalaga River South · Mount Kalaga National Park",
       "detail": "Zoek Under the Bridge: Kalaga River South onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Kalaga%20River%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-7780a00167f99ddc75fd",
@@ -29881,12 +29925,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Tallaloko River · Leonard County",
       "detail": "Zoek Under the Bridge: Tallaloko River onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "approximateLocation": true
+      "approximateLocation": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Tallaloko%20River",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-529f6fd5a4cbb927ccd5",
@@ -29895,11 +29941,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "Kalaga Reservoir · Mount Kalaga National Park",
       "detail": "Zoek Under the Bridge: Kalaga Reservoir onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Kalaga%20Reservoir",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-87d2536330afda81b0c8",
@@ -29908,11 +29956,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Millport Overpass · Leonard County",
       "detail": "Zoek Under the Bridge: Millport Overpass onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Millport%20Overpass",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-6e8ee3ac400623b56b26",
@@ -29921,11 +29971,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "South Kalaga Overpass · Mount Kalaga National Park",
       "detail": "Zoek Under the Bridge: South Kalaga Overpass onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=South%20Kalaga%20Overpass",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-26e963322ad9b54c3312",
@@ -29934,11 +29986,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "North Leonard County Overpass · Leonard County",
       "detail": "Zoek Under the Bridge: North Leonard County Overpass onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=North%20Leonard%20County%20Overpass",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-32bacf7f5336e8a14112",
@@ -29947,11 +30001,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "North Leonard County Railway · Leonard County",
       "detail": "Zoek Under the Bridge: North Leonard County Railway onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=North%20Leonard%20County%20Railway",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-15602e1b09bccb34e04f",
@@ -29960,11 +30016,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "West Kalaga Overpass West · Mount Kalaga National Park",
       "detail": "Zoek Under the Bridge: West Kalaga Overpass West onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=West%20Kalaga%20Overpass%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-e644d046566bb19773fe",
@@ -29973,11 +30031,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "North Kelly County Overpass West · Port Gellhorn",
       "detail": "Zoek Under the Bridge: North Kelly County Overpass West onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=North%20Kelly%20County%20Overpass%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-93fafa89b7f610d02e6c",
@@ -29986,12 +30046,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Richard Barebone Overpass East · Leonard County",
       "detail": "Zoek Under the Bridge: Richard Barebone Overpass East onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "approximateLocation": true
+      "approximateLocation": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Richard%20Barebone%20Overpass%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-2f172d5291bf8ed3f8ec",
@@ -30000,12 +30062,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Richard Barebone Overpass West · Leonard County",
       "detail": "Zoek Under the Bridge: Richard Barebone Overpass West onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "approximateLocation": true
+      "approximateLocation": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Richard%20Barebone%20Overpass%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-b500684e9ae3f91be46d",
@@ -30014,11 +30078,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "North Leonard County Overpass North · Leonard County",
       "detail": "Zoek Under the Bridge: North Leonard County Overpass North onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=North%20Leonard%20County%20Overpass%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-e79db250fb4bd4512552",
@@ -30027,11 +30093,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Kalaga River · Leonard County",
       "detail": "Zoek Under the Bridge: Kalaga River onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Kalaga%20River",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-7a710d4a693a7c0f38fe",
@@ -30040,11 +30108,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Draper Island East · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Draper Island East onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Draper%20Island%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-27dd56393cc8b489383f",
@@ -30053,11 +30123,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Kalaga River Railroad · Leonard County",
       "detail": "Zoek Under the Bridge: Kalaga River Railroad onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Kalaga%20River%20Railroad",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-85d1b843e1a42a872997",
@@ -30066,11 +30138,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Kalaga River Mouth · Leonard County",
       "detail": "Zoek Under the Bridge: Kalaga River Mouth onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Kalaga%20River%20Mouth",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-cc89489ef3996de508d0",
@@ -30079,12 +30153,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "North Kelly County Overpass East · Leonard County",
       "detail": "Zoek Under the Bridge: North Kelly County Overpass East onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "approximateLocation": true
+      "approximateLocation": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=North%20Kelly%20County%20Overpass%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-99b9bb2fd5980c86caa3",
@@ -30093,11 +30169,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Saputka River Railroad East · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Saputka River Railroad East onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Saputka%20River%20Railroad%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-d8ff48003589efe0149f",
@@ -30106,11 +30184,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Waning Sands Railroad · Leonard County",
       "detail": "Zoek Under the Bridge: Waning Sands Railroad onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Waning%20Sands%20Railroad",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-7018c3db62250817fb23",
@@ -30119,11 +30199,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Providence Canyon Railroad · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Providence Canyon Railroad onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Providence%20Canyon%20Railroad",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-596c8477199ef8e9c020",
@@ -30132,11 +30214,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Waning Sands Overpass · Leonard County",
       "detail": "Zoek Under the Bridge: Waning Sands Overpass onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Waning%20Sands%20Overpass",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-2be91f02048cd4fbc64d",
@@ -30145,12 +30229,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Leith River North · Leonard County",
       "detail": "Zoek Under the Bridge: Leith River North onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "approximateLocation": true
+      "approximateLocation": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Leith%20River%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-2c5742d7547fa945b3eb",
@@ -30159,11 +30245,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Saputka River Railroad North · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Saputka River Railroad North onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Saputka%20River%20Railroad%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-cad3de0cd9addc4e1eb7",
@@ -30172,11 +30260,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Draper Island Bridge · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Draper Island Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Draper%20Island%20Bridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-363ad88013258afcceb7",
@@ -30185,11 +30275,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "North Frogswater Railroad · Port Gellhorn",
       "detail": "Zoek Under the Bridge: North Frogswater Railroad onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=North%20Frogswater%20Railroad",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-0df8d8ecb0e717c16884",
@@ -30198,11 +30290,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Saputka River West · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Saputka River West onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Saputka%20River%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-eac2531ab3f2fd0f5c65",
@@ -30211,11 +30305,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Saputka River · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Saputka River onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Saputka%20River",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-f7ac69d1c120a92fba21",
@@ -30224,24 +30320,30 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Saputka River Railroad West · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Saputka River Railroad West onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Saputka%20River%20Railroad%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-c919ae4556e6a7bd931a",
       "title": "170 Under the Bridge: Saputka River Mouth Under the Bridge",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Locatie volgens bron",
+      "sourceLocation": "US-35 over de monding van de Saputka, tussen North Kelly County en Ambrosia",
       "detail": "Zoek Under the Bridge: Saputka River Mouth Under the Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Saputka%20River%20Mouth",
+      "extraSourceLabel": "Deze stunt in de locatiegids",
+      "extraArea": "kalaga",
+      "approximateLocation": false
     },
     {
       "id": "excel-b0fee8bafaac1598f169",
@@ -30250,12 +30352,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Tybee Channel North · Leonard County",
       "detail": "Zoek Under the Bridge: Tybee Channel North onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "approximateLocation": true
+      "approximateLocation": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Tybee%20Channel%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-682bfc4c245b1232251f",
@@ -30264,12 +30368,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Tybee Channel Railroad North · Leonard County",
       "detail": "Zoek Under the Bridge: Tybee Channel Railroad North onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "approximateLocation": true
+      "approximateLocation": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Tybee%20Channel%20Railroad%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-e561f644ec1d4475c6ae",
@@ -30278,11 +30384,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Draper Island South · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Draper Island South onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Draper%20Island%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-621dabf4bc5dd8fea0ad",
@@ -30291,11 +30399,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Saputka River Railroad · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Saputka River Railroad onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Saputka%20River%20Railroad",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-3992ef52518144e9ddbc",
@@ -30304,11 +30414,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Saputka River East · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Saputka River East onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Saputka%20River%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-874a88625b2306d54d2f",
@@ -30317,11 +30429,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Gowing Railroad Bridge · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Gowing Railroad Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Gowing%20Railroad%20Bridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-7fbc9b1cb069447d1fa0",
@@ -30330,11 +30444,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Kelly River North · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Kelly River North onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Kelly%20River%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-4a81ab4576cf13046988",
@@ -30343,12 +30459,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Leith River Central · Leonard County",
       "detail": "Zoek Under the Bridge: Leith River Central onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "approximateLocation": true
+      "approximateLocation": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Leith%20River%20Central",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-0e57188ad685559a846d",
@@ -30357,12 +30475,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Leith River South · Leonard County",
       "detail": "Zoek Under the Bridge: Leith River South onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "approximateLocation": true
+      "approximateLocation": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Leith%20River%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-ec8e8a16a8b4a5d444ac",
@@ -30371,12 +30491,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Tybee Channel Central · Leonard County",
       "detail": "Zoek Under the Bridge: Tybee Channel Central onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "approximateLocation": true
+      "approximateLocation": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Tybee%20Channel%20Central",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-777828c993721783dc4d",
@@ -30385,11 +30507,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Waning Sands Central · Leonard County",
       "detail": "Zoek Under the Bridge: Waning Sands Central onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Waning%20Sands%20Central",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-1136367f7e164e330f36",
@@ -30398,24 +30522,30 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Graffiti Bridge · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Graffiti Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Graffiti%20Bridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-e1f1e362f190504f82bc",
       "title": "183 Under the Bridge: Allied Crystal Pipeline Under the Bridge",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Locatie volgens bron",
+      "sourceLocation": "Allied Crystal Pipeline, ten zuidoosten van Ambrosia",
       "detail": "Zoek Under the Bridge: Allied Crystal Pipeline Under the Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Allied%20Crystal%20Pipeline",
+      "extraSourceLabel": "Deze stunt in de locatiegids",
+      "extraArea": null,
+      "approximateLocation": false
     },
     {
       "id": "excel-e5c8c62c123c2ed5b3b6",
@@ -30424,11 +30554,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Belville Canal North · Leonard County",
       "detail": "Zoek Under the Bridge: Belville Canal North onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Belville%20Canal%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-cf27635219ca4e731e62",
@@ -30437,12 +30569,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "West Mall Drive · Leonard County",
       "detail": "Zoek Under the Bridge: West Mall Drive onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "approximateLocation": true
+      "approximateLocation": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=West%20Mall%20Drive",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-7a46a62b2b1476e10441",
@@ -30451,11 +30585,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Belville Canal Railroad · Leonard County",
       "detail": "Zoek Under the Bridge: Belville Canal Railroad onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Belville%20Canal%20Railroad",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-3f9cf76bc34277298689",
@@ -30464,11 +30600,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Locatie volgens bron",
+      "sourceLocation": "Ambrosia East Railroad North · Locatie volgens bron",
       "detail": "Zoek Under the Bridge: Ambrosia East Railroad North Under the Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Ambrosia%20East%20Railroad%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-bcbe747d44088acf4b11",
@@ -30477,11 +30615,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Kelly River South · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Kelly River South onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Kelly%20River%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-26d26238032194a8de72",
@@ -30490,12 +30630,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Tybee Channel Railroad South · Leonard County",
       "detail": "Zoek Under the Bridge: Tybee Channel Railroad South onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "approximateLocation": true
+      "approximateLocation": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Tybee%20Channel%20Railroad%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-d6522283628e3d07fe56",
@@ -30504,12 +30646,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Evergreen Mall Bridge · Leonard County",
       "detail": "Zoek Under the Bridge: Evergreen Mall Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "approximateLocation": true
+      "approximateLocation": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Evergreen%20Mall%20Bridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-ad7f9d8c10111df005c7",
@@ -30518,11 +30662,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "North Gellhorn Overpass · Port Gellhorn",
       "detail": "Zoek Under the Bridge: North Gellhorn Overpass onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=North%20Gellhorn%20Overpass",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-636a9fff03224f3b2afb",
@@ -30531,12 +30677,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Flamingo Parkway North · Leonard County",
       "detail": "Zoek Under the Bridge: Flamingo Parkway North onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "approximateLocation": true
+      "approximateLocation": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Flamingo%20Parkway%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-67c4374e38a5f5c93b4b",
@@ -30545,11 +30693,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Belville North Railroad · Leonard County",
       "detail": "Zoek Under the Bridge: Belville North Railroad onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Belville%20North%20Railroad",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-4885023fdfaed912e746",
@@ -30558,11 +30708,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Tybee Channel South · Vice City",
       "detail": "Zoek Under the Bridge: Tybee Channel South onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Tybee%20Channel%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-079b42c17f171adedfea",
@@ -30571,11 +30723,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Tybee Channel Mouth East · Vice City",
       "detail": "Zoek Under the Bridge: Tybee Channel Mouth East onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Tybee%20Channel%20Mouth%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-5f1c1fa0dca76da6bc01",
@@ -30584,50 +30738,64 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Atlantic Causeway · Vice City",
       "detail": "Zoek Under the Bridge: Atlantic Causeway onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Atlantic%20Causeway",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-c308c5d011fdfdc83190",
       "title": "197 Under the Bridge: Kelly River Railroad West Under the Bridge",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Locatie volgens bron",
+      "sourceLocation": "Westelijke spoorbrug over de Kelly River, op het spoor naar Emerald Springs",
       "detail": "Zoek Under the Bridge: Kelly River Railroad West Under the Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Kelly%20River%20Railroad%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids",
+      "extraArea": "port",
+      "approximateLocation": false
     },
     {
       "id": "excel-f0a93250ae6f3ae3ace3",
       "title": "198 Under the Bridge: Leonida Canal North Under the Bridge",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Locatie volgens bron",
+      "sourceLocation": "US-70 over het Leonida Canal in Ambrosia",
       "detail": "Zoek Under the Bridge: Leonida Canal North Under the Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Leonida%20Canal%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids",
+      "extraArea": null,
+      "approximateLocation": false
     },
     {
       "id": "excel-42d81a87f8c8e6b0699e",
       "title": "199 Under the Bridge: Kelly River Railroad East Under the Bridge",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Locatie volgens bron",
+      "sourceLocation": "Oostelijke spoorbrug over de Kelly River, op het spoor naar Emerald Springs",
       "detail": "Zoek Under the Bridge: Kelly River Railroad East Under the Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Kelly%20River%20Railroad%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids",
+      "extraArea": "port",
+      "approximateLocation": false
     },
     {
       "id": "excel-167659607a884c7069a8",
@@ -30636,11 +30804,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Belville Canal South · Leonard County",
       "detail": "Zoek Under the Bridge: Belville Canal South onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Belville%20Canal%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-d00a3ac14352e0f88358",
@@ -30649,11 +30819,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Delamore Bridge · Vice City",
       "detail": "Zoek Under the Bridge: Delamore Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Delamore%20Bridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-445fa85bd6fe2ca82422",
@@ -30662,11 +30834,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Belville East Railroad · Leonard County",
       "detail": "Zoek Under the Bridge: Belville East Railroad onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Belville%20East%20Railroad",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-af045a8c312f6e4cc7fe",
@@ -30675,11 +30849,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Tidal Avenue · Vice City",
       "detail": "Zoek Under the Bridge: Tidal Avenue onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Tidal%20Avenue",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-f509f4355b85116515a9",
@@ -30688,24 +30864,30 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Flamingo Parkway South · Vice City",
       "detail": "Zoek Under the Bridge: Flamingo Parkway South onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Flamingo%20Parkway%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-7a5561ccd237c3678fb2",
       "title": "205 Under the Bridge: Leonida Canal Under the Bridge",
-      "area": null,
+      "area": "ambrosia",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Locatie volgens bron",
+      "sourceLocation": "County Road 62 over het Leonida Canal, ten zuiden van Ambrosia",
       "detail": "Zoek Under the Bridge: Leonida Canal Under the Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Leonida%20Canal",
+      "extraSourceLabel": "Deze stunt in de locatiegids",
+      "extraArea": "port",
+      "approximateLocation": false
     },
     {
       "id": "excel-e9b20305e9018973045d",
@@ -30714,11 +30896,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Belville East Overpass · Vice City",
       "detail": "Zoek Under the Bridge: Belville East Overpass onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Belville%20East%20Overpass",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-6ac78b1acc57b2aa867e",
@@ -30727,11 +30911,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Locatie volgens bron",
+      "sourceLocation": "Ambrosia East Railroad South · Locatie volgens bron",
       "detail": "Zoek Under the Bridge: Ambrosia East Railroad South Under the Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Ambrosia%20East%20Railroad%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-d151b76be6ece4b037ac",
@@ -30740,12 +30926,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "County Route 62 · Leonard County",
       "detail": "Zoek Under the Bridge: County Route 62 onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "approximateLocation": true
+      "approximateLocation": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=County%20Route%2062",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-70d12fdc7ce5db9a8380",
@@ -30754,11 +30942,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Raceway Overpass East · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Raceway Overpass East onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Raceway%20Overpass%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-d9fa4fb700f1b502759a",
@@ -30767,11 +30957,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Atlantic Avenue · Vice City",
       "detail": "Zoek Under the Bridge: Atlantic Avenue onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Atlantic%20Avenue",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-6bed7dd081427a81dc82",
@@ -30780,11 +30972,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Gellhorn International Raceway · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Gellhorn International Raceway onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Gellhorn%20International%20Raceway",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-aa3091d9855fd01a2b10",
@@ -30793,11 +30987,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Raceway Paddock Bridge · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Raceway Paddock Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Raceway%20Paddock%20Bridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-8179aad8ee5bee6df549",
@@ -30806,11 +31002,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Oleander Bridge · Vice City",
       "detail": "Zoek Under the Bridge: Oleander Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Oleander%20Bridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-a97611a6a21ca8571d2d",
@@ -30819,11 +31017,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Catalan Boulevard · Vice City",
       "detail": "Zoek Under the Bridge: Catalan Boulevard onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Catalan%20Boulevard",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-60d3c645e1546d08e367",
@@ -30832,11 +31032,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Mariposa Avenue · Vice City",
       "detail": "Zoek Under the Bridge: Mariposa Avenue onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Mariposa%20Avenue",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-be738a26ed8eabfe99f5",
@@ -30845,11 +31047,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Belville Town Overpass · Leonard County",
       "detail": "Zoek Under the Bridge: Belville Town Overpass onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Belville%20Town%20Overpass",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-26f853b968551171336b",
@@ -30858,11 +31062,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Del Rio Boulevard · Vice City",
       "detail": "Zoek Under the Bridge: Del Rio Boulevard onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Del%20Rio%20Boulevard",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-8c21569822876059ed77",
@@ -30871,12 +31077,14 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonard County",
+      "sourceLocation": "Caledonia Boulevard · Leonard County",
       "detail": "Zoek Under the Bridge: Caledonia Boulevard onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "approximateLocation": true
+      "approximateLocation": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Caledonia%20Boulevard",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-26051a8b49dfa9338d02",
@@ -30885,11 +31093,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "South Leonard County Railroad North · Vice City",
       "detail": "Zoek Under the Bridge: South Leonard County Railroad North onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=South%20Leonard%20County%20Railroad%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-24a075d9045694e2e1e1",
@@ -30898,11 +31108,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Leonida Canal South · Vice City",
       "detail": "Zoek Under the Bridge: Leonida Canal South onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Leonida%20Canal%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-b961493325cf1eb8aaae",
@@ -30911,11 +31123,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "S-17 Canal Drawbridge North · Vice City",
       "detail": "Zoek Under the Bridge: S-17 Canal Drawbridge North onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=S-17%20Canal%20Drawbridge%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-a04ac30eee94d616976f",
@@ -30924,11 +31138,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Vineyard Drive East · Vice City",
       "detail": "Zoek Under the Bridge: Vineyard Drive East onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Vineyard%20Drive%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-bca29629f47d062c46b0",
@@ -30937,11 +31153,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Belville Canal East · Vice City",
       "detail": "Zoek Under the Bridge: Belville Canal East onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Belville%20Canal%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-c537e5e51eb635a210b4",
@@ -30950,11 +31168,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Raceway Overpass North · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Raceway Overpass North onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Raceway%20Overpass%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-1384f70a38d673a0e1e0",
@@ -30963,11 +31183,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Raceway Parking · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Raceway Parking onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Raceway%20Parking",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-70cfba7491ff92f054e0",
@@ -30976,11 +31198,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Vineyard Drive West · Vice City",
       "detail": "Zoek Under the Bridge: Vineyard Drive West onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Vineyard%20Drive%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-9540816fcfee5cd0e91d",
@@ -30989,11 +31213,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Bonita Court Footbridge · Vice City",
       "detail": "Zoek Under the Bridge: Bonita Court Footbridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Bonita%20Court%20Footbridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-3728a8697fe7c79da604",
@@ -31002,11 +31228,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Washington Beach West · Vice City",
       "detail": "Zoek Under the Bridge: Washington Beach West onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Washington%20Beach%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-2b95029e831d6a951496",
@@ -31015,11 +31243,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "South Leonard County Railroad South · Vice City",
       "detail": "Zoek Under the Bridge: South Leonard County Railroad South onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=South%20Leonard%20County%20Railroad%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-033d96f04cc6dc167e88",
@@ -31028,11 +31258,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Oleander Boulevard · Vice City",
       "detail": "Zoek Under the Bridge: Oleander Boulevard onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Oleander%20Boulevard",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-f61fe4b6ceee76f4aabb",
@@ -31041,11 +31273,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Gellhorn Rally X · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Gellhorn Rally X onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Gellhorn%20Rally%20X",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-65f466185c3981c7eebf",
@@ -31054,11 +31288,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Ajax Gym / Lawton Theater · Vice City",
       "detail": "Zoek Under the Bridge: Ajax Gym / Lawton Theater onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Ajax%20Gym%20%2F%20Lawton%20Theater",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-b9a74848e8355092fdc3",
@@ -31067,11 +31303,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "S-17 Canal Drawbridge Central · Vice City",
       "detail": "Zoek Under the Bridge: S-17 Canal Drawbridge Central onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=S-17%20Canal%20Drawbridge%20Central",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-de49062dd4c6ab30e625",
@@ -31080,11 +31318,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Buckskin Swamp Channels · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Buckskin Swamp Channels onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Buckskin%20Swamp%20Channels",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-66926f1884a46e7ae5a5",
@@ -31093,11 +31333,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Leonida Canal Railroad · Vice City",
       "detail": "Zoek Under the Bridge: Leonida Canal Railroad onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Leonida%20Canal%20Railroad",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-5903ec495a9932a36cde",
@@ -31106,11 +31348,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Washington Beach Footbridge · Vice City",
       "detail": "Zoek Under the Bridge: Washington Beach Footbridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Washington%20Beach%20Footbridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-ccd133df4f6d3a291f8c",
@@ -31119,11 +31363,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Raceway Stands · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Raceway Stands onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Raceway%20Stands",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-318b9884cdaa00f4b918",
@@ -31132,11 +31378,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "S-17 Canal Drawbridge South · Vice City",
       "detail": "Zoek Under the Bridge: S-17 Canal Drawbridge South onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=S-17%20Canal%20Drawbridge%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-0541140bbf923d962dde",
@@ -31145,11 +31393,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Xero Billboard · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Xero Billboard onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Xero%20Billboard",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-fd0076b44234e6a25bf6",
@@ -31158,11 +31408,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Raceway Overpass Central · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Raceway Overpass Central onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Raceway%20Overpass%20Central",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-ddbca34faab1c8015b39",
@@ -31171,11 +31423,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Chepalle Billboard · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Chepalle Billboard onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Chepalle%20Billboard",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-39bbd3ca93e02107e0ee",
@@ -31184,11 +31438,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Leonida Canal Southwest · Vice City",
       "detail": "Zoek Under the Bridge: Leonida Canal Southwest onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Leonida%20Canal%20Southwest",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-10c549996163aac5a12e",
@@ -31197,11 +31453,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Casanova Island Bridge · Vice City",
       "detail": "Zoek Under the Bridge: Casanova Island Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Casanova%20Island%20Bridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-2bacddd4a07668709d88",
@@ -31210,11 +31468,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Leonida Canal Southeast · Vice City",
       "detail": "Zoek Under the Bridge: Leonida Canal Southeast onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Leonida%20Canal%20Southeast",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-1fabce97f3718dc3edff",
@@ -31223,11 +31483,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Balsero Overpass East · Vice City",
       "detail": "Zoek Under the Bridge: Balsero Overpass East onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Balsero%20Overpass%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-fb5f9df4d5ae7b2577dd",
@@ -31236,11 +31498,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Raceway Overpass South · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Raceway Overpass South onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Raceway%20Overpass%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-a758e691276e2e448d44",
@@ -31249,11 +31513,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Leonida Power and Light · Vice City",
       "detail": "Zoek Under the Bridge: Leonida Power and Light onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Leonida%20Power%20and%20Light",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-6e3e7a777300f694f79a",
@@ -31262,11 +31528,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "RON Gas - Balsero · Vice City",
       "detail": "Zoek Under the Bridge: RON Gas - Balsero onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=RON%20Gas%20-%20Balsero",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-3ca119b0524e402b3b17",
@@ -31275,11 +31543,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Rivo Bridge · Vice City",
       "detail": "Zoek Under the Bridge: Rivo Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Rivo%20Bridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-a9bf2b3d966df16582c9",
@@ -31288,11 +31558,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Fleeca Field Stadium · Vice City",
       "detail": "Zoek Under the Bridge: Fleeca Field Stadium onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Fleeca%20Field%20Stadium",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-0962c91b62779a2a071e",
@@ -31301,11 +31573,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Balsero Overpass North · Vice City",
       "detail": "Zoek Under the Bridge: Balsero Overpass North onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Balsero%20Overpass%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-45d6068ff27fcebd6f2e",
@@ -31314,11 +31588,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "S-17 Canal Swing Bridge · Vice City",
       "detail": "Zoek Under the Bridge: S-17 Canal Swing Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=S-17%20Canal%20Swing%20Bridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-eaf2ae062e7175cb0e15",
@@ -31327,11 +31603,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Buckskin Swamp Southeast · Vice City",
       "detail": "Zoek Under the Bridge: Buckskin Swamp Southeast onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Buckskin%20Swamp%20Southeast",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-fbf4e61738f8d1c67900",
@@ -31340,11 +31618,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Buckskin Swamp Southwest · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Buckskin Swamp Southwest onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Buckskin%20Swamp%20Southwest",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-6a6c5d30184125d8e924",
@@ -31353,11 +31633,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Omega Parkway · Vice City",
       "detail": "Zoek Under the Bridge: Omega Parkway onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Omega%20Parkway",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-a406bc182fa587af1d82",
@@ -31366,11 +31648,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Tisha-Wocka Flea Market East · Vice City",
       "detail": "Zoek Under the Bridge: Tisha-Wocka Flea Market East onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Tisha-Wocka%20Flea%20Market%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-f2983a42ae4863881692",
@@ -31379,11 +31663,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Tisha-Wocka Flea Market Central · Vice City",
       "detail": "Zoek Under the Bridge: Tisha-Wocka Flea Market Central onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Tisha-Wocka%20Flea%20Market%20Central",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-703e696c13b617444951",
@@ -31392,11 +31678,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Tisha-Wocka Flea Market West · Vice City",
       "detail": "Zoek Under the Bridge: Tisha-Wocka Flea Market West onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Tisha-Wocka%20Flea%20Market%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-f5268eeef307fe0ad3ec",
@@ -31405,11 +31693,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Balsero Overpass Central · Vice City",
       "detail": "Zoek Under the Bridge: Balsero Overpass Central onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Balsero%20Overpass%20Central",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-011b8981504438936a24",
@@ -31418,11 +31708,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Balsero Overpass West · Vice City",
       "detail": "Zoek Under the Bridge: Balsero Overpass West onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Balsero%20Overpass%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-fa05d2481de5105cc869",
@@ -31431,11 +31723,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Capri Bay Railroad · Leonida Keys",
       "detail": "Zoek Under the Bridge: Capri Bay Railroad onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Capri%20Bay%20Railroad",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-31084579341cc6829fbb",
@@ -31444,11 +31738,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Leonida Auto World · Vice City",
       "detail": "Zoek Under the Bridge: Leonida Auto World onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Leonida%20Auto%20World",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-3a8986b8593981f35aca",
@@ -31457,11 +31753,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "South Kelly County Overpass · Port Gellhorn",
       "detail": "Zoek Under the Bridge: South Kelly County Overpass onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=South%20Kelly%20County%20Overpass",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-5142cb05a31916518711",
@@ -31470,11 +31768,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Capri Island · Leonida Keys",
       "detail": "Zoek Under the Bridge: Capri Island onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Capri%20Island",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-48bd6ecd578b2acb4ca8",
@@ -31483,11 +31783,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Macalister Causeway · Vice City",
       "detail": "Zoek Under the Bridge: Macalister Causeway onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Macalister%20Causeway",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-aab6d40953db9a57718e",
@@ -31496,11 +31798,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Vice River North · Vice City",
       "detail": "Zoek Under the Bridge: Vice River North onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Vice%20River%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-abfa797c0c6f4fdf6010",
@@ -31509,11 +31813,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Tisha-Wocka Flea Market Bridge · Vice City",
       "detail": "Zoek Under the Bridge: Tisha-Wocka Flea Market Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Tisha-Wocka%20Flea%20Market%20Bridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-0a054fd7bf8e70e6cea3",
@@ -31522,11 +31828,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Muspachee River East · Vice City",
       "detail": "Zoek Under the Bridge: Muspachee River East onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Muspachee%20River%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-085e2367799d6311b631",
@@ -31535,11 +31843,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Emerald Bridge · Leonida Keys",
       "detail": "Zoek Under the Bridge: Emerald Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Emerald%20Bridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-b8aed67db7a4bbe24596",
@@ -31548,11 +31858,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Muspachee River West · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Muspachee River West onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Muspachee%20River%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-efc5d965bc2bbbc96092",
@@ -31561,11 +31873,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Cargo Road · Vice City",
       "detail": "Zoek Under the Bridge: Cargo Road onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Cargo%20Road",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-40b65476d8ed1a64335c",
@@ -31574,11 +31888,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Salton Overpass · Vice City",
       "detail": "Zoek Under the Bridge: Salton Overpass onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Salton%20Overpass",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-d7b3d082bc9baba92af7",
@@ -31587,11 +31903,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "West Vice-Dale County North · Vice City",
       "detail": "Zoek Under the Bridge: West Vice-Dale County North onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=West%20Vice-Dale%20County%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-1c31b69bf62620208d69",
@@ -31600,11 +31918,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "West Vice-Dale County Northeast · Vice City",
       "detail": "Zoek Under the Bridge: West Vice-Dale County Northeast onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=West%20Vice-Dale%20County%20Northeast",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-8b6257c8403deb6aac2f",
@@ -31613,11 +31933,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Starfish Island · Vice City",
       "detail": "Zoek Under the Bridge: Starfish Island onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Starfish%20Island",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-c8a1179e9c2ac07ca7cf",
@@ -31626,11 +31948,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "West Vice-Dale County South · Vice City",
       "detail": "Zoek Under the Bridge: West Vice-Dale County South onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=West%20Vice-Dale%20County%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-9f653972ff7e4e4aef45",
@@ -31639,11 +31963,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Waxman Island East · Vice City",
       "detail": "Zoek Under the Bridge: Waxman Island East onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Waxman%20Island%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-3315f6fc559be367900d",
@@ -31652,11 +31978,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Vice River South · Vice City",
       "detail": "Zoek Under the Bridge: Vice River South onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Vice%20River%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-39cf6678391e3794d0b7",
@@ -31665,11 +31993,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Port Gellhorn",
+      "sourceLocation": "Terrapin Road · Port Gellhorn",
       "detail": "Zoek Under the Bridge: Terrapin Road onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Terrapin%20Road",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-66839c35cc4c10d822d6",
@@ -31678,11 +32008,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "West Royale Street · Vice City",
       "detail": "Zoek Under the Bridge: West Royale Street onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=West%20Royale%20Street",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-a6172ab9638abaa78a82",
@@ -31691,11 +32023,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Nehrling River Railroad · Leonida Keys",
       "detail": "Zoek Under the Bridge: Nehrling River Railroad onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Nehrling%20River%20Railroad",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-bd325df5b842e2be8e38",
@@ -31704,11 +32038,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Nehrling River West · Leonida Keys",
       "detail": "Zoek Under the Bridge: Nehrling River West onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Nehrling%20River%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-173552ae4691b0ebe90c",
@@ -31717,11 +32053,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Port VC Bridge · Vice City",
       "detail": "Zoek Under the Bridge: Port VC Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Port%20VC%20Bridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-e94280cbd3a9f3e157d4",
@@ -31730,11 +32068,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Nehrling River East · Leonida Keys",
       "detail": "Zoek Under the Bridge: Nehrling River East onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Nehrling%20River%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-24d34d96c05ddd809bde",
@@ -31743,11 +32083,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Caprice City Canal · Vice City",
       "detail": "Zoek Under the Bridge: Caprice City Canal onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Caprice%20City%20Canal",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-80f3feeb0b2b807dffe9",
@@ -31756,11 +32098,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Downtown Southeast · Vice City",
       "detail": "Zoek Under the Bridge: Downtown Southeast onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Downtown%20Southeast",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-a269f54c2e945e9d0714",
@@ -31769,11 +32113,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Downtown Southwest · Vice City",
       "detail": "Zoek Under the Bridge: Downtown Southwest onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Downtown%20Southwest",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-99fbd89ba813fd2e5b97",
@@ -31782,11 +32128,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Bobcat Key North · Leonida Keys",
       "detail": "Zoek Under the Bridge: Bobcat Key North onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Bobcat%20Key%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-9d5c67e528b5fde1451f",
@@ -31795,11 +32143,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Gloriana Key North · Vice City",
       "detail": "Zoek Under the Bridge: Gloriana Key North onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Gloriana%20Key%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-9c958706b35c0bc779f4",
@@ -31808,11 +32158,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Breakwater Quarry · Leonida Keys",
       "detail": "Zoek Under the Bridge: Breakwater Quarry onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Breakwater%20Quarry",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-8917784f9438d35ef2c6",
@@ -31821,11 +32173,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Tequesta Bridge · Vice City",
       "detail": "Zoek Under the Bridge: Tequesta Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Tequesta%20Bridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-e91ebc55c8374e4593d1",
@@ -31834,11 +32188,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Seabell Avenue · Vice City",
       "detail": "Zoek Under the Bridge: Seabell Avenue onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Seabell%20Avenue",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-4d72976f54b00cb34375",
@@ -31847,11 +32203,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "North Mariana County Railroad West · Leonida Keys",
       "detail": "Zoek Under the Bridge: North Mariana County Railroad West onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=North%20Mariana%20County%20Railroad%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-03f3e787215c8ff51ca9",
@@ -31860,11 +32218,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Catalan Key East · Vice City",
       "detail": "Zoek Under the Bridge: Catalan Key East onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Catalan%20Key%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-67040d5c82259823d0ac",
@@ -31873,11 +32233,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Goliath Global Quarry · Leonida Keys",
       "detail": "Zoek Under the Bridge: Goliath Global Quarry onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Goliath%20Global%20Quarry",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-d68c53a6a955ff6269d1",
@@ -31886,11 +32248,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Catalan Key West · Vice City",
       "detail": "Zoek Under the Bridge: Catalan Key West onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Catalan%20Key%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-b9751417e3cac123dfd5",
@@ -31899,11 +32263,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Fuzzard Drain Canal Railroad East · Vice City",
       "detail": "Zoek Under the Bridge: Fuzzard Drain Canal Railroad East onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Fuzzard%20Drain%20Canal%20Railroad%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-732fc47196acac9d480f",
@@ -31912,24 +32278,30 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Bluegrass North · Vice City",
       "detail": "Zoek Under the Bridge: Bluegrass North onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Bluegrass%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-64284a2ac9af2e2890a6",
       "title": "299 Under the Bridge: SND Station Footbridge Under the Bridge",
-      "area": null,
+      "area": "grass",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Locatie volgens bron",
+      "sourceLocation": "Voetgangersbrug over US-82 bij SND Station",
       "detail": "Zoek Under the Bridge: SND Station Footbridge Under the Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=SND%20Station%20Footbridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids",
+      "extraArea": null,
+      "approximateLocation": false
     },
     {
       "id": "excel-34ca4c83461dc686d9e5",
@@ -31938,11 +32310,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Southside West · Vice City",
       "detail": "Zoek Under the Bridge: Southside West onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Southside%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-8160317e1db81a694c67",
@@ -31951,11 +32325,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Bluegrass Railroad Bridge · Vice City",
       "detail": "Zoek Under the Bridge: Bluegrass Railroad Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Bluegrass%20Railroad%20Bridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-fda3295d27a27cf1ca73",
@@ -31964,11 +32340,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Gloriana Key West · Vice City",
       "detail": "Zoek Under the Bridge: Gloriana Key West onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Gloriana%20Key%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-25d82013f786022e4777",
@@ -31977,11 +32355,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Fuzzard Drain Canal · Vice City",
       "detail": "Zoek Under the Bridge: Fuzzard Drain Canal onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Fuzzard%20Drain%20Canal",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-c8b4dbe7fdcae21636c8",
@@ -31990,11 +32370,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Fuzzard Drain Canal Railroad West · Vice City",
       "detail": "Zoek Under the Bridge: Fuzzard Drain Canal Railroad West onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Fuzzard%20Drain%20Canal%20Railroad%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-63e3a4f6e09dc275b8ec",
@@ -32003,11 +32385,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "North Mariana County Railroad Southeast · Leonida Keys",
       "detail": "Zoek Under the Bridge: North Mariana County Railroad Southeast onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=North%20Mariana%20County%20Railroad%20Southeast",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-08923962a3432114c5d4",
@@ -32016,11 +32400,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "North Mariana County Railroad Southwest · Leonida Keys",
       "detail": "Zoek Under the Bridge: North Mariana County Railroad Southwest onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=North%20Mariana%20County%20Railroad%20Southwest",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-0471ceb657dbf225b9ed",
@@ -32029,11 +32415,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Bobcat Key Central · Leonida Keys",
       "detail": "Zoek Under the Bridge: Bobcat Key Central onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Bobcat%20Key%20Central",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-ee084a12cabdedbad0de",
@@ -32042,11 +32430,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "North Mariana County Overpass · Leonida Keys",
       "detail": "Zoek Under the Bridge: North Mariana County Overpass onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=North%20Mariana%20County%20Overpass",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-ede90c353822d4c5443f",
@@ -32055,11 +32445,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Bluegrass South · Vice City",
       "detail": "Zoek Under the Bridge: Bluegrass South onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Bluegrass%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-2cb3cd4ba10480747b71",
@@ -32068,11 +32460,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "South Vice-Dale County Overpass · Vice City",
       "detail": "Zoek Under the Bridge: South Vice-Dale County Overpass onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=South%20Vice-Dale%20County%20Overpass",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-aab211506abcd0d1072b",
@@ -32081,11 +32475,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "North Watson Bay · Leonida Keys",
       "detail": "Zoek Under the Bridge: North Watson Bay onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=North%20Watson%20Bay",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-9a247ba2d3ca260b5857",
@@ -32094,11 +32490,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Locatie volgens bron",
+      "sourceLocation": "East Big Pine · Locatie volgens bron",
       "detail": "Zoek Under the Bridge: East Big Pine Under the Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=East%20Big%20Pine",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-c47105dbbdfd60631e7c",
@@ -32107,11 +32505,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Pelican River · Vice City",
       "detail": "Zoek Under the Bridge: Pelican River onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Pelican%20River",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-f8a6baf8aa4260bf5a1f",
@@ -32120,11 +32520,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Catalan Key South · Vice City",
       "detail": "Zoek Under the Bridge: Catalan Key South onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Catalan%20Key%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-d03b559ffe9d338e5c5e",
@@ -32133,11 +32535,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Gavin's Creek West · Leonida Keys",
       "detail": "Zoek Under the Bridge: Gavin's Creek West onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Gavin's%20Creek%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-c0cd092fd1beb0c9a99d",
@@ -32146,24 +32550,30 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Bobcat Key South · Leonida Keys",
       "detail": "Zoek Under the Bridge: Bobcat Key South onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Bobcat%20Key%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-03d6d5889bbce9516344",
       "title": "317 Under the Bridge: Atlee River Under the Bridge",
-      "area": null,
+      "area": "grass",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Locatie volgens bron",
+      "sourceLocation": "Brug over de Pelican River tussen Gullet Marsh en Hamlet",
       "detail": "Zoek Under the Bridge: Atlee River Under the Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Atlee%20River",
+      "extraSourceLabel": "Deze stunt in de locatiegids",
+      "extraArea": "city",
+      "approximateLocation": false
     },
     {
       "id": "excel-f7644f5725b732d3453d",
@@ -32172,24 +32582,30 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Emory Avenue · Vice City",
       "detail": "Zoek Under the Bridge: Emory Avenue onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Emory%20Avenue",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-cc82ef4030c1416cbe72",
       "title": "319 Under the Bridge: Gavin's Creek East Under the Bridge",
-      "area": null,
+      "area": "keys",
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Locatie volgens bron",
+      "sourceLocation": "Buckeye Road over Gavin’s Creek in Watson Bay",
       "detail": "Zoek Under the Bridge: Gavin's Creek East Under the Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Gavin's%20Creek%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids",
+      "extraArea": null,
+      "approximateLocation": false
     },
     {
       "id": "excel-2a696a884e5578c03bc0",
@@ -32198,11 +32614,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "East Watson Bay · Leonida Keys",
       "detail": "Zoek Under the Bridge: East Watson Bay onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=East%20Watson%20Bay",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-bb247b01968939c93902",
@@ -32211,11 +32629,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "North Isla Maldia · Vice City",
       "detail": "Zoek Under the Bridge: North Isla Maldia onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=North%20Isla%20Maldia",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-1b12f2f205b9415a8c51",
@@ -32224,11 +32644,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Watson Bay · Leonida Keys",
       "detail": "Zoek Under the Bridge: Watson Bay onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Watson%20Bay",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-6c17e27eae2842576537",
@@ -32237,11 +32659,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Hamlet Overpass · Vice City",
       "detail": "Zoek Under the Bridge: Hamlet Overpass onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Hamlet%20Overpass",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-2579ecfbf699a5869b38",
@@ -32250,11 +32674,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Bright Maw Pass · Vice City",
       "detail": "Zoek Under the Bridge: Bright Maw Pass onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Bright%20Maw%20Pass",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-b2e06507d05e306abedf",
@@ -32263,11 +32689,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Isla Maldia · Leonida Keys",
       "detail": "Zoek Under the Bridge: Isla Maldia onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Isla%20Maldia",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-7f82de43a2a2a47af2d6",
@@ -32276,11 +32704,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "South Isla Maldia · Leonida Keys",
       "detail": "Zoek Under the Bridge: South Isla Maldia onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=South%20Isla%20Maldia",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-52542dead01631a012ed",
@@ -32289,11 +32719,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Lento Causeway · Leonida Keys",
       "detail": "Zoek Under the Bridge: Lento Causeway onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Lento%20Causeway",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-44fd43db25c659e53942",
@@ -32302,11 +32734,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Grassrivers",
+      "sourceLocation": "Old Fort Road Bridge · Grassrivers",
       "detail": "Zoek Under the Bridge: Old Fort Road Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Old%20Fort%20Road%20Bridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-8c2d7df066acfa76eaeb",
@@ -32315,11 +32749,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "North Key Lento · Leonida Keys",
       "detail": "Zoek Under the Bridge: North Key Lento onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=North%20Key%20Lento",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-bad677b7a667bf05d3bf",
@@ -32328,11 +32764,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Permit Causeway · Leonida Keys",
       "detail": "Zoek Under the Bridge: Permit Causeway onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Permit%20Causeway",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-1b71269a7dc9f3b85be0",
@@ -32341,11 +32779,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Keylime Causeway · Leonida Keys",
       "detail": "Zoek Under the Bridge: Keylime Causeway onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Keylime%20Causeway",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-4901f2e72f554a6b178a",
@@ -32354,11 +32794,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Onder bruggen door",
-      "sourceLocation": "Leonida Keys",
+      "sourceLocation": "Saltrock Bridge · Leonida Keys",
       "detail": "Zoek Under the Bridge: Saltrock Bridge onder Kaart → Verkenning → Stuntplekken en vlieg onder de brug.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Saltrock%20Bridge",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-0c09010bcab7fa038aeb",
@@ -32367,11 +32809,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Brandy Carmine · Vice City",
       "detail": "Zoek Brandy Carmine Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Brandy%20Carmine",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-3c1dc0b5ef5d2fd966ad",
@@ -32380,11 +32824,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Maison Estaque · Vice City",
       "detail": "Zoek Maison Estaque Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Maison%20Estaque",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-bc9196251105f771c344",
@@ -32393,11 +32839,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "The Wash Haus · Vice City",
       "detail": "Zoek The Wash Haus Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=The%20Wash%20Haus",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-503fed1cf107bcb7af55",
@@ -32406,11 +32854,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Jia Luxury Condos · Vice City",
       "detail": "Zoek Jia Luxury Condos Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Jia%20Luxury%20Condos",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-c54621cc52397e23e8bc",
@@ -32419,11 +32869,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "The Zaffre · Vice City",
       "detail": "Zoek The Zaffre Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=The%20Zaffre",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-c94cf220f6f55b9d568e",
@@ -32432,11 +32884,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Lampedusa · Vice City",
       "detail": "Zoek Lampedusa Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Lampedusa",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-7ae0d1d25604951d3a63",
@@ -32445,11 +32899,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Tidemark · Vice City",
       "detail": "Zoek Tidemark Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Tidemark",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-a31711dcd13e005e3481",
@@ -32458,11 +32914,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Archipelago Apartments · Vice City",
       "detail": "Zoek Archipelago Apartments Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Archipelago%20Apartments",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-880bf887a92fcc526113",
@@ -32471,11 +32929,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "The Amalfi · Vice City",
       "detail": "Zoek The Amalfi Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=The%20Amalfi",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-d956b6ee501a5a49fe65",
@@ -32484,11 +32944,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Aida Towers · Vice City",
       "detail": "Zoek Aida Towers Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Aida%20Towers",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-cf4f27f3184385b51efa",
@@ -32497,11 +32959,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Flora Hotel · Vice City",
       "detail": "Zoek Flora Hotel Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Flora%20Hotel",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-1c807fa53394903a2b16",
@@ -32510,11 +32974,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Derwent Towers · Vice City",
       "detail": "Zoek Derwent Towers Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Derwent%20Towers",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-00b300dc5bf15b9a9ff3",
@@ -32523,11 +32989,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Nauticus Condominiums · Vice City",
       "detail": "Zoek Nauticus Condominiums Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Nauticus%20Condominiums",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-b858a03d518119995b7c",
@@ -32536,11 +33004,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Harrison Harbor · Vice City",
       "detail": "Zoek Harrison Harbor Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Harrison%20Harbor",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-3a911317f1442c470772",
@@ -32549,11 +33019,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Arcadia Towers Apartments · Vice City",
       "detail": "Zoek Arcadia Towers Apartments Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Arcadia%20Towers%20Apartments",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-ab3dd7935f411883e4cf",
@@ -32562,11 +33034,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Leonida Point Apartments · Vice City",
       "detail": "Zoek Leonida Point Apartments Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Leonida%20Point%20Apartments",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-bf14c47b8e98f969e910",
@@ -32575,11 +33049,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Positano Towers · Vice City",
       "detail": "Zoek Positano Towers Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Positano%20Towers",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-03d90729ab1d7b448ece",
@@ -32588,11 +33064,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "LNB HQ · Vice City",
       "detail": "Zoek LNB HQ Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=LNB%20HQ",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-b4bc5aff6da90faaa806",
@@ -32601,11 +33079,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "PJ Butlin Baron · Vice City",
       "detail": "Zoek PJ Butlin Baron Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=PJ%20Butlin%20Baron",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-9717d0cf06f355112607",
@@ -32614,11 +33094,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Moon · Vice City",
       "detail": "Zoek Moon Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Moon",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-ecbd44ade247539d9d3b",
@@ -32627,11 +33109,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Shorefront HQ · Vice City",
       "detail": "Zoek Shorefront HQ Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Shorefront%20HQ",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-b4c8dfe3245afc7087f9",
@@ -32640,11 +33124,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "The Clarissa Hotel North · Vice City",
       "detail": "Zoek The Clarissa Hotel North Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=The%20Clarissa%20Hotel%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-dbe7c4b89b1ab93c4ed7",
@@ -32653,11 +33139,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Rico Huxley Hotels · Vice City",
       "detail": "Zoek Rico Huxley Hotels Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Rico%20Huxley%20Hotels",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-bc876cd2214c4517fc21",
@@ -32666,11 +33154,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "The Clarissa Hotel East · Vice City",
       "detail": "Zoek The Clarissa Hotel East Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=The%20Clarissa%20Hotel%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-3ffeb380acb26b9d8beb",
@@ -32679,11 +33169,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "The Clarissa Hotel South · Vice City",
       "detail": "Zoek The Clarissa Hotel South Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=The%20Clarissa%20Hotel%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-df4d9a32d7a97b6996e2",
@@ -32692,11 +33184,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "BAM1 Condominiums · Vice City",
       "detail": "Zoek BAM1 Condominiums Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=BAM1%20Condominiums",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-03bf6cab141f6fe0601c",
@@ -32705,11 +33199,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Tequesta on the Water Apartments · Vice City",
       "detail": "Zoek Tequesta on the Water Apartments Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Tequesta%20on%20the%20Water%20Apartments",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-c85b6d2eb3154ca92b4e",
@@ -32718,11 +33214,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Tequesta Tides Hotel & Spa North · Vice City",
       "detail": "Zoek Tequesta Tides Hotel & Spa North Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Tequesta%20Tides%20Hotel%20%26%20Spa%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-23094630799e60cf314a",
@@ -32731,11 +33229,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Neo Paloma Apartments · Vice City",
       "detail": "Zoek Neo Paloma Apartments Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Neo%20Paloma%20Apartments",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-69a55c94ab85d866c124",
@@ -32744,11 +33244,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Aurum Condominiums · Vice City",
       "detail": "Zoek Aurum Condominiums Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Aurum%20Condominiums",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-414b0b3e38455a94dcf8",
@@ -32757,11 +33259,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Tequesta Tides Hotel & Spa South · Vice City",
       "detail": "Zoek Tequesta Tides Hotel & Spa South Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Tequesta%20Tides%20Hotel%20%26%20Spa%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-3ef73288bd3115a45695",
@@ -32770,11 +33274,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "One Stracathro Tower · Vice City",
       "detail": "Zoek One Stracathro Tower Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=One%20Stracathro%20Tower",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-c71f48c777109c0fca60",
@@ -32783,11 +33289,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Dock of the Bay Condominiums · Vice City",
       "detail": "Zoek Dock of the Bay Condominiums Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Dock%20of%20the%20Bay%20Condominiums",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-59b8fc831cca0aa84fc2",
@@ -32796,11 +33304,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Grand Majestic Aparthotel · Vice City",
       "detail": "Zoek Grand Majestic Aparthotel Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Grand%20Majestic%20Aparthotel",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-123abb4368ef013f4929",
@@ -32809,11 +33319,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "The Fitz-Gerald North · Vice City",
       "detail": "Zoek The Fitz-Gerald North Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=The%20Fitz-Gerald%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-7deb50efbd990f04a7be",
@@ -32822,11 +33334,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Peacock Bay Luxury Condominiums East · Vice City",
       "detail": "Zoek Peacock Bay Luxury Condominiums East Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Peacock%20Bay%20Luxury%20Condominiums%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-ef615e241440cb2d0553",
@@ -32835,11 +33349,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "The Fitz-Gerald · Vice City",
       "detail": "Zoek The Fitz-Gerald Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=The%20Fitz-Gerald",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-73859088cb78369edfb3",
@@ -32848,11 +33364,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Peacock Bay Luxury Condominiums North · Vice City",
       "detail": "Zoek Peacock Bay Luxury Condominiums North Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Peacock%20Bay%20Luxury%20Condominiums%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-6764f1d741a09061572b",
@@ -32861,11 +33379,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "The Fitz-Gerald South · Vice City",
       "detail": "Zoek The Fitz-Gerald South Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=The%20Fitz-Gerald%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-37cc8c392fb4b9d56f08",
@@ -32874,11 +33394,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "Mesvluchten",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Peacock Bay Luxury Condominiums South · Vice City",
       "detail": "Zoek Peacock Bay Luxury Condominiums South Knife Flight onder Kaart → Verkenning → Stuntplekken en vlieg met het vliegtuig op zijn kant.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
-      "pendingActivity": true
+      "pendingActivity": true,
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Peacock%20Bay%20Luxury%20Condominiums%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-56ebc84329e5c3ebfab1",
@@ -32887,13 +33409,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "BASE-sprongen",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "Kalaga Outcrop · Mount Kalaga National Park",
       "detail": "Zoek Kalaga Outcrop Base Jump onder Kaart → Verkenning → Stuntplekken. Vertrek vanaf het gemarkeerde BASE-punt.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
-      "extraSourceLabel": "Startplekken en beelden in de gids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Kalaga%20Outcrop",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-6c0967d9a15b0bb3aa71",
@@ -32902,13 +33424,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "BASE-sprongen",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "Mount Kalaga · Mount Kalaga National Park",
       "detail": "Zoek Mount Kalaga Base Jump onder Kaart → Verkenning → Stuntplekken. Vertrek vanaf het gemarkeerde BASE-punt.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
-      "extraSourceLabel": "Startplekken en beelden in de gids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Mount%20Kalaga",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-a02c5fb829075d7fb106",
@@ -32917,13 +33439,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "BASE-sprongen",
-      "sourceLocation": "Mount Kalaga National Park",
+      "sourceLocation": "Providence Canyon Antenna Mast · Mount Kalaga National Park",
       "detail": "Zoek Providence Canyon Antenna Mast Base Jump onder Kaart → Verkenning → Stuntplekken. Vertrek vanaf het gemarkeerde BASE-punt.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
-      "extraSourceLabel": "Startplekken en beelden in de gids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Providence%20Canyon%20Antenna%20Mast",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-172977b0e2a89ae1b8b1",
@@ -32932,13 +33454,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "BASE-sprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Crimson Palms · Vice City",
       "detail": "Zoek Crimson Palms Base Jump onder Kaart → Verkenning → Stuntplekken. Vertrek vanaf het gemarkeerde BASE-punt.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
-      "extraSourceLabel": "Startplekken en beelden in de gids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Crimson%20Palms",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-c31e7b10a718c21ed241",
@@ -32947,13 +33469,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "BASE-sprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "La Villette · Vice City",
       "detail": "Zoek La Villette Base Jump onder Kaart → Verkenning → Stuntplekken. Vertrek vanaf het gemarkeerde BASE-punt.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
-      "extraSourceLabel": "Startplekken en beelden in de gids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=La%20Villette",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-f2813894d433f7c48cf0",
@@ -32962,13 +33484,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "BASE-sprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Archipelago Apartments North · Vice City",
       "detail": "Zoek Archipelago Apartments North Base Jump onder Kaart → Verkenning → Stuntplekken. Vertrek vanaf het gemarkeerde BASE-punt.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
-      "extraSourceLabel": "Startplekken en beelden in de gids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Archipelago%20Apartments%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-2b076fac5b511e50aa01",
@@ -32977,13 +33499,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "BASE-sprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "One Stracathro Tower · Vice City",
       "detail": "Zoek One Stracathro Tower Base Jump onder Kaart → Verkenning → Stuntplekken. Vertrek vanaf het gemarkeerde BASE-punt.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
-      "extraSourceLabel": "Startplekken en beelden in de gids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=One%20Stracathro%20Tower",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-3f0f40be17e790e3b099",
@@ -32992,13 +33514,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "BASE-sprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "The Sumerian · Vice City",
       "detail": "Zoek The Sumerian Base Jump onder Kaart → Verkenning → Stuntplekken. Vertrek vanaf het gemarkeerde BASE-punt.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
-      "extraSourceLabel": "Startplekken en beelden in de gids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=The%20Sumerian",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-e3803e6763f1af06b5f0",
@@ -33007,13 +33529,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "BASE-sprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Maven Residences · Vice City",
       "detail": "Zoek Maven Residences Base Jump onder Kaart → Verkenning → Stuntplekken. Vertrek vanaf het gemarkeerde BASE-punt.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
-      "extraSourceLabel": "Startplekken en beelden in de gids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Maven%20Residences",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-0b412da68340072398cc",
@@ -33022,13 +33544,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "BASE-sprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Arcadia Towers East · Vice City",
       "detail": "Zoek Arcadia Towers East Base Jump onder Kaart → Verkenning → Stuntplekken. Vertrek vanaf het gemarkeerde BASE-punt.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
-      "extraSourceLabel": "Startplekken en beelden in de gids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Arcadia%20Towers%20East",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-75aceccb75abfea24dfa",
@@ -33037,13 +33559,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "BASE-sprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Arcadia Towers South · Vice City",
       "detail": "Zoek Arcadia Towers South Base Jump onder Kaart → Verkenning → Stuntplekken. Vertrek vanaf het gemarkeerde BASE-punt.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
-      "extraSourceLabel": "Startplekken en beelden in de gids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Arcadia%20Towers%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-dc755d3009d9151b0ace",
@@ -33052,13 +33574,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "BASE-sprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Vice Civic Center · Vice City",
       "detail": "Zoek Vice Civic Center Base Jump onder Kaart → Verkenning → Stuntplekken. Vertrek vanaf het gemarkeerde BASE-punt.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
-      "extraSourceLabel": "Startplekken en beelden in de gids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Vice%20Civic%20Center",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-d2add7d107a358f83088",
@@ -33067,13 +33589,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "BASE-sprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Valdemar on the River · Vice City",
       "detail": "Zoek Valdemar on the River Base Jump onder Kaart → Verkenning → Stuntplekken. Vertrek vanaf het gemarkeerde BASE-punt.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
-      "extraSourceLabel": "Startplekken en beelden in de gids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Valdemar%20on%20the%20River",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-97687586244d681f8448",
@@ -33082,13 +33604,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "BASE-sprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "High Life Hotel · Vice City",
       "detail": "Zoek High Life Hotel Base Jump onder Kaart → Verkenning → Stuntplekken. Vertrek vanaf het gemarkeerde BASE-punt.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
-      "extraSourceLabel": "Startplekken en beelden in de gids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=High%20Life%20Hotel",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-13f7bff4a97260759bb5",
@@ -33097,13 +33619,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "BASE-sprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Heath Bank · Vice City",
       "detail": "Zoek Heath Bank Base Jump onder Kaart → Verkenning → Stuntplekken. Vertrek vanaf het gemarkeerde BASE-punt.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
-      "extraSourceLabel": "Startplekken en beelden in de gids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Heath%20Bank",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-7875c2f0decd33394b7f",
@@ -33112,13 +33634,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "BASE-sprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Pike Financial Center · Vice City",
       "detail": "Zoek Pike Financial Center Base Jump onder Kaart → Verkenning → Stuntplekken. Vertrek vanaf het gemarkeerde BASE-punt.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
-      "extraSourceLabel": "Startplekken en beelden in de gids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Pike%20Financial%20Center",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-2f32ed33ca797ea660c7",
@@ -33127,13 +33649,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "BASE-sprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Rico Huxley Hotels · Vice City",
       "detail": "Zoek Rico Huxley Hotels Base Jump onder Kaart → Verkenning → Stuntplekken. Vertrek vanaf het gemarkeerde BASE-punt.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
-      "extraSourceLabel": "Startplekken en beelden in de gids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Rico%20Huxley%20Hotels",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-1a01250539326fa899cc",
@@ -33142,13 +33664,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "BASE-sprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Tequesta Tides Hotel & Spa North · Vice City",
       "detail": "Zoek Tequesta Tides Hotel & Spa North Base Jump onder Kaart → Verkenning → Stuntplekken. Vertrek vanaf het gemarkeerde BASE-punt.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
-      "extraSourceLabel": "Startplekken en beelden in de gids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Tequesta%20Tides%20Hotel%20%26%20Spa%20North",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-cbea61755a04416d8006",
@@ -33157,13 +33679,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "BASE-sprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Tequesta Tides Hotel & Spa West · Vice City",
       "detail": "Zoek Tequesta Tides Hotel & Spa West Base Jump onder Kaart → Verkenning → Stuntplekken. Vertrek vanaf het gemarkeerde BASE-punt.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
-      "extraSourceLabel": "Startplekken en beelden in de gids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Tequesta%20Tides%20Hotel%20%26%20Spa%20West",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-be374048e6077879c784",
@@ -33172,13 +33694,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "BASE-sprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Tequesta Tides Hotel & Spa South · Vice City",
       "detail": "Zoek Tequesta Tides Hotel & Spa South Base Jump onder Kaart → Verkenning → Stuntplekken. Vertrek vanaf het gemarkeerde BASE-punt.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
-      "extraSourceLabel": "Startplekken en beelden in de gids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Tequesta%20Tides%20Hotel%20%26%20Spa%20South",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-6d02b4607bd52e9ef27a",
@@ -33187,13 +33709,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "BASE-sprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Fenestra Plaza · Vice City",
       "detail": "Zoek Fenestra Plaza Base Jump onder Kaart → Verkenning → Stuntplekken. Vertrek vanaf het gemarkeerde BASE-punt.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
-      "extraSourceLabel": "Startplekken en beelden in de gids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Fenestra%20Plaza",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-507773cba117a96665ed",
@@ -33202,13 +33724,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "BASE-sprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Sahara Tower · Vice City",
       "detail": "Zoek Sahara Tower Base Jump onder Kaart → Verkenning → Stuntplekken. Vertrek vanaf het gemarkeerde BASE-punt.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
-      "extraSourceLabel": "Startplekken en beelden in de gids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Sahara%20Tower",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-9d86fca35632557fc491",
@@ -33217,13 +33739,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "BASE-sprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Eternity Apartments · Vice City",
       "detail": "Zoek Eternity Apartments Base Jump onder Kaart → Verkenning → Stuntplekken. Vertrek vanaf het gemarkeerde BASE-punt.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
-      "extraSourceLabel": "Startplekken en beelden in de gids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Eternity%20Apartments",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-c6781e96a362388d1b14",
@@ -33232,13 +33754,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "BASE-sprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "The Borough Condominiums · Vice City",
       "detail": "Zoek The Borough Condominiums Base Jump onder Kaart → Verkenning → Stuntplekken. Vertrek vanaf het gemarkeerde BASE-punt.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
-      "extraSourceLabel": "Startplekken en beelden in de gids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=The%20Borough%20Condominiums",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-98cf947e2f893ac8c141",
@@ -33247,13 +33769,13 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "category": "collectibles",
       "chapter": 1,
       "collection": "BASE-sprongen",
-      "sourceLocation": "Vice City",
+      "sourceLocation": "Bluegrass Antenna Mast · Vice City",
       "detail": "Zoek Bluegrass Antenna Mast Base Jump onder Kaart → Verkenning → Stuntplekken. Vertrek vanaf het gemarkeerde BASE-punt.",
       "source": "https://game-checklists.com/gta6/stunts-checklist/",
       "sourceName": "game-checklists.com",
       "pendingActivity": true,
-      "extraSource": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
-      "extraSourceLabel": "Startplekken en beelden in de gids"
+      "extraSource": "https://game-checklists.com/gta6/stunts-checklist/#:~:text=Bluegrass%20Antenna%20Mast",
+      "extraSourceLabel": "Deze stunt in de locatiegids"
     },
     {
       "id": "excel-bcc32b50c5cefcc0ec97",
