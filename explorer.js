@@ -752,10 +752,19 @@
   ['Southside',218,324,'#b395a5','M157 264l47-29 39-5-9 35 18 25 22 4 7 28-30 34-20 34-42 24-74 7 29-31 24-48-19-31Z'],
   ['Port Vice City',338,358,'#a8a3b3','M251 356l30-34 35-10 25 12 47-9 10 14-24 16-27 2 6 11 38-6 7 12-39 15-26-4-29 19-73-4Z']
  ];
- const districts=districtShapes.map(([name])=>name);
- function districtMap(count){
+ const keyShapes=[
+  ['Key Lento',383,60,'#c9b784','M345 18l36-11 36 13 25 31-13 24-28 9-19 21-28-8-17-21 11-20-15-21Z'],
+  ['Gambit Bay',382,139,'#b5bd8b','M337 113l25-10 23 9 17-13 24 8 7 23-18 22-28 9-25-12-25 3-16-13Z'],
+  ['Shoeless Keys',215,112,'#b5ac83','M239 85l20-9 19 12 3 15-20 9-22-9Z M259 126l16-10 20 3 5 15-12 11-24-5Z M211 143l13-8 15 5-3 14-17 4Z',['The Shoeless Keys']],
+  ['Riquezas Keys',128,192,'#a8bb8e','M219 172l22-11 21 8 6 17-19 8-25-3Z M181 204l23-11 21 8-4 15-25 10-21-8Z M149 233l17-9 16 6-2 13-19 9-16-6Z'],
+  ['Catalan Key',348,216,'#cec091','M307 163l22-5 22 20-5 25-21 16-31-7-9-19Z'],
+  ['Abismo Key',297,281,'#bdaf8a','M264 227l22-8 25 12 3 20-22 20-25 6-16-19Z'],
+  ['Permit Keys',134,289,'#acba90','M207 249l24-11 18 8-2 15-23 12-21-6Z M171 272l16-13 15 8-3 15-21 8-12-7Z'],
+  ['Mile Zero',105,374,'#c6b68c','M121 316l31-19 31 8 15 21-12 20-36 10-25 20-36-8-16-19 11-17Z',['Mile Zero Air Station']]
+ ];
+ function districtMap(count,name,shapes,isKeys){
   const group=(name,content)=>`<g role="button" tabindex="0" data-guide-district="${esc(name)}" aria-pressed="${guideDistrict===name}" aria-label="${esc(name)}, ${count(name)} openstaand">${content}</g>`;
-  return `<svg class="guide-district-map" viewBox="0 0 500 430" role="group" aria-label="Ingezoomde wijkkaart van Vice City">
+  return `<svg class="guide-district-map" viewBox="0 0 500 430" role="group" aria-label="Ingezoomde kaart van ${esc(name)}">
    <defs>
     <pattern id="guide-city-blocks" width="17" height="21" patternUnits="userSpaceOnUse" patternTransform="rotate(-10)">
      <rect x="2" y="2" width="12" height="16" rx="1.5" fill="#51465c" opacity=".19"/>
@@ -764,28 +773,31 @@
    </defs>
    <rect width="500" height="430" fill="#397988"/>
    <g class="guide-map-shallows" aria-hidden="true">
-    <path d="M363 1l4 43-19 25 2 32-28 27-10 43m177-143 5 48-6 38 10 44-3 104-14 58-5 37-25 31m-245 36 35-22 63 10 31-19 27 1 43-19"/>
-    <path d="M376 2l5 44-21 30 1 28-27 29m101 267-22 12-38-3M260 416l40 8 39-19"/>
+    ${isKeys?`<path d="M444 26Q473 76 425 167T316 294Q244 339 179 380T42 374M456 21Q489 75 440 163T328 302Q250 353 186 393T37 384M295 68Q217 99 189 140T98 233"/>`:`<path d="M363 1l4 43-19 25 2 32-28 27-10 43m177-143 5 48-6 38 10 44-3 104-14 58-5 37-25 31m-245 36 35-22 63 10 31-19 27 1 43-19"/>
+    <path d="M376 2l5 44-21 30 1 28-27 29m101 267-22 12-38-3M260 416l40 8 39-19"/>`}
    </g>
-   ${districtShapes.map(([name,,,fill,shape])=>group(name,`<path class="guide-map-land" fill="${fill}" d="${shape}"/><path class="guide-map-blocks" d="${shape}"/>`)).join('')}
+   ${shapes.map(([name,,,fill,shape])=>group(name,`<path class="guide-map-land" fill="${fill}" d="${shape}"/><path class="guide-map-blocks" d="${shape}"/>`)).join('')}
    <g class="guide-map-roads" aria-hidden="true">
-    <path d="M0 86l99 17 93-5 79 17 42-9 92 7m-405 90 91 17 70-25 93 16 66-15 38 28 52-13M0 349l88 21 82-16 79-17 54 2 27-20 80-21M176 0l-16 95 17 61-12 58 20 64 6 73-18 63M287 0l-13 59 12 49-33 59-7 62-23 52 18 54M440 28l-10 58 13 59-13 63 15 51-6 52-12 47"/>
-    <path class="guide-map-bridge" d="M313 106l92 7m-139 95 54-12 38 28 52-13m-81 108 81-21"/>
+    ${isKeys?`<path d="M395 24l-15 43-4 67-45 53-45 54-60 17-43 17-19 45-55 28"/>
+    <path class="guide-map-bridge" d="M378 81l-2 40m-23 38-22 28m-15 19-30 35m-24 14-36 3m-39 24-23 38"/>
+    <path d="m111 337 54-18m-49 25 54-18"/>`:`<path d="M0 86l99 17 93-5 79 17 42-9 92 7m-405 90 91 17 70-25 93 16 66-15 38 28 52-13M0 349l88 21 82-16 79-17 54 2 27-20 80-21M176 0l-16 95 17 61-12 58 20 64 6 73-18 63M287 0l-13 59 12 49-33 59-7 62-23 52 18 54M440 28l-10 58 13 59-13 63 15 51-6 52-12 47"/>
+    <path class="guide-map-bridge" d="M313 106l92 7m-139 95 54-12 38 28 52-13m-81 108 81-21"/>`}
    </g>
-   <text class="guide-map-water-label" x="365" y="145">BAAI</text>
+   ${isKeys?`<text class="guide-map-water-label" x="362" y="366">LEONIDA KEYS</text>`:`<text class="guide-map-water-label" x="365" y="145">BAAI</text>`}
    <path class="guide-map-north" d="M37 41l6-14 6 14-6-3Z" aria-hidden="true"/>
    <text class="guide-map-water-label" x="43" y="22">N</text>
-   ${districtShapes.map(([name,x,y])=>`<g class="guide-map-label" data-guide-district="${esc(name)}" data-selected="${guideDistrict===name}" aria-hidden="true" transform="translate(${x} ${y})">
+   ${shapes.map(([name,x,y])=>`<g class="guide-map-label" data-guide-district="${esc(name)}" data-selected="${guideDistrict===name}" aria-hidden="true" transform="translate(${x} ${y})">
     <rect x="-58" y="-19" width="116" height="39" rx="8"/>
     <text y="-3">${esc(name)}</text><text class="guide-map-count" y="12">${count(name)} open</text>
    </g>`).join('')}
   </svg>`;
  }
  let guideArea=null,guideDistrict=null,guideOpenOnly=true;
- function taskDistrict(item){
+ function taskDistrict(item,shapes){
   const location=item.sourceLocation||'';
-  const matches=districts.filter(name=>new RegExp('\\b'+name+'\\b','i').test(location));
-  return matches.length===1?matches[0]:'Subgebied nog onbekend';
+  const matches=shapes.filter(([name,,,,,aliases=[]])=>
+   [name,...aliases].some(label=>new RegExp('\\b'+label+'\\b','i').test(location)));
+  return matches.length===1?matches[0][0]:'Subgebied nog onbekend';
  }
  function renderAreaGuide(){
   for(const node of guideMap.querySelectorAll('[data-area]'))node.setAttribute('aria-pressed',String(node.dataset.area===guideArea));
@@ -797,8 +809,10 @@
    ? readingChecked(item,found)&&(!item.kentonSet||found.has(kentonId(item)))
    : activityDone(item,found);
   const remaining=items=>items.filter(item=>!done(item)).length;
-  const districtRows=name=>all.filter(item=>taskDistrict(item)===name);
-  const rows=guideArea==='city'?(guideDistrict?districtRows(guideDistrict):[]):all;
+  const isKeys=guideArea==='keys';
+  const shapes=isKeys?keyShapes:guideArea==='city'?districtShapes:null;
+  const districtRows=name=>all.filter(item=>taskDistrict(item,shapes)===name);
+  const rows=shapes?(guideDistrict?districtRows(guideDistrict):[]):all;
   const groups=rows.reduce((groups,item)=>{
    (groups[guideGroup(item)]??=[]).push(item);return groups;
   },{});
@@ -806,8 +820,8 @@
   const collapsed=new Set(previousGroups.filter(node=>!node.open).map(node=>node.dataset.guideGroup));
   const districtButton=name=>`<button type="button" data-guide-district="${esc(name)}" aria-pressed="${guideDistrict===name}"><strong>${esc(name)}</strong><small>${remaining(districtRows(name))} open</small></button>`;
   guideResults.innerHTML=`<h2 class="map-result-heading">${esc(region.name)}</h2>
-   ${guideArea==='city'?`<p class="scope-note">Schematische wijkkaart van Vice City</p>${districtMap(name=>remaining(districtRows(name)))}<div class="guide-other-district">${districtButton('Subgebied nog onbekend')}</div>`:''}
-   ${guideArea==='city'&&!guideDistrict?chooseAreaPrompt:`<h3>${esc(guideDistrict||region.name)} · ${remaining(rows)} open</h3><label class="task"><input type="checkbox" data-guide-filter ${guideOpenOnly?'checked':''}><span>Alleen openstaand</span></label>
+   ${shapes?`<p class="scope-note">Schematische ${isKeys?'kaart':'wijkkaart'} van ${esc(region.name)}</p>${districtMap(name=>remaining(districtRows(name)),region.name,shapes,isKeys)}<div class="guide-other-district">${districtButton('Subgebied nog onbekend')}</div>`:''}
+   ${shapes&&!guideDistrict?chooseAreaPrompt:`<h3>${esc(guideDistrict||region.name)} · ${remaining(rows)} open</h3><label class="task"><input type="checkbox" data-guide-filter ${guideOpenOnly?'checked':''}><span>Alleen openstaand</span></label>
    ${Object.entries(groups).map(([group,items])=>{
     const visible=guideOpenOnly?items.filter(item=>!done(item)):items;
     return visible.length?`<details class="explore-category" data-guide-group="${esc(group)}" ${collapsed.has(group)?'':'open'}><summary><strong>${esc(group)}</strong><span>${remaining(items)} open</span></summary><div>${visible.map(item=>guideCard(item,found)).join('')}</div></details>`:'';
