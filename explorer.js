@@ -292,7 +292,7 @@
   const matches=list.filter(item=>collectibleArea==='unknown'?hasNoRegion(item):collectibleArea&&(item.area===collectibleArea||item.extraArea===collectibleArea));
   const found=new Set(checked());
   const missing=collectibles.querySelector('#collect-missing').checked;
-  const visible=matches.filter(item=>!missing||(!item.referenceOnly&&!found.has(item.id)));
+  const visible=matches.filter(item=>!missing||(!item.referenceOnly&&(!found.has(item.id)||item.kentonSet&&!found.has(kentonId(item)))));
   const areaName=areas.find(area=>area.id===collectibleArea)?.name||(collectibleArea==='unknown'?'Overige vindplekken':'Alle vindplekken');
   const actionable=list.filter(item=>!item.referenceOnly);
   const done=core.progress(actionable,found).done;
@@ -316,7 +316,7 @@
    const row=document.createElement('article');
    row.className='corker-card';
    row.innerHTML=`<label class="task"><input ${item.referenceOnly?'hidden disabled':''} type="checkbox" data-collect-record="${esc(item.id)}" ${found.has(item.id)?'checked':''}><span><b>${esc(item.title)}</b>${sourceEvidence(item)}<small>${esc(item.sourceLocation)}${item.workbookStatus?' · '+esc(item.workbookStatus):''}${item.provisionalTip?' · Voorlopige zoektip':item.approximateLocation?' · Zoekgebied':''}</small></span></label>
-   <details data-card="${esc(item.id)}"><summary>${item.screenshot?'Vindplek en screenshot':'Vindplek'}</summary><p>${esc(item.detail)}</p>
+   ${item.kentonSet?`<label class="task"><input type="checkbox" data-collect-record="${esc(kentonId(item))}" ${found.has(kentonId(item))?'checked':''}><span>Alle schatten opgedoken · Kenton-set ${item.kentonSet}</span></label>`:''}<details data-card="${esc(item.id)}"><summary>${item.screenshot?'Vindplek en screenshot':'Vindplek'}</summary><p>${esc(item.detail)}</p>
    ${item.screenshot?`<a href="${esc(item.screenshot)}" target="_blank" rel="noopener noreferrer">Open screenshot</a>${item.screenshotCredit?` (${esc(item.screenshotCredit)})`: ''} · `:isFlamingo?'':'<p>Geen screenshot beschikbaar.</p>'}
    ${item.source?`<a href="${esc(item.source)}" target="_blank" rel="noopener noreferrer">${isFlamingo&&/#(?:hidden-package|cocaine-flamingo)-/.test(item.source)?'Open kaartpin':'Bron'}</a>`:''}
    ${item.extraSource?` · <a href="${esc(item.extraSource)}" target="_blank" rel="noopener noreferrer">${esc(item.extraSourceLabel||'Tweede bron')}</a>`:''}</details>`;
@@ -736,7 +736,7 @@
   if(value===undefined)return 'Onbekend · doel '+dollars.format(goal);
   return dollars.format(value)+' / '+dollars.format(goal)+(value>=goal?' · Behaald':' · Nog '+dollars.format(goal-value));
  }
- const gameGoalGroups=[["Verhaal en taken",[["Hoofdverhaal",1,"story"],["Optionele taken",100,"optional"],["Bendeoperaties",39,"gangs"],["Bankovervallen",22,"banks"],["Payday Loan Jobs",7,"payday"],["Smash ’N’ Grabs",34],["Stick Ups",50,"stickups"],["Drugs verkocht",100000,"drugs"],["Juwelen verkocht",100000,"jewelry"],["Gemarkeerde biljetten verkocht",250000,"bills"],["Kluizen",8,"vaults"],["Voertuigen verkocht",200000,"vehicles"]]],["Verkenning en activiteiten",[["Kenton-sets",5],["Kaartseries",15,"cardsets"],["WAiNK-scans",100,"waink"],["Onderwatervondsten",33,"dives"],["Tijdschriften, boeken en strips",30],["Meditaties",15,"meditations"],["Flamingo’s",100],["Unieke afspeellijsten",2],["Ontdekte stijlen",70],["Unieke races",30,"races"],["Race-uitdagingen met goud",10,"raceGold"],["Schietuitdagingen met goud",42,"rangeGold"],["Arcadegames",4,"arcade"],["Pooltegenstanders",5,"pool"],["Minigolflocaties",2,"golf"],["Basketbalringen",90,"hoops"],["Droneproeven",42,"drones"],["Stunts",300,"stunts"],["Uitdagingen",70,"challenges"],["Bret’s Target Decks",15,"bret"]]],["Ontdekkingen",[["Voertuigbasismodellen",200],["Standaardwapens",50],["Dieren",100]]]];
+ const gameGoalGroups=[["Verhaal en taken",[["Hoofdverhaal",1,"story"],["Optionele taken",100,"optional"],["Bendeoperaties",39,"gangs"],["Bankovervallen",22,"banks"],["Payday Loan Jobs",7,"payday"],["Smash ’N’ Grabs",34],["Stick Ups",50,"stickups"],["Drugs verkocht",100000,"drugs"],["Juwelen verkocht",100000,"jewelry"],["Gemarkeerde biljetten verkocht",250000,"bills"],["Kluizen",8,"vaults"],["Voertuigen verkocht",200000,"vehicles"]]],["Verkenning en activiteiten",[["Kenton-sets",5,"kenton"],["Kaartseries",15,"cardsets"],["WAiNK-scans",100,"waink"],["Onderwatervondsten",33,"dives"],["Tijdschriften, boeken en strips",30,"reading"],["Meditaties",15,"meditations"],["Flamingo’s",100],["Unieke afspeellijsten",2,"playlists"],["Ontdekte stijlen",70],["Unieke races",30,"races"],["Race-uitdagingen met goud",10,"raceGold"],["Schietuitdagingen met goud",42,"rangeGold"],["Arcadegames",4,"arcade"],["Pooltegenstanders",5,"pool"],["Minigolflocaties",2,"golf"],["Basketbalringen",90,"hoops"],["Droneproeven",42,"drones"],["Stunts",300,"stunts"],["Uitdagingen",70,"challenges"],["Bret’s Target Decks",15,"bret"]]],["Ontdekkingen",[["Voertuigbasismodellen",200],["Standaardwapens",50],["Dieren",100]]]];
  const wainkCollections=new Set(['WAiNK-bezienswaardigheden','WAiNK-curiositeiten','WAiNK-sculpturen','NoFlusher-tags','PeeWee-billboards']);
  const wainkScans=trusted.filter(item=>!item.referenceOnly&&wainkCollections.has(item.collection));
  const underwaterDiscoveries=trusted.filter(item=>!item.referenceOnly&&item.collection==='Duikplekken en schatten'&&
@@ -747,6 +747,12 @@
    [title,rows,total,goal]=['WAiNK-scans',wainkScans,108,100];
   }else if(selection==='Duikplekken en schatten'){
    [title,rows,total,goal]=['Onderwatervondsten',underwaterDiscoveries,33,33];
+   const kenton=collectibleGoalRow('Kenton-sets',kentonCount(found),7,5);
+   return collectibleGoalRow(title,core.progress(rows,found).done,total,goal)+kenton;
+  }else if(['Tijdschriften, boeken en strips','Boekenruil'].includes(selection)){
+   return collectibleGoalRow('Unieke gelezen titels',readingCount(found),34,30);
+  }else if(selection==='Unieke afspeellijsten'){
+   return collectibleGoalRow('Unieke afspeellijsten',playlistCount(found),2,2);
   }else if(selection===flamingoCollection){
    [title,rows,total,goal]=['Flamingo’s',trusted.filter(item=>collectionOf(item)===selection&&!item.referenceOnly),125,100];
   }else if(trusted.some(item=>item.series&&collectionOf(item)===selection)){
@@ -764,6 +770,23 @@
  function collectibleGoalRow(title,done,total,goal){
   return `<div class="progress-row"><div class="meter-label"><span>${esc(title)} · alle gebieden</span><strong>${done} / ${total}</strong></div>${goalTrack(title,done,total,goal)}<small>Voor 100% in het spel: ${goal} van ${total}</small></div>`;
  }
+ const kentonId=item=>item.id+'-kenton';
+ const kentonSites=trusted.filter(item=>item.kentonSet);
+ const readingItems=trusted.filter(item=>item.readingId);
+ const playlistItems=trusted.filter(item=>item.playlist);
+ function kentonCount(found){
+  const done=new Set(found);
+  return kentonSites.filter(item=>done.has(kentonId(item))).length;
+ }
+ function readingCount(found){
+  const done=new Set(found);
+  return new Set(readingItems.filter(item=>done.has(item.id)).map(item=>item.readingId)).size;
+ }
+ function playlistCount(found){
+  const done=new Set(found);
+  const groups=new Set(playlistItems.map(item=>item.playlist));
+  return [...groups].filter(group=>playlistItems.filter(item=>item.playlist===group).every(item=>done.has(item.id))).length;
+ }
  function gameCompletionCounts(){
   const found=checked();
   const completed=new Set(found);
@@ -777,6 +800,7 @@
    sets.get(item.series).push(item.id);
   }
   return {
+   kenton:kentonCount(found),reading:readingCount(found),playlists:playlistCount(found),
    story:Number(completed.has('guide-mission-ch5-the-end-of-the-road')),
    optional:core.progress(optionalTasks,found).done,
    gangs:amount(item=>item.locationType==='illegal-operation'),
@@ -822,7 +846,7 @@
      const value=counts[key];
      if(Object.hasOwn(core.saleGoals,key))return `<li class="sale-goal"><label>${esc(title)}<input type="number" min="0" max="${Number.MAX_SAFE_INTEGER}" step="1" inputmode="numeric" data-sale="${key}" value="${value??''}"></label><small data-sale-status="${key}" aria-live="polite">${esc(saleStatus(key))}</small><div data-sale-track="${key}">${goalTrack(title,value,minimum)}</div></li>`;
      const status=key==='story'?(value?'Behaald':'Laatste hoofdmissie nog niet afgevinkt'):value===undefined?'Onbekend · doel '+number.format(minimum):number.format(value)+' van '+number.format(minimum)+(value>=minimum?' · Behaald':'');
-     return `<li><strong>${esc(title)}</strong><span>${esc(status)}${key==='optional'?' · '+optionalTasks.length+' taken gekoppeld':''}${provisional[key]?' · '+provisional[key]+' voorlopig':''}</span>
+     return `<li><strong>${esc(title)}</strong><span>${esc(status)}${key==='optional'?' · '+optionalTasks.length+' taken gekoppeld':key==='reading'?' · 33 van 34 unieke titels opgenomen':''}${provisional[key]?' · '+provisional[key]+' voorlopig':''}</span>
       ${goalTrack(title,value,minimum)}</li>`;
     }).join('')}</ul></section>`).join('')}`;
   const optional=target.querySelector('[aria-label="Optionele taken"]').closest('li');

@@ -26189,7 +26189,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Key Lento",
       "detail": "Op het tafeltje naast Jasons bed. Dit exemplaar is van hoofdstuk 1.",
       "source": "https://game-checklists.com/gta6/magazines-books-comics-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "readingId": "excel-566008b1faf8a0674bf4"
     },
     {
       "id": "excel-486ec2bbe68d7910f6b2",
@@ -26201,7 +26202,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Key Lento",
       "detail": "Op tafel in Jasons woonkamer, hoofdstuk 1.",
       "source": "https://game-checklists.com/gta6/magazines-books-comics-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "readingId": "excel-486ec2bbe68d7910f6b2"
     },
     {
       "id": "excel-7a01bf3b391ba375d0f5",
@@ -26213,7 +26215,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Key Lento",
       "detail": "In Jasons woonkamer, bij het oostelijke raam, hoofdstuk 1. De bron noemt ook een exemplaar bij een tikibar.",
       "source": "https://game-checklists.com/gta6/magazines-books-comics-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "readingId": "excel-7a01bf3b391ba375d0f5"
     },
     {
       "id": "excel-2d2d49faab8174514e86",
@@ -26225,7 +26228,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Key Lento",
       "detail": "In de gereedschapsschuur direct onder Jasons huis, hoofdstuk 1.",
       "source": "https://game-checklists.com/gta6/magazines-books-comics-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "readingId": "excel-2d2d49faab8174514e86"
     },
     {
       "id": "excel-34b88f44cfa5c8d01f3b",
@@ -26237,7 +26241,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Key Lento",
       "detail": "In het tijdschriftenrek van de 247.",
       "source": "https://game-checklists.com/gta6/magazines-books-comics-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "readingId": "excel-34b88f44cfa5c8d01f3b"
     },
     {
       "id": "excel-6112e6f33b01623fdfea",
@@ -26249,7 +26254,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Op tafel in de receptie van Starlet Motel, uiterlijk hoofdstuk 2.",
       "source": "https://game-checklists.com/gta6/magazines-books-comics-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "readingId": "excel-6112e6f33b01623fdfea"
     },
     {
       "id": "excel-b83e20749911cbd00109",
@@ -26261,7 +26267,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Op tafel in de cafetaria van Starlet Motel, uiterlijk hoofdstuk 2.",
       "source": "https://game-checklists.com/gta6/magazines-books-comics-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "readingId": "excel-b83e20749911cbd00109"
     },
     {
       "id": "excel-1645b10dbb7f00533f87",
@@ -26273,7 +26280,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "In een trailer in Lost Vista, ten noordwesten van de stationsgarage.",
       "source": "https://game-checklists.com/gta6/magazines-books-comics-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "readingId": "excel-1645b10dbb7f00533f87"
     },
     {
       "id": "excel-ff527976d78dfdb6879f",
@@ -26285,7 +26293,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Bayside",
       "detail": "Naast het bad in het appartement, uiterlijk hoofdstuk 3.",
       "source": "https://game-checklists.com/gta6/magazines-books-comics-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "readingId": "excel-ff527976d78dfdb6879f"
     },
     {
       "id": "excel-c88611ae60a866131668",
@@ -26297,7 +26306,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Bayside",
       "detail": "Op tafel voor de tv in het appartement, uiterlijk hoofdstuk 3.",
       "source": "https://game-checklists.com/gta6/magazines-books-comics-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "readingId": "excel-c88611ae60a866131668"
     },
     {
       "id": "excel-58222faa80d8ea426934",
@@ -26309,7 +26319,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Penmarch Isle",
       "detail": "Ajax Gym, in de traumaruimte waar Lucia vanaf hoofdstuk 4 komt.",
       "source": "https://game-checklists.com/gta6/magazines-books-comics-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "readingId": "excel-58222faa80d8ea426934"
     },
     {
       "id": "excel-430b0da136278d5dd1fe",
@@ -26321,7 +26332,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Belville",
       "detail": "Op een bed in de garage ten westen van Andy’s huis.",
       "source": "https://game-checklists.com/gta6/magazines-books-comics-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "readingId": "excel-430b0da136278d5dd1fe"
     },
     {
       "id": "excel-42958a8f99502acc39a9",
@@ -26333,7 +26345,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Port Gellhorn",
       "detail": "Bij Alpha Gas ten noordoosten van Starlet Motel.",
       "source": "https://game-checklists.com/gta6/magazines-books-comics-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "readingId": "excel-42958a8f99502acc39a9"
     },
     {
       "id": "excel-b202bcace82b28999a64",
@@ -26345,7 +26358,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Moreau",
       "detail": "Op tafel bij de receptie van Grayson Motel aan Rockledge Rd.",
       "source": "https://game-checklists.com/gta6/magazines-books-comics-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "readingId": "excel-b202bcace82b28999a64"
     },
     {
       "id": "excel-94f71eead9a0f826ffb0",
@@ -26357,7 +26371,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "La Perle",
       "detail": "In het tijdschriftenrek van Xero Food Mart.",
       "source": "https://game-checklists.com/gta6/magazines-books-comics-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "readingId": "excel-94f71eead9a0f826ffb0"
     },
     {
       "id": "excel-42511a82644a6959eebb",
@@ -26369,7 +26384,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "La Perle",
       "detail": "In het tijdschriftenrek van Xero Food Mart.",
       "source": "https://game-checklists.com/gta6/magazines-books-comics-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "readingId": "excel-42511a82644a6959eebb"
     },
     {
       "id": "excel-0d9f2c9996e0be7d3f8c",
@@ -26381,7 +26397,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Tequesta Retreat",
       "detail": "Op tafel in het penthouse van Pegassi Residences, hoofdstuk 5.",
       "source": "https://www.powerpyx.com/gta-6-all-magazines-books-comics-locations/",
-      "sourceName": "PowerPyx"
+      "sourceName": "PowerPyx",
+      "readingId": "excel-0d9f2c9996e0be7d3f8c"
     },
     {
       "id": "excel-94f79f37efbc6355eabf",
@@ -26393,7 +26410,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Crosstown",
       "detail": "Boven in Jack of Hearts, in de gang ten westen van de opnamestudio’s.",
       "source": "https://game-checklists.com/gta6/magazines-books-comics-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "readingId": "excel-94f79f37efbc6355eabf"
     },
     {
       "id": "excel-4af4db93c6158d8888bf",
@@ -26405,7 +26423,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Oldby Island",
       "detail": "In het tijdschriftenrek van RON Stop’n’Snack.",
       "source": "https://game-checklists.com/gta6/magazines-books-comics-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "readingId": "excel-4af4db93c6158d8888bf"
     },
     {
       "id": "excel-b9407eb703d74ce21137",
@@ -26417,7 +26436,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Key Lento",
       "detail": "Op de eettafel van het strandhuis aan Sunset Dr. Neem de buitentrap.",
       "source": "https://game-checklists.com/gta6/magazines-books-comics-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "readingId": "excel-710e6fdf7fc4d8ff7b81"
     },
     {
       "id": "excel-a6f4e7dda0f1cdf9ecf7",
@@ -26429,7 +26449,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Key Lento",
       "detail": "In het feesthuis in het zuidoosten, waar ook Lionel Taber ligt.",
       "source": "https://game-checklists.com/gta6/magazines-books-comics-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "readingId": "excel-93d3a83782da4750412c"
     },
     {
       "id": "excel-1f447e34ba33e53eecee",
@@ -26441,7 +26462,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Mount Kalaga",
       "detail": "Bij de uitkijkpost in het bos ten oosten van Kalaga Reservoir. Neem de ladder.",
       "source": "https://game-checklists.com/gta6/magazines-books-comics-checklist/",
-      "sourceName": "game-checklists.com"
+      "sourceName": "game-checklists.com",
+      "readingId": "excel-802c166cfa249619fd55"
     },
     {
       "id": "excel-808935b932d3aad50ef2",
@@ -26454,7 +26476,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kastje op een paal voor het witte huis bij Beaumont Ave en Longship Dr.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/gta-6-book-swaps",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwrw00hh-f97ad02c.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwrw00hh-f97ad02c.avif",
+      "readingId": "excel-808935b932d3aad50ef2"
     },
     {
       "id": "excel-1fc98862af1cc30ae21c",
@@ -26467,7 +26490,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Schildpadkastje voor het blauwe huis aan Dolphin Dr, noordoostelijk op het eiland.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/gta-6-book-swaps",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwrw085e-d11a7055.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwrw085e-d11a7055.avif",
+      "readingId": "excel-1fc98862af1cc30ae21c"
     },
     {
       "id": "excel-237259c4803739ae7b68",
@@ -26480,7 +26504,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kastje op een paal naast het rode hoekhuis bij SW 3rd en SW 12th Ave.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/gta-6-book-swaps",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwrw0ed7-49569481.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwrw0ed7-49569481.avif",
+      "readingId": "excel-237259c4803739ae7b68"
     },
     {
       "id": "excel-16762098680acac1a342",
@@ -26493,7 +26518,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Paddenstoelvormig kastje naast het crèmekleurige hoekhuis aan Mamey Cir.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/gta-6-book-swaps",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwrw0k75-5c96cfd8.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwrw0k75-5c96cfd8.avif",
+      "readingId": "excel-16762098680acac1a342"
     },
     {
       "id": "excel-b25c985c89f68afdc811",
@@ -26506,7 +26532,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bootvormig kastje tussen twee bomen aan Reservoir St, aan de zuidwestkant van Lake Leonida.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/gta-6-book-swaps",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwrw0q4d-ba2bed7b.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwrw0q4d-ba2bed7b.avif",
+      "readingId": "excel-b25c985c89f68afdc811"
     },
     {
       "id": "excel-0a984f836641b696d44a",
@@ -26519,7 +26546,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Vuurtorenkastje op de hoek van Neptune Cir en Rialto Causeway.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/gta-6-book-swaps",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwrw0vpy-0a4c9706.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwrw0vpy-0a4c9706.avif",
+      "readingId": "excel-0a984f836641b696d44a"
     },
     {
       "id": "excel-c1ec5f5d8ec977ced648",
@@ -26532,7 +26560,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Doodskistkast bij het Halloweenhuis op de hoek van Fortuna St en Viola St.",
       "source": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/gta-6-book-swaps",
       "sourceName": "www.nexzyapp.com",
-      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwrw11xr-35682c2f.avif"
+      "screenshot": "https://cdn.nexzyapp.com/hub/grand-theft-auto-vi/photo/mwrw11xr-35682c2f.avif",
+      "readingId": "excel-c1ec5f5d8ec977ced648"
     },
     {
       "id": "excel-fce52c06eb8eb4568c47",
@@ -26545,7 +26574,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Bij binnenkomst links, aan het prikbord bij de kassa.",
       "source": "https://www.powerpyx.com/gta-6-all-unique-playlist-collectible-locations/",
       "sourceName": "www.powerpyx.com",
-      "screenshot": "https://cdn.mos.cms.futurecdn.net/pwfE3eU68ouZYMuXJajRXi.jpg"
+      "screenshot": "https://cdn.mos.cms.futurecdn.net/pwfE3eU68ouZYMuXJajRXi.jpg",
+      "playlist": "The Sniper of La Perle"
     },
     {
       "id": "excel-78d8e6e647b1a03c12e9",
@@ -26558,7 +26588,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Kijk op het tafeltje rechts naast de voordeur.",
       "source": "https://www.powerpyx.com/gta-6-all-unique-playlist-collectible-locations/",
       "sourceName": "www.powerpyx.com",
-      "screenshot": "https://cdn.mos.cms.futurecdn.net/jRhc8kHbZrXmRGSkKDWKZi.jpg"
+      "screenshot": "https://cdn.mos.cms.futurecdn.net/jRhc8kHbZrXmRGSkKDWKZi.jpg",
+      "playlist": "The Sniper of La Perle"
     },
     {
       "id": "excel-88cda3798c15324abb22",
@@ -26571,7 +26602,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Scan de poster die plat op de toonbank ligt.",
       "source": "https://www.powerpyx.com/gta-6-all-unique-playlist-collectible-locations/",
       "sourceName": "www.powerpyx.com",
-      "screenshot": "https://cdn.mos.cms.futurecdn.net/h3cycaeGPLYzx5jhZAPhGD.jpg"
+      "screenshot": "https://cdn.mos.cms.futurecdn.net/h3cycaeGPLYzx5jhZAPhGD.jpg",
+      "playlist": "The Sniper of La Perle"
     },
     {
       "id": "excel-f2826dd93cd50ab9a953",
@@ -26584,7 +26616,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Vanaf hoofdstuk 3. Op de bovenverdieping, in de controleruimte van de studio bij de ventilator.",
       "source": "https://www.powerpyx.com/gta-6-all-unique-playlist-collectible-locations/",
       "sourceName": "www.powerpyx.com",
-      "screenshot": "https://cdn.mos.cms.futurecdn.net/6WogSPRwVVUwvELMDufgYi.jpg"
+      "screenshot": "https://cdn.mos.cms.futurecdn.net/6WogSPRwVVUwvELMDufgYi.jpg",
+      "playlist": "The Sniper of La Perle"
     },
     {
       "id": "excel-578793e6dc4ea932dc39",
@@ -26597,7 +26630,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "detail": "Loop de entreegang door en scan de rode poster op de achterwand.",
       "source": "https://www.powerpyx.com/gta-6-all-unique-playlist-collectible-locations/",
       "sourceName": "www.powerpyx.com",
-      "screenshot": "https://cdn.mos.cms.futurecdn.net/LCEpdDNGBHz5vTBMNbAcXi.jpg"
+      "screenshot": "https://cdn.mos.cms.futurecdn.net/LCEpdDNGBHz5vTBMNbAcXi.jpg",
+      "playlist": "The Vault Radio"
     },
     {
       "id": "excel-bb1caf00efab25e53f89",
@@ -26684,7 +26718,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "cutscenewire.com",
       "extraSource": "https://cutscenewire.com/games/gta-6/collectibles/gta-6-all-magazines-books-comics-locations/#:~:text=Trigger%20Happy",
       "extraSourceLabel": "Bekijk kaartmelding",
-      "workbookStatus": "Kaartmelding"
+      "workbookStatus": "Kaartmelding",
+      "readingId": "excel-710e6fdf7fc4d8ff7b81"
     },
     {
       "id": "excel-de30f1d3453a67ce9f54",
@@ -26699,7 +26734,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "cutscenewire.com",
       "extraSource": "https://cutscenewire.com/games/gta-6/collectibles/gta-6-all-magazines-books-comics-locations/#:~:text=Drive%20Shaft",
       "extraSourceLabel": "Bekijk kaartmelding",
-      "workbookStatus": "Kaartmelding"
+      "workbookStatus": "Kaartmelding",
+      "readingId": "excel-de30f1d3453a67ce9f54"
     },
     {
       "id": "excel-93d3a83782da4750412c",
@@ -26714,7 +26750,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "cutscenewire.com",
       "extraSource": "https://cutscenewire.com/games/gta-6/collectibles/gta-6-all-magazines-books-comics-locations/#:~:text=P%C3%AAche",
       "extraSourceLabel": "Bekijk kaartmelding",
-      "workbookStatus": "Kaartmelding"
+      "workbookStatus": "Kaartmelding",
+      "readingId": "excel-93d3a83782da4750412c"
     },
     {
       "id": "excel-d3dcec7b98709fd5efb3",
@@ -26729,7 +26766,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "cutscenewire.com",
       "extraSource": "https://cutscenewire.com/games/gta-6/collectibles/gta-6-all-magazines-books-comics-locations/#:~:text=Endowed",
       "extraSourceLabel": "Bekijk kaartmelding",
-      "workbookStatus": "Kaartmelding"
+      "workbookStatus": "Kaartmelding",
+      "readingId": "excel-d3dcec7b98709fd5efb3"
     },
     {
       "id": "excel-802c166cfa249619fd55",
@@ -26744,7 +26782,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "cutscenewire.com",
       "extraSource": "https://cutscenewire.com/games/gta-6/collectibles/gta-6-all-magazines-books-comics-locations/#:~:text=11%3A59",
       "extraSourceLabel": "Bekijk kaartmelding",
-      "workbookStatus": "Kaartmelding"
+      "workbookStatus": "Kaartmelding",
+      "readingId": "excel-802c166cfa249619fd55"
     },
     {
       "id": "excel-79c7b4d9f567a31d74f3",
@@ -26759,7 +26798,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceName": "cutscenewire.com",
       "extraSource": "https://cutscenewire.com/games/gta-6/collectibles/gta-6-all-magazines-books-comics-locations/#:~:text=Manly%20Gaze",
       "extraSourceLabel": "Bekijk kaartmelding",
-      "workbookStatus": "Kaartmelding"
+      "workbookStatus": "Kaartmelding",
+      "readingId": "excel-79c7b4d9f567a31d74f3"
     },
     {
       "id": "excel-23688af62eff9c9f0d69",
@@ -36485,10 +36525,11 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Onderwatervondst",
       "detail": "Ten zuiden van Key Lento, bij Abismo Key. Kies de zuidelijkste van de twee zoekcirkels.\n\n5 schatten\nAncient Snuff Box — Bij de mast aan de zuidwestkant, onder de paarse zeewaaier.\nGolden Pendant — In een kapotte krat in de romp, bereikbaar vanaf het zuiden.\nGolden Chalice — Op de bodem aan de zuidkant, naast een krat.\nCeremonial Spoon — Zoek met de detector in het zand ten zuidoosten.\nBattered Doubloon — In een kist bij het koraal verder ten zuiden.",
       "source": "https://www.pushsquare.com/guides/gta-6-underwater-discoveries-locations-and-kentons-treasures#:~:text=Nuestra%20Se%C3%B1ora%20De%20La%20%C3%89tica%20Laxa%20Location",
-      "extraSource": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/#:~:text=Underwater%20Discovery%20%235%3A%20Nuestra%20Senora%20De%20Las%20%C3%89tica%20Laxa",
-      "extraSourceLabel": "Kaartpositie bij PowerPyx",
+      "extraSource": "https://www.powerpyx.com/gta-6-all-kenton-sets-locations-search-the-dive-sites/",
+      "extraSourceLabel": "Kenton-set 1",
       "screenshot": "https://www.powerpyx.com/wp-content/uploads/gta-6-underwater-discovery-location-9.jpg",
-      "screenshotCredit": "PowerPyx · kaartbeeld"
+      "screenshotCredit": "PowerPyx · kaartbeeld",
+      "kentonSet": 1
     },
     {
       "id": "excel-dive-be4cd4f47650b7110336",
@@ -36500,10 +36541,11 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Onderwatervondst",
       "detail": "Ten zuiden van Key Lento. Kies de zoekcirkel het dichtst bij het eiland.\n\n7 schatten\nAntique Candlestick — Ten zuiden van het schip bij anker en vaten.\nIvory Saint — Tegen de noordzijde van de romp.\nPurple Gemstone — Bij de achtersteven, in een vat langs de romp.\nDragon Pipe — Bij het net en de gebroken balken aan de zuidkant.\nStained Doubloon — In een kist net ten westen van de achtersteven.\nPewter Gauntlet — Aan de noordzijde richting de boeg.\nSerpentine Statue — Bij de boeg.",
       "source": "https://www.pushsquare.com/guides/gta-6-underwater-discoveries-locations-and-kentons-treasures#:~:text=Nuestra%20Se%C3%B1ora%20De%20La%20Noche%20Location",
-      "extraSource": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/#:~:text=Underwater%20Discovery%20%236%3A%20Nuestra%20Senora%20De%20La%20Noche",
-      "extraSourceLabel": "Kaartpositie bij PowerPyx",
+      "extraSource": "https://www.powerpyx.com/gta-6-all-kenton-sets-locations-search-the-dive-sites/",
+      "extraSourceLabel": "Kenton-set 2",
       "screenshot": "https://www.powerpyx.com/wp-content/uploads/gta-6-underwater-discovery-location-11.jpg",
-      "screenshotCredit": "PowerPyx · kaartbeeld"
+      "screenshotCredit": "PowerPyx · kaartbeeld",
+      "kentonSet": 2
     },
     {
       "id": "excel-dive-11cda10d44d0fd2ff898",
@@ -36515,10 +36557,11 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Onderwatervondst",
       "detail": "Ten zuidoosten van Key Lento, aan de oostkant van het haakvormige eiland. Zoek de uitstekende spanten.\n\n6 schatten\nAncient Ceremonial Mask — In het zeegras ten zuiden van het wrak.\nSacred Necklace — Tussen zand en potscherven aan de zuidoostkant.\nGolden Glove — Aan de oostkant bij het koraal.\nRusty Doubloon — Halverwege aan de zuidkant in het zand.\nCeremonial Plate — Tegen de met koraal begroeide rots aan de noordzijde.\nJade-Eye Cup — Aan de westkant van de boeg.",
       "source": "https://www.pushsquare.com/guides/gta-6-underwater-discoveries-locations-and-kentons-treasures#:~:text=Urca%20De%20Cinco%20Torres%20Location",
-      "extraSource": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/#:~:text=Underwater%20Discovery%20%239%3A%20Urca%20De%20Cinco%20Torres",
-      "extraSourceLabel": "Kaartpositie bij PowerPyx",
+      "extraSource": "https://www.powerpyx.com/gta-6-all-kenton-sets-locations-search-the-dive-sites/",
+      "extraSourceLabel": "Kenton-set 3",
       "screenshot": "https://www.powerpyx.com/wp-content/uploads/gta-6-underwater-discovery-location-17.jpg",
-      "screenshotCredit": "PowerPyx · kaartbeeld"
+      "screenshotCredit": "PowerPyx · kaartbeeld",
+      "kentonSet": 3
     },
     {
       "id": "excel-dive-80f94cedd12e2e6e5668",
@@ -36530,10 +36573,11 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Onderwatervondst",
       "detail": "Tussen de eilanden ten zuidoosten van Key Lento, zuidwestelijk van het haakvormige eiland.\n\n6 schatten\nCeremonial Bowl — Aan de zuidoostzijde bij de achtersteven.\nGolden Llama — Aan de noordoostkant op de stenen.\nGolden Statuette — Halverwege aan de noordzijde bij de voorste mast.\nCeremonial Knife — Tussen de rotsen rond de boeg.\nShiny Doubloon — Bij het koraal ten noordwesten.\nJade-Lobe Tankard — In de rotsen aan de zuidkant richting de boeg.",
       "source": "https://www.pushsquare.com/guides/gta-6-underwater-discoveries-locations-and-kentons-treasures#:~:text=Nuestra%20Se%C3%B1ora%20Lujuriosa%20Location",
-      "extraSource": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/#:~:text=Underwater%20Discovery%20%238%3A%20Nuestra%20Senora%20Lujuriosa",
-      "extraSourceLabel": "Kaartpositie bij PowerPyx",
+      "extraSource": "https://www.powerpyx.com/gta-6-all-kenton-sets-locations-search-the-dive-sites/",
+      "extraSourceLabel": "Kenton-set 4",
       "screenshot": "https://www.powerpyx.com/wp-content/uploads/gta-6-underwater-discovery-location-15.jpg",
-      "screenshotCredit": "PowerPyx · kaartbeeld"
+      "screenshotCredit": "PowerPyx · kaartbeeld",
+      "kentonSet": 4
     },
     {
       "id": "excel-dive-2b048ed520befd6641f8",
@@ -36545,10 +36589,11 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "sourceLocation": "Onderwatervondst",
       "detail": "Verder op zee ten oosten van Key Lento. Let op het rode zeil naast de romp.\n\n6 schatten\nDividing Compass — Halverwege ten westen van de romp, bij het puin en de rode zeilen.\nSanta Sierra Bell — In het zand ten noorden van de rode zeilen.\nOrnate Pocket Watch — Op de resten van de achtersteven aan de noordkant.\nBrass Spyglass — Westkant van de boeg aan de zuidkant.\nSilver Hip Flask — Ten oosten van de romp bij koraal en een groot wrakdeel.\nWorn Doubloon — In het zand ten noorden van het wrak, naast een rots met koraal.",
       "source": "https://www.pushsquare.com/guides/gta-6-underwater-discoveries-locations-and-kentons-treasures#:~:text=Urca%20De%20Santa%20Sierra%20Location",
-      "extraSource": "https://www.powerpyx.com/gta-6-all-underwater-discoveries-locations/#:~:text=Underwater%20Discovery%20%2311%3A%20Urca%20De%20Santa%20Sierra",
-      "extraSourceLabel": "Kaartpositie bij PowerPyx",
+      "extraSource": "https://www.powerpyx.com/gta-6-all-kenton-sets-locations-search-the-dive-sites/",
+      "extraSourceLabel": "Kenton-set 5",
       "screenshot": "https://www.powerpyx.com/wp-content/uploads/gta-6-underwater-discovery-location-21.jpg",
-      "screenshotCredit": "PowerPyx · kaartbeeld"
+      "screenshotCredit": "PowerPyx · kaartbeeld",
+      "kentonSet": 5
     },
     {
       "id": "excel-dive-a15788fa43ad4077fac8",
@@ -36559,7 +36604,10 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": "keys",
       "sourceLocation": "Schatgebied volgens de gids",
       "detail": "Diepe duik ten zuiden van Belpoint, westelijk van Bobcat Bight. Zoek op de bodem van het gemarkeerde gebied.\n\n5 schatten\nAncient Bracelet\nAncient Ingot\nAvian Plate\nGolden Fish\nLover's Grail\nPrecieze plek per schat nog onbekend.",
-      "source": "https://www.pushsquare.com/guides/gta-6-underwater-discoveries-locations-and-kentons-treasures#:~:text=Belpoint%20Strait%20Location"
+      "source": "https://www.pushsquare.com/guides/gta-6-underwater-discoveries-locations-and-kentons-treasures#:~:text=Belpoint%20Strait%20Location",
+      "kentonSet": 7,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-kenton-sets-locations-search-the-dive-sites/",
+      "extraSourceLabel": "Kenton-set 7"
     },
     {
       "id": "excel-dive-7069022c3e0f6d10b4ed",
@@ -36570,7 +36618,10 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "area": "keys",
       "sourceLocation": "Schatgebied volgens de gids",
       "detail": "Rif ten westen van Bobcat Key. Kam het gemarkeerde rif af met de detector.\n\n6 schatten\nAstrolabe\nCaptain's Whistle\nCeramic Pirate\nIvory Sundial\nNaval Hourglass\nPirate's Buckle\nPrecieze plek per schat nog onbekend.",
-      "source": "https://www.pushsquare.com/guides/gta-6-underwater-discoveries-locations-and-kentons-treasures#:~:text=Bobcat%20Dive%20Site%20Location"
+      "source": "https://www.pushsquare.com/guides/gta-6-underwater-discoveries-locations-and-kentons-treasures#:~:text=Bobcat%20Dive%20Site%20Location",
+      "kentonSet": 6,
+      "extraSource": "https://www.powerpyx.com/gta-6-all-kenton-sets-locations-search-the-dive-sites/",
+      "extraSourceLabel": "Kenton-set 6"
     },
     {
       "id": "video-game-1",
@@ -42716,7 +42767,8 @@ window.EXPLORER_RELEASE_ADDITIONS = {
       "checkedOn": "2026-11-22",
       "availableUntilChapter": 1,
       "collection": "Tijdschriften, boeken en strips",
-      "sourceLocation": "Key Lento"
+      "sourceLocation": "Key Lento",
+      "readingId": "guide-collect-body-copy"
     },
     "guide-collect-kingpin-watch": {
       "id": "guide-collect-kingpin-watch",
