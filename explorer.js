@@ -774,7 +774,7 @@
  function districtMap(count,name,shapes,area,pins){
   const isKeys=area==='keys',isGrass=area==='grass';
   const group=(name,content)=>`<g role="button" tabindex="0" data-guide-district="${esc(name)}" aria-pressed="${guideDistrict===name}" aria-label="${esc(name)}, ${count(name)} openstaand">${content}</g>`;
-  return `<svg class="guide-district-map" viewBox="0 0 500 430" role="group" aria-label="Ingezoomde kaart van ${esc(name)}">
+  return `<svg class="guide-district-map" viewBox="${pins.length?'-160 0 820 474':'0 0 500 430'}" role="group" aria-label="Ingezoomde kaart van ${esc(name)}">
    <defs>
     <pattern id="guide-city-blocks" width="17" height="21" patternUnits="userSpaceOnUse" patternTransform="rotate(-10)">
      <rect x="2" y="2" width="12" height="16" rx="1.5" fill="#51465c" opacity=".19"/>
@@ -804,9 +804,20 @@
     <rect x="-58" y="-19" width="116" height="39" rx="8"/>
     <text y="-3">${esc(name)}</text><text class="guide-map-count" y="12">${count(name)} open</text>
    </g>`).join('')}
-   ${pins.map(([place,x,y],index)=>group(place,`<g class="guide-map-pin" transform="translate(${x} ${y})">
-    <circle class="guide-map-pin-hit" r="16"/><circle class="guide-map-pin-dot" r="11"/>
-    <text dy=".35em">${index+1}</text></g>`)).join('')}
+   ${[true,false].map(left=>pins.filter(([,x])=>(x<250)===left).sort((a,b)=>a[2]-b[2])
+    .map(([place,x,y],index,side)=>{
+     const labelX=left?-154:506;
+     const labelY=25+index*410/Math.max(1,side.length-1);
+     const words=place.split(' ');
+     const lines=place.length<=14?[place]:[words.slice(0,Math.ceil(words.length/2)).join(' '),words.slice(Math.ceil(words.length/2)).join(' ')];
+     return group(place,`<g class="guide-map-pin">
+      <path d="M${x} ${y} L${left?0:500} ${labelY} H${left?labelX+148:labelX}"/>
+      <circle class="guide-map-pin-hit" cx="${x}" cy="${y}" r="15"/>
+      <circle class="guide-map-pin-dot" cx="${x}" cy="${y}" r="5"/>
+      <rect x="${labelX}" y="${labelY-22}" width="148" height="44" rx="7"/>
+      <text x="${labelX+74}" y="${labelY+(lines.length===1?6:-3)}">${lines.map((line,i)=>`<tspan x="${labelX+74}" dy="${i?18:0}">${esc(line)}</tspan>`).join('')}</text>
+     </g>`);
+    }).join('')).join('')}
   </svg>`;
  }
  let guideArea=null,guideDistrict=null,guideOpenOnly=true;
@@ -820,7 +831,7 @@
    'Cottonmouth Lake','Peregrine Bay','Gullet Marsh','Tola Bay','Wetman Bay','Leonida Bay','Leonida Straits'],
   grass:[]
  };
- // Numbered markers keep the long place names readable in the map legend.
+ // Map anchors for the additional named Grassrivers locations.
  const grassMapPins=[
   ['Breakwater Quarry',238,46],['Cottonmouth Lake',215,326],['Emerald Springs',70,161],
   ['Hamlet',466,292],['King Gator Adventure Golf',448,198],['LTF Airfield',291,320],
@@ -894,10 +905,6 @@
   const nearby=shapes?extraGuidePlaces[guideArea].filter(name=>byPlace.has(name)):[];
   guideResults.innerHTML=`<h2 class="map-result-heading">${esc(region.name)}</h2>
    ${shapes?`<p class="scope-note">Schematische ${guideArea==='city'?'wijkkaart':'kaart'} van ${esc(region.name)}</p>${districtMap(name=>remaining(districtRows(name)),region.name,shapes,guideArea,pins)}
-   ${pins.length?`<ul class="guide-pin-legend" aria-label="Kaartlegenda">${pins.map(([name],index)=>`<li>
-    <button type="button" data-guide-district="${esc(name)}" aria-pressed="${guideDistrict===name}">
-     <span class="guide-pin-number" aria-hidden="true">${index+1}</span><span>${esc(name)}</span>
-     <small>${remaining(districtRows(name))} open</small></button></li>`).join('')}</ul>`:''}
    ${nearby.length?`<details class="explore-category guide-extra-places" ${nearby.includes(guideDistrict)||guideResults.querySelector('.guide-extra-places')?.open?'open':''}>
     <summary><strong>Meer subgebieden</strong><span>${nearby.length}</span></summary>
     <div class="guide-other-district">${nearby.map(districtButton).join('')}</div></details>`:''}
