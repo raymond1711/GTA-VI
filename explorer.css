@@ -277,3 +277,18 @@ footer span{color:#dfc4e0}
 .guide-other-district button[aria-pressed=true]{background:#ffc5df;color:#2c1730}
 .guide-other-district small{display:block}
 .guide-other-district{margin-top:.5rem}
+
+.guide-extra-places .guide-other-district{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,8.5rem),1fr));gap:.45rem}
+
+.guide-map-channels{fill:none;stroke:#397988;stroke-width:5;stroke-linecap:round;pointer-events:none}
+.guide-map-channels path+path{stroke-width:2.5}
+
+.guide-map-pin-hit{fill:transparent}
+.guide-map-pin-dot,.guide-pin-number{fill:#352643;stroke:#f2dba7;stroke-width:1.8;background:#352643;color:#fff6ef}
+.guide-map-pin text{fill:#fff6ef;text-anchor:middle;font:700 12px system-ui;pointer-events:none}
+.guide-district-map [role=button]:where(:focus-visible,[aria-pressed=true]) .guide-map-pin-dot{fill:#865079;stroke:#fff0d6;stroke-width:3}
+.guide-pin-legend{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,12rem),1fr));gap:.35rem;margin:.55rem 0;padding:0;list-style:none}
+.guide-pin-legend button{display:flex;gap:.4rem;align-items:center;min-height:44px;width:100%;padding:.35rem .45rem;text-align:left}
+.guide-pin-legend button[aria-pressed=true]{background:#694360;border-color:#fff0d6}
+.guide-pin-legend small{margin-inline-start:auto;white-space:nowrap}
+.guide-pin-number{display:grid;place-items:center;flex:0 0 1.45rem;height:1.45rem;border:1px solid #f2dba7;border-radius:50%;font-size:.75rem}
