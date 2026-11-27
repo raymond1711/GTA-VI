@@ -771,17 +771,17 @@
   ['Watson Bay',133,352,'#b5b88b','M43 284l37-6 30 26 52-12 30 27 57-14-11 46 13 33-46 17-45-19-34 13-48-17-17-26-32-17Z']
  ];
  const guideShapes={city:districtShapes,keys:keyShapes,grass:grassShapes};
- function districtMap(count,name,shapes,area,pins){
+ function districtMap(count,name,shapes,area,pins,extra=[],zoom=null){
   const isKeys=area==='keys',isGrass=area==='grass';
   const group=(name,content)=>`<g role="button" tabindex="0" data-guide-district="${esc(name)}" aria-pressed="${guideDistrict===name}" aria-label="${esc(name)}, ${count(name)} openstaand">${content}</g>`;
   const badge=(place,x,y)=>{
    const total=count(place);
    const width=Math.max(18,String(total).length*7+8);
-   return `<g class="guide-map-badge" aria-hidden="true" transform="translate(${x} ${y})">
+   return `<g class="guide-map-badge" aria-hidden="true" transform="translate(${x-width/2-2} ${y-9})">
     <rect x="${-width/2}" y="-8" width="${width}" height="16" rx="8"/>
     <text y="4">${total}</text></g>`;
   };
-  return `<svg class="guide-district-map${isGrass?' guide-district-map--grass':''}" viewBox="0 0 500 430" role="group" aria-label="Ingezoomde kaart van ${esc(name)}">
+  return `<svg class="guide-district-map${isGrass?' guide-district-map--grass':''}" viewBox="${zoom?zoom.join(' '):`0 0 500 ${extra.length?464+Math.ceil(extra.length/3)*43:430}`}" role="group" aria-label="Ingezoomde kaart van ${esc(name)}">
    <defs>
     <pattern id="guide-city-blocks" width="17" height="21" patternUnits="userSpaceOnUse" patternTransform="rotate(-10)">
      <rect x="2" y="2" width="12" height="16" rx="1.5" fill="#51465c" opacity=".19"/>
@@ -793,7 +793,7 @@
     ${isGrass?`<path d="M23 110Q50 139 41 175T38 237Q40 261 57 280M18 294Q5 331 51 357T108 396Q149 419 189 400M220 414q46-29 94-4t90-10"/>`:isKeys?`<path d="M444 26Q473 76 425 167T316 294Q244 339 179 380T42 374M456 21Q489 75 440 163T328 302Q250 353 186 393T37 384M295 68Q217 99 189 140T98 233"/>`:`<path d="M363 1l4 43-19 25 2 32-28 27-10 43m177-143 5 48-6 38 10 44-3 104-14 58-5 37-25 31m-245 36 35-22 63 10 31-19 27 1 43-19"/>
     <path d="M376 2l5 44-21 30 1 28-27 29m101 267-22 12-38-3M260 416l40 8 39-19"/>`}
    </g>
-   ${shapes.map(([name,,,fill,shape])=>group(name,`<path class="guide-map-land" fill="${fill}" d="${shape}"/><path class="guide-map-blocks" d="${shape}"/>`)).join('')}
+   ${shapes.map(([name,,,fill,shape])=>(zoom?(_,markup)=>markup:group)(name,`<path class="guide-map-land" fill="${fill}" d="${shape}"/><path class="guide-map-blocks" d="${shape}"/>`)).join('')}
    ${isGrass?`<g class="guide-map-channels" aria-hidden="true">
     <path d="M239 7q-38 37-15 85t20 62q-32 58-11 88t14 68q-4 32 23 65t-2 48m-37-275q-27-35-68-38t-67-17m144 73q43 33 91 12t103-36m-193 116q-38-38-88-23t-83-15m177 77q40 31 95 8t96-8"/>
     <path d="M100 133q-13 30 17 41t30 32m173-51q-16-28 13-44t48-28m-72 211q-8 35 26 47t16 41"/>
@@ -807,9 +807,9 @@
    ${isGrass?`<text class="guide-map-water-label" x="140" y="412">GOLF VAN LEONIDA</text>`:isKeys?`<text class="guide-map-water-label" x="362" y="366">LEONIDA KEYS</text>`:`<text class="guide-map-water-label" x="365" y="145">BAAI</text>`}
    <path class="guide-map-north" d="M37 41l6-14 6 14-6-3Z" aria-hidden="true"/>
    <text class="guide-map-water-label" x="43" y="22">N</text>
-   ${shapes.map(([name,x,y])=>`<g class="guide-map-label" data-guide-district="${esc(name)}" data-selected="${guideDistrict===name}" aria-hidden="true" transform="translate(${x} ${y})">
-    <rect x="-58" y="-19" width="116" height="39" rx="8"/>
-    <text y="-3">${esc(name)}</text>${badge(name,0,10)}
+   ${(zoom?[]:shapes).map(([name,x,y])=>`<g class="guide-map-label" data-guide-district="${esc(name)}" data-selected="${guideDistrict===name}" aria-hidden="true" transform="translate(${x} ${y})">
+    <rect x="-58" y="-14" width="116" height="28" rx="8"/>
+    <text y="5">${esc(name)}</text>${badge(name,58,-14)}
    </g>`).join('')}
    ${pins.map(([place,x,y,labelX,labelY])=>{
     const lines=place.split('|');
@@ -822,12 +822,17 @@
      <circle class="guide-map-pin-dot" cx="${x}" cy="${y}" r="3"/>
      <rect x="${labelX-labelWidth/2}" y="${labelY-labelHeight/2}" width="${labelWidth}" height="${labelHeight}" rx="5"/>
      <text x="${labelX}" y="${labelY+(lines.length===1?4:-2)}">${lines.map((line,i)=>`<tspan x="${labelX}" dy="${i?13:0}">${esc(line)}</tspan>`).join('')}</text>
-     ${badge(name,labelX+labelWidth/2-8,labelY-labelHeight/2+1)}
+     ${badge(name,labelX+labelWidth/2,labelY-labelHeight/2)}
     </g>`);
    }).join('')}
+   ${extra.length?`<text class="guide-map-water-label" x="250" y="449">OVERIGE KAARTLOCATIES · SCHEMATISCH</text>`:''}
+   ${extra.map((place,index)=>group(place,`<g class="guide-map-label" transform="translate(${84+index%3*166} ${477+Math.floor(index/3)*43})">
+    <rect x="-78" y="-13" width="156" height="26" rx="6"/>
+    <text y="4" style="font-size:11px">${esc(place)}</text>${badge(place,78,-13)}
+   </g>`)).join('')}
   </svg>`;
  }
- let guideArea=null,guideDistrict=null,guideOpenOnly=true;
+ let guideArea=null,guideDistrict=null,guideSpot=null,guideOpenOnly=true;
  // Named locations from the discovery sources that have no drawn map zone yet.
  const extraGuidePlaces={
   city:['Balsero','Bayside','Bluegrass','Boone Speedway','Casanova Island','Crosstown','Dalton Island',
@@ -840,15 +845,15 @@
  };
  // Map anchors for the additional named Grassrivers locations.
  const grassMapPins=[
-  ['Breakwater|Quarry',238,46,233,71],['Cottonmouth|Lake',215,326,199,313],
-  ['Emerald Springs',70,161,72,175],['Hamlet',466,292,463,304],
-  ['King Gator|Adventure Golf',448,198,438,170],['LTF Airfield',291,320,294,306],
-  ['Manatee Motel',148,256,115,257],['Marshland|Animal Park',302,171,319,160],
-  ['North Mariana|County',183,43,166,28],['Old Fort Road|Bridge',347,269,367,266],
-  ['Paradise|RV Park',259,220,233,212],['SND Station',430,99,451,111],
-  ['South Kelly|County',357,30,368,26],['Zuidelijk|Grassrivers',266,372,273,393],
-  ['Oostelijk|Grassrivers',459,239,449,230],['Tola Bay',48,318,48,315],
-  ['Grassrivers|Visitor Center',212,272,228,270],['Lost Mines|Souvenirs',117,115,116,124]
+  ['Breakwater|Quarry',238,46,233,71],['Cottonmouth|Lake',215,326,199,301],
+  ['Emerald Springs',70,161,71,169],['Hamlet',466,292,467,303],
+  ['King Gator|Adventure Golf',448,198,437,169],['LTF Airfield',291,320,296,305],
+  ['Manatee Motel',148,256,114,261],['Marshland|Animal Park',302,171,319,159],
+  ['North Mariana|County',183,43,138,117],['Old Fort Road|Bridge',347,269,380,257],
+  ['Paradise|RV Park',259,220,232,211],['SND Station',430,99,451,111],
+  ['South Kelly|County',357,30,441,37],['Zuidelijk|Grassrivers',266,372,273,393],
+  ['Oostelijk|Grassrivers',459,239,449,369],['Tola Bay',48,318,48,315],
+  ['Grassrivers|Visitor Center',212,272,215,159],['Lost Mines|Souvenirs',117,115,235,353]
  ];
  const moreSpecificGuidePlaces={
   'Vice Beach':['Ocean Beach','Washington Beach','Washington Island','Oldby Island','Starfish Island','Waxman Island'],
@@ -866,6 +871,12 @@
   'guide-card-jack-of-hearts-01':['Gullet Marsh'],
   'guide-card-wrestling-07':['Manatee Motel']
  };
+ const detailSpots={
+  'La Perle':[
+   ['Drip Drops',95,89,/Drip Drops/i],
+   ['La Perle Trap House',135,132,/La Perle Trap House/i]
+  ]
+ };
  const unknownGuidePlace='Subgebied nog onbekend';
  function guidePlacesFor(item,patterns){
   const find=text=>patterns.filter(([,pattern])=>pattern.test(text||'')).map(([name])=>name);
@@ -877,6 +888,7 @@
  function renderAreaGuide(){
   for(const node of guideMap.querySelectorAll('[data-area]'))node.setAttribute('aria-pressed',String(node.dataset.area===guideArea));
   const region=areas.find(item=>item.id===guideArea);
+  guideMap.parentElement.hidden=Boolean(region);
   if(!region){guideResults.innerHTML=chooseAreaPrompt;return;}
   const all=core.visible([...trusted,...model.custom],model.chapter).filter(item=>!item.referenceOnly&&!item.meditationParent&&item.category!=='trophies'&&item.collection!=='Uitdagingen'&&(!item.readingId||item.readingId===item.id)&&collectibleInArea(item,guideArea));
   const found=new Set(checked());
@@ -908,7 +920,11 @@
    }
   }
   const districtRows=name=>byPlace.get(name)||[];
-  const rows=shapes?(guideDistrict?districtRows(guideDistrict):[]):all;
+  const selectedRows=guideDistrict?districtRows(guideDistrict):[];
+  const spots=detailSpots[guideDistrict]||[];
+  const spotRows=([,,,pattern])=>selectedRows.filter(item=>pattern.test([item.title,item.sourceLocation,item.detail].join(' ')));
+  const pickedSpot=spots.find(([name])=>name===guideSpot);
+  const rows=shapes?(pickedSpot?spotRows(pickedSpot):selectedRows):all;
   const groups=rows.reduce((groups,item)=>{
    (groups[guideGroup(item)]??=[]).push(item);return groups;
   },{});
@@ -916,13 +932,21 @@
   const collapsed=new Set(previousGroups.filter(node=>!node.open).map(node=>node.dataset.guideGroup));
   const districtButton=name=>`<button type="button" data-guide-district="${esc(name)}" aria-pressed="${guideDistrict===name}"><strong>${esc(name)}</strong><small>${remaining(districtRows(name))} open</small></button>`;
   const nearby=shapes?extraGuidePlaces[guideArea].filter(name=>byPlace.has(name)):[];
-  guideResults.innerHTML=`<h2 class="map-result-heading">${esc(region.name)}</h2>
-   ${shapes?`<p class="scope-note">Schematische ${guideArea==='city'?'wijkkaart':'kaart'} van ${esc(region.name)}</p>${districtMap(name=>remaining(districtRows(name)),region.name,shapes,guideArea,pins)}
-   ${nearby.length?`<details class="explore-category guide-extra-places" ${nearby.includes(guideDistrict)||guideResults.querySelector('.guide-extra-places')?.open?'open':''}>
-    <summary><strong>Meer subgebieden</strong><span>${nearby.length}</span></summary>
-    <div class="guide-other-district">${nearby.map(districtButton).join('')}</div></details>`:''}
-   <div class="guide-other-district">${districtButton(unknownGuidePlace)}</div>`:''}
-   ${shapes&&!guideDistrict?chooseAreaPrompt:`<h3>${esc(guideDistrict||region.name)} · ${remaining(rows)} open</h3><label class="task"><input type="checkbox" data-guide-filter ${guideOpenOnly?'checked':''}><span>Alleen openstaand</span></label>
+  const anchor=shapes?.find(([name])=>name===guideDistrict)||pins.find(([label])=>label.replace('|',' ')===guideDistrict);
+  const zoom=anchor?[Math.max(0,Math.min(300,anchor[1]-100)),Math.max(0,Math.min(258,anchor[2]-86)),200,172]:null;
+  const detailMap=()=>districtMap(remainingAt,guideDistrict,shapes.filter(entry=>entry===anchor),guideArea,spots.map(([name,x,y])=>[name==='La Perle Trap House'?'La Perle|Trap House':name,x,y,x,y]),[],zoom);
+  function remainingAt(name){
+   const spot=spots.find(([label])=>label===name);
+   return remaining(spot?spotRows(spot):districtRows(name));
+  }
+  guideResults.innerHTML=`<div class="guide-map-navigation">
+   <button type="button" class="quiet" data-guide-back>${guideSpot?'Terug naar '+esc(guideDistrict):guideDistrict?'Terug naar '+esc(region.name):'Terug naar Leonida'}</button>
+   <h2 class="map-result-heading">${esc([region.name,guideDistrict,guideSpot].filter(Boolean).join(' › '))}</h2></div>
+   ${shapes?`<div class="guide-map-stage">
+    ${guideDistrict?(zoom?detailMap():''):districtMap(remainingAt,region.name,shapes,guideArea,pins,nearby)}
+   </div>
+   ${guideDistrict?'':`<div class="guide-other-district">${districtButton(unknownGuidePlace)}</div>`}`:''}
+   ${shapes&&!guideDistrict?chooseAreaPrompt:`<h3>${esc(guideSpot||guideDistrict||region.name)} · ${remaining(rows)} open</h3><label class="task"><input type="checkbox" data-guide-filter ${guideOpenOnly?'checked':''}><span>Alleen openstaand</span></label>
    ${Object.entries(groups).map(([group,items])=>{
     const visible=guideOpenOnly?items.filter(item=>!done(item)):items;
     return visible.length?`<details class="explore-category" data-guide-group="${esc(group)}" ${collapsed.has(group)?'':'open'}><summary><strong>${esc(group)}</strong><span>${remaining(items)} open</span></summary><div>${visible.map(item=>guideCard(item,found)).join('')}</div></details>`:'';
@@ -949,13 +973,25 @@
  areaGuide.addEventListener('click',event=>{
   const region=event.target.closest('[data-area]');
   const district=event.target.closest('[data-guide-district]');
-  if(region){guideArea=region.dataset.area;guideDistrict=null;}
-  else if(district)guideDistrict=district.dataset.guideDistrict;
-  else return;
+  const back=event.target.closest('[data-guide-back]');
+  if(region){guideArea=region.dataset.area;guideDistrict=null;guideSpot=null;}
+  else if(back){
+   if(guideSpot)guideSpot=null;
+   else if(guideDistrict)guideDistrict=null;
+   else guideArea=null;
+  }else if(district){
+   if(guideDistrict)guideSpot=district.dataset.guideDistrict;
+   else guideDistrict=district.dataset.guideDistrict;
+  }else return;
   renderAreaGuide();
-  if(district&&event.detail===0){
-   [...guideResults.querySelectorAll('[tabindex="0"][data-guide-district],button[data-guide-district]')]
-    .find(node=>node.dataset.guideDistrict===guideDistrict)?.focus({preventScroll:true});
+  if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+   guideResults.querySelector('.guide-map-stage svg')?.animate(
+    [{transform:`scale(${back?1.07:.86})`,opacity:.6},{transform:'scale(1)',opacity:1}],
+    {duration:300,easing:'ease-out'});
+  }
+  if(event.detail===0){
+   const target=guideResults.querySelector('[data-guide-back]')||guideMap.querySelector('[data-area][tabindex="0"]');
+   target?.focus({preventScroll:true});
   }
  });
  guideResults.addEventListener('keydown',event=>{

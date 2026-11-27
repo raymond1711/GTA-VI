@@ -291,3 +291,6 @@ footer span{color:#dfc4e0}
 .guide-district-map--grass .guide-map-label text{font-size:13px}
 .guide-district-map .guide-map-badge rect{fill:#21172d;stroke:#f2dba7;stroke-width:1.5}
 .guide-district-map .guide-map-badge text{fill:#fff7ee;text-anchor:middle;font:700 11px system-ui}
+
+.guide-map-stage{overflow:hidden;border-radius:14px}
+.guide-map-navigation .quiet{margin-top:.6rem}
