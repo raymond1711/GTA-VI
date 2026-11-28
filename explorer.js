@@ -885,7 +885,8 @@
   });
   return `translate(250 215) scale(${scale}) translate(${-x} ${-y})`;
  }
- function guideLayerMap(region,nodes,remaining){
+ function guideLayerMap(region,nodes,remaining,selectedLeaf){
+  const cameraTrail=selectedLeaf?guideTrail.slice(0,-1):guideTrail;
   const art=guideShapes[region.id]||[];
   const cols=nodes.length>8?3:2;
   const rows=Math.max(1,Math.ceil(nodes.length/cols));
@@ -898,7 +899,7 @@
     <path d="M0 0H17M0 0V21" fill="none" stroke="#ffebce" stroke-opacity=".36"/>
    </pattern></defs>
    <rect width="500" height="430" fill="${water}"/>
-   <g class="guide-layer-art" aria-hidden="true" transform="${guideCamera(region,guideTrail)}">
+   <g class="guide-layer-art" aria-hidden="true" transform="${guideCamera(region,cameraTrail)}">
     ${art.length?art.map(([,,,fill,shape])=>`<path fill="${fill}" d="${shape}"/><path fill="url(#guide-layer-grid)" d="${shape}"/>`).join(''):
     regionArt?`<svg width="500" height="430" viewBox="${frame.join(' ')}" preserveAspectRatio="xMidYMid meet">${regionArt}</svg>`:''}
     ${art.length?`<path d="M32 350Q132 217 230 233T462 67M57 83Q144 167 230 233T425 355" fill="none" stroke="#ffe4bf" stroke-width="3" opacity=".58"/>`:''}
@@ -906,14 +907,14 @@
    ${nodes.map((node,index)=>{
     const row=Math.floor(index/cols),col=index%cols;
     const rowSize=Math.min(cols,nodes.length-row*cols);
-    const [x,y]=guideMarkerPosition(region,nodes,index,guideTrail.length);
+    const [x,y]=guideMarkerPosition(region,nodes,index,cameraTrail.length);
     const width=cols===3?116:152;
     const words=node.name.split(' ');
     const split=Math.ceil(words.length/2);
     const lines=node.name.length>(cols===3?15:20)&&words.length>1?[words.slice(0,split).join(' '),words.slice(split).join(' ')]:[node.name];
     const total=remaining(node);
     const badgeWidth=Math.max(20,String(total).length*8+10);
-    return `<g class="guide-layer-marker" role="button" tabindex="0" data-guide-node="${node.key}" aria-label="${esc(node.name)}, ${total} openstaand" transform="translate(${x} ${y})">
+    return `<g class="guide-layer-marker${selectedLeaf?.key===node.key?' is-selected':''}" aria-pressed="${selectedLeaf?.key===node.key}" role="button" tabindex="0" data-guide-node="${node.key}" aria-label="${esc(node.name)}, ${total} openstaand" transform="translate(${x} ${y})">
      <rect class="guide-layer-label" x="${-width/2}" y="-19" width="${width}" height="38" rx="8"/>
      ${lines.map((line,i)=>`<text y="${lines.length===1?5:-3+i*15}">${esc(line)}</text>`).join('')}
      <g class="guide-map-badge" aria-hidden="true" transform="translate(${width/2-badgeWidth/2-2} -27)">
@@ -931,6 +932,8 @@
   const branches=guideBranches[guideArea];
   const selected=guideTrail.at(-1);
   const children=selected?selected.children:branches;
+  const selectedLeaf=selected&&!children.length?selected:null;
+  const mapNodes=selectedLeaf?guideTrail.at(-2).children:children;
   const byKey=new Map();
   const loose=[];
   const unassigned=[];
@@ -985,7 +988,7 @@
   </nav>
   <h2 class="map-result-heading">${[region.name,...guideTrail.map(node=>node.name)].map(esc).join(' › ')}</h2>
   ${`<p class="scope-note">${children.length?levels[guideTrail.length]+' kiezen':'Geselecteerde locatie'} · schematische kaart</p>
-   <div class="guide-map-stage">${guideLayerMap(region,children,node=>remaining(assigned(node)))}</div>`}
+   <div class="guide-map-stage">${guideLayerMap(region,mapNodes,node=>remaining(assigned(node)),selectedLeaf)}</div>`}
   <label class="task"><input type="checkbox" data-guide-filter ${guideOpenOnly?'checked':''}><span>Alleen openstaand</span></label>
   ${selected&&(rows.length||!children.length)?renderRows(rows):''}
   ${!selected&&loose.length?`<details class="explore-category"><summary>Overige locaties · ${remaining(loose)} open</summary>${renderRows(loose)}</details>`:''}
@@ -1019,20 +1022,24 @@
   const targetRect=(marker||region)?.getBoundingClientRect();
   const origin=targetRect&&previousRect.width?`${(targetRect.left+targetRect.width/2-previousRect.left)/previousRect.width*100}% ${(targetRect.top+targetRect.height/2-previousRect.top)/previousRect.height*100}%`:'50% 50%';
   const parent=guideTrail.at(-1);
+  const wasLeaf=parent&&!parent.children.length;
+  let selectionOnly=false;
   if(region){
    guideArea=region.dataset.area;
    guideTrail=[];
   }else if(back){
-   if(parent)guideTrail.pop();
+   if(parent){guideTrail.pop();selectionOnly=Boolean(wasLeaf);}
    else guideArea=null;
   }else{
-   const node=(parent?parent.children:guideBranches[guideArea]).find(entry=>entry.key===marker.dataset.guideNode);
+   const node=(wasLeaf?guideTrail.at(-2).children:parent?parent.children:guideBranches[guideArea]).find(entry=>entry.key===marker.dataset.guideNode);
    if(!node)return;
+   if(wasLeaf)guideTrail.pop();
+   selectionOnly=!node.children.length;
    guideTrail.push(node);
   }
   renderAreaGuide();
   const map=guideResults.querySelector('.guide-map-stage svg')||(!guideArea?guideMap:null);
-  if(map&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+  if(map&&!selectionOnly&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
    const stage=map.parentElement;
    stage.classList.add('guide-transition-stage');
    previousImage.removeAttribute('id');

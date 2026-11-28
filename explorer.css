@@ -309,3 +309,5 @@ footer span{color:#dfc4e0}
 
 .guide-transition-stage{position:relative;overflow:hidden;border-radius:14px}
 .guide-transition-old{position:absolute!important;inset:0;width:100%;height:100%;pointer-events:none;z-index:2}
+
+.guide-layer-marker.is-selected .guide-layer-label{fill:#72516e;stroke:#fff0d6;stroke-width:3}
