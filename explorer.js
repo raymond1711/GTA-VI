@@ -868,6 +868,23 @@
   ambrosia:[[310,118],[170,292]],
   kalaga:[[210,214],[88,125],[207,60],[340,132],[401,248]]
  };
+ // Schematic camera: keep the background zoomed while labels stay readable.
+ function guideMarkerPosition(region,nodes,index,depth){
+  if(!depth)return guideAreaAnchors[region.id][index];
+  const cols=nodes.length>8?3:2, row=Math.floor(index/cols),col=index%cols;
+  return [(col+1)*500/(Math.min(cols,nodes.length-row*cols)+1),(row+1)*430/(Math.ceil(nodes.length/cols)+1)];
+ }
+ function guideCamera(region,trail){
+  let x=250,y=215,scale=1,nodes=guideBranches[region.id];
+  trail.forEach((node,depth)=>{
+   const [px,py]=guideMarkerPosition(region,nodes,nodes.findIndex(n=>n.key===node.key),depth);
+   const next=scale*1.65;
+   x=Math.max(250/next,Math.min(500-250/next,x+(px-250)/scale));
+   y=Math.max(215/next,Math.min(430-215/next,y+(py-215)/scale));
+   scale=next;nodes=node.children;
+  });
+  return `translate(250 215) scale(${scale}) translate(${-x} ${-y})`;
+ }
  function guideLayerMap(region,nodes,remaining){
   const art=guideShapes[region.id]||[];
   const cols=nodes.length>8?3:2;
@@ -881,7 +898,7 @@
     <path d="M0 0H17M0 0V21" fill="none" stroke="#ffebce" stroke-opacity=".36"/>
    </pattern></defs>
    <rect width="500" height="430" fill="${water}"/>
-   <g class="guide-layer-art" aria-hidden="true">
+   <g class="guide-layer-art" aria-hidden="true" transform="${guideCamera(region,guideTrail)}">
     ${art.length?art.map(([,,,fill,shape])=>`<path fill="${fill}" d="${shape}"/><path fill="url(#guide-layer-grid)" d="${shape}"/>`).join(''):
     regionArt?`<svg width="500" height="430" viewBox="${frame.join(' ')}" preserveAspectRatio="xMidYMid meet">${regionArt}</svg>`:''}
     ${art.length?`<path d="M32 350Q132 217 230 233T462 67M57 83Q144 167 230 233T425 355" fill="none" stroke="#ffe4bf" stroke-width="3" opacity=".58"/>`:''}
@@ -889,7 +906,7 @@
    ${nodes.map((node,index)=>{
     const row=Math.floor(index/cols),col=index%cols;
     const rowSize=Math.min(cols,nodes.length-row*cols);
-    const [x,y]=!guideTrail.length?guideAreaAnchors[region.id][index]:[(col+1)*500/(rowSize+1),(row+1)*spacing];
+    const [x,y]=guideMarkerPosition(region,nodes,index,guideTrail.length);
     const width=cols===3?116:152;
     const words=node.name.split(' ');
     const split=Math.ceil(words.length/2);
@@ -967,8 +984,8 @@
    <button type="button" class="quiet" data-guide-back>← ${esc(guideTrail.length>1?guideTrail.at(-2).name:guideTrail.length?region.name:'Leonida')}</button>
   </nav>
   <h2 class="map-result-heading">${[region.name,...guideTrail.map(node=>node.name)].map(esc).join(' › ')}</h2>
-  ${children.length?`<p class="scope-note">${levels[guideTrail.length]} kiezen · schematische kaart</p>
-   <div class="guide-map-stage">${guideLayerMap(region,children,node=>remaining(assigned(node)))}</div>`:''}
+  ${`<p class="scope-note">${children.length?levels[guideTrail.length]+' kiezen':'Geselecteerde locatie'} · schematische kaart</p>
+   <div class="guide-map-stage">${guideLayerMap(region,children,node=>remaining(assigned(node)))}</div>`}
   <label class="task"><input type="checkbox" data-guide-filter ${guideOpenOnly?'checked':''}><span>Alleen openstaand</span></label>
   ${selected&&(rows.length||!children.length)?renderRows(rows):''}
   ${!selected&&loose.length?`<details class="explore-category"><summary>Overige locaties · ${remaining(loose)} open</summary>${renderRows(loose)}</details>`:''}
@@ -996,6 +1013,11 @@
   const marker=event.target.closest('[data-guide-node]');
   const back=event.target.closest('[data-guide-back]');
   if(!region&&!back&&!marker)return;
+  const previousMap=guideResults.querySelector('.guide-map-stage svg')||guideMap;
+  const previousRect=previousMap.getBoundingClientRect();
+  const previousImage=previousMap.cloneNode(true);
+  const targetRect=(marker||region)?.getBoundingClientRect();
+  const origin=targetRect&&previousRect.width?`${(targetRect.left+targetRect.width/2-previousRect.left)/previousRect.width*100}% ${(targetRect.top+targetRect.height/2-previousRect.top)/previousRect.height*100}%`:'50% 50%';
   const parent=guideTrail.at(-1);
   if(region){
    guideArea=region.dataset.area;
@@ -1011,10 +1033,25 @@
   renderAreaGuide();
   const map=guideResults.querySelector('.guide-map-stage svg')||(!guideArea?guideMap:null);
   if(map&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
-   const origin=marker?.transform?.baseVal?.getItem(0).matrix;
-   if(origin)map.style.transformOrigin=`${origin.e/5}% ${origin.f/4.3}%`;
-   map.animate([{transform:back?'scale(1.18)':'scale(.82)',opacity:.55},{transform:'scale(1)',opacity:1}],
-    {duration:420,easing:'cubic-bezier(.22,.61,.36,1)'});
+   const stage=map.parentElement;
+   stage.classList.add('guide-transition-stage');
+   previousImage.removeAttribute('id');
+   previousImage.setAttribute('aria-hidden','true');
+   previousImage.querySelectorAll('[id]').forEach(el=>{
+    const old=el.id, next='transition-'+old;
+    previousImage.querySelectorAll('*').forEach(child=>Array.from(child.attributes).forEach(attr=>{
+     if(attr.value.includes(`url(#${old})`))child.setAttribute(attr.name,attr.value.replaceAll(`url(#${old})`,`url(#${next})`));
+    }));el.id=next;
+   });
+   previousImage.querySelectorAll('[tabindex]').forEach(el=>el.removeAttribute('tabindex'));
+   previousImage.classList.add('guide-transition-old');
+   previousImage.style.transformOrigin=origin;
+   stage.append(previousImage);
+   const options={duration:580,easing:'cubic-bezier(.4,0,.2,1)',fill:'both'};
+   const animation=previousImage.animate([{transform:'scale(1)',opacity:1},{transform:back?'scale(.61)':'scale(1.65)',opacity:0}],options);
+   animation.onfinish=()=>previousImage.remove();
+   animation.oncancel=()=>previousImage.remove();
+   map.animate([{transform:back?'scale(1.65)':'scale(.78)',opacity:.15},{transform:'scale(1)',opacity:1}],options);
   }
   if(event.detail===0){
    const target=guideResults.querySelector('[data-guide-back]')||guideMap.querySelector('[data-area][tabindex="0"]');
