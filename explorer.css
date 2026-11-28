@@ -297,3 +297,6 @@ footer span{color:#dfc4e0}
 .guide-map-navigation{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.6rem}
 .guide-map-navigation .quiet{margin:0;min-height:44px}
 #area-guide-view .guide-region-map[hidden]{display:none}
+.guide-city-outskirts .guide-other-district{display:flex;gap:.4rem;flex-wrap:wrap}
+.guide-district-map--city .guide-map-pin text{font-size:12px}
+.guide-district-map--city .guide-map-badge text{font-size:11px}

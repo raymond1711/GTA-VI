@@ -770,10 +770,33 @@
   ['Gullet Marsh',380,336,'#92ad77','M268 295l67-17 53 19 65-26 16 49-15 48-38 23-49-15-52 26-47-17-16-40Z'],
   ['Watson Bay',133,352,'#b5b88b','M43 284l37-6 30 26 52-12 30 27 57-14-11 46 13 33-46 17-45-19-34 13-48-17-17-26-32-17Z']
  ];
+ // Schematic label positions for the Vice City preview.
+ const cityMapPins=[
+  ['Stockyard',299,43,298,43],['Rockridge',146,72,146,71],
+  ['Griffin Shooting|Range',73,32,72,37],['La Perle',235,76,224,75],
+  ['Bayside',340,91,340,91],['Balsero',64,113,64,113],
+  ['Crosstown',176,127,176,127],['Decor District',275,135,274,135],
+  ['Downtown',283,180,282,179],['Vice Beach',435,138,434,137],
+  ['Little Cuba',130,186,130,185],['Salton',117,232,116,231],
+  ['Leaf Links',174,32,94,141],['Rialto Islands',351,216,350,215],
+  ['Eilanden in|de baai',345,275,344,275],['Tequesta',248,223,248,223],
+  ['Tequesta Retreat',251,269,234,269],['VCIA',60,271,60,271],
+  ['Southside',144,310,144,313],['Peacock Bay',262,315,262,323],
+  ['Peacock Estates',242,365,242,367],['Port Vice City',361,362,360,361]
+ ];
+ const cityDetailPins={
+  'Vice Beach':[['Washington|Island',371,68],['Washington|Beach',435,112],['Oldby Island',369,170],['Ocean Beach',432,215]],
+  'Rialto Islands':[['Casanova Island',386,178],['Vespucci Island',318,254]],
+  'Eilanden in de baai':[['Penmarch Isle',309,205],['Starfish Island',393,245],['Waxman Island',307,297],['Dalton Island',398,343]],
+  'La Perle':[['Drip Drops',195,55],['La Perle|Trap House',275,111]],
+  'Hamlet':[['Boone Speedway',107,350]]
+ };
+ const cityOtherPlaces=['Hamlet','Bluegrass','Waning Sands','Vespucci Beach'];
+ const placeName=label=>label.replace('|',' ');
  const guideShapes={city:districtShapes,keys:keyShapes,grass:grassShapes};
  function districtMap(count,name,shapes,area,pins,extra=[],zoom=null){
   const isKeys=area==='keys',isGrass=area==='grass';
-  const group=(name,content)=>`<g role="button" tabindex="0" data-guide-district="${esc(name)}" aria-pressed="${guideDistrict===name}" aria-label="${esc(name)}, ${count(name)} openstaand">${content}</g>`;
+  const group=(name,content)=>`<g role="button" tabindex="0" data-guide-district="${esc(name)}" aria-pressed="${(guideCitySpot||guideDistrict)===name}" aria-label="${esc(name)}, ${count(name)} openstaand">${content}</g>`;
   const badge=(place,x,y)=>{
    const total=count(place);
    const width=Math.max(18,String(total).length*7+8);
@@ -781,7 +804,7 @@
     <rect x="${-width/2}" y="-8" width="${width}" height="16" rx="8"/>
     <text y="4">${total}</text></g>`;
   };
-  return `<svg class="guide-district-map${isGrass?' guide-district-map--grass':''}" viewBox="${zoom?zoom.join(' '):`0 0 500 ${extra.length?464+Math.ceil(extra.length/3)*43:430}`}" role="group" aria-label="Ingezoomde kaart van ${esc(name)}">
+  return `<svg class="guide-district-map${area==='city'?' guide-district-map--city':''}${isGrass?' guide-district-map--grass':''}" viewBox="${zoom?zoom.join(' '):`0 0 500 ${extra.length?464+Math.ceil(extra.length/3)*43:430}`}" role="group" aria-label="Ingezoomde kaart van ${esc(name)}">
    <defs>
     <pattern id="guide-city-blocks" width="17" height="21" patternUnits="userSpaceOnUse" patternTransform="rotate(-10)">
      <rect x="2" y="2" width="12" height="16" rx="1.5" fill="#51465c" opacity=".19"/>
@@ -793,7 +816,10 @@
     ${isGrass?`<path d="M23 110Q50 139 41 175T38 237Q40 261 57 280M18 294Q5 331 51 357T108 396Q149 419 189 400M220 414q46-29 94-4t90-10"/>`:isKeys?`<path d="M444 26Q473 76 425 167T316 294Q244 339 179 380T42 374M456 21Q489 75 440 163T328 302Q250 353 186 393T37 384M295 68Q217 99 189 140T98 233"/>`:`<path d="M363 1l4 43-19 25 2 32-28 27-10 43m177-143 5 48-6 38 10 44-3 104-14 58-5 37-25 31m-245 36 35-22 63 10 31-19 27 1 43-19"/>
     <path d="M376 2l5 44-21 30 1 28-27 29m101 267-22 12-38-3M260 416l40 8 39-19"/>`}
    </g>
-   ${shapes.map(([name,,,fill,shape])=>group(name,`<path class="guide-map-land" fill="${fill}" d="${shape}"/><path class="guide-map-blocks" d="${shape}"/>`)).join('')}
+   ${shapes.map(([name,,,fill,shape])=>{
+    const land=`<path class="guide-map-land" fill="${fill}" d="${shape}"/><path class="guide-map-blocks" d="${shape}"/>`;
+    return area==='city'?land:group(name,land);
+   }).join('')}
    ${isGrass?`<g class="guide-map-channels" aria-hidden="true">
     <path d="M239 7q-38 37-15 85t20 62q-32 58-11 88t14 68q-4 32 23 65t-2 48m-37-275q-27-35-68-38t-67-17m144 73q43 33 91 12t103-36m-193 116q-38-38-88-23t-83-15m177 77q40 31 95 8t96-8"/>
     <path d="M100 133q-13 30 17 41t30 32m173-51q-16-28 13-44t48-28m-72 211q-8 35 26 47t16 41"/>
@@ -807,7 +833,7 @@
    ${isGrass?`<text class="guide-map-water-label" x="140" y="412">GOLF VAN LEONIDA</text>`:isKeys?`<text class="guide-map-water-label" x="362" y="366">LEONIDA KEYS</text>`:`<text class="guide-map-water-label" x="365" y="145">BAAI</text>`}
    <path class="guide-map-north" d="M37 41l6-14 6 14-6-3Z" aria-hidden="true"/>
    <text class="guide-map-water-label" x="43" y="22">N</text>
-   ${shapes.map(([name,x,y])=>`<g class="guide-map-label" data-guide-district="${esc(name)}" data-selected="${guideDistrict===name}" aria-hidden="true" transform="translate(${x} ${y})">
+   ${(area==='city'?[]:shapes).map(([name,x,y])=>`<g class="guide-map-label" data-guide-district="${esc(name)}" data-selected="${guideDistrict===name}" aria-hidden="true" transform="translate(${x} ${y})">
     <rect x="-58" y="-14" width="116" height="28" rx="8"/>
     <text y="5">${esc(name)}</text>${badge(name,58,-14)}
    </g>`).join('')}
@@ -832,7 +858,7 @@
    </g>`)).join('')}
   </svg>`;
  }
- let guideArea=null,guideDistrict=null,guideOpenOnly=true;
+ let guideArea=null,guideDistrict=null,guideCitySpot=null,guideOpenOnly=true;
  // Named locations from the discovery sources that have no drawn map zone yet.
  const extraGuidePlaces={
   city:['Balsero','Bayside','Bluegrass','Boone Speedway','Casanova Island','Crosstown','Dalton Island',
@@ -891,13 +917,14 @@
    : activityDone(item,found);
   const remaining=items=>items.filter(item=>!done(item)).length;
   const shapes=guideShapes[guideArea];
-  const pins=guideArea==='grass'?grassMapPins:[];
+  const isCity=guideArea==='city';
+  const pins=isCity?cityMapPins:guideArea==='grass'?grassMapPins:[];
   const byPlace=new Map();
   if(shapes){
    const patterns=[...shapes.map(([name,,,,,aliases=[]])=>[name,aliases]),
     ...extraGuidePlaces[guideArea].map(name=>[name,[]]),
     ...pins.map(([label])=>{
-     const name=label.replace('|',' ');
+     const name=placeName(label);
      return [name,grassGuideAliases[name]||[]];
     })].map(([name,aliases])=>
     [name,new RegExp('\\b(?:'+[name,...aliases].join('|')+')\\b','i')]);
@@ -913,31 +940,49 @@
     }
    }
   }
-  const districtRows=name=>byPlace.get(name)||[];
-  const rows=shapes?(guideDistrict?districtRows(guideDistrict):[]):all;
+  const directRows=name=>byPlace.get(name)||[];
+  const detailPins=isCity?(cityDetailPins[guideDistrict]||[]):[];
+  function districtRows(name){
+   const children=isCity?cityDetailPins[name]||[]:[];
+   return [...new Set([...directRows(name),...children.flatMap(([label])=>directRows(placeName(label)))])];
+  }
+  function detailRows(name){
+   if(guideDistrict==='La Perle'){
+    return directRows('La Perle').filter(item=>[item.title,item.sourceLocation].some(value=>value?.toLowerCase().includes(name.toLowerCase())));
+   }
+   return directRows(name);
+  }
+  const rows=shapes?(guideCitySpot?detailRows(guideCitySpot):guideDistrict?districtRows(guideDistrict):[]):all;
   const groups=rows.reduce((groups,item)=>{
    (groups[guideGroup(item)]??=[]).push(item);return groups;
   },{});
   const previousGroups=[...guideResults.querySelectorAll('details[data-guide-group]')];
   const collapsed=new Set(previousGroups.filter(node=>!node.open).map(node=>node.dataset.guideGroup));
   const districtButton=name=>`<button type="button" data-guide-district="${esc(name)}" aria-pressed="${guideDistrict===name}"><strong>${esc(name)}</strong><small>${remaining(districtRows(name))} open</small></button>`;
-  const nearby=shapes?extraGuidePlaces[guideArea].filter(name=>byPlace.has(name)):[];
+  const nearby=shapes&&!isCity?extraGuidePlaces[guideArea].filter(name=>byPlace.has(name)):[];
   const extraIndex=nearby.indexOf(guideDistrict);
   const pin=pins.find(([label])=>label.replace('|',' ')===guideDistrict);
-  const anchor=shapes?.find(([name])=>name===guideDistrict)
-   ||(pin?[guideDistrict,pin[3],pin[4]]:null)
+  const anchor=(pin?[guideDistrict,pin[3],pin[4]]:null)
+   ||shapes?.find(([name])=>name===guideDistrict)
    ||(extraIndex>=0?[guideDistrict,84+extraIndex%3*166,477+Math.floor(extraIndex/3)*43]:null);
   const height=nearby.length?464+Math.ceil(nearby.length/3)*43:430;
-  const zoom=anchor?[Math.max(0,Math.min(240,anchor[1]-130)),Math.max(0,Math.min(height-224,anchor[2]-112)),260,224]:null;
+  const detailZoom=guideDistrict==='Hamlet'?[0,230,230,200]:guideDistrict==='Vice Beach'?[250,0,250,260]:
+   guideDistrict==='Eilanden in de baai'?[225,153,275,262]:null;
+  const zoom=detailZoom||(anchor?[Math.max(0,Math.min(240,anchor[1]-130)),Math.max(0,Math.min(height-224,anchor[2]-112)),260,224]:null);
   guideResults.innerHTML=`<nav class="guide-map-navigation" aria-label="Kaartnavigatie">
    <button type="button" class="quiet" data-guide-back="world">← Leonida</button>
    ${guideDistrict?`<button type="button" class="quiet" data-guide-back="region">← Kaart van ${esc(region.name)}</button>`:''}
-   </nav><h2 class="map-result-heading">${esc([region.name,guideDistrict].filter(Boolean).join(' › '))}</h2>
-   ${shapes?`<div class="guide-map-stage">
-    ${districtMap(name=>remaining(districtRows(name)),region.name,shapes,guideArea,pins,nearby,zoom)}
-   </div>
-   ${guideDistrict?'':`<div class="guide-other-district">${districtButton(unknownGuidePlace)}</div>`}`:''}
-   ${shapes&&!guideDistrict?chooseAreaPrompt:`<h3>${esc(guideDistrict||region.name)} · ${remaining(rows)} open</h3><label class="task"><input type="checkbox" data-guide-filter ${guideOpenOnly?'checked':''}><span>Alleen openstaand</span></label>
+   ${guideCitySpot?`<button type="button" class="quiet" data-guide-back="district">← ${esc(guideDistrict)}</button>`:''}
+   </nav><h2 class="map-result-heading">${esc([region.name,guideDistrict,guideCitySpot].filter(Boolean).join(' › '))}</h2>
+   ${isCity?`<p class="scope-note">Schematische stadskaart · posities bij benadering</p>`: ''}
+   ${shapes?`${isCity&&guideDistrict&&!zoom?'':`<div class="guide-map-stage">
+    ${districtMap(name=>remaining(isCity&&guideDistrict?detailRows(name):districtRows(name)),region.name,guideDistrict==='Hamlet'&&isCity?shapes.filter(([name])=>name==='Hamlet'):shapes,guideArea,
+     isCity&&guideDistrict?detailPins.map(([label,x,y])=>[label,x,y,x,y]):pins,nearby,zoom)}
+   </div>`}
+   ${guideDistrict?'':`${isCity?`<div class="guide-city-outskirts"><h3>Buiten de stad en locatienaam te controleren</h3>
+    <div class="guide-other-district">${cityOtherPlaces.map(districtButton).join('')}</div></div>`:''}
+    <div class="guide-other-district">${districtButton(unknownGuidePlace)}</div>`}`:''}
+   ${shapes&&!guideDistrict?chooseAreaPrompt:`<h3>${esc(guideCitySpot||guideDistrict||region.name)} · ${remaining(rows)} open</h3><label class="task"><input type="checkbox" data-guide-filter ${guideOpenOnly?'checked':''}><span>Alleen openstaand</span></label>
    ${Object.entries(groups).map(([group,items])=>{
     const visible=guideOpenOnly?items.filter(item=>!done(item)):items;
     return visible.length?`<details class="explore-category" data-guide-group="${esc(group)}" ${collapsed.has(group)?'':'open'}><summary><strong>${esc(group)}</strong><span>${remaining(items)} open</span></summary><div>${visible.map(item=>guideCard(item,found)).join('')}</div></details>`:'';
@@ -972,10 +1017,13 @@
   if(region){
    guideArea=region.dataset.area;
    guideDistrict=null;
+   guideCitySpot=null;
   }else if(back){
    if(back.dataset.guideBack==='world')guideArea=null;
-   guideDistrict=null;
-  }else guideDistrict=district.dataset.guideDistrict;
+   if(back.dataset.guideBack!=='district')guideDistrict=null;
+   guideCitySpot=null;
+  }else if(guideArea==='city'&&guideDistrict)guideCitySpot=district.dataset.guideDistrict;
+  else guideDistrict=district.dataset.guideDistrict;
   renderAreaGuide();
   const map=guideResults.querySelector('.guide-map-stage svg');
   if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
