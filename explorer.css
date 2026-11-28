@@ -300,3 +300,9 @@ footer span{color:#dfc4e0}
 .guide-city-outskirts .guide-other-district{display:flex;gap:.4rem;flex-wrap:wrap}
 .guide-district-map--city .guide-map-pin text{font-size:12px}
 .guide-district-map--city .guide-map-badge text{font-size:11px}
+
+.guide-layer-marker{cursor:pointer}
+.guide-layer-marker .guide-layer-label{fill:#352643;stroke:#d2a9c4;stroke-width:1.5}
+.guide-layer-marker:focus-visible .guide-layer-label{stroke:#fff0d6;stroke-width:3}
+.guide-layer-marker text{fill:#fff6ef;text-anchor:middle;font:700 13px system-ui;pointer-events:none}
+.guide-layer-marker .guide-map-badge text{font-size:11px}
